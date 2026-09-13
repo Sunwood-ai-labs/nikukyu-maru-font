@@ -1,0 +1,73 @@
+{
+  "version": "0.105",
+  "method": "Actual Chrome WOFF2 text, explicit font load success and SHA shown in every screenshot; root visually inspected all 8 pages and overview. Pages1-7 compare original image crops and actual text at equal outline scale.",
+  "ttf_sha256": "186c97f8b32790d35c7b6cdfedf23cddc3136abd7c7a49e5bcf6ea296794c80d",
+  "woff2_sha256": "5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f",
+  "reference_sha256": "fa79c748be426e870dbabebb9cfadec263a79a9a8a580d1fd4bd5595ee610efa",
+  "ascii_characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&",
+  "ascii_count": 53,
+  "fullwidth_count": 53,
+  "pages": [
+    {
+      "file": "page-1.png",
+      "sha256": "ebe1e4d8339395cd86004145b0b6ad659877690a435aac3c9969e752a7c2cb28",
+      "characters": "ABCDEFGH",
+      "status": "root visually reviewed"
+    },
+    {
+      "file": "page-2.png",
+      "sha256": "f6b94de8b58c3e9c6d9752accccf7d86d1cd1f131a4ee9593038589ef08175a0",
+      "characters": "IJKLMNOP",
+      "status": "root visually reviewed"
+    },
+    {
+      "file": "page-3.png",
+      "sha256": "5d96a8166fca0688887f44924db72387f392d7a472735c01370d03df7ff14126",
+      "characters": "QRSTUVWX",
+      "status": "root visually reviewed"
+    },
+    {
+      "file": "page-4.png",
+      "sha256": "8fa95fcacbfe4fcb2f92a628a4f6c06dc10fb31bfabde5568111a4553ff0abf8",
+      "characters": "YZabcdef",
+      "status": "root visually reviewed"
+    },
+    {
+      "file": "page-5.png",
+      "sha256": "52279ba0d859dbb18c6c0571ffb6fa9fd44e43672818921ad5becefa2b6a38bb",
+      "characters": "ghijklmn",
+      "status": "root visually reviewed"
+    },
+    {
+      "file": "page-6.png",
+      "sha256": "a5febc59461ec0221c6925b7351081848a204dd282a0a7fb7368fd531be76dbd",
+      "characters": "opqrstuv",
+      "status": "root visually reviewed"
+    },
+    {
+      "file": "page-7.png",
+      "sha256": "39758d543ae90902eb524f93920588bede3efdebfb9ba4cc20e5995357fa648a",
+      "characters": "wxyz&",
+      "status": "root visually reviewed"
+    },
+    {
+      "file": "page-8.png",
+      "sha256": "d56b44cc310551cd5be896f1abaf0fe35032957c81dd821e31c822fabc06e951",
+      "characters": "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ＆",
+      "status": "root visually reviewed"
+    }
+  ],
+  "findings": [
+    "Reference crop scale was corrected before final captures.",
+    "Native-pixel contour steps were removed by subpixel edge tracing and smoother curve fitting; final comparison uses these revised outlines.",
+    "All 53 glyphs retain the reference silhouette, counters, ear and tail placement. i/j dots and a paw remain intact.",
+    "Fullwidth53 and16/24/32/48px samples were viewed; small details are less distinct at16px, as expected for a heavy display face.",
+    "No clipped glyphs or missing letters found in final review."
+  ],
+  "scope": "106 changed Unicode glyphs; existing Japanese and other glyphs are covered by structural regression against0.104, not a newly repeated158-page visual audit.",
+  "overview": {
+    "file": "comparison.png",
+    "sha256": "a72c079e70acfca4777741f4a60b48ea4801e562a753cbc303b8c5a32d8a41b9",
+    "status": "root visually reviewed"
+  }
+}

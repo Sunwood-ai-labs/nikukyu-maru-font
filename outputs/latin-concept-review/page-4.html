@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>猫英字コンセプト比較 4 — Y–f</title>
+  <style>
+      @font-face {
+        font-family: 'NikuConcept';
+        src: url('../NikukyuMaru-Regular.woff2?sha256=5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f') format('woff2');
+        font-display: block;
+      }
+      :root {
+        --paper: #fff8eb;
+        --ink: #342622;
+        --muted: #806b60;
+        --line: #ead7c7;
+        --panel: #fffdf9;
+        --accent: #f3decd;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body { min-height: 100%; }
+      body {
+        margin: 0;
+        padding: 18px 22px 14px;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      }
+      h1 { margin: 0; font-size: 24px; line-height: 1.2; letter-spacing: .01em; }
+      .intro { margin: 4px 0 11px; color: var(--muted); font-size: 13px; line-height: 1.35; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        gap: 11px;
+        height: 610px;
+      }
+      .card {
+        min-width: 0;
+        min-height: 0;
+        overflow: hidden;
+        padding: 10px 10px 8px;
+        border: 1px solid var(--line);
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 0 2px 6px rgb(97 64 40 / 7%);
+      }
+      .card-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 5px;
+        height: 28px;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 11px;
+      }
+      .card-header strong {
+        color: var(--ink);
+        font-family: 'NikuConcept', sans-serif;
+        font-size: 27px;
+        line-height: 1;
+      }
+      .comparison {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 8px;
+        height: 235px;
+      }
+      .side { min-width: 0; display: flex; flex-direction: column; }
+      .side-label {
+        height: 19px;
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 19px;
+        text-align: center;
+      }
+      .stage {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 0;
+        height: 216px;
+        overflow: hidden;
+        border: 1px solid #f0e5dc;
+        border-radius: 10px;
+        background: var(--panel);
+      }
+      .source-window {
+        position: relative;
+        flex: 0 0 var(--box-w);
+        width: var(--box-w);
+        height: var(--box-h);
+        overflow: hidden;
+        background: #fff;
+      }
+      .source-window img {
+        position: absolute;
+        display: block;
+        max-width: none;
+        user-select: none;
+      }
+      .font-stage { font-family: 'NikuConcept', sans-serif; }
+      .font-glyph {
+        display: block;
+        color: #211916;
+        font-size: var(--font-size);
+        line-height: 1;
+        white-space: nowrap;
+      }
+      .record-meta {
+        overflow: hidden;
+        height: 18px;
+        margin-top: 7px;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 9px;
+        line-height: 18px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .samples {
+        margin-top: 10px;
+        padding: 7px 11px 6px;
+        border-radius: 10px;
+        background: var(--accent);
+      }
+      .samples-label { color: var(--muted); font-size: 10px; line-height: 1.2; }
+      .sample-text {
+        margin-top: 2px;
+        overflow: hidden;
+        font-family: 'NikuConcept', sans-serif;
+        font-size: 24px;
+        line-height: 1.15;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      footer {
+        margin-top: 7px;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 10px;
+        line-height: 1.2;
+      }
+    </style>
+</head>
+<body>
+  <h1>猫英字コンセプト比較 0.105 / 4 — Y–f</h1>
+  <p class="intro">生成見本の該当範囲と、同じscaleで描画した配布用WOFF2を左右比較。各カードのboxは元PNGをCSSで表示しています。</p>
+  <main class="grid">
+      <article class="card" data-char="Y" data-codepoint="U+0059"
+               data-scale="6" data-baseline="414">
+        <header class="card-header">
+          <strong>Y</strong>
+          <span>U+0059</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="414" style="--box-w:116px;--box-h:122px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 Y" draggable="false" style="width:1536px;height:1024px;left:-1283px;top:-293px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:20.333px">
+              <span class="font-glyph">Y</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=414 · width=749</div>
+      </article>
+    
+      <article class="card" data-char="Z" data-codepoint="U+005A"
+               data-scale="6" data-baseline="414">
+        <header class="card-header">
+          <strong>Z</strong>
+          <span>U+005A</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="414" style="--box-w:105px;--box-h:124px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 Z" draggable="false" style="width:1536px;height:1024px;left:-1403px;top:-293px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:20.667px">
+              <span class="font-glyph">Z</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=414 · width=677</div>
+      </article>
+    
+      <article class="card" data-char="a" data-codepoint="U+0061"
+               data-scale="6" data-baseline="592">
+        <header class="card-header">
+          <strong>a</strong>
+          <span>U+0061</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="592" style="--box-w:113px;--box-h:108px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 a" draggable="false" style="width:1536px;height:1024px;left:-23px;top:-486px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:18px">
+              <span class="font-glyph">a</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=592 · width=731</div>
+      </article>
+    
+      <article class="card" data-char="b" data-codepoint="U+0062"
+               data-scale="6" data-baseline="592">
+        <header class="card-header">
+          <strong>b</strong>
+          <span>U+0062</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="592" style="--box-w:101px;--box-h:121px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 b" draggable="false" style="width:1536px;height:1024px;left:-145px;top:-472px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:20.167px">
+              <span class="font-glyph">b</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=592 · width=653</div>
+      </article>
+    
+      <article class="card" data-char="c" data-codepoint="U+0063"
+               data-scale="6" data-baseline="592">
+        <header class="card-header">
+          <strong>c</strong>
+          <span>U+0063</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="592" style="--box-w:96px;--box-h:97px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 c" draggable="false" style="width:1536px;height:1024px;left:-257px;top:-497px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:16.167px">
+              <span class="font-glyph">c</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=592 · width=626</div>
+      </article>
+    
+      <article class="card" data-char="d" data-codepoint="U+0064"
+               data-scale="6" data-baseline="592">
+        <header class="card-header">
+          <strong>d</strong>
+          <span>U+0064</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="592" style="--box-w:98px;--box-h:123px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 d" draggable="false" style="width:1536px;height:1024px;left:-369px;top:-471px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:20.5px">
+              <span class="font-glyph">d</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=592 · width=636</div>
+      </article>
+    
+      <article class="card" data-char="e" data-codepoint="U+0065"
+               data-scale="6" data-baseline="592">
+        <header class="card-header">
+          <strong>e</strong>
+          <span>U+0065</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="592" style="--box-w:95px;--box-h:98px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 e" draggable="false" style="width:1536px;height:1024px;left:-488px;top:-497px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:16.333px">
+              <span class="font-glyph">e</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=592 · width=618</div>
+      </article>
+    
+      <article class="card" data-char="f" data-codepoint="U+0066"
+               data-scale="6" data-baseline="592">
+        <header class="card-header">
+          <strong>f</strong>
+          <span>U+0066</span>
+        </header>
+        <div class="comparison">
+          <section class="side">
+            <div class="side-label">生成見本</div>
+            <div class="stage source-stage"><div class="source-window" data-scale="6" data-baseline="592" style="--box-w:100px;--box-h:128px"><img src="../../references/04-latin-cat-concept.png" alt="生成見本 f" draggable="false" style="width:1536px;height:1024px;left:-601px;top:-468px"></div></div>
+          </section>
+          <section class="side">
+            <div class="side-label">実フォント</div>
+            <div class="stage font-stage" style="--font-size:166.667px;--source-h:21.333px">
+              <span class="font-glyph">f</span>
+            </div>
+          </section>
+        </div>
+        <div class="record-meta">scale=6 · baseline originalY=592 · width=650</div>
+      </article>
+    </main>
+  <section class="samples">
+    <div class="samples-label">小サイズ単語 / 実フォント</div>
+    <div class="sample-text">CAT &amp; nap · cozy cat cafe · Black Cat</div>
+  </section>
+  <footer id="font-status">fontload=pending SHA256=5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f</footer>
+  
+      <script>
+        document.fonts.ready.then(() => {
+          const loaded = document.fonts.check('48px NikuConcept');
+          const status = document.getElementById('font-status');
+          status.textContent = 'fontload=' + loaded + ' SHA256=5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f';
+        });
+      </script>
+    
+</body>
+</html>

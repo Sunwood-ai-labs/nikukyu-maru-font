@@ -1,4 +1,4 @@
-"""Verify that the 0.104 Latin cat treatment changes only the 104 Latin letters."""
+"""Verify that a Latin revision changes only its explicitly allowed Latin codepoints."""
 from __future__ import annotations
 
 import argparse
@@ -26,13 +26,16 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
-def allowed_codepoints() -> set[int]:
-    return {
+def allowed_codepoints(include_ampersand: bool = False) -> set[int]:
+    codepoints = {
         *range(ord("A"), ord("Z") + 1),
         *range(ord("a"), ord("z") + 1),
         *range(ord("Ａ"), ord("Ｚ") + 1),
         *range(ord("ａ"), ord("ｚ") + 1),
     }
+    if include_ampersand:
+        codepoints.update({ord("&"), ord("＆")})
+    return codepoints
 
 
 def cp_label(cp: int) -> str:
@@ -173,10 +176,10 @@ def reapply_latin_cats(ufo_path: Path) -> dict[str, Any]:
     }
 
 
-def compare_fonts(baseline_path: Path, current_path: Path) -> dict[str, Any]:
+def compare_fonts(baseline_path: Path, current_path: Path, include_ampersand: bool = False) -> dict[str, Any]:
     baseline = TTFont(baseline_path, recalcBBoxes=False, recalcTimestamp=False)
     current = TTFont(current_path, recalcBBoxes=False, recalcTimestamp=False)
-    allowed = allowed_codepoints()
+    allowed = allowed_codepoints(include_ampersand)
     baseline_cmap = baseline.getBestCmap() or {}
     current_cmap = current.getBestCmap() or {}
     baseline_order = baseline.getGlyphOrder()
@@ -292,7 +295,7 @@ def compare_fonts(baseline_path: Path, current_path: Path) -> dict[str, Any]:
     }
     report["pass"] = all(
         (
-            report["allowed_count"] == 104,
+            report["allowed_count"] == (106 if include_ampersand else 104),
             report["unicode_set"]["equal"],
             not report["unicode_set"]["mapping_changes"],
             report["glyph_order"]["equal"],
@@ -314,10 +317,12 @@ def main() -> int:
     parser.add_argument("--compile-ufo", type=Path, help="Copy of a UFO to compile into an isolated output directory")
     parser.add_argument("--compile-output", type=Path, help="Isolated output directory for --compile-ufo")
     parser.add_argument("--reapply-ufo", type=Path, help="Copy of a UFO for in-memory Latin master reapplication")
+    parser.add_argument("--include-ampersand", action="store_true", help="Allow ASCII & and fullwidth ＆ as the two extra changed codepoints")
     args = parser.parse_args()
     baseline = args.baseline.resolve()
     current = args.current.resolve()
-    report = compare_fonts(baseline, current)
+    report = compare_fonts(baseline, current, include_ampersand=args.include_ampersand)
+    report["include_ampersand"] = args.include_ampersand
     report["baseline"] = display_path(baseline)
     report["current"] = display_path(current)
     if args.compile_ufo is not None:

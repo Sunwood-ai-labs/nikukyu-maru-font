@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>猫英字コンセプト比較 0.105 — 全角53字とサイズ識別</title>
+  <style>
+      
+      @font-face {
+        font-family: 'NikuConcept';
+        src: url('../NikukyuMaru-Regular.woff2?sha256=5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f') format('woff2');
+        font-display: block;
+      }
+      :root {
+        --paper: #fff8eb;
+        --ink: #342622;
+        --muted: #806b60;
+        --line: #ead7c7;
+        --panel: #fffdf9;
+        --accent: #f3decd;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body { min-height: 100%; }
+      body {
+        margin: 0;
+        padding: 18px 22px 14px;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      }
+      h1 { margin: 0; font-size: 24px; line-height: 1.2; letter-spacing: .01em; }
+      .intro { margin: 4px 0 11px; color: var(--muted); font-size: 13px; line-height: 1.35; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        gap: 11px;
+        height: 610px;
+      }
+      .card {
+        min-width: 0;
+        min-height: 0;
+        overflow: hidden;
+        padding: 10px 10px 8px;
+        border: 1px solid var(--line);
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 0 2px 6px rgb(97 64 40 / 7%);
+      }
+      .card-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 5px;
+        height: 28px;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 11px;
+      }
+      .card-header strong {
+        color: var(--ink);
+        font-family: 'NikuConcept', sans-serif;
+        font-size: 27px;
+        line-height: 1;
+      }
+      .comparison {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 8px;
+        height: 235px;
+      }
+      .side { min-width: 0; display: flex; flex-direction: column; }
+      .side-label {
+        height: 19px;
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 19px;
+        text-align: center;
+      }
+      .stage {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 0;
+        height: 216px;
+        overflow: hidden;
+        border: 1px solid #f0e5dc;
+        border-radius: 10px;
+        background: var(--panel);
+      }
+      .source-window {
+        position: relative;
+        flex: 0 0 var(--box-w);
+        width: var(--box-w);
+        height: var(--box-h);
+        overflow: hidden;
+        background: #fff;
+      }
+      .source-window img {
+        position: absolute;
+        display: block;
+        max-width: none;
+        user-select: none;
+      }
+      .font-stage { font-family: 'NikuConcept', sans-serif; }
+      .font-glyph {
+        display: block;
+        color: #211916;
+        font-size: var(--font-size);
+        line-height: 1;
+        white-space: nowrap;
+      }
+      .record-meta {
+        overflow: hidden;
+        height: 18px;
+        margin-top: 7px;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 9px;
+        line-height: 18px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .samples {
+        margin-top: 10px;
+        padding: 7px 11px 6px;
+        border-radius: 10px;
+        background: var(--accent);
+      }
+      .samples-label { color: var(--muted); font-size: 10px; line-height: 1.2; }
+      .sample-text {
+        margin-top: 2px;
+        overflow: hidden;
+        font-family: 'NikuConcept', sans-serif;
+        font-size: 24px;
+        line-height: 1.15;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      footer {
+        margin-top: 7px;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 10px;
+        line-height: 1.2;
+      }
+    
+      .fullwidth-grid {
+        display: grid;
+        grid-template-columns: repeat(13, minmax(0, 1fr));
+        gap: 5px;
+        margin-top: 10px;
+      }
+      .full-cell {
+        display: flex;
+        min-width: 0;
+        height: 69px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--line);
+        border-radius: 9px;
+        background: #fff;
+      }
+      .full-cell span {
+        font-family: 'NikuConcept', sans-serif;
+        font-size: 34px;
+        line-height: 1;
+      }
+      .full-cell code {
+        margin-top: 4px;
+        color: var(--muted);
+        font: 8px/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+      }
+      .sizes {
+        display: grid;
+        gap: 5px;
+        margin-top: 10px;
+        padding: 8px 11px;
+        border-radius: 10px;
+        background: var(--accent);
+      }
+      .size-line {
+        display: grid;
+        grid-template-columns: 52px minmax(0, 1fr);
+        align-items: baseline;
+        gap: 9px;
+        min-width: 0;
+        font-family: 'NikuConcept', sans-serif;
+        line-height: 1.1;
+      }
+      .size-line strong {
+        color: var(--muted);
+        font: 10px/1.1 ui-monospace, SFMono-Regular, Consolas, monospace;
+      }
+      .size-line span { overflow-wrap: anywhere; word-break: break-all; }
+      .note { margin: 5px 0 0; color: var(--muted); font-size: 11px; }
+    </style>
+</head>
+<body>
+  <h1>猫英字コンセプト比較 0.105 — 全角53字 / サイズ識別</h1>
+  <p class="intro">実フォントの全角派生（A–Z・a–z・&amp;）を一覧表示し、16px・24px・32px・48pxで字形の識別性を確認します。</p>
+  <main class="fullwidth-grid"><div class="full-cell"><span>Ａ</span><code>A / U+FF21</code></div><div class="full-cell"><span>Ｂ</span><code>B / U+FF22</code></div><div class="full-cell"><span>Ｃ</span><code>C / U+FF23</code></div><div class="full-cell"><span>Ｄ</span><code>D / U+FF24</code></div><div class="full-cell"><span>Ｅ</span><code>E / U+FF25</code></div><div class="full-cell"><span>Ｆ</span><code>F / U+FF26</code></div><div class="full-cell"><span>Ｇ</span><code>G / U+FF27</code></div><div class="full-cell"><span>Ｈ</span><code>H / U+FF28</code></div><div class="full-cell"><span>Ｉ</span><code>I / U+FF29</code></div><div class="full-cell"><span>Ｊ</span><code>J / U+FF2A</code></div><div class="full-cell"><span>Ｋ</span><code>K / U+FF2B</code></div><div class="full-cell"><span>Ｌ</span><code>L / U+FF2C</code></div><div class="full-cell"><span>Ｍ</span><code>M / U+FF2D</code></div><div class="full-cell"><span>Ｎ</span><code>N / U+FF2E</code></div><div class="full-cell"><span>Ｏ</span><code>O / U+FF2F</code></div><div class="full-cell"><span>Ｐ</span><code>P / U+FF30</code></div><div class="full-cell"><span>Ｑ</span><code>Q / U+FF31</code></div><div class="full-cell"><span>Ｒ</span><code>R / U+FF32</code></div><div class="full-cell"><span>Ｓ</span><code>S / U+FF33</code></div><div class="full-cell"><span>Ｔ</span><code>T / U+FF34</code></div><div class="full-cell"><span>Ｕ</span><code>U / U+FF35</code></div><div class="full-cell"><span>Ｖ</span><code>V / U+FF36</code></div><div class="full-cell"><span>Ｗ</span><code>W / U+FF37</code></div><div class="full-cell"><span>Ｘ</span><code>X / U+FF38</code></div><div class="full-cell"><span>Ｙ</span><code>Y / U+FF39</code></div><div class="full-cell"><span>Ｚ</span><code>Z / U+FF3A</code></div><div class="full-cell"><span>ａ</span><code>a / U+FF41</code></div><div class="full-cell"><span>ｂ</span><code>b / U+FF42</code></div><div class="full-cell"><span>ｃ</span><code>c / U+FF43</code></div><div class="full-cell"><span>ｄ</span><code>d / U+FF44</code></div><div class="full-cell"><span>ｅ</span><code>e / U+FF45</code></div><div class="full-cell"><span>ｆ</span><code>f / U+FF46</code></div><div class="full-cell"><span>ｇ</span><code>g / U+FF47</code></div><div class="full-cell"><span>ｈ</span><code>h / U+FF48</code></div><div class="full-cell"><span>ｉ</span><code>i / U+FF49</code></div><div class="full-cell"><span>ｊ</span><code>j / U+FF4A</code></div><div class="full-cell"><span>ｋ</span><code>k / U+FF4B</code></div><div class="full-cell"><span>ｌ</span><code>l / U+FF4C</code></div><div class="full-cell"><span>ｍ</span><code>m / U+FF4D</code></div><div class="full-cell"><span>ｎ</span><code>n / U+FF4E</code></div><div class="full-cell"><span>ｏ</span><code>o / U+FF4F</code></div><div class="full-cell"><span>ｐ</span><code>p / U+FF50</code></div><div class="full-cell"><span>ｑ</span><code>q / U+FF51</code></div><div class="full-cell"><span>ｒ</span><code>r / U+FF52</code></div><div class="full-cell"><span>ｓ</span><code>s / U+FF53</code></div><div class="full-cell"><span>ｔ</span><code>t / U+FF54</code></div><div class="full-cell"><span>ｕ</span><code>u / U+FF55</code></div><div class="full-cell"><span>ｖ</span><code>v / U+FF56</code></div><div class="full-cell"><span>ｗ</span><code>w / U+FF57</code></div><div class="full-cell"><span>ｘ</span><code>x / U+FF58</code></div><div class="full-cell"><span>ｙ</span><code>y / U+FF59</code></div><div class="full-cell"><span>ｚ</span><code>z / U+FF5A</code></div><div class="full-cell"><span>＆</span><code>& / U+FF06</code></div></main>
+  <section class="sizes">
+    <div class="samples-label">全角53字のサイズ比較 / 実フォント</div>
+    <div class="size-line"><strong>16px</strong><span style="font-size:16px">ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ＆</span></div><div class="size-line"><strong>24px</strong><span style="font-size:24px">ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ＆</span></div><div class="size-line"><strong>32px</strong><span style="font-size:32px">ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ＆</span></div><div class="size-line"><strong>48px</strong><span style="font-size:48px">ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ＆</span></div>
+  </section>
+  <p class="note">元字形との対応は各セルのASCIIラベルとUnicode codepointで確認できます。</p>
+  <footer id="font-status">fontload=pending SHA256=5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f</footer>
+  
+      <script>
+        document.fonts.ready.then(() => {
+          const loaded = document.fonts.check('48px NikuConcept');
+          const status = document.getElementById('font-status');
+          status.textContent = 'fontload=' + loaded + ' SHA256=5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f';
+        });
+      </script>
+    
+</body>
+</html>

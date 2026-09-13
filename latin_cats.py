@@ -7,7 +7,8 @@ from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.transformPen import TransformPen
 
 ROOT = Path(__file__).resolve().parent
-LETTERS = string.ascii_uppercase + string.ascii_lowercase
+ALPHABET = string.ascii_uppercase + string.ascii_lowercase
+LETTERS = ALPHABET + '&'
 TAILS = set('BCDGJLOPQRSUbcdefghijklmnopqrstuvxyz')
 
 def ear(x, y, width, height, lean):
@@ -65,9 +66,18 @@ def decorate(ch, data):
     return p,round(p.bounds[2]+45),motifs
 
 def apply_latin_cats(font, modifications):
+    config=json.loads((ROOT/'sources/design.json').read_text(encoding='utf-8-sig'))
+    if config.get('latin_concept_reference',False):
+        masters=json.loads((ROOT/'sources/latin-concept-outlines.json').read_text(encoding='utf-8'))
+        assert set(masters)==set(LETTERS)
+        for ch in LETTERS:
+            g=font[f'uni{ord(ch):04X}'];g.clearContours()
+            master_path(masters[ch]).draw(g.getPen());g.width=masters[ch]['width']
+            modifications[ch]=['generated-latin-concept-outline','04-latin-cat-concept.png']
+        return
     masters=json.loads((ROOT/'sources/latin-base-outlines.json').read_text(encoding='utf-8'))
-    assert set(masters)==set(LETTERS)
-    for ch in LETTERS:
+    assert set(masters)==set(ALPHABET)
+    for ch in ALPHABET:
         p,width,motifs=decorate(ch,masters[ch]);g=font[f'uni{ord(ch):04X}']
         g.clearContours();p.draw(g.getPen());g.width=width
         modifications[ch]=['cat-latin-design',*motifs]
@@ -82,7 +92,8 @@ def update_current_ufo():
         scale=min(1,900/source.width)
         target.clearContours();source.draw(TransformPen(target.getPen(),(scale,0,0,1,(1000-source.width*scale)/2,0)));target.width=1000
         mods[chr(cp+0xfee0)]=['fullwidth-derived',ch]
-    font.info.versionMinor=104
+    config=json.loads((ROOT/'sources/design.json').read_text(encoding='utf-8-sig'))
+    font.info.versionMinor=int(config['version'].split('.')[1])
     from fontTools.ufoLib import UFOWriter
     with UFOWriter(ROOT/'sources/NikukyuMaru-Regular.ufo',formatVersion=3) as writer:
         glyphset=writer.getGlyphSet()
@@ -91,6 +102,6 @@ def update_current_ufo():
                 g=font[f'uni{cp:04X}'];glyphset.writeGlyph(g.name,g,g.drawPoints)
         glyphset.writeContents();writer.writeInfo(font.info)
     (ROOT/'sources/modifications.json').write_text(json.dumps(mods,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
-    print('Updated 52 ASCII and 52 fullwidth letters')
+    print('Updated 52 letters plus ampersand and their 53 fullwidth variants')
 
 if __name__=='__main__':update_current_ufo()

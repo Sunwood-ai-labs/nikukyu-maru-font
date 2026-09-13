@@ -1,6 +1,6 @@
 # imagegenを基準にした次の英字デザイン
 
-対象: [新しい生成見本](../references/04-latin-cat-concept.png)。[生成条件](../references/04-latin-cat-concept-prompt.md)。現行配布版は0.104のまま。
+対象: [新しい生成見本](../references/04-latin-cat-concept.png)。[生成条件](../references/04-latin-cat-concept-prompt.md)。0.105でこの方向を採用。最終実装と確認は `LATIN-DESIGN.md` と `outputs/latin-concept-review/` を参照。
 
 ## 比較判断
 

@@ -1,0 +1,806 @@
+{
+  "version": "0.105",
+  "method": "Actual TTF raster at 250px vs individual reference crop; bounding-box-normalized silhouette IoU plus aspect ratio and hole count. Does not replace screenshot review.",
+  "reference_sha256": "fa79c748be426e870dbabebb9cfadec263a79a9a8a580d1fd4bd5595ee610efa",
+  "ttf_sha256": "186c97f8b32790d35c7b6cdfedf23cddc3136abd7c7a49e5bcf6ea296794c80d",
+  "glyphs_checked": 53,
+  "min_iou": 0.95268,
+  "pass": true,
+  "glyphs": [
+    {
+      "character": "A",
+      "codepoint": "U+0041",
+      "reference_box": [
+        24,
+        122,
+        139,
+        245
+      ],
+      "bbox_normalized_iou": 0.97313,
+      "aspect_ratio_error": 0.00021,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "B",
+      "codepoint": "U+0042",
+      "reference_box": [
+        150,
+        120,
+        252,
+        247
+      ],
+      "bbox_normalized_iou": 0.97284,
+      "aspect_ratio_error": 0.00973,
+      "reference_holes": 2,
+      "font_holes": 2,
+      "pass": true
+    },
+    {
+      "character": "C",
+      "codepoint": "U+0043",
+      "reference_box": [
+        260,
+        127,
+        365,
+        246
+      ],
+      "bbox_normalized_iou": 0.9727,
+      "aspect_ratio_error": 0.01211,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "D",
+      "codepoint": "U+0044",
+      "reference_box": [
+        378,
+        119,
+        485,
+        245
+      ],
+      "bbox_normalized_iou": 0.97582,
+      "aspect_ratio_error": 0.00891,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "E",
+      "codepoint": "U+0045",
+      "reference_box": [
+        495,
+        121,
+        596,
+        245
+      ],
+      "bbox_normalized_iou": 0.97768,
+      "aspect_ratio_error": 0.00215,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "F",
+      "codepoint": "U+0046",
+      "reference_box": [
+        606,
+        121,
+        700,
+        246
+      ],
+      "bbox_normalized_iou": 0.96234,
+      "aspect_ratio_error": 0.00479,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "G",
+      "codepoint": "U+0047",
+      "reference_box": [
+        703,
+        122,
+        841,
+        247
+      ],
+      "bbox_normalized_iou": 0.9781,
+      "aspect_ratio_error": 0.00281,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "H",
+      "codepoint": "U+0048",
+      "reference_box": [
+        845,
+        126,
+        951,
+        245
+      ],
+      "bbox_normalized_iou": 0.96908,
+      "aspect_ratio_error": 0.00893,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "I",
+      "codepoint": "U+0049",
+      "reference_box": [
+        967,
+        122,
+        1031,
+        245
+      ],
+      "bbox_normalized_iou": 0.96729,
+      "aspect_ratio_error": 0.00862,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "J",
+      "codepoint": "U+004A",
+      "reference_box": [
+        1040,
+        123,
+        1154,
+        245
+      ],
+      "bbox_normalized_iou": 0.97338,
+      "aspect_ratio_error": 0.0,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "K",
+      "codepoint": "U+004B",
+      "reference_box": [
+        1165,
+        124,
+        1264,
+        246
+      ],
+      "bbox_normalized_iou": 0.96121,
+      "aspect_ratio_error": 0.00358,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "L",
+      "codepoint": "U+004C",
+      "reference_box": [
+        1276,
+        122,
+        1374,
+        247
+      ],
+      "bbox_normalized_iou": 0.97182,
+      "aspect_ratio_error": 0.00279,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "M",
+      "codepoint": "U+004D",
+      "reference_box": [
+        1378,
+        122,
+        1503,
+        246
+      ],
+      "bbox_normalized_iou": 0.98223,
+      "aspect_ratio_error": 0.00286,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "N",
+      "codepoint": "U+004E",
+      "reference_box": [
+        21,
+        296,
+        135,
+        412
+      ],
+      "bbox_normalized_iou": 0.97456,
+      "aspect_ratio_error": 0.00617,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "O",
+      "codepoint": "U+004F",
+      "reference_box": [
+        141,
+        298,
+        249,
+        415
+      ],
+      "bbox_normalized_iou": 0.98023,
+      "aspect_ratio_error": 0.01524,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "P",
+      "codepoint": "U+0050",
+      "reference_box": [
+        256,
+        296,
+        357,
+        415
+      ],
+      "bbox_normalized_iou": 0.97218,
+      "aspect_ratio_error": 0.00648,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "Q",
+      "codepoint": "U+0051",
+      "reference_box": [
+        363,
+        297,
+        491,
+        432
+      ],
+      "bbox_normalized_iou": 0.97506,
+      "aspect_ratio_error": 0.00781,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "R",
+      "codepoint": "U+0052",
+      "reference_box": [
+        490,
+        296,
+        587,
+        420
+      ],
+      "bbox_normalized_iou": 0.97708,
+      "aspect_ratio_error": 0.01099,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "S",
+      "codepoint": "U+0053",
+      "reference_box": [
+        597,
+        297,
+        694,
+        417
+      ],
+      "bbox_normalized_iou": 0.97339,
+      "aspect_ratio_error": 0.00366,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "T",
+      "codepoint": "U+0054",
+      "reference_box": [
+        699,
+        297,
+        795,
+        416
+      ],
+      "bbox_normalized_iou": 0.97336,
+      "aspect_ratio_error": 0.00296,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "U",
+      "codepoint": "U+0055",
+      "reference_box": [
+        794,
+        304,
+        900,
+        416
+      ],
+      "bbox_normalized_iou": 0.97601,
+      "aspect_ratio_error": 0.01304,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "V",
+      "codepoint": "U+0056",
+      "reference_box": [
+        903,
+        300,
+        1027,
+        417
+      ],
+      "bbox_normalized_iou": 0.97882,
+      "aspect_ratio_error": 0.01479,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "W",
+      "codepoint": "U+0057",
+      "reference_box": [
+        1025,
+        309,
+        1161,
+        412
+      ],
+      "bbox_normalized_iou": 0.97965,
+      "aspect_ratio_error": 0.01365,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "X",
+      "codepoint": "U+0058",
+      "reference_box": [
+        1167,
+        298,
+        1275,
+        416
+      ],
+      "bbox_normalized_iou": 0.96931,
+      "aspect_ratio_error": 0.01205,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "Y",
+      "codepoint": "U+0059",
+      "reference_box": [
+        1283,
+        293,
+        1399,
+        415
+      ],
+      "bbox_normalized_iou": 0.96381,
+      "aspect_ratio_error": 0.01188,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "Z",
+      "codepoint": "U+005A",
+      "reference_box": [
+        1403,
+        293,
+        1508,
+        417
+      ],
+      "bbox_normalized_iou": 0.97821,
+      "aspect_ratio_error": 0.00448,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "a",
+      "codepoint": "U+0061",
+      "reference_box": [
+        23,
+        486,
+        136,
+        594
+      ],
+      "bbox_normalized_iou": 0.96422,
+      "aspect_ratio_error": 0.01599,
+      "reference_holes": 5,
+      "font_holes": 5,
+      "pass": true
+    },
+    {
+      "character": "b",
+      "codepoint": "U+0062",
+      "reference_box": [
+        145,
+        472,
+        246,
+        593
+      ],
+      "bbox_normalized_iou": 0.97452,
+      "aspect_ratio_error": 0.01339,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "c",
+      "codepoint": "U+0063",
+      "reference_box": [
+        257,
+        497,
+        353,
+        594
+      ],
+      "bbox_normalized_iou": 0.9738,
+      "aspect_ratio_error": 0.00376,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "d",
+      "codepoint": "U+0064",
+      "reference_box": [
+        369,
+        471,
+        467,
+        594
+      ],
+      "bbox_normalized_iou": 0.98053,
+      "aspect_ratio_error": 0.01007,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "e",
+      "codepoint": "U+0065",
+      "reference_box": [
+        488,
+        497,
+        583,
+        595
+      ],
+      "bbox_normalized_iou": 0.96691,
+      "aspect_ratio_error": 0.01835,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "f",
+      "codepoint": "U+0066",
+      "reference_box": [
+        601,
+        468,
+        701,
+        596
+      ],
+      "bbox_normalized_iou": 0.96881,
+      "aspect_ratio_error": 0.00164,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "g",
+      "codepoint": "U+0067",
+      "reference_box": [
+        703,
+        496,
+        810,
+        620
+      ],
+      "bbox_normalized_iou": 0.97544,
+      "aspect_ratio_error": 0.0099,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "h",
+      "codepoint": "U+0068",
+      "reference_box": [
+        831,
+        475,
+        938,
+        595
+      ],
+      "bbox_normalized_iou": 0.97941,
+      "aspect_ratio_error": 0.0033,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "i",
+      "codepoint": "U+0069",
+      "reference_box": [
+        951,
+        476,
+        996,
+        594
+      ],
+      "bbox_normalized_iou": 0.95268,
+      "aspect_ratio_error": 0.00855,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "j",
+      "codepoint": "U+006A",
+      "reference_box": [
+        1021,
+        475,
+        1115,
+        607
+      ],
+      "bbox_normalized_iou": 0.95821,
+      "aspect_ratio_error": 0.01515,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "k",
+      "codepoint": "U+006B",
+      "reference_box": [
+        1151,
+        475,
+        1263,
+        595
+      ],
+      "bbox_normalized_iou": 0.96035,
+      "aspect_ratio_error": 0.00588,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "l",
+      "codepoint": "U+006C",
+      "reference_box": [
+        1280,
+        474,
+        1342,
+        595
+      ],
+      "bbox_normalized_iou": 0.966,
+      "aspect_ratio_error": 0.00324,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "m",
+      "codepoint": "U+006D",
+      "reference_box": [
+        1360,
+        496,
+        1516,
+        595
+      ],
+      "bbox_normalized_iou": 0.97228,
+      "aspect_ratio_error": 0.00086,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "n",
+      "codepoint": "U+006E",
+      "reference_box": [
+        25,
+        663,
+        133,
+        764
+      ],
+      "bbox_normalized_iou": 0.96779,
+      "aspect_ratio_error": 0.00352,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "o",
+      "codepoint": "U+006F",
+      "reference_box": [
+        138,
+        663,
+        239,
+        768
+      ],
+      "bbox_normalized_iou": 0.97904,
+      "aspect_ratio_error": 0.01375,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "p",
+      "codepoint": "U+0070",
+      "reference_box": [
+        252,
+        659,
+        352,
+        786
+      ],
+      "bbox_normalized_iou": 0.97606,
+      "aspect_ratio_error": 0.00276,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "q",
+      "codepoint": "U+0071",
+      "reference_box": [
+        360,
+        660,
+        481,
+        793
+      ],
+      "bbox_normalized_iou": 0.96555,
+      "aspect_ratio_error": 0.00027,
+      "reference_holes": 1,
+      "font_holes": 1,
+      "pass": true
+    },
+    {
+      "character": "r",
+      "codepoint": "U+0072",
+      "reference_box": [
+        484,
+        664,
+        575,
+        764
+      ],
+      "bbox_normalized_iou": 0.97801,
+      "aspect_ratio_error": 0.00392,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "s",
+      "codepoint": "U+0073",
+      "reference_box": [
+        583,
+        658,
+        679,
+        770
+      ],
+      "bbox_normalized_iou": 0.9724,
+      "aspect_ratio_error": 0.0,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "t",
+      "codepoint": "U+0074",
+      "reference_box": [
+        694,
+        648,
+        791,
+        770
+      ],
+      "bbox_normalized_iou": 0.96687,
+      "aspect_ratio_error": 0.00366,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "u",
+      "codepoint": "U+0075",
+      "reference_box": [
+        800,
+        670,
+        901,
+        770
+      ],
+      "bbox_normalized_iou": 0.97799,
+      "aspect_ratio_error": 0.00351,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "v",
+      "codepoint": "U+0076",
+      "reference_box": [
+        907,
+        664,
+        1025,
+        769
+      ],
+      "bbox_normalized_iou": 0.979,
+      "aspect_ratio_error": 0.0102,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "w",
+      "codepoint": "U+0077",
+      "reference_box": [
+        1026,
+        673,
+        1160,
+        768
+      ],
+      "bbox_normalized_iou": 0.97673,
+      "aspect_ratio_error": 0.00376,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "x",
+      "codepoint": "U+0078",
+      "reference_box": [
+        1166,
+        664,
+        1268,
+        770
+      ],
+      "bbox_normalized_iou": 0.97,
+      "aspect_ratio_error": 0.00671,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "y",
+      "codepoint": "U+0079",
+      "reference_box": [
+        1276,
+        666,
+        1387,
+        798
+      ],
+      "bbox_normalized_iou": 0.96648,
+      "aspect_ratio_error": 0.00952,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "z",
+      "codepoint": "U+007A",
+      "reference_box": [
+        1399,
+        662,
+        1504,
+        770
+      ],
+      "bbox_normalized_iou": 0.9789,
+      "aspect_ratio_error": 0.00319,
+      "reference_holes": 0,
+      "font_holes": 0,
+      "pass": true
+    },
+    {
+      "character": "&",
+      "codepoint": "U+0026",
+      "reference_box": [
+        328,
+        849,
+        424,
+        952
+      ],
+      "bbox_normalized_iou": 0.96302,
+      "aspect_ratio_error": 0.00178,
+      "reference_holes": 2,
+      "font_holes": 2,
+      "pass": true
+    }
+  ]
+}
