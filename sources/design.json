@@ -1,6 +1,6 @@
 {
   "family": "Nikukyu Maru",
-  "version": "0.101",
+  "version": "0.102",
   "rounding_radius": 72,
   "weight_expansion": 20,
   "kanji_rounding_radius": 58,
@@ -63,3 +63,4 @@
     "0123456789"
   ]
 }
+

@@ -104,7 +104,7 @@ def generate_sources():
     gs=base.getGlyphSet(); cmap=base.getBestCmap()
     font=Font(); font.info.familyName=CONFIG['family']; font.info.styleName='Regular'
     font.info.unitsPerEm=1000; font.info.ascender=1200; font.info.descender=-350
-    font.info.versionMajor=0; font.info.versionMinor=101; font.info.copyright=COPYRIGHT
+    font.info.versionMajor=0; font.info.versionMinor=102; font.info.copyright=COPYRIGHT
     font.info.openTypeNameLicense='SIL Open Font License, Version 1.1'
     font.info.openTypeNameLicenseURL='https://openfontlicense.org'
     order=[]; missing=[]; mods={}
@@ -185,8 +185,8 @@ def compile_font():
     fb.setupGlyf(glyphs); fb.setupHorizontalMetrics(metrics)
     fb.setupHorizontalHeader(ascent=1200,descent=-350,lineGap=0)
     fb.setupNameTable({'familyName':'Nikukyu Maru','styleName':'Regular',
-        'uniqueFontIdentifier':'NikukyuMaru-Regular-0.101','fullName':'Nikukyu Maru Regular',
-        'psName':'NikukyuMaru-Regular','version':'Version 0.101',
+        'uniqueFontIdentifier':'NikukyuMaru-Regular-0.102','fullName':'Nikukyu Maru Regular',
+        'psName':'NikukyuMaru-Regular','version':'Version 0.102',
         'copyright':COPYRIGHT,'manufacturer':'Nikukyu Maru project',
         'description':'Plush rounded display typeface with cat-ear and paw accents. Modified from Mochiy Pop One.',
         'licenseDescription':'This Font Software is licensed under the SIL Open Font License, Version 1.1.',
@@ -194,7 +194,7 @@ def compile_font():
     fb.font['name'].setName('にくきゅう丸',1,3,1,0x411)
     fb.font['name'].setName('にくきゅう丸 Regular',4,3,1,0x411)
     fb.setupOS2(version=4,sTypoAscender=1200,sTypoDescender=-350,sTypoLineGap=0,usWinAscent=1200,usWinDescent=350,
-        usWeightClass=800,usWidthClass=5,fsType=0,fsSelection=0xC0,sxHeight=550,sCapHeight=810)
+        usWeightClass=800,usWidthClass=5,fsType=0,fsSelection=0xC0,sxHeight=540,sCapHeight=700)
     fb.setupPost();fb.setupMaxp()
     if 'uni3053.alt' in glyphs:
         addOpenTypeFeaturesFromString(fb.font,'feature ss01 { sub uni3053 by uni3053.alt; sub uni308B by uni308B.alt; } ss01;')
@@ -205,7 +205,7 @@ def compile_font():
     fb.font.flavor='woff2';save_font(fb,OUT/'NikukyuMaru-Regular.woff2')
     chars=''.join(chr(u) for u in sorted(cmap))
     (OUT/'characters.txt').write_text(chars+'\n',encoding='utf-8')
-    lines=['# 対応文字一覧 — にくきゅう丸 0.101','',f'{len(cmap)} Unicode文字。空白・私用領域を含みます。','',
+    lines=['# 対応文字一覧 — にくきゅう丸 0.102','',f'{len(cmap)} Unicode文字。空白・私用領域を含みます。','',
         '|文字|コードポイント|Unicode名|','|---|---|---|']
     for u in sorted(cmap):
         ch=chr(u); display=ch.replace('|','&#124;')
@@ -226,4 +226,5 @@ if __name__=='__main__':
     compile_font()
     from proof import make_proofs
     make_proofs()
+
 

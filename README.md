@@ -1,6 +1,12 @@
-# にくきゅう丸 — 初版 0.101
+# にくきゅう丸 — 0.102
 
-猫耳と肉球を添えた、太く柔らかい横組み見出し用フォントです。0.101では採用画像の主要38文字と装飾異体字2個をベクター化し、輪郭を置き換えました。他の文字にはMochiy Pop Oneを改変した初版の輪郭を使用しています。
+![にくきゅう丸の文字見本](outputs/specimen.png)
+
+[TTFをダウンロード](outputs/NikukyuMaru-Regular.ttf) · [WOFF2](outputs/NikukyuMaru-Regular.woff2) · [全収録文字](outputs/CHARACTERS.md) · [全文字のスクショ監査](outputs/audit/REVIEW.md)
+
+0.102では全角77文字・小書きかな24文字・濁音57文字を基本字形から派生させ、残る文字の丸め処理と英字の高さを改善しました。全文字を9枚の実Chromeスクショで点検しています。38文字の参照輪郭化は0.101で導入したものです。
+
+猫耳と肉球を添えた、太く柔らかい横組み見出し用フォントです。主要38文字と装飾異体字2個には採用画像由来の輪郭を使い、その他はMochiy Pop Oneの輪郭を文字ごとに丸めて調整しています。
 
 ## 使う
 
@@ -30,7 +36,7 @@ Web 用は `outputs/NikukyuMaru-Regular.woff2` です。
 
 ## 編集と再ビルド
 
-0.101の「こ・る」はOpenTypeのスタイルセット1（`ss01`）で肉球付きに切り替えます。Webでは `font-feature-settings: "ss01" 1` を指定してください。「a・8」は標準で肉球の抜き模様を含みます。
+0.102の「こ・る」はOpenTypeのスタイルセット1（`ss01`）で肉球付きに切り替えます。Webでは `font-feature-settings: "ss01" 1` を指定してください。「a・8」は標準で肉球の抜き模様を含みます。
 
 採用画像由来の輪郭は `sources/reference-outlines.json` に保存しています。`--regenerate` は元書体の処理後、この輪郭を優先してUFOに適用します。画像からの抽出をやり直す場合のみ `requirements-trace.txt` を導入し、`trace_reference.py` を実行します。通常ビルドではOpenCVは不要です。
 
@@ -40,7 +46,7 @@ Web 用は `outputs/NikukyuMaru-Regular.woff2` です。
 .\.venv\Scripts\python.exe -X utf8 build.py --regenerate
 ```
 
-比較画面の再生成は `compare.py`。プロジェクト直下をHTTPサーバーで配信して `outputs/comparison/page-1.html` を開きます。`revised-1.png` ～ `revised-3.png` が0.101の実Chromeスクショ、`compare-*.png` は修正前の記録です。見本画像は通常形とss01を使い分けています。WindowsのPillowにはOpenType機能の描画支援がないため、PNG見本の該当2行は同じTTF内の異体字にcmapを切り替えた一時ファイルで描画しています。実際のss01動作はChromeで確認しています。
+比較画面の再生成は `compare.py`。プロジェクト直下をHTTPサーバーで配信して `outputs/comparison/page-1.html` を開きます。`revised-1.png` ～ `revised-3.png` が0.102の実Chromeスクショ、`compare-*.png` は修正前の記録です。見本画像は通常形とss01を使い分けています。WindowsのPillowにはOpenType機能の描画支援がないため、PNG見本の該当2行は同じTTF内の異体字にcmapを切り替えた一時ファイルで描画しています。実際のss01動作はChromeで確認しています。
 
 検証環境: Windows / Python 3.12。依存バージョンは `requirements.txt` に固定しています。
 
@@ -63,6 +69,8 @@ python -m venv .venv
 
 ## 検証と成果物
 
+`python -X utf8 audit_pages.py` で全408文字＋2異体字のブラウザー確認ページを生成します。`python -X utf8 package.py` で環境ファイルを含まないZIPを作成します。`harmonize.py` と `artifact_io.py` もビルドに必要です。`outputs/audit/manifest.json` がスクショの対象一覧です。
+
 - `outputs/specimen.png`: 実TTFで描画した使用見本。
 - `outputs/charset-01.png` ～ `charset-05.png`: 全収録文字の一覧画像。
 - `outputs/size-proof.png`: 16・24・32・48・72pxの文字組み。
@@ -74,6 +82,8 @@ python -m venv .venv
 
 元書体: [Mochiy Pop One / Google Fonts](https://github.com/google/fonts/tree/main/ofl/mochiypopone)。著作者: The Mochiypop Project Authors。元TTFのSHA-256: `9e009430e1316c271a5f34759c6b65fc343c4e806f193042528887e7235a92c6`。
 
-同梱の `vendor/OFL.txt` と `outputs/OFL.txt` がライセンス原文です。本派生フォントも SIL Open Font License 1.1 を適用し、元の著作権表示を保持します。フォント単体販売は禁止され、再配布時は著作権表示とライセンスの同梱が必要です。新しい書体名を設定済みです。この作業では公開・販売は行っていません。
+同梱の `vendor/OFL.txt` と `outputs/OFL.txt` がライセンス原文です。本派生フォントも SIL Open Font License 1.1 を適用し、元の著作権表示を保持します。フォント単体販売は禁止され、再配布時は著作権表示とライセンスの同梱が必要です。新しい書体名を設定済みです。ユーザーの追加指示によりGitHubで公開しています。販売は行っていません。
+
+
 
 
