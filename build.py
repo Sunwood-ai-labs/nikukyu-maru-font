@@ -152,6 +152,8 @@ def generate_sources():
                 font.newGlyph(name);order.append(name)
             glyph=font[name];glyph.clearContours();glyph.width=data['width']
             p.draw(glyph.getPen());mods[ch]=['approved-reference-vector-outline']
+    from harmonize import harmonize
+    harmonize(font,mods)
     font.glyphOrder=order
     font.save(UFO,overwrite=True)
     (ROOT/'sources/modifications.json').write_text(json.dumps(mods,ensure_ascii=False,indent=2),encoding='utf-8')

@@ -455,38 +455,38 @@
     "weight"
   ],
   "ぁ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "あ"
   ],
   "あ": [
     "rounded",
     "weight"
   ],
   "ぃ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "い"
   ],
   "い": [
     "approved-reference-vector-outline"
   ],
   "ぅ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "う"
   ],
   "う": [
     "approved-reference-vector-outline"
   ],
   "ぇ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "え"
   ],
   "え": [
     "rounded",
     "weight"
   ],
   "ぉ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "お"
   ],
   "お": [
     "approved-reference-vector-outline"
@@ -496,119 +496,119 @@
     "weight"
   ],
   "が": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "か"
   ],
   "き": [
     "approved-reference-vector-outline"
   ],
   "ぎ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "き"
   ],
   "く": [
     "approved-reference-vector-outline"
   ],
   "ぐ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "く"
   ],
   "け": [
     "rounded",
     "weight"
   ],
   "げ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "け"
   ],
   "こ": [
     "approved-reference-vector-outline"
   ],
   "ご": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "こ"
   ],
   "さ": [
     "rounded",
     "weight"
   ],
   "ざ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "さ"
   ],
   "し": [
     "approved-reference-vector-outline"
   ],
   "じ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "し"
   ],
   "す": [
     "rounded",
     "weight"
   ],
   "ず": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "す"
   ],
   "せ": [
     "rounded",
     "weight"
   ],
   "ぜ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "せ"
   ],
   "そ": [
     "rounded",
     "weight"
   ],
   "ぞ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "そ"
   ],
   "た": [
     "rounded",
     "weight"
   ],
   "だ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "た"
   ],
   "ち": [
     "rounded",
     "weight"
   ],
   "ぢ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ち"
   ],
   "っ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "つ"
   ],
   "つ": [
     "rounded",
     "weight"
   ],
   "づ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "つ"
   ],
   "て": [
     "rounded",
     "weight"
   ],
   "で": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "て"
   ],
   "と": [
     "approved-reference-vector-outline"
   ],
   "ど": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "と"
   ],
   "な": [
     "rounded",
@@ -632,59 +632,59 @@
     "weight"
   ],
   "ば": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "は"
   ],
   "ぱ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "は"
   ],
   "ひ": [
     "approved-reference-vector-outline"
   ],
   "び": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ひ"
   ],
   "ぴ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ひ"
   ],
   "ふ": [
     "rounded",
     "weight"
   ],
   "ぶ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ふ"
   ],
   "ぷ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ふ"
   ],
   "へ": [
     "rounded",
     "weight"
   ],
   "べ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "へ"
   ],
   "ぺ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "へ"
   ],
   "ほ": [
     "rounded",
     "weight"
   ],
   "ぼ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ほ"
   ],
   "ぽ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ほ"
   ],
   "ま": [
     "rounded",
@@ -707,22 +707,24 @@
     "weight"
   ],
   "ゃ": [
-    "approved-reference-vector-outline"
+    "small-kana-derived",
+    "や"
   ],
   "や": [
     "rounded",
     "weight"
   ],
   "ゅ": [
-    "approved-reference-vector-outline"
+    "small-kana-derived",
+    "ゆ"
   ],
   "ゆ": [
     "rounded",
     "weight"
   ],
   "ょ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "よ"
   ],
   "よ": [
     "rounded",
@@ -747,8 +749,8 @@
     "weight"
   ],
   "ゎ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "わ"
   ],
   "わ": [
     "rounded",
@@ -770,60 +772,60 @@
     "approved-reference-vector-outline"
   ],
   "ゔ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "う"
   ],
   "ゕ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "か"
   ],
   "ゖ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "け"
   ],
   "ゝ": [
     "rounded",
     "weight"
   ],
   "ゞ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ゝ"
   ],
   "ァ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ア"
   ],
   "ア": [
     "rounded",
     "weight"
   ],
   "ィ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "イ"
   ],
   "イ": [
     "rounded",
     "weight"
   ],
   "ゥ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ウ"
   ],
   "ウ": [
     "rounded",
     "weight"
   ],
   "ェ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "エ"
   ],
   "エ": [
     "rounded",
     "weight"
   ],
   "ォ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "オ"
   ],
   "オ": [
     "rounded",
@@ -834,123 +836,123 @@
     "weight"
   ],
   "ガ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "カ"
   ],
   "キ": [
     "rounded",
     "weight"
   ],
   "ギ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "キ"
   ],
   "ク": [
     "rounded",
     "weight"
   ],
   "グ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ク"
   ],
   "ケ": [
     "rounded",
     "weight"
   ],
   "ゲ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ケ"
   ],
   "コ": [
     "approved-reference-vector-outline"
   ],
   "ゴ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "コ"
   ],
   "サ": [
     "rounded",
     "weight"
   ],
   "ザ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "サ"
   ],
   "シ": [
     "rounded",
     "weight"
   ],
   "ジ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "シ"
   ],
   "ス": [
     "rounded",
     "weight"
   ],
   "ズ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ス"
   ],
   "セ": [
     "rounded",
     "weight"
   ],
   "ゼ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "セ"
   ],
   "ソ": [
     "rounded",
     "weight"
   ],
   "ゾ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ソ"
   ],
   "タ": [
     "rounded",
     "weight"
   ],
   "ダ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "タ"
   ],
   "チ": [
     "rounded",
     "weight"
   ],
   "ヂ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "チ"
   ],
   "ッ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ツ"
   ],
   "ツ": [
     "rounded",
     "weight"
   ],
   "ヅ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ツ"
   ],
   "テ": [
     "rounded",
     "weight"
   ],
   "デ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "テ"
   ],
   "ト": [
     "rounded",
     "weight"
   ],
   "ド": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ト"
   ],
   "ナ": [
     "rounded",
@@ -976,60 +978,60 @@
     "weight"
   ],
   "バ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ハ"
   ],
   "パ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ハ"
   ],
   "ヒ": [
     "rounded",
     "weight"
   ],
   "ビ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ヒ"
   ],
   "ピ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ヒ"
   ],
   "フ": [
     "rounded",
     "weight"
   ],
   "ブ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "フ"
   ],
   "プ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "フ"
   ],
   "ヘ": [
     "rounded",
     "weight"
   ],
   "ベ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ヘ"
   ],
   "ペ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ヘ"
   ],
   "ホ": [
     "rounded",
     "weight"
   ],
   "ボ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ホ"
   ],
   "ポ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ホ"
   ],
   "マ": [
     "rounded",
@@ -1052,24 +1054,24 @@
     "weight"
   ],
   "ャ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ヤ"
   ],
   "ヤ": [
     "rounded",
     "weight"
   ],
   "ュ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ユ"
   ],
   "ユ": [
     "rounded",
     "weight"
   ],
   "ョ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ヨ"
   ],
   "ヨ": [
     "rounded",
@@ -1096,8 +1098,8 @@
     "weight"
   ],
   "ヮ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ワ"
   ],
   "ワ": [
     "rounded",
@@ -1120,32 +1122,32 @@
     "weight"
   ],
   "ヴ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ウ"
   ],
   "ヵ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "カ"
   ],
   "ヶ": [
-    "rounded",
-    "weight"
+    "small-kana-derived",
+    "ケ"
   ],
   "ヷ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ワ"
   ],
   "ヸ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ヰ"
   ],
   "ヹ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ヱ"
   ],
   "ヺ": [
-    "rounded",
-    "weight"
+    "voiced-kana-derived",
+    "ヲ"
   ],
   "・": [
     "rounded",
@@ -1262,312 +1264,312 @@
     "weight"
   ],
   "！": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "!"
   ],
   "％": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "%"
   ],
   "＆": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "&"
   ],
   "（": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "("
   ],
   "）": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    ")"
   ],
   "＋": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "+"
   ],
   "０": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "0"
   ],
   "１": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "1"
   ],
   "２": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "2"
   ],
   "３": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "3"
   ],
   "４": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "4"
   ],
   "５": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "5"
   ],
   "６": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "6"
   ],
   "７": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "7"
   ],
   "８": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "8"
   ],
   "９": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "9"
   ],
   "：": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    ":"
   ],
   "；": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    ";"
   ],
   "＝": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "="
   ],
   "？": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "?"
   ],
   "＠": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "@"
   ],
   "Ａ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "A"
   ],
   "Ｂ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "B"
   ],
   "Ｃ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "C"
   ],
   "Ｄ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "D"
   ],
   "Ｅ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "E"
   ],
   "Ｆ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "F"
   ],
   "Ｇ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "G"
   ],
   "Ｈ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "H"
   ],
   "Ｉ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "I"
   ],
   "Ｊ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "J"
   ],
   "Ｋ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "K"
   ],
   "Ｌ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "L"
   ],
   "Ｍ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "M"
   ],
   "Ｎ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "N"
   ],
   "Ｏ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "O"
   ],
   "Ｐ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "P"
   ],
   "Ｑ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "Q"
   ],
   "Ｒ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "R"
   ],
   "Ｓ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "S"
   ],
   "Ｔ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "T"
   ],
   "Ｕ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "U"
   ],
   "Ｖ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "V"
   ],
   "Ｗ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "W"
   ],
   "Ｘ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "X"
   ],
   "Ｙ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "Y"
   ],
   "Ｚ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "Z"
   ],
   "［": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "["
   ],
   "］": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "]"
   ],
   "ａ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "a"
   ],
   "ｂ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "b"
   ],
   "ｃ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "c"
   ],
   "ｄ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "d"
   ],
   "ｅ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "e"
   ],
   "ｆ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "f"
   ],
   "ｇ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "g"
   ],
   "ｈ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "h"
   ],
   "ｉ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "i"
   ],
   "ｊ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "j"
   ],
   "ｋ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "k"
   ],
   "ｌ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "l"
   ],
   "ｍ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "m"
   ],
   "ｎ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "n"
   ],
   "ｏ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "o"
   ],
   "ｐ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "p"
   ],
   "ｑ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "q"
   ],
   "ｒ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "r"
   ],
   "ｓ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "s"
   ],
   "ｔ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "t"
   ],
   "ｕ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "u"
   ],
   "ｖ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "v"
   ],
   "ｗ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "w"
   ],
   "ｘ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "x"
   ],
   "ｙ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "y"
   ],
   "ｚ": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "z"
   ],
   "｛": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "{"
   ],
   "｝": [
-    "rounded",
-    "weight"
+    "fullwidth-derived",
+    "}"
   ],
   "こ.alt": [
     "approved-reference-vector-outline"

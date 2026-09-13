@@ -10,8 +10,8 @@
     1131
   ],
   "sha256": {
-    "NikukyuMaru-Regular.ttf": "47425ae289108986367b9755da8c1a3df91a4fc16473be35f8911f1c780b3777",
-    "NikukyuMaru-Regular.woff2": "6f28d02a6f40196a46d6ff24b06fe89041cc40e76d8064beefa568b1fe97d61a"
+    "NikukyuMaru-Regular.ttf": "199ec9ad653d348544132f9000f14e77d7c95cd5afcede0f655499fdaead2250",
+    "NikukyuMaru-Regular.woff2": "33871473bfdcce0c21f5bbcd84c079e6ec6f2a8f700e93e19c52fdc71a2c77e6"
   },
   "limits": [
     "Horizontal display font; vertical layout not implemented.",
