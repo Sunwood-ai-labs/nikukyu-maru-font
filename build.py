@@ -29,11 +29,11 @@ def stroke(p, width):
     q.convertConicsToQuads(.25)
     return pathops.simplify(q)
 
-def soften(p, radius, weight):
+def soften(p, radius, weight, preserve_separation=False):
     if not len(p): return p
     contours=list(pathops.simplify(p).contours)
     result=pathops.Path()
-    holes=[]
+    holes=[];opened_shapes=[]
     # Round each silhouette separately so thin marks cannot disappear during
     # erosion of a larger, complex glyph. Retain counters as negative shapes.
     for contour in contours:
@@ -50,10 +50,23 @@ def soften(p, radius, weight):
             r*=.65
             inner=boolean(contour,stroke(contour,2*r),pathops.PathOp.DIFFERENCE)
             opened=boolean(inner,stroke(inner,2*r)) if len(inner) else contour
+        opened_shapes.append(opened)
         rounded=boolean(opened,stroke(opened,2*weight)) if weight else opened
         result=boolean(result,rounded)
     for hole in holes:
         result=boolean(result,hole,pathops.PathOp.DIFFERENCE)
+    if preserve_separation and weight>0:
+        before=sum(not c.clockwise for c in contours)
+        after=sum(not c.clockwise for c in result.contours)
+        while after<before and weight>0:
+            weight=weight*.5 if weight>1 else 0
+            result=pathops.Path()
+            for opened in opened_shapes:
+                rounded=boolean(opened,stroke(opened,2*weight)) if weight else opened
+                result=boolean(result,rounded)
+            for hole in holes:
+                result=boolean(result,hole,pathops.PathOp.DIFFERENCE)
+            after=sum(not c.clockwise for c in result.contours)
     return result
 
 def ellipse(x, y, rx, ry):
@@ -101,6 +114,35 @@ def character_set():
     chars.update('\u00a0\ue000\ue001\U0001f43e')
     return sorted(chars,key=ord)
 
+def finish_japanese_sources(font, mods):
+    from supplemental import add_missing_glyphs, SUPPLEMENTAL_COPYRIGHT
+    from kana_features import add_halfwidth_glyphs
+    report=add_missing_glyphs(font,base_font=TTFont(ROOT/'vendor/MochiyPopOne-Regular.ttf'),
+        characters=character_set(),rounder=lambda p,r,w:soften(p,r,w,True),rounding_radius=40,weight_expansion=12,
+        direct_transform=(.90,0,0,.92,50,0),modifications=mods)
+    for cp in (0x3099,0x309a):
+        name=f'uni{cp:04X}'
+        g=font[name] if name in font else font.newGlyph(name)
+        g.clearContours();g.width=0;g.unicodes=[cp]
+        if cp==0x309a:
+            p=boolean(ellipse(-125,900,65,65),ellipse(-125,900,34,34),pathops.PathOp.DIFFERENCE)
+        else:
+            p=boolean(ellipse(-174,900,38,52),ellipse(-83,913,38,52))
+        p.draw(g.getPen());mods[chr(cp)]=['combining-kana-mark']
+    order=list(font.glyphOrder or [])
+    for g in font:
+        if g.name not in order:order.append(g.name)
+    add_halfwidth_glyphs(font,order,mods)
+    for g in font:
+        if g.unicodes and g.unicodes[0] in (0x3099,0x309a):continue
+        b=g.getBounds(font)
+        if b and b[2]>g.width:g.width=round(b[2]+45)
+    font.glyphOrder=order
+    font.info.copyright=COPYRIGHT+' '+SUPPLEMENTAL_COPYRIGHT
+    missing=sorted(set(character_set())-{chr(u) for g in font for u in g.unicodes},key=ord)
+    (ROOT/'sources/omitted-requested.txt').write_text(''.join(missing),encoding='utf-8')
+    print('Japanese supplementation:',len(report.added),'added; missing',repr(''.join(missing)),flush=True)
+
 def generate_sources():
     base=TTFont(ROOT/'vendor/MochiyPopOne-Regular.ttf')
     gs=base.getGlyphSet(); cmap=base.getBestCmap()
@@ -134,7 +176,7 @@ def generate_sources():
                 if ch not in '「」『』':
                     for attempt in range(6):
                         try:
-                            p=soften(p,radius*(.7**attempt),weight*(.7**attempt))
+                            p=soften(p,radius*(.7**attempt),weight*(.7**attempt),preserve_separation=is_kanji)
                             break
                         except pathops.PathOpsError:
                             if attempt==5:
@@ -179,10 +221,10 @@ def generate_sources():
     from harmonize import harmonize
     harmonize(font,mods)
     font.glyphOrder=order
+    finish_japanese_sources(font,mods)
     font.save(UFO,overwrite=True)
     (ROOT/'sources/modifications.json').write_text(json.dumps(mods,ensure_ascii=False,indent=2),encoding='utf-8')
-    (ROOT/'sources/omitted-requested.txt').write_text(''.join(missing),encoding='utf-8')
-    print('Created UFO:',len(order),'glyphs. Omitted:',repr(''.join(missing)))
+    print('Created UFO:',len(font.glyphOrder),'glyphs; omissions recorded in sources/omitted-requested.txt',flush=True)
 
 def compile_font():
     font=Font.open(UFO); order=font.glyphOrder; cmap={}; glyphs={}; metrics={}
@@ -198,7 +240,7 @@ def compile_font():
     fb.setupNameTable({'familyName':'Nikukyu Maru','styleName':'Regular',
         'uniqueFontIdentifier':f"NikukyuMaru-Regular-{CONFIG['version']}",'fullName':'Nikukyu Maru Regular',
         'psName':'NikukyuMaru-Regular','version':f"Version {CONFIG['version']}",
-        'copyright':COPYRIGHT,'manufacturer':'Nikukyu Maru project',
+        'copyright':font.info.copyright,'manufacturer':'Nikukyu Maru project',
         'description':'Plush rounded display typeface with cat-ear and paw accents. Modified from Mochiy Pop One.',
         'licenseDescription':'This Font Software is licensed under the SIL Open Font License, Version 1.1.',
         'licenseInfoURL':'https://openfontlicense.org'})
@@ -207,8 +249,16 @@ def compile_font():
     fb.setupOS2(version=4,sTypoAscender=1200,sTypoDescender=-350,sTypoLineGap=0,usWinAscent=1200,usWinDescent=350,
         usWeightClass=800,usWidthClass=5,fsType=0,fsSelection=0xC0,sxHeight=540,sCapHeight=700)
     fb.setupPost();fb.setupMaxp()
-    if 'uni3053.alt' in glyphs:
-        addOpenTypeFeaturesFromString(fb.font,'feature ss01 { sub uni3053 by uni3053.alt; sub uni308B by uni308B.alt; } ss01;')
+    from kana_features import ccmp_feature_text, halfwidth_ligature_map
+    features='feature ss01 { sub uni3053 by uni3053.alt; sub uni308B by uni308B.alt; } ss01;'
+    features+=ccmp_feature_text(cmap,halfwidth_ligatures=halfwidth_ligature_map(order),strict=True)
+    features+='markClass uni3099 <anchor -125 900> @Dakuten; markClass uni309A <anchor -125 900> @Dakuten; feature mark {'
+    for cp,name in sorted(cmap.items()):
+        if 0x3041<=cp<=0x30fa and cp not in (0x3099,0x309a):
+            b=font[name].getBounds(font)
+            if b:features+=f'pos base {name} <anchor {round(font[name].width-125)} {round(b[3]+82)}> mark @Dakuten;'
+    features+='} mark;'
+    addOpenTypeFeaturesFromString(fb.font,features)
     fb.font['head'].created=fb.font['head'].modified=3872188800
     fb.font.recalcTimestamp=False
     OUT.mkdir(exist_ok=True)
@@ -223,12 +273,14 @@ def compile_font():
         if ch.isspace(): display='（空白）'
         lines.append(f'|{display}|U+{u:04X}|{unicodedata.name(ch,"PRIVATE USE")}|')
     (OUT/'CHARACTERS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
-    (OUT/'OFL.txt').write_text((ROOT/'vendor/OFL.txt').read_text(encoding='utf-8'),encoding='utf-8')
+    (OUT/'OFL.txt').write_text((ROOT/'OFL.txt').read_text(encoding='utf-8'),encoding='utf-8')
     # SVG paths are editable, and require no installed font for display.
     svgdir=OUT/'glyph-svg';svgdir.mkdir(exist_ok=True)
     for u,name in sorted(cmap.items()):
         sp=SVGPathPen(None);font[name].draw(sp)
-        (svgdir/f'U+{u:04X}.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {font[name].width} 1550"><g transform="translate(0 1200) scale(1 -1)"><path d="{sp.getCommands()}"/></g></svg>',encoding='utf-8')
+        preview_width=font[name].width or 1000
+        preview_offset=500 if not font[name].width else 0
+        (svgdir/f'U+{u:04X}.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {preview_width} 1550"><g transform="translate({preview_offset} 1200) scale(1 -1)"><path d="{sp.getCommands()}"/></g></svg>',encoding='utf-8')
     print('Compiled',len(cmap),'Unicode characters;',len(order),'glyphs')
 
 if __name__=='__main__':

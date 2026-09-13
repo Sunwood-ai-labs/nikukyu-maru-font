@@ -1,0 +1,2 @@
+-r requirements.txt
+uharfbuzz==0.56.1

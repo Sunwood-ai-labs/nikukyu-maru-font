@@ -1,6 +1,6 @@
 """Create a browser comparison without modifying the reference image pixels."""
 from pathlib import Path
-import json
+import json,hashlib
 ROOT=Path(__file__).resolve().parent
 rows=[('ねこのいる',(98,188,1065,216)),('暮らし',(295,415,680,239)),('にゃんこ',(389,686,482,126)),('ネコとおひるね',(202,814,854,133)),('CAT & nap',(360,995,563,99)),('0123456789',(253,1096,780,101))]
 out=ROOT/'outputs'/'comparison';out.mkdir(exist_ok=True)
@@ -13,6 +13,8 @@ for page in range(3):
         parts.append(f'<section><b>{text}</b><div class="pair"><div><p class="label">生成見本</p><div class="stage"><div class="crop" style="width:{w*scale}px;height:{h*scale}px"><img src="../../references/01-nikukyu.png" style="width:{1254*scale}px;height:{1254*scale}px;left:{-x*scale}px;top:{-y*scale}px"></div></div></div><div><p class="label">現行フォント</p><div class="stage"><span class="actual" data-height="{h*scale}">{text}</span></div></div></div></section>')
     parts.append('''<footer id="status">読込中</footer><script>document.fonts.ready.then(()=>{const c=document.createElement('canvas'),ctx=c.getContext('2d');for(const el of document.querySelectorAll('.actual')){ctx.font='800 100px Nikukyu';const m=ctx.measureText(el.textContent);const height=m.actualBoundingBoxAscent+m.actualBoundingBoxDescent;const sz=Math.min(Number(el.dataset.height)*100/height,(el.parentElement.clientWidth-20)*100/m.width);el.style.fontSize=sz+'px'}document.getElementById('status').textContent='フォント読込: '+document.fonts.check('800 100px Nikukyu')+' / 自動調整完了'})</script></html>''')
     html=''.join(parts)
+    digest=hashlib.sha256((ROOT/'outputs/NikukyuMaru-Regular.woff2').read_bytes()).hexdigest()
+    html=html.replace("Regular.woff2'",f"Regular.woff2?v={digest}'")
     if page==1: html=html.replace('.actual{','.actual{font-feature-settings:"ss01" 1;')
     (out/f'page-{page+1}.html').write_text(html,encoding='utf-8')
 print('Created 3 comparison pages')

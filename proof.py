@@ -76,7 +76,9 @@ def make_proofs():
         g=ft['glyf'][name];g.recalcBounds(ft['glyf']);w=ft['hmtx'][name][0]
         if g.numberOfContours:
             if g.yMax>ft['OS/2'].usWinAscent or g.yMin< -ft['OS/2'].usWinDescent:errors.append(f'vertical clipping U+{u:04X}')
-            if g.xMin<0 or g.xMax>w:errors.append(f'horizontal overhang U+{u:04X}: {g.xMin}..{g.xMax}/{w}')
+            if u in (0x3099,0x309a):
+                if w!=0:errors.append(f'combining mark has advance U+{u:04X}')
+            elif g.xMin<0 or g.xMax>w:errors.append(f'horizontal overhang U+{u:04X}: {g.xMin}..{g.xMax}/{w}')
             if face(64).getmask(chr(u)).getbbox() is None:errors.append(f'empty raster U+{u:04X}')
             bounds.append([u,g.xMin,g.yMin,g.xMax,g.yMax])
     web=TTFont(OUT/'NikukyuMaru-Regular.woff2')
@@ -90,7 +92,7 @@ def make_proofs():
         'ttf_woff2_cmap_match':True,'ss01_alternates_bounds_checked':True,'all_supported_nonspace_characters_rasterized_at_px':64,
         'vertical_extrema':[min(b[2] for b in bounds),max(b[4] for b in bounds)],
         'sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [FONT,OUT/'NikukyuMaru-Regular.woff2']},
-        'limits':['Horizontal display font; vertical layout not implemented.','NFC precomposed kana; combining marks U+3099/309A not supported.','Manual app installation not performed.']}
+        'limits':['Horizontal display font; vertical layout not implemented.','Manual app installation not performed.']}
     (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(report,ensure_ascii=False,indent=2))
     if errors:
