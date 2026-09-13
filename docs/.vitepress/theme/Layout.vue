@@ -163,9 +163,25 @@ onMounted(async () => {
       ><span class="brand-sub">NIKUKYU MARU</span></a
     >
     <nav :aria-label="isEn ? 'Main' : 'メインナビゲーション'">
-      <a href="#play">{{ t.nav[0] }}</a
-      ><a href="#characters">{{ t.nav[1] }}</a
-      ><a class="nav-download" href="#download"
+      <a
+        :href="
+          page.isNotFound ? withBase(isEn ? '/en/#play' : '/#play') : '#play'
+        "
+        >{{ t.nav[0] }}</a
+      ><a
+        :href="
+          page.isNotFound
+            ? withBase(isEn ? '/en/#characters' : '/#characters')
+            : '#characters'
+        "
+        >{{ t.nav[1] }}</a
+      ><a
+        class="nav-download"
+        :href="
+          page.isNotFound
+            ? withBase(isEn ? '/en/#download' : '/#download')
+            : '#download'
+        "
         >{{ t.nav[2] }} <span aria-hidden="true">↗</span></a
       >
     </nav>
@@ -196,7 +212,11 @@ onMounted(async () => {
           <span v-for="line in t.hero" :key="line">{{ line }}</span>
         </h1>
         <p class="hero-intro">{{ t.intro }}</p>
-        <a class="button button-red" href="#play"
+        <a
+          class="button button-red"
+          :href="
+            page.isNotFound ? withBase(isEn ? '/en/#play' : '/#play') : '#play'
+          "
           >{{ t.try }} <span aria-hidden="true">↘</span></a
         >
         <p class="hero-footnote">

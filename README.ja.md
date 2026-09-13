@@ -113,6 +113,8 @@ npm run site:check
 
 ## ✅ QAと検証記録
 
+[ショーケースの検証記録と公開スクショ](verification/site-showcase.md)に、実操作・レスポンシブ確認・公開結果・開発依存の監査警告をまとめています。
+
 現行0.105の証跡は目的ごとに分けています。
 
 - [機械検証](outputs/verification.json): 収録範囲、TTF/WOFF2のcmap一致、空白以外のラスタライズ、bounds、SHA-256を記録しています。

@@ -1,0 +1,53 @@
+[
+  {
+    "url": "https://sunwood-ai-labs.github.io/nikukyu-maru-font/",
+    "status": 200,
+    "bytes": 20113
+  },
+  {
+    "url": "https://sunwood-ai-labs.github.io/nikukyu-maru-font/en/",
+    "status": 200,
+    "bytes": 19249
+  },
+  {
+    "url": "https://sunwood-ai-labs.github.io/nikukyu-maru-font/generated/font.woff2",
+    "status": 200,
+    "bytes": 2079032,
+    "sha256": "5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f"
+  },
+  {
+    "url": "https://sunwood-ai-labs.github.io/nikukyu-maru-font/generated/meta.json",
+    "status": 200,
+    "bytes": 22410
+  },
+  {
+    "url": "https://sunwood-ai-labs.github.io/nikukyu-maru-font/generated/concept.png",
+    "status": 200,
+    "bytes": 1383127
+  },
+  {
+    "url": "https://sunwood-ai-labs.github.io/nikukyu-maru-font/generated/comparison.png",
+    "status": 200,
+    "bytes": 140672
+  },
+  {
+    "url": "https://sunwood-ai-labs.github.io/nikukyu-maru-font/favicon.svg",
+    "status": 200,
+    "bytes": 462
+  },
+  {
+    "url": "https://github.com/Sunwood-ai-labs/nikukyu-maru-font/releases/download/v0.105/NikukyuMaru-Regular.ttf",
+    "status": 200,
+    "bytes": "4790944"
+  },
+  {
+    "url": "https://github.com/Sunwood-ai-labs/nikukyu-maru-font/releases/download/v0.105/NikukyuMaru-Regular.woff2",
+    "status": 200,
+    "bytes": "2079032"
+  },
+  {
+    "url": "https://github.com/Sunwood-ai-labs/nikukyu-maru-font/releases/download/v0.105/NikukyuMaru-0.105.zip",
+    "status": 200,
+    "bytes": "111666717"
+  }
+]

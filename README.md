@@ -113,6 +113,8 @@ npm run site:check
 
 ## ✅ Quality checks
 
+[Showcase verification and published screenshots](verification/site-showcase.md) record browser interactions, responsive checks, deployment evidence, and remaining development-dependency audit findings.
+
 The current 0.105 evidence is separated by purpose:
 
 - [Machine verification](outputs/verification.json) records coverage, TTF/WOFF2 cmap parity, non-space rasterization, bounds checks, and SHA-256 values.
