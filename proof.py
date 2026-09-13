@@ -27,7 +27,7 @@ def make_proofs():
         d.text(xy,text,font=chosen,fill=fill,anchor='lt')
     im=Image.new('RGB',(1600,1860),CREAM); d=ImageDraw.Draw(im)
     d.rounded_rectangle((65,58,398,105),radius=23,fill=INK)
-    d.text((87,70),'NIKUKYU MARU / 0.102',font=ui(23),fill=CREAM)
+    d.text((87,70),'NIKUKYU MARU / '+json.loads((ROOT/'sources/design.json').read_text(encoding='utf-8'))['version'],font=ui(23),fill=CREAM)
     d.text((1210,73),'TYPE SPECIMEN 01',font=ui(22),fill=MUTED)
     txt(d,(102,187),'ねこのいる',252)
     txt(d,(93,478),'暮らし',280)

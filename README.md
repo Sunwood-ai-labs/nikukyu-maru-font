@@ -1,4 +1,6 @@
-# にくきゅう丸 — 0.102
+# にくきゅう丸 — 0.103 開発中
+
+> 日本語対応を拡張中です。現在の開発版は6,770文字で、JIS第1・第2水準の漢字6,355字を含みます。記号補完・結合濁点・追加文字のスクショ監査は進行中です。配布済み安定版は[0.102](https://github.com/Sunwood-ai-labs/nikukyu-maru-font/releases/tag/v0.102)です。
 
 ![にくきゅう丸の文字見本](outputs/specimen.png)
 
@@ -26,13 +28,11 @@ Web 用は `outputs/NikukyuMaru-Regular.woff2` です。
 
 ## 収録範囲
 
-408 Unicode文字（空白・私用領域を含む）、411グリフ。ひらがな U+3041–3096、カタカナ U+30A1–30FA、ASCII、全角英数字、基本記号と以下の25漢字を収録しています。
-
-丸猫肉球暮日月好夢春夏秋冬花空小大幸色白黒茶店休中
+開発版は6,770 Unicode文字（空白・私用領域を含む）、6,773グリフ。ひらがな・カタカナ・ASCII・全角英数字・基本記号と、JIS第1・第2水準の漢字6,355字を収録しています。
 
 完全な一覧は `outputs/CHARACTERS.md` と `outputs/characters.txt`。肉球は U+E000、猫顔は U+E001、足跡は U+1F43E です。絵文字を優先するアプリでは U+1F43E が別書体になる場合があるため、肉球単体には U+E000 を使います。
 
-未収録: 上記以外の漢字、半角カナ、結合濁点 U+3099・U+309A、★☆゛゜＃＊－￥など。濁音・半濁音は「が」「ぱ」などの合成済み文字（NFC）を使ってください。縦組み専用処理、カーニング、ヒンティングは未実装です。小サイズでは装飾や細かな空間が見えにくいため、大きな見出し向けです。
+現在補完中: Windows拡張漢字・記号、半角カナ、結合濁点 U+3099・U+309A、★☆゛゜＃＊－￥など。濁音・半濁音は「が」「ぱ」などの合成済み文字（NFC）を使ってください。縦組み専用処理、カーニング、ヒンティングは未実装です。小サイズでは装飾や細かな空間が見えにくいため、大きな見出し向けです。
 
 ## 編集と再ビルド
 
@@ -69,10 +69,10 @@ python -m venv .venv
 
 ## 検証と成果物
 
-`python -X utf8 audit_pages.py` で全408文字＋2異体字のブラウザー確認ページを生成します。`python -X utf8 package.py` で環境ファイルを含まないZIPを作成します。`harmonize.py` と `artifact_io.py` もビルドに必要です。`outputs/audit/manifest.json` がスクショの対象一覧です。
+`python -X utf8 audit_pages.py` で現在の全収録文字＋2異体字のブラウザー確認ページを生成します。`python -X utf8 package.py` で環境ファイルを含まないZIPを作成します。`harmonize.py` と `artifact_io.py` もビルドに必要です。`outputs/audit/manifest.json` がスクショの対象一覧です。
 
 - `outputs/specimen.png`: 実TTFで描画した使用見本。
-- `outputs/charset-01.png` ～ `charset-05.png`: 全収録文字の一覧画像。
+- `outputs/charset-*.png`: 全収録文字の一覧画像。
 - `outputs/size-proof.png`: 16・24・32・48・72pxの文字組み。
 - `outputs/verification.json`: 全非空白文字の64px描画、字幅・上下範囲、TTF/WOFF2の対応文字一致、SHA-256。
 

@@ -106,7 +106,7 @@ def generate_sources():
     gs=base.getGlyphSet(); cmap=base.getBestCmap()
     font=Font(); font.info.familyName=CONFIG['family']; font.info.styleName='Regular'
     font.info.unitsPerEm=1000; font.info.ascender=1200; font.info.descender=-350
-    font.info.versionMajor=0; font.info.versionMinor=102; font.info.copyright=COPYRIGHT
+    font.info.versionMajor=0; font.info.versionMinor=int(CONFIG['version'].split('.')[1]); font.info.copyright=COPYRIGHT
     font.info.openTypeNameLicense='SIL Open Font License, Version 1.1'
     font.info.openTypeNameLicenseURL='https://openfontlicense.org'
     order=[]; missing=[]; mods={}
@@ -114,7 +114,8 @@ def generate_sources():
     pen=nd.getPen(); pen.moveTo((140,0));pen.lineTo((140,780));pen.lineTo((860,780));pen.lineTo((860,0));pen.closePath()
     pen.moveTo((215,75));pen.lineTo((785,75));pen.lineTo((785,705));pen.lineTo((215,705));pen.closePath()
     order.append('.notdef')
-    for ch in character_set():
+    for index,ch in enumerate(character_set()):
+        if index%500==0: print(f'Generating {index}/{len(character_set())}',flush=True)
         cp=ord(ch); name=f'uni{cp:04X}' if cp<=0xffff else f'u{cp:05X}'
         if cp in [0xe000,0xe001,0x1f43e]:
             p=cat() if cp==0xe001 else paw(); width=1000
@@ -125,7 +126,7 @@ def generate_sources():
             if src_cp not in cmap: missing.append(ch); continue
             g=gs[cmap[src_cp]]; p=pathops.Path(); rec=DecomposingRecordingPen(gs); g.draw(rec); rec.replay(p.getPen()); width=g.width
             if len(p):
-                is_kanji=ch in KANJI or ch in CONFIG['kanji']
+                is_kanji=ch in KANJI or ch in CONFIG['kanji'] or 0x3400<=cp<=0x9fff or 0xf900<=cp<=0xfaff or cp>=0x20000
                 # Keep cramped diacritics and dense CJK counters open.
                 radius=CONFIG['kanji_rounding_radius'] if is_kanji else CONFIG['rounding_radius']
                 weight=CONFIG['kanji_weight_expansion'] if is_kanji else CONFIG['weight_expansion']
@@ -157,6 +158,8 @@ def generate_sources():
                     p=p.transform(1,0,0,1,dx,0)
                 else:
                     p=p.transform(.90,0,0,.92,50,0)
+                if p.bounds[2]>width:
+                    width=round(p.bounds[2]+45)
         glyph=font.newGlyph(name); glyph.width=width; glyph.unicodes=[cp]
         p=pathops.simplify(p); p.convertConicsToQuads(.25)
         p.draw(glyph.getPen()); order.append(name)
@@ -193,8 +196,8 @@ def compile_font():
     fb.setupGlyf(glyphs); fb.setupHorizontalMetrics(metrics)
     fb.setupHorizontalHeader(ascent=1200,descent=-350,lineGap=0)
     fb.setupNameTable({'familyName':'Nikukyu Maru','styleName':'Regular',
-        'uniqueFontIdentifier':'NikukyuMaru-Regular-0.102','fullName':'Nikukyu Maru Regular',
-        'psName':'NikukyuMaru-Regular','version':'Version 0.102',
+        'uniqueFontIdentifier':f"NikukyuMaru-Regular-{CONFIG['version']}",'fullName':'Nikukyu Maru Regular',
+        'psName':'NikukyuMaru-Regular','version':f"Version {CONFIG['version']}",
         'copyright':COPYRIGHT,'manufacturer':'Nikukyu Maru project',
         'description':'Plush rounded display typeface with cat-ear and paw accents. Modified from Mochiy Pop One.',
         'licenseDescription':'This Font Software is licensed under the SIL Open Font License, Version 1.1.',
@@ -213,7 +216,7 @@ def compile_font():
     fb.font.flavor='woff2';save_font(fb,OUT/'NikukyuMaru-Regular.woff2')
     chars=''.join(chr(u) for u in sorted(cmap))
     (OUT/'characters.txt').write_text(chars+'\n',encoding='utf-8')
-    lines=['# 対応文字一覧 — にくきゅう丸 0.102','',f'{len(cmap)} Unicode文字。空白・私用領域を含みます。','',
+    lines=[f"# 対応文字一覧 — にくきゅう丸 {CONFIG['version']}",'',f'{len(cmap)} Unicode文字。空白・私用領域を含みます。','',
         '|文字|コードポイント|Unicode名|','|---|---|---|']
     for u in sorted(cmap):
         ch=chr(u); display=ch.replace('|','&#124;')

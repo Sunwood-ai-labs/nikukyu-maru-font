@@ -1,17 +1,17 @@
 {
-  "unicode_characters": 408,
-  "glyphs": 411,
+  "unicode_characters": 6770,
+  "glyphs": 6773,
   "errors": [],
   "ttf_woff2_cmap_match": true,
   "ss01_alternates_bounds_checked": true,
   "all_supported_nonspace_characters_rasterized_at_px": 64,
   "vertical_extrema": [
     -307,
-    1119
+    1123
   ],
   "sha256": {
-    "NikukyuMaru-Regular.ttf": "70823b5a9dd0191c2e8aba8a0e53125c8300ca9999c378094a144339273ff437",
-    "NikukyuMaru-Regular.woff2": "7fb1ad58f326d0938fd99f0f29a166b6cf069234ed5db8c0ebe752a03cabffbd"
+    "NikukyuMaru-Regular.ttf": "10cca687fdf0e0965f41f35e6a32379e44122608ba70110339d65802ee033f34",
+    "NikukyuMaru-Regular.woff2": "096b67ca2cc28872ca2768f3f139f9e07ba21ca85bf78d172679f8852bf7a725"
   },
   "limits": [
     "Horizontal display font; vertical layout not implemented.",
