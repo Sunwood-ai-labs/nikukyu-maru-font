@@ -27,4 +27,4 @@ def cp932_characters():
 
 
 def requested_characters():
-    return KANJI | SYMBOLS | cp932_characters() | set('𠮟㋿㍿') | {chr(cp) for cp in range(0xff61, 0xffa0)}
+    return KANJI | SYMBOLS | cp932_characters() | set('𠮟𠮷㋿㍿©®€™≤≥') | {chr(cp) for cp in range(0xff61, 0xffa0)}

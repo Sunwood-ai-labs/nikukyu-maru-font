@@ -496,7 +496,6 @@ def outline_for(
             base_font=base_font,
             supplemental_font=supplemental_font,
         )
-
     candidate = _candidate_source(
         codepoint,
         base_cmap=base_cmap,
@@ -564,7 +563,9 @@ def add_missing_glyphs(
     can be set to ``(.90, 0, 0, .92, 50, 0)`` to mirror build.py's CJK optical
     transform for direct Zen glyphs; aliases are already normalized by
     ``outline_for`` and are not transformed a second time.  Direct Latin-1
-    additions receive proportional sidebearings automatically.
+    additions receive proportional sidebearings automatically.  Box-drawing
+    code points retain their edge-to-edge 1em source outline so repeated rules
+    connect without seams.
     """
 
     supplemental_font = supplemental_font or open_supplemental_font()
@@ -589,14 +590,21 @@ def add_missing_glyphs(
             continue
         path = outline.path
         width = outline.width
+        codepoint = ord(char)
+        is_box_drawing = 0x2500 <= codepoint <= 0x257F
         if (
-            ord(char) >= 0x100
+            codepoint >= 0x100
+            and not is_box_drawing
             and outline.operation not in ("fullwidth", "halfwidth", "base-alias")
             and direct_transform is not None
         ):
             path = path.transform(*direct_transform)
         is_external_source = not outline.source.startswith("destination UFO")
-        if rounder is not None and is_external_source:
+        # Box drawing glyphs use edge-to-edge advances by design.  Applying
+        # the optical inset or rounding them would introduce visible seams
+        # when ``────`` or ``┼┼┼`` is repeated, so retain the pinned source
+        # outline and 1em advance verbatim.
+        if rounder is not None and is_external_source and not is_box_drawing:
             for attempt in range(6):
                 try:
                     path = rounder(

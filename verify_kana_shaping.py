@@ -193,7 +193,11 @@ def check_font(path: Path) -> dict:
     for base, mark, composed in EXPECTED_CANONICAL:
         text = chr(base) + chr(mark)
         expected = glyph_name(composed)
-        expected_advance = font["hmtx"][expected][0] if expected in font["hmtx"] else None
+        expected_advance = (
+            font["hmtx"][expected][0]
+            if expected in font.getGlyphOrder()
+            else None
+        )
         result = shape(path, text)
         passed = (
             len(result) == 1

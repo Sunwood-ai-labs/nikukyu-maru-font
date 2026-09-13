@@ -32,13 +32,16 @@ def stroke(p, width):
 def soften(p, radius, weight, preserve_separation=False):
     if not len(p): return p
     contours=list(pathops.simplify(p).contours)
-    result=pathops.Path()
-    holes=[];opened_shapes=[]
+    exteriors=[c for c in contours if not c.clockwise]
+    owned_holes=[[] for _ in exteriors];opened_shapes=[]
+    for hole in (c for c in contours if c.clockwise):
+        point=next(iter(hole.segments))[1][0]
+        owners=[i for i,c in enumerate(exteriors) if c.area>hole.area and c.contains(point)]
+        if not owners:raise ValueError('Counter has no containing silhouette')
+        owned_holes[min(owners,key=lambda i:exteriors[i].area)].append(hole)
     # Round each silhouette separately so thin marks cannot disappear during
     # erosion of a larger, complex glyph. Retain counters as negative shapes.
-    for contour in contours:
-        if contour.clockwise:
-            holes.append(contour);continue
+    for contour in exteriors:
         b=contour.bounds
         r=min(radius,(b[2]-b[0])*.24,(b[3]-b[1])*.24)
         inner=boolean(contour,stroke(contour,2*r),pathops.PathOp.DIFFERENCE)
@@ -51,21 +54,21 @@ def soften(p, radius, weight, preserve_separation=False):
             inner=boolean(contour,stroke(contour,2*r),pathops.PathOp.DIFFERENCE)
             opened=boolean(inner,stroke(inner,2*r)) if len(inner) else contour
         opened_shapes.append(opened)
-        rounded=boolean(opened,stroke(opened,2*weight)) if weight else opened
-        result=boolean(result,rounded)
-    for hole in holes:
-        result=boolean(result,hole,pathops.PathOp.DIFFERENCE)
+    def assemble(expansion):
+        result=pathops.Path()
+        for opened,holes in zip(opened_shapes,owned_holes):
+            rounded=boolean(opened,stroke(opened,2*expansion)) if expansion else opened
+            for hole in holes:
+                rounded=boolean(rounded,hole,pathops.PathOp.DIFFERENCE)
+            result=boolean(result,rounded)
+        return result
+    result=assemble(weight)
     if preserve_separation and weight>0:
         before=sum(not c.clockwise for c in contours)
         after=sum(not c.clockwise for c in result.contours)
         while after<before and weight>0:
             weight=weight*.5 if weight>1 else 0
-            result=pathops.Path()
-            for opened in opened_shapes:
-                rounded=boolean(opened,stroke(opened,2*weight)) if weight else opened
-                result=boolean(result,rounded)
-            for hole in holes:
-                result=boolean(result,hole,pathops.PathOp.DIFFERENCE)
+            result=assemble(weight)
             after=sum(not c.clockwise for c in result.contours)
     return result
 
