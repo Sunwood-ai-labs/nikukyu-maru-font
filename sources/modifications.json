@@ -1,0 +1,1578 @@
+{
+  "!": [
+    "rounded",
+    "weight"
+  ],
+  "\"": [
+    "rounded",
+    "weight"
+  ],
+  "#": [
+    "rounded",
+    "weight"
+  ],
+  "$": [
+    "rounded",
+    "weight"
+  ],
+  "%": [
+    "rounded",
+    "weight"
+  ],
+  "&": [
+    "approved-reference-vector-outline"
+  ],
+  "'": [
+    "rounded",
+    "weight"
+  ],
+  "(": [
+    "rounded",
+    "weight"
+  ],
+  ")": [
+    "rounded",
+    "weight"
+  ],
+  "*": [
+    "rounded",
+    "weight"
+  ],
+  "+": [
+    "rounded",
+    "weight"
+  ],
+  ",": [
+    "rounded",
+    "weight"
+  ],
+  "-": [
+    "rounded",
+    "weight"
+  ],
+  ".": [
+    "rounded",
+    "weight"
+  ],
+  "/": [
+    "rounded",
+    "weight"
+  ],
+  "0": [
+    "approved-reference-vector-outline"
+  ],
+  "1": [
+    "approved-reference-vector-outline"
+  ],
+  "2": [
+    "approved-reference-vector-outline"
+  ],
+  "3": [
+    "approved-reference-vector-outline"
+  ],
+  "4": [
+    "approved-reference-vector-outline"
+  ],
+  "5": [
+    "approved-reference-vector-outline"
+  ],
+  "6": [
+    "approved-reference-vector-outline"
+  ],
+  "7": [
+    "approved-reference-vector-outline"
+  ],
+  "8": [
+    "approved-reference-vector-outline"
+  ],
+  "9": [
+    "approved-reference-vector-outline"
+  ],
+  ":": [
+    "rounded",
+    "weight"
+  ],
+  ";": [
+    "rounded",
+    "weight"
+  ],
+  "<": [
+    "rounded",
+    "weight"
+  ],
+  "=": [
+    "rounded",
+    "weight"
+  ],
+  ">": [
+    "rounded",
+    "weight"
+  ],
+  "?": [
+    "rounded",
+    "weight"
+  ],
+  "@": [
+    "rounded",
+    "weight"
+  ],
+  "A": [
+    "approved-reference-vector-outline"
+  ],
+  "B": [
+    "rounded",
+    "weight"
+  ],
+  "C": [
+    "approved-reference-vector-outline"
+  ],
+  "D": [
+    "rounded",
+    "weight"
+  ],
+  "E": [
+    "rounded",
+    "weight"
+  ],
+  "F": [
+    "rounded",
+    "weight"
+  ],
+  "G": [
+    "rounded",
+    "weight"
+  ],
+  "H": [
+    "rounded",
+    "weight"
+  ],
+  "I": [
+    "rounded",
+    "weight"
+  ],
+  "J": [
+    "rounded",
+    "weight"
+  ],
+  "K": [
+    "rounded",
+    "weight"
+  ],
+  "L": [
+    "rounded",
+    "weight"
+  ],
+  "M": [
+    "rounded",
+    "weight"
+  ],
+  "N": [
+    "rounded",
+    "weight"
+  ],
+  "O": [
+    "rounded",
+    "weight"
+  ],
+  "P": [
+    "rounded",
+    "weight"
+  ],
+  "Q": [
+    "rounded",
+    "weight"
+  ],
+  "R": [
+    "rounded",
+    "weight"
+  ],
+  "S": [
+    "rounded",
+    "weight"
+  ],
+  "T": [
+    "approved-reference-vector-outline"
+  ],
+  "U": [
+    "rounded",
+    "weight"
+  ],
+  "V": [
+    "rounded",
+    "weight"
+  ],
+  "W": [
+    "rounded",
+    "weight"
+  ],
+  "X": [
+    "rounded",
+    "weight"
+  ],
+  "Y": [
+    "rounded",
+    "weight"
+  ],
+  "Z": [
+    "rounded",
+    "weight"
+  ],
+  "[": [
+    "rounded",
+    "weight"
+  ],
+  "\\": [
+    "rounded",
+    "weight"
+  ],
+  "]": [
+    "rounded",
+    "weight"
+  ],
+  "^": [
+    "rounded",
+    "weight"
+  ],
+  "_": [
+    "rounded",
+    "weight"
+  ],
+  "`": [
+    "rounded",
+    "weight"
+  ],
+  "a": [
+    "approved-reference-vector-outline"
+  ],
+  "b": [
+    "rounded",
+    "weight"
+  ],
+  "c": [
+    "rounded",
+    "weight"
+  ],
+  "d": [
+    "rounded",
+    "weight"
+  ],
+  "e": [
+    "rounded",
+    "weight"
+  ],
+  "f": [
+    "rounded",
+    "weight"
+  ],
+  "g": [
+    "rounded",
+    "weight"
+  ],
+  "h": [
+    "rounded",
+    "weight"
+  ],
+  "i": [
+    "rounded",
+    "weight"
+  ],
+  "j": [
+    "rounded",
+    "weight"
+  ],
+  "k": [
+    "rounded",
+    "weight"
+  ],
+  "l": [
+    "rounded",
+    "weight"
+  ],
+  "m": [
+    "rounded",
+    "weight"
+  ],
+  "n": [
+    "approved-reference-vector-outline"
+  ],
+  "o": [
+    "rounded",
+    "weight"
+  ],
+  "p": [
+    "approved-reference-vector-outline"
+  ],
+  "q": [
+    "rounded",
+    "weight"
+  ],
+  "r": [
+    "rounded",
+    "weight"
+  ],
+  "s": [
+    "rounded",
+    "weight"
+  ],
+  "t": [
+    "rounded",
+    "weight"
+  ],
+  "u": [
+    "rounded",
+    "weight"
+  ],
+  "v": [
+    "rounded",
+    "weight"
+  ],
+  "w": [
+    "rounded",
+    "weight"
+  ],
+  "x": [
+    "rounded",
+    "weight"
+  ],
+  "y": [
+    "rounded",
+    "weight"
+  ],
+  "z": [
+    "rounded",
+    "weight"
+  ],
+  "{": [
+    "rounded",
+    "weight"
+  ],
+  "|": [
+    "rounded",
+    "weight"
+  ],
+  "}": [
+    "rounded",
+    "weight"
+  ],
+  "~": [
+    "rounded",
+    "weight"
+  ],
+  "°": [
+    "rounded",
+    "weight"
+  ],
+  "±": [
+    "rounded",
+    "weight"
+  ],
+  "×": [
+    "rounded",
+    "weight"
+  ],
+  "÷": [
+    "rounded",
+    "weight"
+  ],
+  "—": [
+    "rounded",
+    "weight"
+  ],
+  "‥": [
+    "rounded",
+    "weight"
+  ],
+  "…": [
+    "rounded",
+    "weight"
+  ],
+  "←": [
+    "rounded",
+    "weight"
+  ],
+  "↑": [
+    "rounded",
+    "weight"
+  ],
+  "→": [
+    "rounded",
+    "weight"
+  ],
+  "↓": [
+    "rounded",
+    "weight"
+  ],
+  "♡": [
+    "rounded",
+    "weight"
+  ],
+  "♥": [
+    "rounded",
+    "weight"
+  ],
+  "♪": [
+    "rounded",
+    "weight"
+  ],
+  "、": [
+    "rounded",
+    "weight"
+  ],
+  "。": [
+    "rounded",
+    "weight"
+  ],
+  "々": [
+    "rounded",
+    "weight"
+  ],
+  "〆": [
+    "rounded",
+    "weight"
+  ],
+  "〇": [
+    "rounded",
+    "weight"
+  ],
+  "「": [
+    "rounded",
+    "weight"
+  ],
+  "」": [
+    "rounded",
+    "weight"
+  ],
+  "『": [
+    "rounded",
+    "weight"
+  ],
+  "』": [
+    "rounded",
+    "weight"
+  ],
+  "〜": [
+    "rounded",
+    "weight"
+  ],
+  "ぁ": [
+    "rounded",
+    "weight"
+  ],
+  "あ": [
+    "rounded",
+    "weight"
+  ],
+  "ぃ": [
+    "rounded",
+    "weight"
+  ],
+  "い": [
+    "approved-reference-vector-outline"
+  ],
+  "ぅ": [
+    "rounded",
+    "weight"
+  ],
+  "う": [
+    "approved-reference-vector-outline"
+  ],
+  "ぇ": [
+    "rounded",
+    "weight"
+  ],
+  "え": [
+    "rounded",
+    "weight"
+  ],
+  "ぉ": [
+    "rounded",
+    "weight"
+  ],
+  "お": [
+    "approved-reference-vector-outline"
+  ],
+  "か": [
+    "rounded",
+    "weight"
+  ],
+  "が": [
+    "rounded",
+    "weight"
+  ],
+  "き": [
+    "approved-reference-vector-outline"
+  ],
+  "ぎ": [
+    "rounded",
+    "weight"
+  ],
+  "く": [
+    "approved-reference-vector-outline"
+  ],
+  "ぐ": [
+    "rounded",
+    "weight"
+  ],
+  "け": [
+    "rounded",
+    "weight"
+  ],
+  "げ": [
+    "rounded",
+    "weight"
+  ],
+  "こ": [
+    "approved-reference-vector-outline"
+  ],
+  "ご": [
+    "rounded",
+    "weight"
+  ],
+  "さ": [
+    "rounded",
+    "weight"
+  ],
+  "ざ": [
+    "rounded",
+    "weight"
+  ],
+  "し": [
+    "approved-reference-vector-outline"
+  ],
+  "じ": [
+    "rounded",
+    "weight"
+  ],
+  "す": [
+    "rounded",
+    "weight"
+  ],
+  "ず": [
+    "rounded",
+    "weight"
+  ],
+  "せ": [
+    "rounded",
+    "weight"
+  ],
+  "ぜ": [
+    "rounded",
+    "weight"
+  ],
+  "そ": [
+    "rounded",
+    "weight"
+  ],
+  "ぞ": [
+    "rounded",
+    "weight"
+  ],
+  "た": [
+    "rounded",
+    "weight"
+  ],
+  "だ": [
+    "rounded",
+    "weight"
+  ],
+  "ち": [
+    "rounded",
+    "weight"
+  ],
+  "ぢ": [
+    "rounded",
+    "weight"
+  ],
+  "っ": [
+    "rounded",
+    "weight"
+  ],
+  "つ": [
+    "rounded",
+    "weight"
+  ],
+  "づ": [
+    "rounded",
+    "weight"
+  ],
+  "て": [
+    "rounded",
+    "weight"
+  ],
+  "で": [
+    "rounded",
+    "weight"
+  ],
+  "と": [
+    "approved-reference-vector-outline"
+  ],
+  "ど": [
+    "rounded",
+    "weight"
+  ],
+  "な": [
+    "rounded",
+    "weight"
+  ],
+  "に": [
+    "approved-reference-vector-outline"
+  ],
+  "ぬ": [
+    "rounded",
+    "weight"
+  ],
+  "ね": [
+    "approved-reference-vector-outline"
+  ],
+  "の": [
+    "approved-reference-vector-outline"
+  ],
+  "は": [
+    "rounded",
+    "weight"
+  ],
+  "ば": [
+    "rounded",
+    "weight"
+  ],
+  "ぱ": [
+    "rounded",
+    "weight"
+  ],
+  "ひ": [
+    "approved-reference-vector-outline"
+  ],
+  "び": [
+    "rounded",
+    "weight"
+  ],
+  "ぴ": [
+    "rounded",
+    "weight"
+  ],
+  "ふ": [
+    "rounded",
+    "weight"
+  ],
+  "ぶ": [
+    "rounded",
+    "weight"
+  ],
+  "ぷ": [
+    "rounded",
+    "weight"
+  ],
+  "へ": [
+    "rounded",
+    "weight"
+  ],
+  "べ": [
+    "rounded",
+    "weight"
+  ],
+  "ぺ": [
+    "rounded",
+    "weight"
+  ],
+  "ほ": [
+    "rounded",
+    "weight"
+  ],
+  "ぼ": [
+    "rounded",
+    "weight"
+  ],
+  "ぽ": [
+    "rounded",
+    "weight"
+  ],
+  "ま": [
+    "rounded",
+    "weight"
+  ],
+  "み": [
+    "rounded",
+    "weight"
+  ],
+  "む": [
+    "rounded",
+    "weight"
+  ],
+  "め": [
+    "rounded",
+    "weight"
+  ],
+  "も": [
+    "rounded",
+    "weight"
+  ],
+  "ゃ": [
+    "approved-reference-vector-outline"
+  ],
+  "や": [
+    "rounded",
+    "weight"
+  ],
+  "ゅ": [
+    "approved-reference-vector-outline"
+  ],
+  "ゆ": [
+    "rounded",
+    "weight"
+  ],
+  "ょ": [
+    "rounded",
+    "weight"
+  ],
+  "よ": [
+    "rounded",
+    "weight"
+  ],
+  "ら": [
+    "approved-reference-vector-outline"
+  ],
+  "り": [
+    "rounded",
+    "weight"
+  ],
+  "る": [
+    "approved-reference-vector-outline"
+  ],
+  "れ": [
+    "rounded",
+    "weight"
+  ],
+  "ろ": [
+    "rounded",
+    "weight"
+  ],
+  "ゎ": [
+    "rounded",
+    "weight"
+  ],
+  "わ": [
+    "rounded",
+    "weight"
+  ],
+  "ゐ": [
+    "rounded",
+    "weight"
+  ],
+  "ゑ": [
+    "rounded",
+    "weight"
+  ],
+  "を": [
+    "rounded",
+    "weight"
+  ],
+  "ん": [
+    "approved-reference-vector-outline"
+  ],
+  "ゔ": [
+    "rounded",
+    "weight"
+  ],
+  "ゕ": [
+    "rounded",
+    "weight"
+  ],
+  "ゖ": [
+    "rounded",
+    "weight"
+  ],
+  "ゝ": [
+    "rounded",
+    "weight"
+  ],
+  "ゞ": [
+    "rounded",
+    "weight"
+  ],
+  "ァ": [
+    "rounded",
+    "weight"
+  ],
+  "ア": [
+    "rounded",
+    "weight"
+  ],
+  "ィ": [
+    "rounded",
+    "weight"
+  ],
+  "イ": [
+    "rounded",
+    "weight"
+  ],
+  "ゥ": [
+    "rounded",
+    "weight"
+  ],
+  "ウ": [
+    "rounded",
+    "weight"
+  ],
+  "ェ": [
+    "rounded",
+    "weight"
+  ],
+  "エ": [
+    "rounded",
+    "weight"
+  ],
+  "ォ": [
+    "rounded",
+    "weight"
+  ],
+  "オ": [
+    "rounded",
+    "weight"
+  ],
+  "カ": [
+    "rounded",
+    "weight"
+  ],
+  "ガ": [
+    "rounded",
+    "weight"
+  ],
+  "キ": [
+    "rounded",
+    "weight"
+  ],
+  "ギ": [
+    "rounded",
+    "weight"
+  ],
+  "ク": [
+    "rounded",
+    "weight"
+  ],
+  "グ": [
+    "rounded",
+    "weight"
+  ],
+  "ケ": [
+    "rounded",
+    "weight"
+  ],
+  "ゲ": [
+    "rounded",
+    "weight"
+  ],
+  "コ": [
+    "approved-reference-vector-outline"
+  ],
+  "ゴ": [
+    "rounded",
+    "weight"
+  ],
+  "サ": [
+    "rounded",
+    "weight"
+  ],
+  "ザ": [
+    "rounded",
+    "weight"
+  ],
+  "シ": [
+    "rounded",
+    "weight"
+  ],
+  "ジ": [
+    "rounded",
+    "weight"
+  ],
+  "ス": [
+    "rounded",
+    "weight"
+  ],
+  "ズ": [
+    "rounded",
+    "weight"
+  ],
+  "セ": [
+    "rounded",
+    "weight"
+  ],
+  "ゼ": [
+    "rounded",
+    "weight"
+  ],
+  "ソ": [
+    "rounded",
+    "weight"
+  ],
+  "ゾ": [
+    "rounded",
+    "weight"
+  ],
+  "タ": [
+    "rounded",
+    "weight"
+  ],
+  "ダ": [
+    "rounded",
+    "weight"
+  ],
+  "チ": [
+    "rounded",
+    "weight"
+  ],
+  "ヂ": [
+    "rounded",
+    "weight"
+  ],
+  "ッ": [
+    "rounded",
+    "weight"
+  ],
+  "ツ": [
+    "rounded",
+    "weight"
+  ],
+  "ヅ": [
+    "rounded",
+    "weight"
+  ],
+  "テ": [
+    "rounded",
+    "weight"
+  ],
+  "デ": [
+    "rounded",
+    "weight"
+  ],
+  "ト": [
+    "rounded",
+    "weight"
+  ],
+  "ド": [
+    "rounded",
+    "weight"
+  ],
+  "ナ": [
+    "rounded",
+    "weight"
+  ],
+  "ニ": [
+    "rounded",
+    "weight"
+  ],
+  "ヌ": [
+    "rounded",
+    "weight"
+  ],
+  "ネ": [
+    "approved-reference-vector-outline"
+  ],
+  "ノ": [
+    "rounded",
+    "weight"
+  ],
+  "ハ": [
+    "rounded",
+    "weight"
+  ],
+  "バ": [
+    "rounded",
+    "weight"
+  ],
+  "パ": [
+    "rounded",
+    "weight"
+  ],
+  "ヒ": [
+    "rounded",
+    "weight"
+  ],
+  "ビ": [
+    "rounded",
+    "weight"
+  ],
+  "ピ": [
+    "rounded",
+    "weight"
+  ],
+  "フ": [
+    "rounded",
+    "weight"
+  ],
+  "ブ": [
+    "rounded",
+    "weight"
+  ],
+  "プ": [
+    "rounded",
+    "weight"
+  ],
+  "ヘ": [
+    "rounded",
+    "weight"
+  ],
+  "ベ": [
+    "rounded",
+    "weight"
+  ],
+  "ペ": [
+    "rounded",
+    "weight"
+  ],
+  "ホ": [
+    "rounded",
+    "weight"
+  ],
+  "ボ": [
+    "rounded",
+    "weight"
+  ],
+  "ポ": [
+    "rounded",
+    "weight"
+  ],
+  "マ": [
+    "rounded",
+    "weight"
+  ],
+  "ミ": [
+    "rounded",
+    "weight"
+  ],
+  "ム": [
+    "rounded",
+    "weight"
+  ],
+  "メ": [
+    "rounded",
+    "weight"
+  ],
+  "モ": [
+    "rounded",
+    "weight"
+  ],
+  "ャ": [
+    "rounded",
+    "weight"
+  ],
+  "ヤ": [
+    "rounded",
+    "weight"
+  ],
+  "ュ": [
+    "rounded",
+    "weight"
+  ],
+  "ユ": [
+    "rounded",
+    "weight"
+  ],
+  "ョ": [
+    "rounded",
+    "weight"
+  ],
+  "ヨ": [
+    "rounded",
+    "weight"
+  ],
+  "ラ": [
+    "rounded",
+    "weight"
+  ],
+  "リ": [
+    "rounded",
+    "weight"
+  ],
+  "ル": [
+    "rounded",
+    "weight"
+  ],
+  "レ": [
+    "rounded",
+    "weight"
+  ],
+  "ロ": [
+    "rounded",
+    "weight"
+  ],
+  "ヮ": [
+    "rounded",
+    "weight"
+  ],
+  "ワ": [
+    "rounded",
+    "weight"
+  ],
+  "ヰ": [
+    "rounded",
+    "weight"
+  ],
+  "ヱ": [
+    "rounded",
+    "weight"
+  ],
+  "ヲ": [
+    "rounded",
+    "weight"
+  ],
+  "ン": [
+    "rounded",
+    "weight"
+  ],
+  "ヴ": [
+    "rounded",
+    "weight"
+  ],
+  "ヵ": [
+    "rounded",
+    "weight"
+  ],
+  "ヶ": [
+    "rounded",
+    "weight"
+  ],
+  "ヷ": [
+    "rounded",
+    "weight"
+  ],
+  "ヸ": [
+    "rounded",
+    "weight"
+  ],
+  "ヹ": [
+    "rounded",
+    "weight"
+  ],
+  "ヺ": [
+    "rounded",
+    "weight"
+  ],
+  "・": [
+    "rounded",
+    "weight"
+  ],
+  "ー": [
+    "rounded",
+    "weight"
+  ],
+  "ヽ": [
+    "rounded",
+    "weight"
+  ],
+  "ヾ": [
+    "rounded",
+    "weight"
+  ],
+  "中": [
+    "rounded",
+    "weight"
+  ],
+  "丸": [
+    "approved-reference-vector-outline"
+  ],
+  "休": [
+    "rounded",
+    "weight"
+  ],
+  "冬": [
+    "rounded",
+    "weight"
+  ],
+  "夏": [
+    "rounded",
+    "weight"
+  ],
+  "夢": [
+    "rounded",
+    "weight"
+  ],
+  "大": [
+    "rounded",
+    "weight"
+  ],
+  "好": [
+    "rounded",
+    "weight"
+  ],
+  "小": [
+    "rounded",
+    "weight"
+  ],
+  "幸": [
+    "rounded",
+    "weight"
+  ],
+  "店": [
+    "rounded",
+    "weight"
+  ],
+  "日": [
+    "rounded",
+    "weight"
+  ],
+  "春": [
+    "rounded",
+    "weight"
+  ],
+  "暮": [
+    "approved-reference-vector-outline"
+  ],
+  "月": [
+    "rounded",
+    "weight"
+  ],
+  "猫": [
+    "rounded",
+    "weight"
+  ],
+  "球": [
+    "rounded",
+    "weight"
+  ],
+  "白": [
+    "rounded",
+    "weight"
+  ],
+  "秋": [
+    "rounded",
+    "weight"
+  ],
+  "空": [
+    "rounded",
+    "weight"
+  ],
+  "肉": [
+    "rounded",
+    "weight"
+  ],
+  "色": [
+    "rounded",
+    "weight"
+  ],
+  "花": [
+    "rounded",
+    "weight"
+  ],
+  "茶": [
+    "rounded",
+    "weight"
+  ],
+  "黒": [
+    "rounded",
+    "weight"
+  ],
+  "！": [
+    "rounded",
+    "weight"
+  ],
+  "％": [
+    "rounded",
+    "weight"
+  ],
+  "＆": [
+    "rounded",
+    "weight"
+  ],
+  "（": [
+    "rounded",
+    "weight"
+  ],
+  "）": [
+    "rounded",
+    "weight"
+  ],
+  "＋": [
+    "rounded",
+    "weight"
+  ],
+  "０": [
+    "rounded",
+    "weight"
+  ],
+  "１": [
+    "rounded",
+    "weight"
+  ],
+  "２": [
+    "rounded",
+    "weight"
+  ],
+  "３": [
+    "rounded",
+    "weight"
+  ],
+  "４": [
+    "rounded",
+    "weight"
+  ],
+  "５": [
+    "rounded",
+    "weight"
+  ],
+  "６": [
+    "rounded",
+    "weight"
+  ],
+  "７": [
+    "rounded",
+    "weight"
+  ],
+  "８": [
+    "rounded",
+    "weight"
+  ],
+  "９": [
+    "rounded",
+    "weight"
+  ],
+  "：": [
+    "rounded",
+    "weight"
+  ],
+  "；": [
+    "rounded",
+    "weight"
+  ],
+  "＝": [
+    "rounded",
+    "weight"
+  ],
+  "？": [
+    "rounded",
+    "weight"
+  ],
+  "＠": [
+    "rounded",
+    "weight"
+  ],
+  "Ａ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｂ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｃ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｄ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｅ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｆ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｇ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｈ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｉ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｊ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｋ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｌ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｍ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｎ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｏ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｐ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｑ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｒ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｓ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｔ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｕ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｖ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｗ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｘ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｙ": [
+    "rounded",
+    "weight"
+  ],
+  "Ｚ": [
+    "rounded",
+    "weight"
+  ],
+  "［": [
+    "rounded",
+    "weight"
+  ],
+  "］": [
+    "rounded",
+    "weight"
+  ],
+  "ａ": [
+    "rounded",
+    "weight"
+  ],
+  "ｂ": [
+    "rounded",
+    "weight"
+  ],
+  "ｃ": [
+    "rounded",
+    "weight"
+  ],
+  "ｄ": [
+    "rounded",
+    "weight"
+  ],
+  "ｅ": [
+    "rounded",
+    "weight"
+  ],
+  "ｆ": [
+    "rounded",
+    "weight"
+  ],
+  "ｇ": [
+    "rounded",
+    "weight"
+  ],
+  "ｈ": [
+    "rounded",
+    "weight"
+  ],
+  "ｉ": [
+    "rounded",
+    "weight"
+  ],
+  "ｊ": [
+    "rounded",
+    "weight"
+  ],
+  "ｋ": [
+    "rounded",
+    "weight"
+  ],
+  "ｌ": [
+    "rounded",
+    "weight"
+  ],
+  "ｍ": [
+    "rounded",
+    "weight"
+  ],
+  "ｎ": [
+    "rounded",
+    "weight"
+  ],
+  "ｏ": [
+    "rounded",
+    "weight"
+  ],
+  "ｐ": [
+    "rounded",
+    "weight"
+  ],
+  "ｑ": [
+    "rounded",
+    "weight"
+  ],
+  "ｒ": [
+    "rounded",
+    "weight"
+  ],
+  "ｓ": [
+    "rounded",
+    "weight"
+  ],
+  "ｔ": [
+    "rounded",
+    "weight"
+  ],
+  "ｕ": [
+    "rounded",
+    "weight"
+  ],
+  "ｖ": [
+    "rounded",
+    "weight"
+  ],
+  "ｗ": [
+    "rounded",
+    "weight"
+  ],
+  "ｘ": [
+    "rounded",
+    "weight"
+  ],
+  "ｙ": [
+    "rounded",
+    "weight"
+  ],
+  "ｚ": [
+    "rounded",
+    "weight"
+  ],
+  "｛": [
+    "rounded",
+    "weight"
+  ],
+  "｝": [
+    "rounded",
+    "weight"
+  ],
+  "こ.alt": [
+    "approved-reference-vector-outline"
+  ],
+  "る.alt": [
+    "approved-reference-vector-outline"
+  ]
+}

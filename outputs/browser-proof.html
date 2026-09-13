@@ -1,0 +1,11 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><title>にくきゅう丸 表示検証</title>
+<style>
+@font-face{font-family:Nikukyu;src:url('NikukyuMaru-Regular.woff2');font-weight:800}
+*{box-sizing:border-box}body{margin:0;padding:32px;background:#fff8eb;color:#342622;font:16px Arial,sans-serif}main{max-width:1200px;margin:auto}h1{font:24px sans-serif}section{border-top:1px solid #d8c9b9;padding:16px 0}.font{font-family:Nikukyu;font-weight:800;line-height:1.55;overflow-wrap:anywhere;margin:0}.large{font-size:72px}.medium{font-size:48px}.small{font-size:24px}label{display:block;color:#806b60;margin-bottom:8px}#state{font:14px sans-serif}a{color:inherit}
+</style><main><h1>にくきゅう丸 / Webフォント実表示検証</h1><p id="state">フォント読込中</p>
+<section><label>72px — 見出し・装飾</label><p class="font large">ねこのいる暮らし</p><p class="font large">にゃんこ CAT &amp; nap 0123456789</p></section>
+<section><label>48px — 濁点・半濁点・括弧・下端</label><p class="font medium">はばぱ ひびぴ ふぶぷ へべぺ ほぼぽ</p><p class="font medium">ハバパ ヒビピ フブプ ヘベペ ホボポ</p><p class="font medium">「ねこ」『にゃんこ』 g p q y _ `</p></section>
+<section id="small"><label>24px — 小サイズ・漢字</label><p class="font small">ねこのいる暮らし。ぱぴぷぺぽ がぎぐげご</p><p class="font small">丸猫肉球暮日月好夢春夏秋冬花空小大幸色白黒茶店休中</p></section>
+<section><label>16px — 小サイズの限界確認</label><p class="font">ねこのいる暮らし。ぱぴぷぺぽ がぎぐげご</p></section>
+</main><script>document.fonts.ready.then(()=>{document.getElementById('state').textContent='Webフォント読込: '+(document.fonts.check('800 48px Nikukyu')?'OK':'NG')})</script></html>
+

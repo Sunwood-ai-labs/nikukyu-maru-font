@@ -1,0 +1,21 @@
+{
+  "unicode_characters": 408,
+  "glyphs": 411,
+  "errors": [],
+  "ttf_woff2_cmap_match": true,
+  "ss01_alternates_bounds_checked": true,
+  "all_supported_nonspace_characters_rasterized_at_px": 64,
+  "vertical_extrema": [
+    -317,
+    1131
+  ],
+  "sha256": {
+    "NikukyuMaru-Regular.ttf": "47425ae289108986367b9755da8c1a3df91a4fc16473be35f8911f1c780b3777",
+    "NikukyuMaru-Regular.woff2": "6f28d02a6f40196a46d6ff24b06fe89041cc40e76d8064beefa568b1fe97d61a"
+  },
+  "limits": [
+    "Horizontal display font; vertical layout not implemented.",
+    "NFC precomposed kana; combining marks U+3099/309A not supported.",
+    "Manual app installation not performed."
+  ]
+}
