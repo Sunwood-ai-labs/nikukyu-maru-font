@@ -3,8 +3,13 @@ from pathlib import Path
 import zipfile,json,hashlib
 ROOT=Path(__file__).resolve().parent
 version=json.loads((ROOT/'sources/design.json').read_text(encoding='utf-8-sig'))['version']
-files=['README.md','OFL.txt','BRIEF.md','PROGRESS.md','build.py','proof.py','harmonize.py','artifact_io.py','trace_reference.py','compare.py','audit_pages.py','package.py','supplemental.py','requirements.txt','requirements-trace.txt']
-files += ['coverage.py','supplemental.py','kana_features.py','japanese_validation.py','verify_kana_shaping.py','verify_windows_font.py','requirements-validation.txt']
+files=['.gitattributes','README.md','OFL.txt','BRIEF.md','PROGRESS.md','RELEASE-NOTES.md',
+       'build.py','proof.py','harmonize.py','artifact_io.py','trace_reference.py',
+       'trace_kanji_concept.py','concept_review.py','compare.py','audit_pages.py','package.py',
+       'supplemental.py','requirements.txt','requirements-trace.txt',
+       'coverage.py','kana_features.py','japanese_validation.py','practical_review.py',
+       'verify_kana_shaping.py','verify_kanji_concept.py','verify_windows_font.py',
+       'requirements-validation.txt']
 paths=[ROOT/f for f in files]
 for folder in ['sources','vendor','references','outputs']:
     paths.extend(p for p in (ROOT/folder).rglob('*') if p.is_file())

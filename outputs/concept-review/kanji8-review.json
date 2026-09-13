@@ -1,0 +1,13 @@
+{
+  "status": "prototype-reviewed-at-68px; broader-family-refinement-in-progress",
+  "characters": "名今日月年店休住",
+  "reference": "references/03-kanji-refined.png",
+  "screenshot": "outputs/concept-review/kanji8-browser.png",
+  "current_ttf_sha256": "38de48bb8c7b47c7ec4a06c769a788105bc4ecf540a949ce44e0ad414bc3fdb5",
+  "prototype_ttf_sha256": "0fc3a2f821a82f4d0d0d91e5503f8a8cdd173b7d2214fc95ed13e22eac93af47",
+  "findings": [
+    "The eight simple kanji have the intended plump curved silhouette in real browser text.",
+    "Unmodified complex kanji still need a softer compatible master.",
+    "Production adoption awaits small-size and outline checks."
+  ]
+}

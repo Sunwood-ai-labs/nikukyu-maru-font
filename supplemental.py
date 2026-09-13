@@ -449,6 +449,61 @@ def _reiwa_outline(
     return SupplementalOutline(body, 1000, source_kind + " (composed 令和)", None, "direct")
 
 
+def _inequality_outline(
+    codepoint: int,
+    *,
+    ufo,
+    base_font: TTFont | None,
+    supplemental_font: TTFont,
+) -> SupplementalOutline | None:
+    """Compose U+2264/U+2265 from the matching ASCII relation and ``_``.
+
+    Neither the Mochiy nor the pinned Zen source has the precomposed
+    less-than-or-equal marks.  Reusing the processed ``<``/``>`` keeps the
+    diagonal weight in the same family, while a single underscore supplies
+    the lower rule.  Each component is fitted independently to a fullwidth
+    cell so the result is stable whether it is built from a destination UFO,
+    the original Mochiy TTF, or the Zen fallback.
+    """
+
+    relation_cp = 0x003C if codepoint == 0x2264 else 0x003E
+    relation = _draw_available(
+        relation_cp,
+        ufo=ufo,
+        base_font=base_font,
+        supplemental_font=supplemental_font,
+    )
+    rule = _draw_available(
+        0x005F,
+        ufo=ufo,
+        base_font=base_font,
+        supplemental_font=supplemental_font,
+    )
+    if relation is None or rule is None:
+        return None
+
+    # The relation sits high and the rule sits below it, with a small clear
+    # gap that survives the optional rounder used by build.py.
+    relation_path = _fit_path(relation[0], (165, 400, 835, 820))
+    rule_path = _fit_path(rule[0], (165, 185, 835, 295))
+    body = pathops.op(relation_path, rule_path, pathops.PathOp.UNION)
+    source_kind = (
+        "destination UFO"
+        if relation[2] == rule[2] == "destination UFO"
+        else relation[2] if relation[2] == rule[2] else "Mochiy Pop One"
+    )
+    return SupplementalOutline(
+        body,
+        1000,
+        source_kind + " (composed relation + underscore)",
+        relation_cp,
+        # The components have already been fitted to the fullwidth cell.  A
+        # second CJK optical transform in add_missing_glyphs would make this
+        # comparison mark needlessly narrow.
+        "fullwidth",
+    )
+
+
 def outline_for(
     char: str,
     *,
@@ -476,8 +531,8 @@ def outline_for(
     supplemental_cmap = supplemental_font.getBestCmap()
     base_cmap = base_font.getBestCmap() if base_font is not None else None
 
-    # Three practical CP932 marks need a small construction because the
-    # pinned fallback lacks them as individual code points.
+    # Four practical CP932 marks need a small construction because the pinned
+    # fallback lacks them as individual code points.
     if codepoint == 0x2225:
         return _parallel_outline(
             ufo=ufo,
@@ -492,6 +547,13 @@ def outline_for(
         )
     if codepoint == 0x32FF:
         return _reiwa_outline(
+            ufo=ufo,
+            base_font=base_font,
+            supplemental_font=supplemental_font,
+        )
+    if codepoint in (0x2264, 0x2265):
+        return _inequality_outline(
+            codepoint,
             ufo=ufo,
             base_font=base_font,
             supplemental_font=supplemental_font,

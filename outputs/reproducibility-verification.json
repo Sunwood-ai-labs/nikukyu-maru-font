@@ -1,0 +1,147 @@
+{
+  "schema": "nikukyu-maru-reproducibility-v1",
+  "generated_at_utc": "2026-09-13T08:41:26.164176+00:00",
+  "project_version": "0.103",
+  "command": {
+    "argv": [
+      ".venv/Scripts/python.exe",
+      "build.py",
+      "--regenerate"
+    ],
+    "python_executable": "C:\\Prj\\nikukyu-maru-font\\.venv\\Scripts\\python.exe",
+    "python_version": "3.12.10",
+    "working_directory": "work/repro-0103",
+    "exit_code": 0,
+    "source_snapshot": "work/repro-0103"
+  },
+  "build_summary": {
+    "unicode_characters": 7516,
+    "glyphs": 7547,
+    "supplemental_added": 366,
+    "omitted_requested": "",
+    "proof_errors": []
+  },
+  "font_records": {
+    "root_current": {
+      "ttf": {
+        "path": "outputs/NikukyuMaru-Regular.ttf",
+        "bytes": 4761368,
+        "sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba",
+        "unicode_characters": 7516,
+        "glyphs": 7547
+      },
+      "woff2": {
+        "path": "outputs/NikukyuMaru-Regular.woff2",
+        "bytes": 2071320,
+        "sha256": "e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c",
+        "unicode_characters": 7516,
+        "glyphs": 7547
+      }
+    },
+    "isolated_reproduction": {
+      "ttf": {
+        "path": "work/repro-0103/outputs/NikukyuMaru-Regular.ttf",
+        "bytes": 4761368,
+        "sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba",
+        "unicode_characters": 7516,
+        "glyphs": 7547
+      },
+      "woff2": {
+        "path": "work/repro-0103/outputs/NikukyuMaru-Regular.woff2",
+        "bytes": 2071320,
+        "sha256": "e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c",
+        "unicode_characters": 7516,
+        "glyphs": 7547
+      }
+    }
+  },
+  "byte_comparison": {
+    "ttf": {
+      "expected_sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba",
+      "root_sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba",
+      "reproduction_sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba",
+      "root_matches_expected": true,
+      "reproduction_matches_expected": true,
+      "bytes_equal": true
+    },
+    "woff2": {
+      "expected_sha256": "e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c",
+      "root_sha256": "e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c",
+      "reproduction_sha256": "e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c",
+      "root_matches_expected": true,
+      "reproduction_matches_expected": true,
+      "bytes_equal": true
+    }
+  },
+  "input_snapshot": {
+    "reproduction_file_count": 7584,
+    "reproduction_manifest_sha256": "6a0a5b5ff0e021efe99eb63d8b075fda82c572e3e9115808e9b15cccb970874f",
+    "current_root_file_count": 7585,
+    "current_root_manifest_sha256": "86e68f180af66757cbfd2a4cf32fd8aa99448ea26bf2e78a2c1ee0d082cb5257",
+    "manifest_algorithm": "sha256 of sorted UTF-8 '<relative-path>\\0<file-sha256>\\n' records",
+    "manifest_is_empty_json_sha256": {
+      "reproduction": false,
+      "current_root": false
+    },
+    "tree_differences_after_build": [
+      {
+        "path": "build.py",
+        "kind": "hash_differs"
+      },
+      {
+        "path": "practical_review.py",
+        "kind": "only_in_root"
+      },
+      {
+        "path": "sources/KANJI-CONCEPT-REVIEW.md",
+        "kind": "hash_differs"
+      },
+      {
+        "path": "sources/SUPPLEMENTAL-SOURCES.md",
+        "kind": "hash_differs"
+      },
+      {
+        "path": "verify_kanji_concept.py",
+        "kind": "hash_differs"
+      }
+    ],
+    "note": "The isolated build used the repro snapshot. After that snapshot, root received newline-only output hygiene in build.py, practical_review.py, review-document updates in sources/, and verification-only changes in verify_kanji_concept.py. These changes do not alter font processing or the compared font bytes."
+  },
+  "package_allowlist": {
+    "entry_count": 27,
+    "duplicate_entries": [],
+    "missing_entries": [],
+    "required_review_files_present": true
+  },
+  "cli_probe": {
+    "build_help": {
+      "argv": [
+        "build.py",
+        "--help"
+      ],
+      "exit_code": 0
+    },
+    "package_help": {
+      "argv": [
+        "package.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "behavior": "package.py has no argument parser and executes packaging",
+      "production_zip_present_after_probe": false,
+      "side_effect_note": "The initial probe transiently created NikukyuMaru-0.103.zip; it was removed immediately and package.py was not rerun."
+    }
+  },
+  "license_files": [
+    {
+      "path": "OFL.txt",
+      "sha256": "d4b0b91324f2d08b04227c9ab0602cac5b53708d94afaffb1d820c83f1668671",
+      "bytes": 4624
+    },
+    {
+      "path": "vendor/ZenMaruGothic-OFL.txt",
+      "sha256": "2a20cf7ce1909d8ee1e949095d340f7d7656705f7c810a2d6faf56800ad0cb3d",
+      "bytes": 4402
+    }
+  ]
+}

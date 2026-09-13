@@ -1,0 +1,2402 @@
+{
+  "harfbuzz": "14.4.0",
+  "fixture_artifact": "C:\\Prj\\nikukyu-maru-font\\work\\kana-shaping-fixture.ttf",
+  "expected_canonical_pairs": 58,
+  "expected_halfwidth_pairs": 28,
+  "reports": {
+    "fixture": {
+      "font": "C:\\Prj\\nikukyu-maru-font\\work\\kana-shaping-fixture.ttf",
+      "units_per_em": 1000,
+      "unicode_characters": 251,
+      "gsub_features": [
+        "ccmp"
+      ],
+      "canonical_pairs_expected": 58,
+      "canonical_pairs_passed": 58,
+      "halfwidth_pairs_expected": 28,
+      "halfwidth_pairs_passed": 28,
+      "plain_halfwidth_checked": 63,
+      "plain_halfwidth_failures": [],
+      "canonical": [
+        {
+          "base": "U+304B",
+          "mark": "U+3099",
+          "composed": "U+304C",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni304C",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+304D",
+          "mark": "U+3099",
+          "composed": "U+304E",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni304E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+304F",
+          "mark": "U+3099",
+          "composed": "U+3050",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3050",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3051",
+          "mark": "U+3099",
+          "composed": "U+3052",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3052",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3053",
+          "mark": "U+3099",
+          "composed": "U+3054",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3054",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3055",
+          "mark": "U+3099",
+          "composed": "U+3056",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3056",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3057",
+          "mark": "U+3099",
+          "composed": "U+3058",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3058",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3059",
+          "mark": "U+3099",
+          "composed": "U+305A",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni305A",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+305B",
+          "mark": "U+3099",
+          "composed": "U+305C",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni305C",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+305D",
+          "mark": "U+3099",
+          "composed": "U+305E",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni305E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+305F",
+          "mark": "U+3099",
+          "composed": "U+3060",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3060",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3061",
+          "mark": "U+3099",
+          "composed": "U+3062",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3062",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3064",
+          "mark": "U+3099",
+          "composed": "U+3065",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3065",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3066",
+          "mark": "U+3099",
+          "composed": "U+3067",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3067",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3068",
+          "mark": "U+3099",
+          "composed": "U+3069",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3069",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+306F",
+          "mark": "U+3099",
+          "composed": "U+3070",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3070",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+306F",
+          "mark": "U+309A",
+          "composed": "U+3071",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3071",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3072",
+          "mark": "U+3099",
+          "composed": "U+3073",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3073",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3072",
+          "mark": "U+309A",
+          "composed": "U+3074",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3074",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3075",
+          "mark": "U+3099",
+          "composed": "U+3076",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3076",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3075",
+          "mark": "U+309A",
+          "composed": "U+3077",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3077",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3078",
+          "mark": "U+3099",
+          "composed": "U+3079",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3079",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3078",
+          "mark": "U+309A",
+          "composed": "U+307A",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni307A",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+307B",
+          "mark": "U+3099",
+          "composed": "U+307C",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni307C",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+307B",
+          "mark": "U+309A",
+          "composed": "U+307D",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni307D",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3046",
+          "mark": "U+3099",
+          "composed": "U+3094",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3094",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+309D",
+          "mark": "U+3099",
+          "composed": "U+309E",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni309E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30AB",
+          "mark": "U+3099",
+          "composed": "U+30AC",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30AC",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30AD",
+          "mark": "U+3099",
+          "composed": "U+30AE",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30AE",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30AF",
+          "mark": "U+3099",
+          "composed": "U+30B0",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B0",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B1",
+          "mark": "U+3099",
+          "composed": "U+30B2",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B2",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B3",
+          "mark": "U+3099",
+          "composed": "U+30B4",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B4",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B5",
+          "mark": "U+3099",
+          "composed": "U+30B6",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B6",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B7",
+          "mark": "U+3099",
+          "composed": "U+30B8",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B8",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B9",
+          "mark": "U+3099",
+          "composed": "U+30BA",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30BA",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30BB",
+          "mark": "U+3099",
+          "composed": "U+30BC",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30BC",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30BD",
+          "mark": "U+3099",
+          "composed": "U+30BE",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30BE",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30BF",
+          "mark": "U+3099",
+          "composed": "U+30C0",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C0",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C1",
+          "mark": "U+3099",
+          "composed": "U+30C2",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C2",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C4",
+          "mark": "U+3099",
+          "composed": "U+30C5",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C5",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C6",
+          "mark": "U+3099",
+          "composed": "U+30C7",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C7",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C8",
+          "mark": "U+3099",
+          "composed": "U+30C9",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C9",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30CF",
+          "mark": "U+3099",
+          "composed": "U+30D0",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D0",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30CF",
+          "mark": "U+309A",
+          "composed": "U+30D1",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D1",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D2",
+          "mark": "U+3099",
+          "composed": "U+30D3",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D3",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D2",
+          "mark": "U+309A",
+          "composed": "U+30D4",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D4",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D5",
+          "mark": "U+3099",
+          "composed": "U+30D6",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D6",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D5",
+          "mark": "U+309A",
+          "composed": "U+30D7",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D7",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D8",
+          "mark": "U+3099",
+          "composed": "U+30D9",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D9",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D8",
+          "mark": "U+309A",
+          "composed": "U+30DA",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30DA",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30DB",
+          "mark": "U+3099",
+          "composed": "U+30DC",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30DC",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30DB",
+          "mark": "U+309A",
+          "composed": "U+30DD",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30DD",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30A6",
+          "mark": "U+3099",
+          "composed": "U+30F4",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F4",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30EF",
+          "mark": "U+3099",
+          "composed": "U+30F7",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F7",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30F0",
+          "mark": "U+3099",
+          "composed": "U+30F8",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F8",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30F1",
+          "mark": "U+3099",
+          "composed": "U+30F9",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F9",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30F2",
+          "mark": "U+3099",
+          "composed": "U+30FA",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30FA",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30FD",
+          "mark": "U+3099",
+          "composed": "U+30FE",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30FE",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        }
+      ],
+      "halfwidth": [
+        {
+          "base": "U+FF66",
+          "mark": "U+FF9E",
+          "composed": "U+30FA",
+          "glyphs": [
+            [
+              "hwFF66FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF73",
+          "mark": "U+FF9E",
+          "composed": "U+30F4",
+          "glyphs": [
+            [
+              "hwFF73FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF76",
+          "mark": "U+FF9E",
+          "composed": "U+30AC",
+          "glyphs": [
+            [
+              "hwFF76FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF77",
+          "mark": "U+FF9E",
+          "composed": "U+30AE",
+          "glyphs": [
+            [
+              "hwFF77FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF78",
+          "mark": "U+FF9E",
+          "composed": "U+30B0",
+          "glyphs": [
+            [
+              "hwFF78FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF79",
+          "mark": "U+FF9E",
+          "composed": "U+30B2",
+          "glyphs": [
+            [
+              "hwFF79FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7A",
+          "mark": "U+FF9E",
+          "composed": "U+30B4",
+          "glyphs": [
+            [
+              "hwFF7AFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7B",
+          "mark": "U+FF9E",
+          "composed": "U+30B6",
+          "glyphs": [
+            [
+              "hwFF7BFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7C",
+          "mark": "U+FF9E",
+          "composed": "U+30B8",
+          "glyphs": [
+            [
+              "hwFF7CFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7D",
+          "mark": "U+FF9E",
+          "composed": "U+30BA",
+          "glyphs": [
+            [
+              "hwFF7DFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7E",
+          "mark": "U+FF9E",
+          "composed": "U+30BC",
+          "glyphs": [
+            [
+              "hwFF7EFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7F",
+          "mark": "U+FF9E",
+          "composed": "U+30BE",
+          "glyphs": [
+            [
+              "hwFF7FFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF80",
+          "mark": "U+FF9E",
+          "composed": "U+30C0",
+          "glyphs": [
+            [
+              "hwFF80FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF81",
+          "mark": "U+FF9E",
+          "composed": "U+30C2",
+          "glyphs": [
+            [
+              "hwFF81FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF82",
+          "mark": "U+FF9E",
+          "composed": "U+30C5",
+          "glyphs": [
+            [
+              "hwFF82FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF83",
+          "mark": "U+FF9E",
+          "composed": "U+30C7",
+          "glyphs": [
+            [
+              "hwFF83FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF84",
+          "mark": "U+FF9E",
+          "composed": "U+30C9",
+          "glyphs": [
+            [
+              "hwFF84FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8A",
+          "mark": "U+FF9E",
+          "composed": "U+30D0",
+          "glyphs": [
+            [
+              "hwFF8AFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8A",
+          "mark": "U+FF9F",
+          "composed": "U+30D1",
+          "glyphs": [
+            [
+              "hwFF8AFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8B",
+          "mark": "U+FF9E",
+          "composed": "U+30D3",
+          "glyphs": [
+            [
+              "hwFF8BFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8B",
+          "mark": "U+FF9F",
+          "composed": "U+30D4",
+          "glyphs": [
+            [
+              "hwFF8BFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8C",
+          "mark": "U+FF9E",
+          "composed": "U+30D6",
+          "glyphs": [
+            [
+              "hwFF8CFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8C",
+          "mark": "U+FF9F",
+          "composed": "U+30D7",
+          "glyphs": [
+            [
+              "hwFF8CFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8D",
+          "mark": "U+FF9E",
+          "composed": "U+30D9",
+          "glyphs": [
+            [
+              "hwFF8DFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8D",
+          "mark": "U+FF9F",
+          "composed": "U+30DA",
+          "glyphs": [
+            [
+              "hwFF8DFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8E",
+          "mark": "U+FF9E",
+          "composed": "U+30DC",
+          "glyphs": [
+            [
+              "hwFF8EFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8E",
+          "mark": "U+FF9F",
+          "composed": "U+30DD",
+          "glyphs": [
+            [
+              "hwFF8EFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF9C",
+          "mark": "U+FF9E",
+          "composed": "U+30F7",
+          "glyphs": [
+            [
+              "hwFF9CFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    "production": {
+      "font": "outputs\\NikukyuMaru-Regular.ttf",
+      "units_per_em": 1000,
+      "unicode_characters": 7516,
+      "gsub_features": [
+        "ccmp",
+        "ss01"
+      ],
+      "canonical_pairs_expected": 58,
+      "canonical_pairs_passed": 58,
+      "halfwidth_pairs_expected": 28,
+      "halfwidth_pairs_passed": 28,
+      "plain_halfwidth_checked": 63,
+      "plain_halfwidth_failures": [],
+      "canonical": [
+        {
+          "base": "U+304B",
+          "mark": "U+3099",
+          "composed": "U+304C",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni304C",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+304D",
+          "mark": "U+3099",
+          "composed": "U+304E",
+          "expected_advance": 790,
+          "glyphs": [
+            [
+              "uni304E",
+              790,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+304F",
+          "mark": "U+3099",
+          "composed": "U+3050",
+          "expected_advance": 630,
+          "glyphs": [
+            [
+              "uni3050",
+              630,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3051",
+          "mark": "U+3099",
+          "composed": "U+3052",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3052",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3053",
+          "mark": "U+3099",
+          "composed": "U+3054",
+          "expected_advance": 791,
+          "glyphs": [
+            [
+              "uni3054",
+              791,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3055",
+          "mark": "U+3099",
+          "composed": "U+3056",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3056",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3057",
+          "mark": "U+3099",
+          "composed": "U+3058",
+          "expected_advance": 860,
+          "glyphs": [
+            [
+              "uni3058",
+              860,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3059",
+          "mark": "U+3099",
+          "composed": "U+305A",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni305A",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+305B",
+          "mark": "U+3099",
+          "composed": "U+305C",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni305C",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+305D",
+          "mark": "U+3099",
+          "composed": "U+305E",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni305E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+305F",
+          "mark": "U+3099",
+          "composed": "U+3060",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3060",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3061",
+          "mark": "U+3099",
+          "composed": "U+3062",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3062",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3064",
+          "mark": "U+3099",
+          "composed": "U+3065",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3065",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3066",
+          "mark": "U+3099",
+          "composed": "U+3067",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3067",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3068",
+          "mark": "U+3099",
+          "composed": "U+3069",
+          "expected_advance": 706,
+          "glyphs": [
+            [
+              "uni3069",
+              706,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+306F",
+          "mark": "U+3099",
+          "composed": "U+3070",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3070",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+306F",
+          "mark": "U+309A",
+          "composed": "U+3071",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3071",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3072",
+          "mark": "U+3099",
+          "composed": "U+3073",
+          "expected_advance": 946,
+          "glyphs": [
+            [
+              "uni3073",
+              946,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3072",
+          "mark": "U+309A",
+          "composed": "U+3074",
+          "expected_advance": 946,
+          "glyphs": [
+            [
+              "uni3074",
+              946,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3075",
+          "mark": "U+3099",
+          "composed": "U+3076",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3076",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3075",
+          "mark": "U+309A",
+          "composed": "U+3077",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3077",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3078",
+          "mark": "U+3099",
+          "composed": "U+3079",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni3079",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3078",
+          "mark": "U+309A",
+          "composed": "U+307A",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni307A",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+307B",
+          "mark": "U+3099",
+          "composed": "U+307C",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni307C",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+307B",
+          "mark": "U+309A",
+          "composed": "U+307D",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni307D",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+3046",
+          "mark": "U+3099",
+          "composed": "U+3094",
+          "expected_advance": 690,
+          "glyphs": [
+            [
+              "uni3094",
+              690,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+309D",
+          "mark": "U+3099",
+          "composed": "U+309E",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni309E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30AB",
+          "mark": "U+3099",
+          "composed": "U+30AC",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30AC",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30AD",
+          "mark": "U+3099",
+          "composed": "U+30AE",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30AE",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30AF",
+          "mark": "U+3099",
+          "composed": "U+30B0",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B0",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B1",
+          "mark": "U+3099",
+          "composed": "U+30B2",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B2",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B3",
+          "mark": "U+3099",
+          "composed": "U+30B4",
+          "expected_advance": 779,
+          "glyphs": [
+            [
+              "uni30B4",
+              779,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B5",
+          "mark": "U+3099",
+          "composed": "U+30B6",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B6",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B7",
+          "mark": "U+3099",
+          "composed": "U+30B8",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30B8",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30B9",
+          "mark": "U+3099",
+          "composed": "U+30BA",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30BA",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30BB",
+          "mark": "U+3099",
+          "composed": "U+30BC",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30BC",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30BD",
+          "mark": "U+3099",
+          "composed": "U+30BE",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30BE",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30BF",
+          "mark": "U+3099",
+          "composed": "U+30C0",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C0",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C1",
+          "mark": "U+3099",
+          "composed": "U+30C2",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C2",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C4",
+          "mark": "U+3099",
+          "composed": "U+30C5",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C5",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C6",
+          "mark": "U+3099",
+          "composed": "U+30C7",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C7",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30C8",
+          "mark": "U+3099",
+          "composed": "U+30C9",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30C9",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30CF",
+          "mark": "U+3099",
+          "composed": "U+30D0",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D0",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30CF",
+          "mark": "U+309A",
+          "composed": "U+30D1",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D1",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D2",
+          "mark": "U+3099",
+          "composed": "U+30D3",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D3",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D2",
+          "mark": "U+309A",
+          "composed": "U+30D4",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D4",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D5",
+          "mark": "U+3099",
+          "composed": "U+30D6",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D6",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D5",
+          "mark": "U+309A",
+          "composed": "U+30D7",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D7",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D8",
+          "mark": "U+3099",
+          "composed": "U+30D9",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30D9",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30D8",
+          "mark": "U+309A",
+          "composed": "U+30DA",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30DA",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30DB",
+          "mark": "U+3099",
+          "composed": "U+30DC",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30DC",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30DB",
+          "mark": "U+309A",
+          "composed": "U+30DD",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30DD",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30A6",
+          "mark": "U+3099",
+          "composed": "U+30F4",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F4",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30EF",
+          "mark": "U+3099",
+          "composed": "U+30F7",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F7",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30F0",
+          "mark": "U+3099",
+          "composed": "U+30F8",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F8",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30F1",
+          "mark": "U+3099",
+          "composed": "U+30F9",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30F9",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30F2",
+          "mark": "U+3099",
+          "composed": "U+30FA",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30FA",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+30FD",
+          "mark": "U+3099",
+          "composed": "U+30FE",
+          "expected_advance": 1000,
+          "glyphs": [
+            [
+              "uni30FE",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        }
+      ],
+      "halfwidth": [
+        {
+          "base": "U+FF66",
+          "mark": "U+FF9E",
+          "composed": "U+30FA",
+          "glyphs": [
+            [
+              "hwFF66FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF73",
+          "mark": "U+FF9E",
+          "composed": "U+30F4",
+          "glyphs": [
+            [
+              "hwFF73FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF76",
+          "mark": "U+FF9E",
+          "composed": "U+30AC",
+          "glyphs": [
+            [
+              "hwFF76FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF77",
+          "mark": "U+FF9E",
+          "composed": "U+30AE",
+          "glyphs": [
+            [
+              "hwFF77FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF78",
+          "mark": "U+FF9E",
+          "composed": "U+30B0",
+          "glyphs": [
+            [
+              "hwFF78FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF79",
+          "mark": "U+FF9E",
+          "composed": "U+30B2",
+          "glyphs": [
+            [
+              "hwFF79FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7A",
+          "mark": "U+FF9E",
+          "composed": "U+30B4",
+          "glyphs": [
+            [
+              "hwFF7AFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7B",
+          "mark": "U+FF9E",
+          "composed": "U+30B6",
+          "glyphs": [
+            [
+              "hwFF7BFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7C",
+          "mark": "U+FF9E",
+          "composed": "U+30B8",
+          "glyphs": [
+            [
+              "hwFF7CFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7D",
+          "mark": "U+FF9E",
+          "composed": "U+30BA",
+          "glyphs": [
+            [
+              "hwFF7DFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7E",
+          "mark": "U+FF9E",
+          "composed": "U+30BC",
+          "glyphs": [
+            [
+              "hwFF7EFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF7F",
+          "mark": "U+FF9E",
+          "composed": "U+30BE",
+          "glyphs": [
+            [
+              "hwFF7FFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF80",
+          "mark": "U+FF9E",
+          "composed": "U+30C0",
+          "glyphs": [
+            [
+              "hwFF80FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF81",
+          "mark": "U+FF9E",
+          "composed": "U+30C2",
+          "glyphs": [
+            [
+              "hwFF81FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF82",
+          "mark": "U+FF9E",
+          "composed": "U+30C5",
+          "glyphs": [
+            [
+              "hwFF82FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF83",
+          "mark": "U+FF9E",
+          "composed": "U+30C7",
+          "glyphs": [
+            [
+              "hwFF83FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF84",
+          "mark": "U+FF9E",
+          "composed": "U+30C9",
+          "glyphs": [
+            [
+              "hwFF84FF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8A",
+          "mark": "U+FF9E",
+          "composed": "U+30D0",
+          "glyphs": [
+            [
+              "hwFF8AFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8A",
+          "mark": "U+FF9F",
+          "composed": "U+30D1",
+          "glyphs": [
+            [
+              "hwFF8AFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8B",
+          "mark": "U+FF9E",
+          "composed": "U+30D3",
+          "glyphs": [
+            [
+              "hwFF8BFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8B",
+          "mark": "U+FF9F",
+          "composed": "U+30D4",
+          "glyphs": [
+            [
+              "hwFF8BFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8C",
+          "mark": "U+FF9E",
+          "composed": "U+30D6",
+          "glyphs": [
+            [
+              "hwFF8CFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8C",
+          "mark": "U+FF9F",
+          "composed": "U+30D7",
+          "glyphs": [
+            [
+              "hwFF8CFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8D",
+          "mark": "U+FF9E",
+          "composed": "U+30D9",
+          "glyphs": [
+            [
+              "hwFF8DFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8D",
+          "mark": "U+FF9F",
+          "composed": "U+30DA",
+          "glyphs": [
+            [
+              "hwFF8DFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8E",
+          "mark": "U+FF9E",
+          "composed": "U+30DC",
+          "glyphs": [
+            [
+              "hwFF8EFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF8E",
+          "mark": "U+FF9F",
+          "composed": "U+30DD",
+          "glyphs": [
+            [
+              "hwFF8EFF9F",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "base": "U+FF9C",
+          "mark": "U+FF9E",
+          "composed": "U+30F7",
+          "glyphs": [
+            [
+              "hwFF9CFF9E",
+              1000,
+              0
+            ]
+          ],
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  },
+  "passed": true
+}

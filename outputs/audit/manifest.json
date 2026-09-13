@@ -513,8 +513,18 @@
         "feature": ""
       },
       {
+        "code": 169,
+        "glyph": "uni00A9",
+        "feature": ""
+      },
+      {
         "code": 172,
         "glyph": "uni00AC",
+        "feature": ""
+      },
+      {
+        "code": 174,
+        "glyph": "uni00AE",
         "feature": ""
       },
       {
@@ -548,6 +558,586 @@
         "feature": ""
       },
       {
+        "code": 913,
+        "glyph": "uni0391",
+        "feature": ""
+      },
+      {
+        "code": 914,
+        "glyph": "uni0392",
+        "feature": ""
+      },
+      {
+        "code": 915,
+        "glyph": "uni0393",
+        "feature": ""
+      },
+      {
+        "code": 916,
+        "glyph": "uni0394",
+        "feature": ""
+      },
+      {
+        "code": 917,
+        "glyph": "uni0395",
+        "feature": ""
+      },
+      {
+        "code": 918,
+        "glyph": "uni0396",
+        "feature": ""
+      },
+      {
+        "code": 919,
+        "glyph": "uni0397",
+        "feature": ""
+      },
+      {
+        "code": 920,
+        "glyph": "uni0398",
+        "feature": ""
+      },
+      {
+        "code": 921,
+        "glyph": "uni0399",
+        "feature": ""
+      },
+      {
+        "code": 922,
+        "glyph": "uni039A",
+        "feature": ""
+      },
+      {
+        "code": 923,
+        "glyph": "uni039B",
+        "feature": ""
+      },
+      {
+        "code": 924,
+        "glyph": "uni039C",
+        "feature": ""
+      },
+      {
+        "code": 925,
+        "glyph": "uni039D",
+        "feature": ""
+      },
+      {
+        "code": 926,
+        "glyph": "uni039E",
+        "feature": ""
+      },
+      {
+        "code": 927,
+        "glyph": "uni039F",
+        "feature": ""
+      },
+      {
+        "code": 928,
+        "glyph": "uni03A0",
+        "feature": ""
+      },
+      {
+        "code": 929,
+        "glyph": "uni03A1",
+        "feature": ""
+      },
+      {
+        "code": 931,
+        "glyph": "uni03A3",
+        "feature": ""
+      },
+      {
+        "code": 932,
+        "glyph": "uni03A4",
+        "feature": ""
+      },
+      {
+        "code": 933,
+        "glyph": "uni03A5",
+        "feature": ""
+      },
+      {
+        "code": 934,
+        "glyph": "uni03A6",
+        "feature": ""
+      },
+      {
+        "code": 935,
+        "glyph": "uni03A7",
+        "feature": ""
+      },
+      {
+        "code": 936,
+        "glyph": "uni03A8",
+        "feature": ""
+      },
+      {
+        "code": 937,
+        "glyph": "uni03A9",
+        "feature": ""
+      },
+      {
+        "code": 945,
+        "glyph": "uni03B1",
+        "feature": ""
+      },
+      {
+        "code": 946,
+        "glyph": "uni03B2",
+        "feature": ""
+      },
+      {
+        "code": 947,
+        "glyph": "uni03B3",
+        "feature": ""
+      },
+      {
+        "code": 948,
+        "glyph": "uni03B4",
+        "feature": ""
+      },
+      {
+        "code": 949,
+        "glyph": "uni03B5",
+        "feature": ""
+      },
+      {
+        "code": 950,
+        "glyph": "uni03B6",
+        "feature": ""
+      },
+      {
+        "code": 951,
+        "glyph": "uni03B7",
+        "feature": ""
+      },
+      {
+        "code": 952,
+        "glyph": "uni03B8",
+        "feature": ""
+      },
+      {
+        "code": 953,
+        "glyph": "uni03B9",
+        "feature": ""
+      },
+      {
+        "code": 954,
+        "glyph": "uni03BA",
+        "feature": ""
+      },
+      {
+        "code": 955,
+        "glyph": "uni03BB",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-04.html",
+    "entries": [
+      {
+        "code": 956,
+        "glyph": "uni03BC",
+        "feature": ""
+      },
+      {
+        "code": 957,
+        "glyph": "uni03BD",
+        "feature": ""
+      },
+      {
+        "code": 958,
+        "glyph": "uni03BE",
+        "feature": ""
+      },
+      {
+        "code": 959,
+        "glyph": "uni03BF",
+        "feature": ""
+      },
+      {
+        "code": 960,
+        "glyph": "uni03C0",
+        "feature": ""
+      },
+      {
+        "code": 961,
+        "glyph": "uni03C1",
+        "feature": ""
+      },
+      {
+        "code": 963,
+        "glyph": "uni03C3",
+        "feature": ""
+      },
+      {
+        "code": 964,
+        "glyph": "uni03C4",
+        "feature": ""
+      },
+      {
+        "code": 965,
+        "glyph": "uni03C5",
+        "feature": ""
+      },
+      {
+        "code": 966,
+        "glyph": "uni03C6",
+        "feature": ""
+      },
+      {
+        "code": 967,
+        "glyph": "uni03C7",
+        "feature": ""
+      },
+      {
+        "code": 968,
+        "glyph": "uni03C8",
+        "feature": ""
+      },
+      {
+        "code": 969,
+        "glyph": "uni03C9",
+        "feature": ""
+      },
+      {
+        "code": 1025,
+        "glyph": "uni0401",
+        "feature": ""
+      },
+      {
+        "code": 1040,
+        "glyph": "uni0410",
+        "feature": ""
+      },
+      {
+        "code": 1041,
+        "glyph": "uni0411",
+        "feature": ""
+      },
+      {
+        "code": 1042,
+        "glyph": "uni0412",
+        "feature": ""
+      },
+      {
+        "code": 1043,
+        "glyph": "uni0413",
+        "feature": ""
+      },
+      {
+        "code": 1044,
+        "glyph": "uni0414",
+        "feature": ""
+      },
+      {
+        "code": 1045,
+        "glyph": "uni0415",
+        "feature": ""
+      },
+      {
+        "code": 1046,
+        "glyph": "uni0416",
+        "feature": ""
+      },
+      {
+        "code": 1047,
+        "glyph": "uni0417",
+        "feature": ""
+      },
+      {
+        "code": 1048,
+        "glyph": "uni0418",
+        "feature": ""
+      },
+      {
+        "code": 1049,
+        "glyph": "uni0419",
+        "feature": ""
+      },
+      {
+        "code": 1050,
+        "glyph": "uni041A",
+        "feature": ""
+      },
+      {
+        "code": 1051,
+        "glyph": "uni041B",
+        "feature": ""
+      },
+      {
+        "code": 1052,
+        "glyph": "uni041C",
+        "feature": ""
+      },
+      {
+        "code": 1053,
+        "glyph": "uni041D",
+        "feature": ""
+      },
+      {
+        "code": 1054,
+        "glyph": "uni041E",
+        "feature": ""
+      },
+      {
+        "code": 1055,
+        "glyph": "uni041F",
+        "feature": ""
+      },
+      {
+        "code": 1056,
+        "glyph": "uni0420",
+        "feature": ""
+      },
+      {
+        "code": 1057,
+        "glyph": "uni0421",
+        "feature": ""
+      },
+      {
+        "code": 1058,
+        "glyph": "uni0422",
+        "feature": ""
+      },
+      {
+        "code": 1059,
+        "glyph": "uni0423",
+        "feature": ""
+      },
+      {
+        "code": 1060,
+        "glyph": "uni0424",
+        "feature": ""
+      },
+      {
+        "code": 1061,
+        "glyph": "uni0425",
+        "feature": ""
+      },
+      {
+        "code": 1062,
+        "glyph": "uni0426",
+        "feature": ""
+      },
+      {
+        "code": 1063,
+        "glyph": "uni0427",
+        "feature": ""
+      },
+      {
+        "code": 1064,
+        "glyph": "uni0428",
+        "feature": ""
+      },
+      {
+        "code": 1065,
+        "glyph": "uni0429",
+        "feature": ""
+      },
+      {
+        "code": 1066,
+        "glyph": "uni042A",
+        "feature": ""
+      },
+      {
+        "code": 1067,
+        "glyph": "uni042B",
+        "feature": ""
+      },
+      {
+        "code": 1068,
+        "glyph": "uni042C",
+        "feature": ""
+      },
+      {
+        "code": 1069,
+        "glyph": "uni042D",
+        "feature": ""
+      },
+      {
+        "code": 1070,
+        "glyph": "uni042E",
+        "feature": ""
+      },
+      {
+        "code": 1071,
+        "glyph": "uni042F",
+        "feature": ""
+      },
+      {
+        "code": 1072,
+        "glyph": "uni0430",
+        "feature": ""
+      },
+      {
+        "code": 1073,
+        "glyph": "uni0431",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-05.html",
+    "entries": [
+      {
+        "code": 1074,
+        "glyph": "uni0432",
+        "feature": ""
+      },
+      {
+        "code": 1075,
+        "glyph": "uni0433",
+        "feature": ""
+      },
+      {
+        "code": 1076,
+        "glyph": "uni0434",
+        "feature": ""
+      },
+      {
+        "code": 1077,
+        "glyph": "uni0435",
+        "feature": ""
+      },
+      {
+        "code": 1078,
+        "glyph": "uni0436",
+        "feature": ""
+      },
+      {
+        "code": 1079,
+        "glyph": "uni0437",
+        "feature": ""
+      },
+      {
+        "code": 1080,
+        "glyph": "uni0438",
+        "feature": ""
+      },
+      {
+        "code": 1081,
+        "glyph": "uni0439",
+        "feature": ""
+      },
+      {
+        "code": 1082,
+        "glyph": "uni043A",
+        "feature": ""
+      },
+      {
+        "code": 1083,
+        "glyph": "uni043B",
+        "feature": ""
+      },
+      {
+        "code": 1084,
+        "glyph": "uni043C",
+        "feature": ""
+      },
+      {
+        "code": 1085,
+        "glyph": "uni043D",
+        "feature": ""
+      },
+      {
+        "code": 1086,
+        "glyph": "uni043E",
+        "feature": ""
+      },
+      {
+        "code": 1087,
+        "glyph": "uni043F",
+        "feature": ""
+      },
+      {
+        "code": 1088,
+        "glyph": "uni0440",
+        "feature": ""
+      },
+      {
+        "code": 1089,
+        "glyph": "uni0441",
+        "feature": ""
+      },
+      {
+        "code": 1090,
+        "glyph": "uni0442",
+        "feature": ""
+      },
+      {
+        "code": 1091,
+        "glyph": "uni0443",
+        "feature": ""
+      },
+      {
+        "code": 1092,
+        "glyph": "uni0444",
+        "feature": ""
+      },
+      {
+        "code": 1093,
+        "glyph": "uni0445",
+        "feature": ""
+      },
+      {
+        "code": 1094,
+        "glyph": "uni0446",
+        "feature": ""
+      },
+      {
+        "code": 1095,
+        "glyph": "uni0447",
+        "feature": ""
+      },
+      {
+        "code": 1096,
+        "glyph": "uni0448",
+        "feature": ""
+      },
+      {
+        "code": 1097,
+        "glyph": "uni0449",
+        "feature": ""
+      },
+      {
+        "code": 1098,
+        "glyph": "uni044A",
+        "feature": ""
+      },
+      {
+        "code": 1099,
+        "glyph": "uni044B",
+        "feature": ""
+      },
+      {
+        "code": 1100,
+        "glyph": "uni044C",
+        "feature": ""
+      },
+      {
+        "code": 1101,
+        "glyph": "uni044D",
+        "feature": ""
+      },
+      {
+        "code": 1102,
+        "glyph": "uni044E",
+        "feature": ""
+      },
+      {
+        "code": 1103,
+        "glyph": "uni044F",
+        "feature": ""
+      },
+      {
+        "code": 1105,
+        "glyph": "uni0451",
+        "feature": ""
+      },
+      {
         "code": 8208,
         "glyph": "uni2010",
         "feature": ""
@@ -560,6 +1150,11 @@
       {
         "code": 8213,
         "glyph": "uni2015",
+        "feature": ""
+      },
+      {
+        "code": 8214,
+        "glyph": "uni2016",
         "feature": ""
       },
       {
@@ -583,6 +1178,16 @@
         "feature": ""
       },
       {
+        "code": 8224,
+        "glyph": "uni2020",
+        "feature": ""
+      },
+      {
+        "code": 8225,
+        "glyph": "uni2021",
+        "feature": ""
+      },
+      {
         "code": 8229,
         "glyph": "uni2025",
         "feature": ""
@@ -593,6 +1198,11 @@
         "feature": ""
       },
       {
+        "code": 8240,
+        "glyph": "uni2030",
+        "feature": ""
+      },
+      {
         "code": 8242,
         "glyph": "uni2032",
         "feature": ""
@@ -600,6 +1210,146 @@
       {
         "code": 8243,
         "glyph": "uni2033",
+        "feature": ""
+      },
+      {
+        "code": 8251,
+        "glyph": "uni203B",
+        "feature": ""
+      },
+      {
+        "code": 8364,
+        "glyph": "uni20AC",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-06.html",
+    "entries": [
+      {
+        "code": 8451,
+        "glyph": "uni2103",
+        "feature": ""
+      },
+      {
+        "code": 8470,
+        "glyph": "uni2116",
+        "feature": ""
+      },
+      {
+        "code": 8481,
+        "glyph": "uni2121",
+        "feature": ""
+      },
+      {
+        "code": 8482,
+        "glyph": "uni2122",
+        "feature": ""
+      },
+      {
+        "code": 8491,
+        "glyph": "uni212B",
+        "feature": ""
+      },
+      {
+        "code": 8544,
+        "glyph": "uni2160",
+        "feature": ""
+      },
+      {
+        "code": 8545,
+        "glyph": "uni2161",
+        "feature": ""
+      },
+      {
+        "code": 8546,
+        "glyph": "uni2162",
+        "feature": ""
+      },
+      {
+        "code": 8547,
+        "glyph": "uni2163",
+        "feature": ""
+      },
+      {
+        "code": 8548,
+        "glyph": "uni2164",
+        "feature": ""
+      },
+      {
+        "code": 8549,
+        "glyph": "uni2165",
+        "feature": ""
+      },
+      {
+        "code": 8550,
+        "glyph": "uni2166",
+        "feature": ""
+      },
+      {
+        "code": 8551,
+        "glyph": "uni2167",
+        "feature": ""
+      },
+      {
+        "code": 8552,
+        "glyph": "uni2168",
+        "feature": ""
+      },
+      {
+        "code": 8553,
+        "glyph": "uni2169",
+        "feature": ""
+      },
+      {
+        "code": 8560,
+        "glyph": "uni2170",
+        "feature": ""
+      },
+      {
+        "code": 8561,
+        "glyph": "uni2171",
+        "feature": ""
+      },
+      {
+        "code": 8562,
+        "glyph": "uni2172",
+        "feature": ""
+      },
+      {
+        "code": 8563,
+        "glyph": "uni2173",
+        "feature": ""
+      },
+      {
+        "code": 8564,
+        "glyph": "uni2174",
+        "feature": ""
+      },
+      {
+        "code": 8565,
+        "glyph": "uni2175",
+        "feature": ""
+      },
+      {
+        "code": 8566,
+        "glyph": "uni2176",
+        "feature": ""
+      },
+      {
+        "code": 8567,
+        "glyph": "uni2177",
+        "feature": ""
+      },
+      {
+        "code": 8568,
+        "glyph": "uni2178",
+        "feature": ""
+      },
+      {
+        "code": 8569,
+        "glyph": "uni2179",
         "feature": ""
       },
       {
@@ -623,8 +1373,553 @@
         "feature": ""
       },
       {
+        "code": 8658,
+        "glyph": "uni21D2",
+        "feature": ""
+      },
+      {
+        "code": 8660,
+        "glyph": "uni21D4",
+        "feature": ""
+      },
+      {
+        "code": 8704,
+        "glyph": "uni2200",
+        "feature": ""
+      },
+      {
+        "code": 8706,
+        "glyph": "uni2202",
+        "feature": ""
+      },
+      {
+        "code": 8707,
+        "glyph": "uni2203",
+        "feature": ""
+      },
+      {
+        "code": 8711,
+        "glyph": "uni2207",
+        "feature": ""
+      },
+      {
+        "code": 8712,
+        "glyph": "uni2208",
+        "feature": ""
+      },
+      {
+        "code": 8715,
+        "glyph": "uni220B",
+        "feature": ""
+      },
+      {
+        "code": 8721,
+        "glyph": "uni2211",
+        "feature": ""
+      },
+      {
         "code": 8722,
         "glyph": "uni2212",
+        "feature": ""
+      },
+      {
+        "code": 8730,
+        "glyph": "uni221A",
+        "feature": ""
+      },
+      {
+        "code": 8733,
+        "glyph": "uni221D",
+        "feature": ""
+      },
+      {
+        "code": 8734,
+        "glyph": "uni221E",
+        "feature": ""
+      },
+      {
+        "code": 8735,
+        "glyph": "uni221F",
+        "feature": ""
+      },
+      {
+        "code": 8736,
+        "glyph": "uni2220",
+        "feature": ""
+      },
+      {
+        "code": 8741,
+        "glyph": "uni2225",
+        "feature": ""
+      },
+      {
+        "code": 8743,
+        "glyph": "uni2227",
+        "feature": ""
+      },
+      {
+        "code": 8744,
+        "glyph": "uni2228",
+        "feature": ""
+      },
+      {
+        "code": 8745,
+        "glyph": "uni2229",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-07.html",
+    "entries": [
+      {
+        "code": 8746,
+        "glyph": "uni222A",
+        "feature": ""
+      },
+      {
+        "code": 8747,
+        "glyph": "uni222B",
+        "feature": ""
+      },
+      {
+        "code": 8748,
+        "glyph": "uni222C",
+        "feature": ""
+      },
+      {
+        "code": 8750,
+        "glyph": "uni222E",
+        "feature": ""
+      },
+      {
+        "code": 8756,
+        "glyph": "uni2234",
+        "feature": ""
+      },
+      {
+        "code": 8757,
+        "glyph": "uni2235",
+        "feature": ""
+      },
+      {
+        "code": 8765,
+        "glyph": "uni223D",
+        "feature": ""
+      },
+      {
+        "code": 8786,
+        "glyph": "uni2252",
+        "feature": ""
+      },
+      {
+        "code": 8800,
+        "glyph": "uni2260",
+        "feature": ""
+      },
+      {
+        "code": 8801,
+        "glyph": "uni2261",
+        "feature": ""
+      },
+      {
+        "code": 8804,
+        "glyph": "uni2264",
+        "feature": ""
+      },
+      {
+        "code": 8805,
+        "glyph": "uni2265",
+        "feature": ""
+      },
+      {
+        "code": 8806,
+        "glyph": "uni2266",
+        "feature": ""
+      },
+      {
+        "code": 8807,
+        "glyph": "uni2267",
+        "feature": ""
+      },
+      {
+        "code": 8810,
+        "glyph": "uni226A",
+        "feature": ""
+      },
+      {
+        "code": 8811,
+        "glyph": "uni226B",
+        "feature": ""
+      },
+      {
+        "code": 8834,
+        "glyph": "uni2282",
+        "feature": ""
+      },
+      {
+        "code": 8835,
+        "glyph": "uni2283",
+        "feature": ""
+      },
+      {
+        "code": 8838,
+        "glyph": "uni2286",
+        "feature": ""
+      },
+      {
+        "code": 8839,
+        "glyph": "uni2287",
+        "feature": ""
+      },
+      {
+        "code": 8869,
+        "glyph": "uni22A5",
+        "feature": ""
+      },
+      {
+        "code": 8895,
+        "glyph": "uni22BF",
+        "feature": ""
+      },
+      {
+        "code": 8978,
+        "glyph": "uni2312",
+        "feature": ""
+      },
+      {
+        "code": 9312,
+        "glyph": "uni2460",
+        "feature": ""
+      },
+      {
+        "code": 9313,
+        "glyph": "uni2461",
+        "feature": ""
+      },
+      {
+        "code": 9314,
+        "glyph": "uni2462",
+        "feature": ""
+      },
+      {
+        "code": 9315,
+        "glyph": "uni2463",
+        "feature": ""
+      },
+      {
+        "code": 9316,
+        "glyph": "uni2464",
+        "feature": ""
+      },
+      {
+        "code": 9317,
+        "glyph": "uni2465",
+        "feature": ""
+      },
+      {
+        "code": 9318,
+        "glyph": "uni2466",
+        "feature": ""
+      },
+      {
+        "code": 9319,
+        "glyph": "uni2467",
+        "feature": ""
+      },
+      {
+        "code": 9320,
+        "glyph": "uni2468",
+        "feature": ""
+      },
+      {
+        "code": 9321,
+        "glyph": "uni2469",
+        "feature": ""
+      },
+      {
+        "code": 9322,
+        "glyph": "uni246A",
+        "feature": ""
+      },
+      {
+        "code": 9323,
+        "glyph": "uni246B",
+        "feature": ""
+      },
+      {
+        "code": 9324,
+        "glyph": "uni246C",
+        "feature": ""
+      },
+      {
+        "code": 9325,
+        "glyph": "uni246D",
+        "feature": ""
+      },
+      {
+        "code": 9326,
+        "glyph": "uni246E",
+        "feature": ""
+      },
+      {
+        "code": 9327,
+        "glyph": "uni246F",
+        "feature": ""
+      },
+      {
+        "code": 9328,
+        "glyph": "uni2470",
+        "feature": ""
+      },
+      {
+        "code": 9329,
+        "glyph": "uni2471",
+        "feature": ""
+      },
+      {
+        "code": 9330,
+        "glyph": "uni2472",
+        "feature": ""
+      },
+      {
+        "code": 9331,
+        "glyph": "uni2473",
+        "feature": ""
+      },
+      {
+        "code": 9472,
+        "glyph": "uni2500",
+        "feature": ""
+      },
+      {
+        "code": 9473,
+        "glyph": "uni2501",
+        "feature": ""
+      },
+      {
+        "code": 9474,
+        "glyph": "uni2502",
+        "feature": ""
+      },
+      {
+        "code": 9475,
+        "glyph": "uni2503",
+        "feature": ""
+      },
+      {
+        "code": 9484,
+        "glyph": "uni250C",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-08.html",
+    "entries": [
+      {
+        "code": 9487,
+        "glyph": "uni250F",
+        "feature": ""
+      },
+      {
+        "code": 9488,
+        "glyph": "uni2510",
+        "feature": ""
+      },
+      {
+        "code": 9491,
+        "glyph": "uni2513",
+        "feature": ""
+      },
+      {
+        "code": 9492,
+        "glyph": "uni2514",
+        "feature": ""
+      },
+      {
+        "code": 9495,
+        "glyph": "uni2517",
+        "feature": ""
+      },
+      {
+        "code": 9496,
+        "glyph": "uni2518",
+        "feature": ""
+      },
+      {
+        "code": 9499,
+        "glyph": "uni251B",
+        "feature": ""
+      },
+      {
+        "code": 9500,
+        "glyph": "uni251C",
+        "feature": ""
+      },
+      {
+        "code": 9501,
+        "glyph": "uni251D",
+        "feature": ""
+      },
+      {
+        "code": 9504,
+        "glyph": "uni2520",
+        "feature": ""
+      },
+      {
+        "code": 9507,
+        "glyph": "uni2523",
+        "feature": ""
+      },
+      {
+        "code": 9508,
+        "glyph": "uni2524",
+        "feature": ""
+      },
+      {
+        "code": 9509,
+        "glyph": "uni2525",
+        "feature": ""
+      },
+      {
+        "code": 9512,
+        "glyph": "uni2528",
+        "feature": ""
+      },
+      {
+        "code": 9515,
+        "glyph": "uni252B",
+        "feature": ""
+      },
+      {
+        "code": 9516,
+        "glyph": "uni252C",
+        "feature": ""
+      },
+      {
+        "code": 9519,
+        "glyph": "uni252F",
+        "feature": ""
+      },
+      {
+        "code": 9520,
+        "glyph": "uni2530",
+        "feature": ""
+      },
+      {
+        "code": 9523,
+        "glyph": "uni2533",
+        "feature": ""
+      },
+      {
+        "code": 9524,
+        "glyph": "uni2534",
+        "feature": ""
+      },
+      {
+        "code": 9527,
+        "glyph": "uni2537",
+        "feature": ""
+      },
+      {
+        "code": 9528,
+        "glyph": "uni2538",
+        "feature": ""
+      },
+      {
+        "code": 9531,
+        "glyph": "uni253B",
+        "feature": ""
+      },
+      {
+        "code": 9532,
+        "glyph": "uni253C",
+        "feature": ""
+      },
+      {
+        "code": 9535,
+        "glyph": "uni253F",
+        "feature": ""
+      },
+      {
+        "code": 9538,
+        "glyph": "uni2542",
+        "feature": ""
+      },
+      {
+        "code": 9547,
+        "glyph": "uni254B",
+        "feature": ""
+      },
+      {
+        "code": 9632,
+        "glyph": "uni25A0",
+        "feature": ""
+      },
+      {
+        "code": 9633,
+        "glyph": "uni25A1",
+        "feature": ""
+      },
+      {
+        "code": 9650,
+        "glyph": "uni25B2",
+        "feature": ""
+      },
+      {
+        "code": 9651,
+        "glyph": "uni25B3",
+        "feature": ""
+      },
+      {
+        "code": 9660,
+        "glyph": "uni25BC",
+        "feature": ""
+      },
+      {
+        "code": 9661,
+        "glyph": "uni25BD",
+        "feature": ""
+      },
+      {
+        "code": 9670,
+        "glyph": "uni25C6",
+        "feature": ""
+      },
+      {
+        "code": 9671,
+        "glyph": "uni25C7",
+        "feature": ""
+      },
+      {
+        "code": 9675,
+        "glyph": "uni25CB",
+        "feature": ""
+      },
+      {
+        "code": 9678,
+        "glyph": "uni25CE",
+        "feature": ""
+      },
+      {
+        "code": 9679,
+        "glyph": "uni25CF",
+        "feature": ""
+      },
+      {
+        "code": 9711,
+        "glyph": "uni25EF",
+        "feature": ""
+      },
+      {
+        "code": 9733,
+        "glyph": "uni2605",
+        "feature": ""
+      },
+      {
+        "code": 9734,
+        "glyph": "uni2606",
         "feature": ""
       },
       {
@@ -652,6 +1947,21 @@
         "glyph": "uni266A",
         "feature": ""
       },
+      {
+        "code": 9837,
+        "glyph": "uni266D",
+        "feature": ""
+      },
+      {
+        "code": 9839,
+        "glyph": "uni266F",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-09.html",
+    "entries": [
       {
         "code": 12288,
         "glyph": "uni3000",
@@ -731,15 +2041,20 @@
         "code": 12304,
         "glyph": "uni3010",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-04.html",
-    "entries": [
+      },
       {
         "code": 12305,
         "glyph": "uni3011",
+        "feature": ""
+      },
+      {
+        "code": 12306,
+        "glyph": "uni3012",
+        "feature": ""
+      },
+      {
+        "code": 12307,
+        "glyph": "uni3013",
         "feature": ""
       },
       {
@@ -755,6 +2070,16 @@
       {
         "code": 12316,
         "glyph": "uni301C",
+        "feature": ""
+      },
+      {
+        "code": 12317,
+        "glyph": "uni301D",
+        "feature": ""
+      },
+      {
+        "code": 12319,
+        "glyph": "uni301F",
         "feature": ""
       },
       {
@@ -876,7 +2201,12 @@
         "code": 12376,
         "glyph": "uni3058",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-10.html",
+    "entries": [
       {
         "code": 12377,
         "glyph": "uni3059",
@@ -976,12 +2306,7 @@
         "code": 12396,
         "glyph": "uni306C",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-05.html",
-    "entries": [
+      },
       {
         "code": 12397,
         "glyph": "uni306D",
@@ -1121,7 +2446,12 @@
         "code": 12424,
         "glyph": "uni3088",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-11.html",
+    "entries": [
       {
         "code": 12425,
         "glyph": "uni3089",
@@ -1193,6 +2523,26 @@
         "feature": ""
       },
       {
+        "code": 12441,
+        "glyph": "uni3099",
+        "feature": ""
+      },
+      {
+        "code": 12442,
+        "glyph": "uni309A",
+        "feature": ""
+      },
+      {
+        "code": 12443,
+        "glyph": "uni309B",
+        "feature": ""
+      },
+      {
+        "code": 12444,
+        "glyph": "uni309C",
+        "feature": ""
+      },
+      {
         "code": 12445,
         "glyph": "uni309D",
         "feature": ""
@@ -1221,12 +2571,7 @@
         "code": 12452,
         "glyph": "uni30A4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-06.html",
-    "entries": [
+      },
       {
         "code": 12453,
         "glyph": "uni30A5",
@@ -1346,7 +2691,12 @@
         "code": 12476,
         "glyph": "uni30BC",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-12.html",
+    "entries": [
       {
         "code": 12477,
         "glyph": "uni30BD",
@@ -1466,12 +2816,7 @@
         "code": 12500,
         "glyph": "uni30D4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-07.html",
-    "entries": [
+      },
       {
         "code": 12501,
         "glyph": "uni30D5",
@@ -1591,7 +2936,12 @@
         "code": 12524,
         "glyph": "uni30EC",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-13.html",
+    "entries": [
       {
         "code": 12525,
         "glyph": "uni30ED",
@@ -1683,6 +3033,201 @@
         "feature": ""
       },
       {
+        "code": 12849,
+        "glyph": "uni3231",
+        "feature": ""
+      },
+      {
+        "code": 12850,
+        "glyph": "uni3232",
+        "feature": ""
+      },
+      {
+        "code": 12857,
+        "glyph": "uni3239",
+        "feature": ""
+      },
+      {
+        "code": 12964,
+        "glyph": "uni32A4",
+        "feature": ""
+      },
+      {
+        "code": 12965,
+        "glyph": "uni32A5",
+        "feature": ""
+      },
+      {
+        "code": 12966,
+        "glyph": "uni32A6",
+        "feature": ""
+      },
+      {
+        "code": 12967,
+        "glyph": "uni32A7",
+        "feature": ""
+      },
+      {
+        "code": 12968,
+        "glyph": "uni32A8",
+        "feature": ""
+      },
+      {
+        "code": 13055,
+        "glyph": "uni32FF",
+        "feature": ""
+      },
+      {
+        "code": 13059,
+        "glyph": "uni3303",
+        "feature": ""
+      },
+      {
+        "code": 13069,
+        "glyph": "uni330D",
+        "feature": ""
+      },
+      {
+        "code": 13076,
+        "glyph": "uni3314",
+        "feature": ""
+      },
+      {
+        "code": 13080,
+        "glyph": "uni3318",
+        "feature": ""
+      },
+      {
+        "code": 13090,
+        "glyph": "uni3322",
+        "feature": ""
+      },
+      {
+        "code": 13091,
+        "glyph": "uni3323",
+        "feature": ""
+      },
+      {
+        "code": 13094,
+        "glyph": "uni3326",
+        "feature": ""
+      },
+      {
+        "code": 13095,
+        "glyph": "uni3327",
+        "feature": ""
+      },
+      {
+        "code": 13099,
+        "glyph": "uni332B",
+        "feature": ""
+      },
+      {
+        "code": 13110,
+        "glyph": "uni3336",
+        "feature": ""
+      },
+      {
+        "code": 13115,
+        "glyph": "uni333B",
+        "feature": ""
+      },
+      {
+        "code": 13129,
+        "glyph": "uni3349",
+        "feature": ""
+      },
+      {
+        "code": 13130,
+        "glyph": "uni334A",
+        "feature": ""
+      },
+      {
+        "code": 13133,
+        "glyph": "uni334D",
+        "feature": ""
+      },
+      {
+        "code": 13137,
+        "glyph": "uni3351",
+        "feature": ""
+      },
+      {
+        "code": 13143,
+        "glyph": "uni3357",
+        "feature": ""
+      },
+      {
+        "code": 13179,
+        "glyph": "uni337B",
+        "feature": ""
+      },
+      {
+        "code": 13180,
+        "glyph": "uni337C",
+        "feature": ""
+      },
+      {
+        "code": 13181,
+        "glyph": "uni337D",
+        "feature": ""
+      },
+      {
+        "code": 13182,
+        "glyph": "uni337E",
+        "feature": ""
+      },
+      {
+        "code": 13183,
+        "glyph": "uni337F",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-14.html",
+    "entries": [
+      {
+        "code": 13198,
+        "glyph": "uni338E",
+        "feature": ""
+      },
+      {
+        "code": 13199,
+        "glyph": "uni338F",
+        "feature": ""
+      },
+      {
+        "code": 13212,
+        "glyph": "uni339C",
+        "feature": ""
+      },
+      {
+        "code": 13213,
+        "glyph": "uni339D",
+        "feature": ""
+      },
+      {
+        "code": 13214,
+        "glyph": "uni339E",
+        "feature": ""
+      },
+      {
+        "code": 13217,
+        "glyph": "uni33A1",
+        "feature": ""
+      },
+      {
+        "code": 13252,
+        "glyph": "uni33C4",
+        "feature": ""
+      },
+      {
+        "code": 13261,
+        "glyph": "uni33CD",
+        "feature": ""
+      },
+      {
         "code": 19968,
         "glyph": "uni4E00",
         "feature": ""
@@ -1711,12 +3256,7 @@
         "code": 19977,
         "glyph": "uni4E09",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-08.html",
-    "entries": [
+      },
       {
         "code": 19978,
         "glyph": "uni4E0A",
@@ -1790,6 +3330,11 @@
       {
         "code": 20006,
         "glyph": "uni4E26",
+        "feature": ""
+      },
+      {
+        "code": 20008,
+        "glyph": "uni4E28",
         "feature": ""
       },
       {
@@ -1881,7 +3426,12 @@
         "code": 20053,
         "glyph": "uni4E55",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-15.html",
+    "entries": [
       {
         "code": 20054,
         "glyph": "uni4E56",
@@ -1956,12 +3506,7 @@
         "code": 20102,
         "glyph": "uni4E86",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-09.html",
-    "entries": [
+      },
       {
         "code": 20104,
         "glyph": "uni4E88",
@@ -2126,7 +3671,12 @@
         "code": 20161,
         "glyph": "uni4EC1",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-16.html",
+    "entries": [
       {
         "code": 20162,
         "glyph": "uni4EC2",
@@ -2201,12 +3751,7 @@
         "code": 20185,
         "glyph": "uni4ED9",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-10.html",
-    "entries": [
+      },
       {
         "code": 20189,
         "glyph": "uni4EDD",
@@ -2220,6 +3765,11 @@
       {
         "code": 20191,
         "glyph": "uni4EDF",
+        "feature": ""
+      },
+      {
+        "code": 20193,
+        "glyph": "uni4EE1",
         "feature": ""
       },
       {
@@ -2273,8 +3823,23 @@
         "feature": ""
       },
       {
+        "code": 20220,
+        "glyph": "uni4EFC",
+        "feature": ""
+      },
+      {
+        "code": 20224,
+        "glyph": "uni4F00",
+        "feature": ""
+      },
+      {
         "code": 20225,
         "glyph": "uni4F01",
+        "feature": ""
+      },
+      {
+        "code": 20227,
+        "glyph": "uni4F03",
         "feature": ""
       },
       {
@@ -2351,6 +3916,16 @@
         "code": 20280,
         "glyph": "uni4F38",
         "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-17.html",
+    "entries": [
+      {
+        "code": 20281,
+        "glyph": "uni4F39",
+        "feature": ""
       },
       {
         "code": 20282,
@@ -2418,6 +3993,11 @@
         "feature": ""
       },
       {
+        "code": 20310,
+        "glyph": "uni4F56",
+        "feature": ""
+      },
+      {
         "code": 20311,
         "glyph": "uni4F57",
         "feature": ""
@@ -2446,12 +4026,7 @@
         "code": 20317,
         "glyph": "uni4F5D",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-11.html",
-    "entries": [
+      },
       {
         "code": 20318,
         "glyph": "uni4F5E",
@@ -2518,6 +4093,11 @@
         "feature": ""
       },
       {
+        "code": 20362,
+        "glyph": "uni4F8A",
+        "feature": ""
+      },
+      {
         "code": 20363,
         "glyph": "uni4F8B",
         "feature": ""
@@ -2538,6 +4118,16 @@
         "feature": ""
       },
       {
+        "code": 20370,
+        "glyph": "uni4F92",
+        "feature": ""
+      },
+      {
+        "code": 20372,
+        "glyph": "uni4F94",
+        "feature": ""
+      },
+      {
         "code": 20374,
         "glyph": "uni4F96",
         "feature": ""
@@ -2545,6 +4135,11 @@
       {
         "code": 20376,
         "glyph": "uni4F98",
+        "feature": ""
+      },
+      {
+        "code": 20378,
+        "glyph": "uni4F9A",
         "feature": ""
       },
       {
@@ -2566,7 +4161,12 @@
         "code": 20385,
         "glyph": "uni4FA1",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-18.html",
+    "entries": [
       {
         "code": 20395,
         "glyph": "uni4FAB",
@@ -2618,8 +4218,18 @@
         "feature": ""
       },
       {
+        "code": 20425,
+        "glyph": "uni4FC9",
+        "feature": ""
+      },
+      {
         "code": 20426,
         "glyph": "uni4FCA",
+        "feature": ""
+      },
+      {
+        "code": 20429,
+        "glyph": "uni4FCD",
         "feature": ""
       },
       {
@@ -2691,12 +4301,7 @@
         "code": 20453,
         "glyph": "uni4FE5",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-12.html",
-    "entries": [
+      },
       {
         "code": 20462,
         "glyph": "uni4FEE",
@@ -2735,6 +4340,11 @@
       {
         "code": 20478,
         "glyph": "uni4FFE",
+        "feature": ""
+      },
+      {
+        "code": 20479,
+        "glyph": "uni4FFF",
         "feature": ""
       },
       {
@@ -2796,6 +4406,16 @@
         "code": 20506,
         "glyph": "uni501A",
         "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-19.html",
+    "entries": [
+      {
+        "code": 20510,
+        "glyph": "uni501E",
+        "feature": ""
       },
       {
         "code": 20511,
@@ -2805,6 +4425,11 @@
       {
         "code": 20513,
         "glyph": "uni5021",
+        "feature": ""
+      },
+      {
+        "code": 20514,
+        "glyph": "uni5022",
         "feature": ""
       },
       {
@@ -2868,8 +4493,23 @@
         "feature": ""
       },
       {
+        "code": 20544,
+        "glyph": "uni5040",
+        "feature": ""
+      },
+      {
+        "code": 20546,
+        "glyph": "uni5042",
+        "feature": ""
+      },
+      {
         "code": 20547,
         "glyph": "uni5043",
+        "feature": ""
+      },
+      {
+        "code": 20550,
+        "glyph": "uni5046",
         "feature": ""
       },
       {
@@ -2928,6 +4568,11 @@
         "feature": ""
       },
       {
+        "code": 20592,
+        "glyph": "uni5070",
+        "feature": ""
+      },
+      {
         "code": 20594,
         "glyph": "uni5072",
         "feature": ""
@@ -2936,12 +4581,7 @@
         "code": 20596,
         "glyph": "uni5074",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-13.html",
-    "entries": [
+      },
       {
         "code": 20597,
         "glyph": "uni5075",
@@ -2983,6 +4623,11 @@
         "feature": ""
       },
       {
+        "code": 20628,
+        "glyph": "uni5094",
+        "feature": ""
+      },
+      {
         "code": 20632,
         "glyph": "uni5098",
         "feature": ""
@@ -3006,7 +4651,12 @@
         "code": 20653,
         "glyph": "uni50AD",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-20.html",
+    "entries": [
       {
         "code": 20658,
         "glyph": "uni50B2",
@@ -3083,6 +4733,11 @@
         "feature": ""
       },
       {
+        "code": 20696,
+        "glyph": "uni50D8",
+        "feature": ""
+      },
+      {
         "code": 20698,
         "glyph": "uni50DA",
         "feature": ""
@@ -3115,6 +4770,11 @@
       {
         "code": 20718,
         "glyph": "uni50EE",
+        "feature": ""
+      },
+      {
+        "code": 20724,
+        "glyph": "uni50F4",
         "feature": ""
       },
       {
@@ -3181,12 +4841,7 @@
         "code": 20760,
         "glyph": "uni5118",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-14.html",
-    "entries": [
+      },
       {
         "code": 20762,
         "glyph": "uni511A",
@@ -3241,7 +4896,12 @@
         "code": 20800,
         "glyph": "uni5140",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-21.html",
+    "entries": [
       {
         "code": 20801,
         "glyph": "uni5141",
@@ -3280,6 +4940,11 @@
       {
         "code": 20809,
         "glyph": "uni5149",
+        "feature": ""
+      },
+      {
+        "code": 20810,
+        "glyph": "uni514A",
         "feature": ""
       },
       {
@@ -3330,6 +4995,11 @@
       {
         "code": 20834,
         "glyph": "uni5162",
+        "feature": ""
+      },
+      {
+        "code": 20836,
+        "glyph": "uni5164",
         "feature": ""
       },
       {
@@ -3426,12 +5096,7 @@
         "code": 20873,
         "glyph": "uni5189",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-15.html",
-    "entries": [
+      },
       {
         "code": 20874,
         "glyph": "uni518A",
@@ -3476,7 +5141,12 @@
         "code": 20885,
         "glyph": "uni5195",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-22.html",
+    "entries": [
       {
         "code": 20886,
         "glyph": "uni5196",
@@ -3490,6 +5160,11 @@
       {
         "code": 20889,
         "glyph": "uni5199",
+        "feature": ""
+      },
+      {
+        "code": 20893,
+        "glyph": "uni519D",
         "feature": ""
       },
       {
@@ -3588,6 +5263,11 @@
         "feature": ""
       },
       {
+        "code": 20926,
+        "glyph": "uni51BE",
+        "feature": ""
+      },
+      {
         "code": 20932,
         "glyph": "uni51C4",
         "feature": ""
@@ -3671,12 +5351,12 @@
         "code": 20970,
         "glyph": "uni51EA",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-16.html",
-    "entries": [
+      },
+      {
+        "code": 20972,
+        "glyph": "uni51EC",
+        "feature": ""
+      },
       {
         "code": 20973,
         "glyph": "uni51ED",
@@ -3706,7 +5386,12 @@
         "code": 20984,
         "glyph": "uni51F8",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-23.html",
+    "entries": [
       {
         "code": 20985,
         "glyph": "uni51F9",
@@ -3780,6 +5465,11 @@
       {
         "code": 21012,
         "glyph": "uni5214",
+        "feature": ""
+      },
+      {
+        "code": 21013,
+        "glyph": "uni5215",
         "feature": ""
       },
       {
@@ -3916,12 +5606,7 @@
         "code": 21083,
         "glyph": "uni525B",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-17.html",
-    "entries": [
+      },
       {
         "code": 21086,
         "glyph": "uni525E",
@@ -3946,7 +5631,12 @@
         "code": 21097,
         "glyph": "uni5269",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-24.html",
+    "entries": [
       {
         "code": 21098,
         "glyph": "uni526A",
@@ -4043,6 +5733,11 @@
         "feature": ""
       },
       {
+        "code": 21148,
+        "glyph": "uni529C",
+        "feature": ""
+      },
+      {
         "code": 21151,
         "glyph": "uni529F",
         "feature": ""
@@ -4055,6 +5750,11 @@
       {
         "code": 21155,
         "glyph": "uni52A3",
+        "feature": ""
+      },
+      {
+        "code": 21158,
+        "glyph": "uni52A6",
         "feature": ""
       },
       {
@@ -4080,6 +5780,11 @@
       {
         "code": 21165,
         "glyph": "uni52AD",
+        "feature": ""
+      },
+      {
+        "code": 21167,
+        "glyph": "uni52AF",
         "feature": ""
       },
       {
@@ -4110,6 +5815,11 @@
       {
         "code": 21182,
         "glyph": "uni52BE",
+        "feature": ""
+      },
+      {
+        "code": 21184,
+        "glyph": "uni52C0",
         "feature": ""
       },
       {
@@ -4161,15 +5871,20 @@
         "code": 21208,
         "glyph": "uni52D8",
         "feature": ""
+      },
+      {
+        "code": 21209,
+        "glyph": "uni52D9",
+        "feature": ""
       }
     ]
   },
   {
-    "page": "page-18.html",
+    "page": "page-25.html",
     "entries": [
       {
-        "code": 21209,
-        "glyph": "uni52D9",
+        "code": 21211,
+        "glyph": "uni52DB",
         "feature": ""
       },
       {
@@ -4258,6 +5973,11 @@
         "feature": ""
       },
       {
+        "code": 21248,
+        "glyph": "uni5300",
+        "feature": ""
+      },
+      {
         "code": 21249,
         "glyph": "uni5301",
         "feature": ""
@@ -4275,6 +5995,11 @@
       {
         "code": 21254,
         "glyph": "uni5306",
+        "feature": ""
+      },
+      {
+        "code": 21255,
+        "glyph": "uni5307",
         "feature": ""
       },
       {
@@ -4343,6 +6068,11 @@
         "feature": ""
       },
       {
+        "code": 21284,
+        "glyph": "uni5324",
+        "feature": ""
+      },
+      {
         "code": 21290,
         "glyph": "uni532A",
         "feature": ""
@@ -4391,7 +6121,12 @@
         "code": 21312,
         "glyph": "uni5340",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-26.html",
+    "entries": [
       {
         "code": 21313,
         "glyph": "uni5341",
@@ -4406,12 +6141,7 @@
         "code": 21317,
         "glyph": "uni5345",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-19.html",
-    "entries": [
+      },
       {
         "code": 21318,
         "glyph": "uni5346",
@@ -4523,6 +6253,11 @@
         "feature": ""
       },
       {
+        "code": 21362,
+        "glyph": "uni5372",
+        "feature": ""
+      },
+      {
         "code": 21363,
         "glyph": "uni5373",
         "feature": ""
@@ -4565,6 +6300,11 @@
       {
         "code": 21380,
         "glyph": "uni5384",
+        "feature": ""
+      },
+      {
+        "code": 21395,
+        "glyph": "uni5393",
         "feature": ""
       },
       {
@@ -4626,6 +6366,16 @@
         "code": 21424,
         "glyph": "uni53B0",
         "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-27.html",
+    "entries": [
+      {
+        "code": 21426,
+        "glyph": "uni53B2",
+        "feature": ""
       },
       {
         "code": 21427,
@@ -4651,12 +6401,7 @@
         "code": 21443,
         "glyph": "uni53C3",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-20.html",
-    "entries": [
+      },
       {
         "code": 21448,
         "glyph": "uni53C8",
@@ -4715,6 +6460,11 @@
       {
         "code": 21467,
         "glyph": "uni53DB",
+        "feature": ""
+      },
+      {
+        "code": 21469,
+        "glyph": "uni53DD",
         "feature": ""
       },
       {
@@ -4861,7 +6611,12 @@
         "code": 21515,
         "glyph": "uni540B",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-28.html",
+    "entries": [
       {
         "code": 21516,
         "glyph": "uni540C",
@@ -4896,12 +6651,7 @@
         "code": 21531,
         "glyph": "uni541B",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-21.html",
-    "entries": [
+      },
       {
         "code": 21533,
         "glyph": "uni541D",
@@ -5098,10 +6848,20 @@
         "feature": ""
       },
       {
+        "code": 21642,
+        "glyph": "uni548A",
+        "feature": ""
+      },
+      {
         "code": 21643,
         "glyph": "uni548B",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-29.html",
+    "entries": [
       {
         "code": 21644,
         "glyph": "uni548C",
@@ -5128,6 +6888,11 @@
         "feature": ""
       },
       {
+        "code": 21660,
+        "glyph": "uni549C",
+        "feature": ""
+      },
+      {
         "code": 21666,
         "glyph": "uni54A2",
         "feature": ""
@@ -5141,15 +6906,15 @@
         "code": 21669,
         "glyph": "uni54A5",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-22.html",
-    "entries": [
+      },
       {
         "code": 21672,
         "glyph": "uni54A8",
+        "feature": ""
+      },
+      {
+        "code": 21673,
+        "glyph": "uni54A9",
         "feature": ""
       },
       {
@@ -5293,6 +7058,11 @@
         "feature": ""
       },
       {
+        "code": 21759,
+        "glyph": "uni54FF",
+        "feature": ""
+      },
+      {
         "code": 21764,
         "glyph": "uni5504",
         "feature": ""
@@ -5331,7 +7101,12 @@
         "code": 21806,
         "glyph": "uni552E",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-30.html",
+    "entries": [
       {
         "code": 21807,
         "glyph": "uni552F",
@@ -5386,12 +7161,7 @@
         "code": 21836,
         "glyph": "uni554C",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-23.html",
-    "entries": [
+      },
       {
         "code": 21839,
         "glyph": "uni554F",
@@ -5455,6 +7225,11 @@
       {
         "code": 21892,
         "glyph": "uni5584",
+        "feature": ""
+      },
+      {
+        "code": 21894,
+        "glyph": "uni5586",
         "feature": ""
       },
       {
@@ -5571,7 +7346,12 @@
         "code": 21959,
         "glyph": "uni55C7",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-31.html",
+    "entries": [
       {
         "code": 21972,
         "glyph": "uni55D4",
@@ -5631,12 +7411,7 @@
         "code": 22025,
         "glyph": "uni5609",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-24.html",
-    "entries": [
+      },
       {
         "code": 22036,
         "glyph": "uni5614",
@@ -5816,7 +7591,12 @@
         "code": 22196,
         "glyph": "uni56B4",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-32.html",
+    "entries": [
       {
         "code": 22198,
         "glyph": "uni56B6",
@@ -5876,12 +7656,7 @@
         "code": 22232,
         "glyph": "uni56D8",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-25.html",
-    "entries": [
+      },
       {
         "code": 22234,
         "glyph": "uni56DA",
@@ -6061,7 +7836,12 @@
         "code": 22336,
         "glyph": "uni5740",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-33.html",
+    "entries": [
       {
         "code": 22338,
         "glyph": "uni5742",
@@ -6098,6 +7878,11 @@
         "feature": ""
       },
       {
+        "code": 22361,
+        "glyph": "uni5759",
+        "feature": ""
+      },
+      {
         "code": 22369,
         "glyph": "uni5761",
         "feature": ""
@@ -6105,6 +7890,11 @@
       {
         "code": 22372,
         "glyph": "uni5764",
+        "feature": ""
+      },
+      {
+        "code": 22373,
+        "glyph": "uni5765",
         "feature": ""
       },
       {
@@ -6121,12 +7911,7 @@
         "code": 22378,
         "glyph": "uni576A",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-26.html",
-    "entries": [
+      },
       {
         "code": 22399,
         "glyph": "uni577F",
@@ -6183,6 +7968,11 @@
         "feature": ""
       },
       {
+        "code": 22444,
+        "glyph": "uni57AC",
+        "feature": ""
+      },
+      {
         "code": 22448,
         "glyph": "uni57B0",
         "feature": ""
@@ -6205,6 +7995,16 @@
       {
         "code": 22470,
         "glyph": "uni57C6",
+        "feature": ""
+      },
+      {
+        "code": 22471,
+        "glyph": "uni57C7",
+        "feature": ""
+      },
+      {
+        "code": 22472,
+        "glyph": "uni57C8",
         "feature": ""
       },
       {
@@ -6281,7 +8081,12 @@
         "code": 22524,
         "glyph": "uni57FC",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-34.html",
+    "entries": [
       {
         "code": 22528,
         "glyph": "uni5800",
@@ -6366,12 +8171,7 @@
         "code": 22581,
         "glyph": "uni5835",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-27.html",
-    "entries": [
+      },
       {
         "code": 22586,
         "glyph": "uni583A",
@@ -6508,6 +8308,11 @@
         "feature": ""
       },
       {
+        "code": 22686,
+        "glyph": "uni589E",
+        "feature": ""
+      },
+      {
         "code": 22687,
         "glyph": "uni589F",
         "feature": ""
@@ -6521,10 +8326,20 @@
         "code": 22699,
         "glyph": "uni58AB",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-35.html",
+    "entries": [
       {
         "code": 22702,
         "glyph": "uni58AE",
+        "feature": ""
+      },
+      {
+        "code": 22706,
+        "glyph": "uni58B2",
         "feature": ""
       },
       {
@@ -6611,12 +8426,7 @@
         "code": 22745,
         "glyph": "uni58D9",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-28.html",
-    "entries": [
+      },
       {
         "code": 22748,
         "glyph": "uni58DC",
@@ -6723,6 +8533,11 @@
         "feature": ""
       },
       {
+        "code": 22795,
+        "glyph": "uni590B",
+        "feature": ""
+      },
+      {
         "code": 22799,
         "glyph": "uni590F",
         "feature": ""
@@ -6756,7 +8571,12 @@
         "code": 22810,
         "glyph": "uni591A",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-36.html",
+    "entries": [
       {
         "code": 22811,
         "glyph": "uni591B",
@@ -6856,12 +8676,7 @@
         "code": 22857,
         "glyph": "uni5949",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-29.html",
-    "entries": [
+      },
       {
         "code": 22862,
         "glyph": "uni594E",
@@ -6880,6 +8695,11 @@
       {
         "code": 22865,
         "glyph": "uni5951",
+        "feature": ""
+      },
+      {
+        "code": 22867,
+        "glyph": "uni5953",
         "feature": ""
       },
       {
@@ -6908,6 +8728,16 @@
         "feature": ""
       },
       {
+        "code": 22875,
+        "glyph": "uni595B",
+        "feature": ""
+      },
+      {
+        "code": 22877,
+        "glyph": "uni595D",
+        "feature": ""
+      },
+      {
         "code": 22880,
         "glyph": "uni5960",
         "feature": ""
@@ -6915,6 +8745,11 @@
       {
         "code": 22882,
         "glyph": "uni5962",
+        "feature": ""
+      },
+      {
+        "code": 22883,
+        "glyph": "uni5963",
         "feature": ""
       },
       {
@@ -6981,7 +8816,12 @@
         "code": 22914,
         "glyph": "uni5982",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-37.html",
+    "entries": [
       {
         "code": 22915,
         "glyph": "uni5983",
@@ -7033,6 +8873,11 @@
         "feature": ""
       },
       {
+        "code": 22948,
+        "glyph": "uni59A4",
+        "feature": ""
+      },
+      {
         "code": 22949,
         "glyph": "uni59A5",
         "feature": ""
@@ -7055,6 +8900,11 @@
       {
         "code": 22969,
         "glyph": "uni59B9",
+        "feature": ""
+      },
+      {
+        "code": 22970,
+        "glyph": "uni59BA",
         "feature": ""
       },
       {
@@ -7101,12 +8951,7 @@
         "code": 22996,
         "glyph": "uni59D4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-30.html",
-    "entries": [
+      },
       {
         "code": 23001,
         "glyph": "uni59D9",
@@ -7216,7 +9061,12 @@
         "code": 23081,
         "glyph": "uni5A29",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-38.html",
+    "entries": [
       {
         "code": 23087,
         "glyph": "uni5A2F",
@@ -7346,12 +9196,7 @@
         "code": 23248,
         "glyph": "uni5AD0",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-31.html",
-    "entries": [
+      },
       {
         "code": 23254,
         "glyph": "uni5AD6",
@@ -7461,7 +9306,12 @@
         "code": 23365,
         "glyph": "uni5B45",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-39.html",
+    "entries": [
       {
         "code": 23376,
         "glyph": "uni5B50",
@@ -7480,6 +9330,11 @@
       {
         "code": 23381,
         "glyph": "uni5B55",
+        "feature": ""
+      },
+      {
+        "code": 23382,
+        "glyph": "uni5B56",
         "feature": ""
       },
       {
@@ -7591,12 +9446,7 @@
         "code": 23429,
         "glyph": "uni5B85",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-32.html",
-    "entries": [
+      },
       {
         "code": 23431,
         "glyph": "uni5B87",
@@ -7701,7 +9551,12 @@
         "code": 23462,
         "glyph": "uni5BA6",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-40.html",
+    "entries": [
       {
         "code": 23470,
         "glyph": "uni5BAE",
@@ -7745,6 +9600,11 @@
       {
         "code": 23487,
         "glyph": "uni5BBF",
+        "feature": ""
+      },
+      {
+        "code": 23488,
+        "glyph": "uni5BC0",
         "feature": ""
       },
       {
@@ -7808,6 +9668,11 @@
         "feature": ""
       },
       {
+        "code": 23512,
+        "glyph": "uni5BD8",
+        "feature": ""
+      },
+      {
         "code": 23515,
         "glyph": "uni5BDB",
         "feature": ""
@@ -7836,12 +9701,7 @@
         "code": 23522,
         "glyph": "uni5BE2",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-33.html",
-    "entries": [
+      },
       {
         "code": 23524,
         "glyph": "uni5BE4",
@@ -7875,6 +9735,11 @@
       {
         "code": 23531,
         "glyph": "uni5BEB",
+        "feature": ""
+      },
+      {
+        "code": 23532,
+        "glyph": "uni5BEC",
         "feature": ""
       },
       {
@@ -7931,7 +9796,12 @@
         "code": 23554,
         "glyph": "uni5C02",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-41.html",
+    "entries": [
       {
         "code": 23556,
         "glyph": "uni5C04",
@@ -8008,6 +9878,11 @@
         "feature": ""
       },
       {
+        "code": 23582,
+        "glyph": "uni5C1E",
+        "feature": ""
+      },
+      {
         "code": 23584,
         "glyph": "uni5C20",
         "feature": ""
@@ -8081,12 +9956,7 @@
         "code": 23616,
         "glyph": "uni5C40",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-34.html",
-    "entries": [
+      },
       {
         "code": 23617,
         "glyph": "uni5C41",
@@ -8171,7 +10041,12 @@
         "code": 23652,
         "glyph": "uni5C64",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-42.html",
+    "entries": [
       {
         "code": 23653,
         "glyph": "uni5C65",
@@ -8233,6 +10108,11 @@
         "feature": ""
       },
       {
+        "code": 23718,
+        "glyph": "uni5CA6",
+        "feature": ""
+      },
+      {
         "code": 23720,
         "glyph": "uni5CA8",
         "feature": ""
@@ -8275,6 +10155,11 @@
       {
         "code": 23736,
         "glyph": "uni5CB8",
+        "feature": ""
+      },
+      {
+        "code": 23738,
+        "glyph": "uni5CBA",
         "feature": ""
       },
       {
@@ -8326,12 +10211,7 @@
         "code": 23785,
         "glyph": "uni5CE9",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-35.html",
-    "entries": [
+      },
       {
         "code": 23786,
         "glyph": "uni5CEA",
@@ -8350,6 +10230,11 @@
       {
         "code": 23792,
         "glyph": "uni5CF0",
+        "feature": ""
+      },
+      {
+        "code": 23797,
+        "glyph": "uni5CF5",
         "feature": ""
       },
       {
@@ -8401,7 +10286,12 @@
         "code": 23829,
         "glyph": "uni5D15",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-43.html",
+    "entries": [
       {
         "code": 23830,
         "glyph": "uni5D16",
@@ -8443,8 +10333,18 @@
         "feature": ""
       },
       {
+        "code": 23847,
+        "glyph": "uni5D27",
+        "feature": ""
+      },
+      {
         "code": 23849,
         "glyph": "uni5D29",
+        "feature": ""
+      },
+      {
+        "code": 23874,
+        "glyph": "uni5D42",
         "feature": ""
       },
       {
@@ -8473,6 +10373,11 @@
         "feature": ""
       },
       {
+        "code": 23891,
+        "glyph": "uni5D53",
+        "feature": ""
+      },
+      {
         "code": 23900,
         "glyph": "uni5D5C",
         "feature": ""
@@ -8485,6 +10390,11 @@
       {
         "code": 23916,
         "glyph": "uni5D6C",
+        "feature": ""
+      },
+      {
+        "code": 23917,
+        "glyph": "uni5D6D",
         "feature": ""
       },
       {
@@ -8558,6 +10468,16 @@
         "feature": ""
       },
       {
+        "code": 23992,
+        "glyph": "uni5DB8",
+        "feature": ""
+      },
+      {
+        "code": 23993,
+        "glyph": "uni5DB9",
+        "feature": ""
+      },
+      {
         "code": 23994,
         "glyph": "uni5DBA",
         "feature": ""
@@ -8571,12 +10491,7 @@
         "code": 23997,
         "glyph": "uni5DBD",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-36.html",
-    "entries": [
+      },
       {
         "code": 24009,
         "glyph": "uni5DC9",
@@ -8590,6 +10505,11 @@
       {
         "code": 24013,
         "glyph": "uni5DCD",
+        "feature": ""
+      },
+      {
+        "code": 24016,
+        "glyph": "uni5DD0",
         "feature": ""
       },
       {
@@ -8611,7 +10531,12 @@
         "code": 24027,
         "glyph": "uni5DDB",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-44.html",
+    "entries": [
       {
         "code": 24029,
         "glyph": "uni5DDD",
@@ -8816,12 +10741,7 @@
         "code": 24128,
         "glyph": "uni5E40",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-37.html",
-    "entries": [
+      },
       {
         "code": 24131,
         "glyph": "uni5E43",
@@ -8856,7 +10776,12 @@
         "code": 24148,
         "glyph": "uni5E54",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-45.html",
+    "entries": [
       {
         "code": 24149,
         "glyph": "uni5E55",
@@ -9061,12 +10986,7 @@
         "code": 24257,
         "glyph": "uni5EC1",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-38.html",
-    "entries": [
+      },
       {
         "code": 24258,
         "glyph": "uni5EC2",
@@ -9101,7 +11021,12 @@
         "code": 24272,
         "glyph": "uni5ED0",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-46.html",
+    "entries": [
       {
         "code": 24275,
         "glyph": "uni5ED3",
@@ -9306,12 +11231,7 @@
         "code": 24343,
         "glyph": "uni5F17",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-39.html",
-    "entries": [
+      },
       {
         "code": 24344,
         "glyph": "uni5F18",
@@ -9328,6 +11248,11 @@
         "feature": ""
       },
       {
+        "code": 24353,
+        "glyph": "uni5F21",
+        "feature": ""
+      },
+      {
         "code": 24357,
         "glyph": "uni5F25",
         "feature": ""
@@ -9341,7 +11266,12 @@
         "code": 24359,
         "glyph": "uni5F27",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-47.html",
+    "entries": [
       {
         "code": 24361,
         "glyph": "uni5F29",
@@ -9360,6 +11290,11 @@
       {
         "code": 24369,
         "glyph": "uni5F31",
+        "feature": ""
+      },
+      {
+        "code": 24372,
+        "glyph": "uni5F34",
         "feature": ""
       },
       {
@@ -9390,6 +11325,11 @@
       {
         "code": 24385,
         "glyph": "uni5F41",
+        "feature": ""
+      },
+      {
+        "code": 24389,
+        "glyph": "uni5F45",
         "feature": ""
       },
       {
@@ -9460,6 +11400,11 @@
       {
         "code": 24422,
         "glyph": "uni5F66",
+        "feature": ""
+      },
+      {
+        "code": 24423,
+        "glyph": "uni5F67",
         "feature": ""
       },
       {
@@ -9551,12 +11496,7 @@
         "code": 24453,
         "glyph": "uni5F85",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-40.html",
-    "entries": [
+      },
       {
         "code": 24455,
         "glyph": "uni5F87",
@@ -9571,7 +11511,12 @@
         "code": 24458,
         "glyph": "uni5F8A",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-48.html",
+    "entries": [
       {
         "code": 24459,
         "glyph": "uni5F8B",
@@ -9668,6 +11613,11 @@
         "feature": ""
       },
       {
+        "code": 24503,
+        "glyph": "uni5FB7",
+        "feature": ""
+      },
+      {
         "code": 24505,
         "glyph": "uni5FB9",
         "feature": ""
@@ -9730,6 +11680,11 @@
       {
         "code": 24541,
         "glyph": "uni5FDD",
+        "feature": ""
+      },
+      {
+        "code": 24542,
+        "glyph": "uni5FDE",
         "feature": ""
       },
       {
@@ -9796,17 +11751,17 @@
         "code": 24592,
         "glyph": "uni6010",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-41.html",
-    "entries": [
+      },
       {
         "code": 24594,
         "glyph": "uni6012",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-49.html",
+    "entries": [
       {
         "code": 24597,
         "glyph": "uni6015",
@@ -9958,6 +11913,11 @@
         "feature": ""
       },
       {
+        "code": 24669,
+        "glyph": "uni605D",
+        "feature": ""
+      },
+      {
         "code": 24671,
         "glyph": "uni605F",
         "feature": ""
@@ -10045,7 +12005,7 @@
     ]
   },
   {
-    "page": "page-42.html",
+    "page": "page-50.html",
     "entries": [
       {
         "code": 24707,
@@ -10058,8 +12018,18 @@
         "feature": ""
       },
       {
+        "code": 24709,
+        "glyph": "uni6085",
+        "feature": ""
+      },
+      {
         "code": 24713,
         "glyph": "uni6089",
+        "feature": ""
+      },
+      {
+        "code": 24714,
+        "glyph": "uni608A",
         "feature": ""
       },
       {
@@ -10208,6 +12178,11 @@
         "feature": ""
       },
       {
+        "code": 24789,
+        "glyph": "uni60D5",
+        "feature": ""
+      },
+      {
         "code": 24792,
         "glyph": "uni60D8",
         "feature": ""
@@ -10220,6 +12195,11 @@
       {
         "code": 24796,
         "glyph": "uni60DC",
+        "feature": ""
+      },
+      {
+        "code": 24798,
+        "glyph": "uni60DE",
         "feature": ""
       },
       {
@@ -10263,6 +12243,16 @@
         "feature": ""
       },
       {
+        "code": 24818,
+        "glyph": "uni60F2",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-51.html",
+    "entries": [
+      {
         "code": 24819,
         "glyph": "uni60F3",
         "feature": ""
@@ -10286,12 +12276,7 @@
         "code": 24825,
         "glyph": "uni60F9",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-43.html",
-    "entries": [
+      },
       {
         "code": 24826,
         "glyph": "uni60FA",
@@ -10348,6 +12333,11 @@
         "feature": ""
       },
       {
+        "code": 24849,
+        "glyph": "uni6111",
+        "feature": ""
+      },
+      {
         "code": 24853,
         "glyph": "uni6115",
         "feature": ""
@@ -10365,6 +12355,11 @@
       {
         "code": 24863,
         "glyph": "uni611F",
+        "feature": ""
+      },
+      {
+        "code": 24864,
+        "glyph": "uni6120",
         "feature": ""
       },
       {
@@ -10388,8 +12383,18 @@
         "feature": ""
       },
       {
+        "code": 24880,
+        "glyph": "uni6130",
+        "feature": ""
+      },
+      {
         "code": 24884,
         "glyph": "uni6134",
+        "feature": ""
+      },
+      {
+        "code": 24887,
+        "glyph": "uni6137",
         "feature": ""
       },
       {
@@ -10486,7 +12491,12 @@
         "code": 24925,
         "glyph": "uni615D",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-52.html",
+    "entries": [
       {
         "code": 24927,
         "glyph": "uni615F",
@@ -10531,12 +12541,7 @@
         "code": 24943,
         "glyph": "uni616F",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-44.html",
-    "entries": [
+      },
       {
         "code": 24944,
         "glyph": "uni6170",
@@ -10615,6 +12620,11 @@
       {
         "code": 24982,
         "glyph": "uni6196",
+        "feature": ""
+      },
+      {
+        "code": 24984,
+        "glyph": "uni6198",
         "feature": ""
       },
       {
@@ -10726,7 +12736,12 @@
         "code": 25040,
         "glyph": "uni61D0",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-53.html",
+    "entries": [
       {
         "code": 25059,
         "glyph": "uni61E3",
@@ -10776,12 +12791,7 @@
         "code": 25085,
         "glyph": "uni61FD",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-45.html",
-    "entries": [
+      },
       {
         "code": 25086,
         "glyph": "uni61FE",
@@ -10840,6 +12850,11 @@
       {
         "code": 25106,
         "glyph": "uni6212",
+        "feature": ""
+      },
+      {
+        "code": 25107,
+        "glyph": "uni6213",
         "feature": ""
       },
       {
@@ -10966,7 +12981,12 @@
         "code": 25163,
         "glyph": "uni624B",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-54.html",
+    "entries": [
       {
         "code": 25165,
         "glyph": "uni624D",
@@ -11021,12 +13041,7 @@
         "code": 25198,
         "glyph": "uni626E",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-46.html",
-    "entries": [
+      },
       {
         "code": 25201,
         "glyph": "uni6271",
@@ -11143,6 +13158,11 @@
         "feature": ""
       },
       {
+        "code": 25254,
+        "glyph": "uni62A6",
+        "feature": ""
+      },
+      {
         "code": 25259,
         "glyph": "uni62AB",
         "feature": ""
@@ -11206,7 +13226,12 @@
         "code": 25288,
         "glyph": "uni62C8",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-55.html",
+    "entries": [
       {
         "code": 25289,
         "glyph": "uni62C9",
@@ -11266,12 +13291,7 @@
         "code": 25304,
         "glyph": "uni62D8",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-47.html",
-    "entries": [
+      },
       {
         "code": 25305,
         "glyph": "uni62D9",
@@ -11451,7 +13471,12 @@
         "code": 25420,
         "glyph": "uni634C",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-56.html",
+    "entries": [
       {
         "code": 25421,
         "glyph": "uni634D",
@@ -11511,12 +13536,7 @@
         "code": 25458,
         "glyph": "uni6372",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-48.html",
-    "entries": [
+      },
       {
         "code": 25462,
         "glyph": "uni6376",
@@ -11696,7 +13716,12 @@
         "code": 25542,
         "glyph": "uni63C6",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-57.html",
+    "entries": [
       {
         "code": 25545,
         "glyph": "uni63C9",
@@ -11756,12 +13781,12 @@
         "code": 25588,
         "glyph": "uni63F4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-49.html",
-    "entries": [
+      },
+      {
+        "code": 25589,
+        "glyph": "uni63F5",
+        "feature": ""
+      },
       {
         "code": 25590,
         "glyph": "uni63F6",
@@ -11863,6 +13888,11 @@
         "feature": ""
       },
       {
+        "code": 25696,
+        "glyph": "uni6460",
+        "feature": ""
+      },
+      {
         "code": 25703,
         "glyph": "uni6467",
         "feature": ""
@@ -11923,10 +13953,20 @@
         "feature": ""
       },
       {
+        "code": 25757,
+        "glyph": "uni649D",
+        "feature": ""
+      },
+      {
         "code": 25758,
         "glyph": "uni649E",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-58.html",
+    "entries": [
       {
         "code": 25764,
         "glyph": "uni64A4",
@@ -12001,15 +14041,15 @@
         "code": 25799,
         "glyph": "uni64C7",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-50.html",
-    "entries": [
+      },
       {
         "code": 25805,
         "glyph": "uni64CD",
+        "feature": ""
+      },
+      {
+        "code": 25806,
+        "glyph": "uni64CE",
         "feature": ""
       },
       {
@@ -12166,7 +14206,12 @@
         "code": 25908,
         "glyph": "uni6534",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-59.html",
+    "entries": [
       {
         "code": 25909,
         "glyph": "uni6535",
@@ -12223,6 +14268,11 @@
         "feature": ""
       },
       {
+        "code": 25934,
+        "glyph": "uni654E",
+        "feature": ""
+      },
+      {
         "code": 25935,
         "glyph": "uni654F",
         "feature": ""
@@ -12246,12 +14296,7 @@
         "code": 25943,
         "glyph": "uni6557",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-51.html",
-    "entries": [
+      },
       {
         "code": 25944,
         "glyph": "uni6558",
@@ -12406,7 +14451,12 @@
         "code": 26021,
         "glyph": "uni65A5",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-60.html",
+    "entries": [
       {
         "code": 26023,
         "glyph": "uni65A7",
@@ -12491,12 +14541,7 @@
         "code": 26060,
         "glyph": "uni65CC",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-52.html",
-    "entries": [
+      },
       {
         "code": 26063,
         "glyph": "uni65CF",
@@ -12588,6 +14633,11 @@
         "feature": ""
       },
       {
+        "code": 26112,
+        "glyph": "uni6600",
+        "feature": ""
+      },
+      {
         "code": 26114,
         "glyph": "uni6602",
         "feature": ""
@@ -12605,6 +14655,11 @@
       {
         "code": 26119,
         "glyph": "uni6607",
+        "feature": ""
+      },
+      {
+        "code": 26121,
+        "glyph": "uni6609",
         "feature": ""
       },
       {
@@ -12638,8 +14693,23 @@
         "feature": ""
       },
       {
+        "code": 26133,
+        "glyph": "uni6615",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-61.html",
+    "entries": [
+      {
         "code": 26140,
         "glyph": "uni661C",
+        "feature": ""
+      },
+      {
+        "code": 26142,
+        "glyph": "uni661E",
         "feature": ""
       },
       {
@@ -12650,6 +14720,11 @@
       {
         "code": 26144,
         "glyph": "uni6620",
+        "feature": ""
+      },
+      {
+        "code": 26148,
+        "glyph": "uni6624",
         "feature": ""
       },
       {
@@ -12673,8 +14748,18 @@
         "feature": ""
       },
       {
+        "code": 26158,
+        "glyph": "uni662E",
+        "feature": ""
+      },
+      {
         "code": 26159,
         "glyph": "uni662F",
+        "feature": ""
+      },
+      {
+        "code": 26161,
+        "glyph": "uni6631",
         "feature": ""
       },
       {
@@ -12690,6 +14775,11 @@
       {
         "code": 26166,
         "glyph": "uni6636",
+        "feature": ""
+      },
+      {
+        "code": 26171,
+        "glyph": "uni663B",
         "feature": ""
       },
       {
@@ -12736,15 +14826,20 @@
         "code": 26191,
         "glyph": "uni664F",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-53.html",
-    "entries": [
+      },
       {
         "code": 26194,
         "glyph": "uni6652",
+        "feature": ""
+      },
+      {
+        "code": 26199,
+        "glyph": "uni6657",
+        "feature": ""
+      },
+      {
+        "code": 26201,
+        "glyph": "uni6659",
         "feature": ""
       },
       {
@@ -12770,6 +14865,11 @@
       {
         "code": 26212,
         "glyph": "uni6664",
+        "feature": ""
+      },
+      {
+        "code": 26213,
+        "glyph": "uni6665",
         "feature": ""
       },
       {
@@ -12808,6 +14908,11 @@
         "feature": ""
       },
       {
+        "code": 26227,
+        "glyph": "uni6673",
+        "feature": ""
+      },
+      {
         "code": 26228,
         "glyph": "uni6674",
         "feature": ""
@@ -12836,7 +14941,12 @@
         "code": 26244,
         "glyph": "uni6684",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-62.html",
+    "entries": [
       {
         "code": 26247,
         "glyph": "uni6687",
@@ -12878,8 +14988,18 @@
         "feature": ""
       },
       {
+        "code": 26265,
+        "glyph": "uni6699",
+        "feature": ""
+      },
+      {
         "code": 26269,
         "glyph": "uni669D",
+        "feature": ""
+      },
+      {
+        "code": 26272,
+        "glyph": "uni66A0",
         "feature": ""
       },
       {
@@ -12900,6 +15020,11 @@
       {
         "code": 26286,
         "glyph": "uni66AE",
+        "feature": ""
+      },
+      {
+        "code": 26290,
+        "glyph": "uni66B2",
         "feature": ""
       },
       {
@@ -12925,6 +15050,11 @@
       {
         "code": 26302,
         "glyph": "uni66BE",
+        "feature": ""
+      },
+      {
+        "code": 26303,
+        "glyph": "uni66BF",
         "feature": ""
       },
       {
@@ -12981,12 +15111,7 @@
         "code": 26342,
         "glyph": "uni66E6",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-54.html",
-    "entries": [
+      },
       {
         "code": 26345,
         "glyph": "uni66E9",
@@ -13033,6 +15158,16 @@
         "feature": ""
       },
       {
+        "code": 26362,
+        "glyph": "uni66FA",
+        "feature": ""
+      },
+      {
+        "code": 26363,
+        "glyph": "uni66FB",
+        "feature": ""
+      },
+      {
         "code": 26364,
         "glyph": "uni66FC",
         "feature": ""
@@ -13051,7 +15186,12 @@
         "code": 26367,
         "glyph": "uni66FF",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-63.html",
+    "entries": [
       {
         "code": 26368,
         "glyph": "uni6700",
@@ -13080,6 +15220,11 @@
       {
         "code": 26381,
         "glyph": "uni670D",
+        "feature": ""
+      },
+      {
+        "code": 26382,
+        "glyph": "uni670E",
         "feature": ""
       },
       {
@@ -13226,12 +15371,7 @@
         "code": 26446,
         "glyph": "uni674E",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-55.html",
-    "entries": [
+      },
       {
         "code": 26447,
         "glyph": "uni674F",
@@ -13291,7 +15431,12 @@
         "code": 26466,
         "glyph": "uni6762",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-64.html",
+    "entries": [
       {
         "code": 26467,
         "glyph": "uni6763",
@@ -13305,6 +15450,11 @@
       {
         "code": 26469,
         "glyph": "uni6765",
+        "feature": ""
+      },
+      {
+        "code": 26470,
+        "glyph": "uni6766",
         "feature": ""
       },
       {
@@ -13471,12 +15621,7 @@
         "code": 26551,
         "glyph": "uni67B7",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-56.html",
-    "entries": [
+      },
       {
         "code": 26552,
         "glyph": "uni67B8",
@@ -13485,6 +15630,16 @@
       {
         "code": 26553,
         "glyph": "uni67B9",
+        "feature": ""
+      },
+      {
+        "code": 26555,
+        "glyph": "uni67BB",
+        "feature": ""
+      },
+      {
+        "code": 26560,
+        "glyph": "uni67C0",
         "feature": ""
       },
       {
@@ -13521,7 +15676,12 @@
         "code": 26576,
         "glyph": "uni67D0",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-65.html",
+    "entries": [
       {
         "code": 26577,
         "glyph": "uni67D1",
@@ -13628,6 +15788,11 @@
         "feature": ""
       },
       {
+        "code": 26625,
+        "glyph": "uni6801",
+        "feature": ""
+      },
+      {
         "code": 26626,
         "glyph": "uni6802",
         "feature": ""
@@ -13716,12 +15881,7 @@
         "code": 26685,
         "glyph": "uni683D",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-57.html",
-    "entries": [
+      },
       {
         "code": 26688,
         "glyph": "uni6840",
@@ -13743,6 +15903,11 @@
         "feature": ""
       },
       {
+        "code": 26692,
+        "glyph": "uni6844",
+        "feature": ""
+      },
+      {
         "code": 26694,
         "glyph": "uni6846",
         "feature": ""
@@ -13756,7 +15921,12 @@
         "code": 26701,
         "glyph": "uni684D",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-66.html",
+    "entries": [
       {
         "code": 26702,
         "glyph": "uni684E",
@@ -13770,6 +15940,11 @@
       {
         "code": 26705,
         "glyph": "uni6851",
+        "feature": ""
+      },
+      {
+        "code": 26706,
+        "glyph": "uni6852",
         "feature": ""
       },
       {
@@ -13961,12 +16136,7 @@
         "code": 26810,
         "glyph": "uni68BA",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-58.html",
-    "entries": [
+      },
       {
         "code": 26812,
         "glyph": "uni68BC",
@@ -13983,6 +16153,11 @@
         "feature": ""
       },
       {
+        "code": 26824,
+        "glyph": "uni68C8",
+        "feature": ""
+      },
+      {
         "code": 26825,
         "glyph": "uni68C9",
         "feature": ""
@@ -13991,7 +16166,12 @@
         "code": 26826,
         "glyph": "uni68CA",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-67.html",
+    "entries": [
       {
         "code": 26827,
         "glyph": "uni68CB",
@@ -14000,6 +16180,11 @@
       {
         "code": 26829,
         "glyph": "uni68CD",
+        "feature": ""
+      },
+      {
+        "code": 26831,
+        "glyph": "uni68CF",
         "feature": ""
       },
       {
@@ -14206,12 +16391,7 @@
         "code": 26934,
         "glyph": "uni6936",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-59.html",
-    "entries": [
+      },
       {
         "code": 26937,
         "glyph": "uni6939",
@@ -14231,7 +16411,12 @@
         "code": 26954,
         "glyph": "uni694A",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-68.html",
+    "entries": [
       {
         "code": 26963,
         "glyph": "uni6953",
@@ -14285,6 +16470,11 @@
       {
         "code": 26978,
         "glyph": "uni6962",
+        "feature": ""
+      },
+      {
+        "code": 26984,
+        "glyph": "uni6968",
         "feature": ""
       },
       {
@@ -14393,6 +16583,11 @@
         "feature": ""
       },
       {
+        "code": 27032,
+        "glyph": "uni6998",
+        "feature": ""
+      },
+      {
         "code": 27035,
         "glyph": "uni699B",
         "feature": ""
@@ -14451,12 +16646,7 @@
         "code": 27073,
         "glyph": "uni69C1",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-60.html",
-    "entries": [
+      },
       {
         "code": 27075,
         "glyph": "uni69C3",
@@ -14466,7 +16656,12 @@
         "code": 27079,
         "glyph": "uni69C7",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-69.html",
+    "entries": [
       {
         "code": 27082,
         "glyph": "uni69CA",
@@ -14520,6 +16715,11 @@
       {
         "code": 27102,
         "glyph": "uni69DE",
+        "feature": ""
+      },
+      {
+        "code": 27106,
+        "glyph": "uni69E2",
         "feature": ""
       },
       {
@@ -14668,6 +16868,11 @@
         "feature": ""
       },
       {
+        "code": 27184,
+        "glyph": "uni6A30",
+        "feature": ""
+      },
+      {
         "code": 27189,
         "glyph": "uni6A35",
         "feature": ""
@@ -14700,11 +16905,16 @@
     ]
   },
   {
-    "page": "page-61.html",
+    "page": "page-70.html",
     "entries": [
       {
         "code": 27204,
         "glyph": "uni6A44",
+        "feature": ""
+      },
+      {
+        "code": 27206,
+        "glyph": "uni6A46",
         "feature": ""
       },
       {
@@ -14753,13 +16963,28 @@
         "feature": ""
       },
       {
+        "code": 27243,
+        "glyph": "uni6A6B",
+        "feature": ""
+      },
+      {
         "code": 27250,
         "glyph": "uni6A72",
         "feature": ""
       },
       {
+        "code": 27251,
+        "glyph": "uni6A73",
+        "feature": ""
+      },
+      {
         "code": 27256,
         "glyph": "uni6A78",
+        "feature": ""
+      },
+      {
+        "code": 27262,
+        "glyph": "uni6A7E",
         "feature": ""
       },
       {
@@ -14893,6 +17118,16 @@
         "feature": ""
       },
       {
+        "code": 27362,
+        "glyph": "uni6AE2",
+        "feature": ""
+      },
+      {
+        "code": 27364,
+        "glyph": "uni6AE4",
+        "feature": ""
+      },
+      {
         "code": 27368,
         "glyph": "uni6AE8",
         "feature": ""
@@ -14911,7 +17146,12 @@
         "code": 27387,
         "glyph": "uni6AFB",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-71.html",
+    "entries": [
       {
         "code": 27396,
         "glyph": "uni6B04",
@@ -14941,12 +17181,7 @@
         "code": 27421,
         "glyph": "uni6B1D",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-62.html",
-    "entries": [
+      },
       {
         "code": 27423,
         "glyph": "uni6B1F",
@@ -15156,7 +17391,12 @@
         "code": 27529,
         "glyph": "uni6B89",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-72.html",
+    "entries": [
       {
         "code": 27530,
         "glyph": "uni6B8A",
@@ -15186,12 +17426,7 @@
         "code": 27544,
         "glyph": "uni6B98",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-63.html",
-    "entries": [
+      },
       {
         "code": 27550,
         "glyph": "uni6B9E",
@@ -15313,6 +17548,11 @@
         "feature": ""
       },
       {
+        "code": 27606,
+        "glyph": "uni6BD6",
+        "feature": ""
+      },
+      {
         "code": 27608,
         "glyph": "uni6BD8",
         "feature": ""
@@ -15396,7 +17636,12 @@
         "code": 27700,
         "glyph": "uni6C34",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-73.html",
+    "entries": [
       {
         "code": 27703,
         "glyph": "uni6C37",
@@ -15410,6 +17655,11 @@
       {
         "code": 27710,
         "glyph": "uni6C3E",
+        "feature": ""
+      },
+      {
+        "code": 27711,
+        "glyph": "uni6C3F",
         "feature": ""
       },
       {
@@ -15431,12 +17681,7 @@
         "code": 27726,
         "glyph": "uni6C4E",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-64.html",
-    "entries": [
+      },
       {
         "code": 27728,
         "glyph": "uni6C50",
@@ -15455,6 +17700,11 @@
       {
         "code": 27738,
         "glyph": "uni6C5A",
+        "feature": ""
+      },
+      {
+        "code": 27740,
+        "glyph": "uni6C5C",
         "feature": ""
       },
       {
@@ -15490,6 +17740,11 @@
       {
         "code": 27754,
         "glyph": "uni6C6A",
+        "feature": ""
+      },
+      {
+        "code": 27759,
+        "glyph": "uni6C6F",
         "feature": ""
       },
       {
@@ -15535,6 +17790,11 @@
       {
         "code": 27779,
         "glyph": "uni6C83",
+        "feature": ""
+      },
+      {
+        "code": 27782,
+        "glyph": "uni6C86",
         "feature": ""
       },
       {
@@ -15621,7 +17881,12 @@
         "code": 27832,
         "glyph": "uni6CB8",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-74.html",
+    "entries": [
       {
         "code": 27833,
         "glyph": "uni6CB9",
@@ -15676,12 +17941,7 @@
         "code": 27849,
         "glyph": "uni6CC9",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-65.html",
-    "entries": [
+      },
       {
         "code": 27850,
         "glyph": "uni6CCA",
@@ -15710,6 +17970,11 @@
       {
         "code": 27865,
         "glyph": "uni6CD9",
+        "feature": ""
+      },
+      {
+        "code": 27866,
+        "glyph": "uni6CDA",
         "feature": ""
       },
       {
@@ -15770,6 +18035,11 @@
       {
         "code": 27891,
         "glyph": "uni6CF3",
+        "feature": ""
+      },
+      {
+        "code": 27908,
+        "glyph": "uni6D04",
         "feature": ""
       },
       {
@@ -15856,7 +18126,12 @@
         "code": 27960,
         "glyph": "uni6D38",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-75.html",
+    "entries": [
       {
         "code": 27963,
         "glyph": "uni6D3B",
@@ -15921,12 +18196,7 @@
         "code": 28009,
         "glyph": "uni6D69",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-66.html",
-    "entries": [
+      },
       {
         "code": 28010,
         "glyph": "uni6D6A",
@@ -15940,6 +18210,11 @@
       {
         "code": 28014,
         "glyph": "uni6D6E",
+        "feature": ""
+      },
+      {
+        "code": 28015,
+        "glyph": "uni6D6F",
         "feature": ""
       },
       {
@@ -15968,6 +18243,11 @@
         "feature": ""
       },
       {
+        "code": 28039,
+        "glyph": "uni6D87",
+        "feature": ""
+      },
+      {
         "code": 28040,
         "glyph": "uni6D88",
         "feature": ""
@@ -15993,6 +18273,11 @@
         "feature": ""
       },
       {
+        "code": 28054,
+        "glyph": "uni6D96",
+        "feature": ""
+      },
+      {
         "code": 28057,
         "glyph": "uni6D99",
         "feature": ""
@@ -16005,6 +18290,11 @@
       {
         "code": 28060,
         "glyph": "uni6D9C",
+        "feature": ""
+      },
+      {
+        "code": 28076,
+        "glyph": "uni6DAC",
         "feature": ""
       },
       {
@@ -16063,6 +18353,11 @@
         "feature": ""
       },
       {
+        "code": 28111,
+        "glyph": "uni6DCF",
+        "feature": ""
+      },
+      {
         "code": 28113,
         "glyph": "uni6DD1",
         "feature": ""
@@ -16076,7 +18371,12 @@
         "code": 28117,
         "glyph": "uni6DD5",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-76.html",
+    "entries": [
       {
         "code": 28120,
         "glyph": "uni6DD8",
@@ -16138,6 +18438,11 @@
         "feature": ""
       },
       {
+        "code": 28146,
+        "glyph": "uni6DF2",
+        "feature": ""
+      },
+      {
         "code": 28147,
         "glyph": "uni6DF3",
         "feature": ""
@@ -16150,6 +18455,11 @@
       {
         "code": 28151,
         "glyph": "uni6DF7",
+        "feature": ""
+      },
+      {
+        "code": 28152,
+        "glyph": "uni6DF8",
         "feature": ""
       },
       {
@@ -16166,12 +18476,12 @@
         "code": 28155,
         "glyph": "uni6DFB",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-67.html",
-    "entries": [
+      },
+      {
+        "code": 28156,
+        "glyph": "uni6DFC",
+        "feature": ""
+      },
       {
         "code": 28165,
         "glyph": "uni6E05",
@@ -16268,6 +18578,11 @@
         "feature": ""
       },
       {
+        "code": 28199,
+        "glyph": "uni6E27",
+        "feature": ""
+      },
+      {
         "code": 28201,
         "glyph": "uni6E29",
         "feature": ""
@@ -16301,10 +18616,25 @@
         "code": 28216,
         "glyph": "uni6E38",
         "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-77.html",
+    "entries": [
+      {
+        "code": 28217,
+        "glyph": "uni6E39",
+        "feature": ""
       },
       {
         "code": 28218,
         "glyph": "uni6E3A",
+        "feature": ""
+      },
+      {
+        "code": 28220,
+        "glyph": "uni6E3C",
         "feature": ""
       },
       {
@@ -16345,6 +18675,11 @@
       {
         "code": 28251,
         "glyph": "uni6E5B",
+        "feature": ""
+      },
+      {
+        "code": 28252,
+        "glyph": "uni6E5C",
         "feature": ""
       },
       {
@@ -16411,12 +18746,7 @@
         "code": 28303,
         "glyph": "uni6E8F",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-68.html",
-    "entries": [
+      },
       {
         "code": 28304,
         "glyph": "uni6E90",
@@ -16493,6 +18823,11 @@
         "feature": ""
       },
       {
+        "code": 28351,
+        "glyph": "uni6EBF",
+        "feature": ""
+      },
+      {
         "code": 28354,
         "glyph": "uni6EC2",
         "feature": ""
@@ -16526,7 +18861,12 @@
         "code": 28369,
         "glyph": "uni6ED1",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-78.html",
+    "entries": [
       {
         "code": 28371,
         "glyph": "uni6ED3",
@@ -16656,12 +18996,7 @@
         "code": 28459,
         "glyph": "uni6F2B",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-69.html",
-    "entries": [
+      },
       {
         "code": 28460,
         "glyph": "uni6F2C",
@@ -16771,7 +19106,12 @@
         "code": 28538,
         "glyph": "uni6F7A",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-79.html",
+    "entries": [
       {
         "code": 28540,
         "glyph": "uni6F7C",
@@ -16800,6 +19140,11 @@
       {
         "code": 28550,
         "glyph": "uni6F86",
+        "feature": ""
+      },
+      {
+        "code": 28552,
+        "glyph": "uni6F88",
         "feature": ""
       },
       {
@@ -16845,6 +19190,11 @@
       {
         "code": 28595,
         "glyph": "uni6FB3",
+        "feature": ""
+      },
+      {
+        "code": 28597,
+        "glyph": "uni6FB5",
         "feature": ""
       },
       {
@@ -16901,12 +19251,7 @@
         "code": 28639,
         "glyph": "uni6FDF",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-70.html",
-    "entries": [
+      },
       {
         "code": 28640,
         "glyph": "uni6FE0",
@@ -16953,6 +19298,11 @@
         "feature": ""
       },
       {
+        "code": 28661,
+        "glyph": "uni6FF5",
+        "feature": ""
+      },
+      {
         "code": 28662,
         "glyph": "uni6FF6",
         "feature": ""
@@ -16970,6 +19320,16 @@
       {
         "code": 28673,
         "glyph": "uni7001",
+        "feature": ""
+      },
+      {
+        "code": 28677,
+        "glyph": "uni7005",
+        "feature": ""
+      },
+      {
+        "code": 28679,
+        "glyph": "uni7007",
         "feature": ""
       },
       {
@@ -16991,7 +19351,12 @@
         "code": 28689,
         "glyph": "uni7011",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-80.html",
+    "entries": [
       {
         "code": 28693,
         "glyph": "uni7015",
@@ -17035,6 +19400,11 @@
       {
         "code": 28711,
         "glyph": "uni7027",
+        "feature": ""
+      },
+      {
+        "code": 28712,
+        "glyph": "uni7028",
         "feature": ""
       },
       {
@@ -17108,6 +19478,11 @@
         "feature": ""
       },
       {
+        "code": 28805,
+        "glyph": "uni7085",
+        "feature": ""
+      },
+      {
         "code": 28809,
         "glyph": "uni7089",
         "feature": ""
@@ -17133,6 +19508,11 @@
         "feature": ""
       },
       {
+        "code": 28843,
+        "glyph": "uni70AB",
+        "feature": ""
+      },
+      {
         "code": 28844,
         "glyph": "uni70AC",
         "feature": ""
@@ -17146,12 +19526,7 @@
         "code": 28846,
         "glyph": "uni70AE",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-71.html",
-    "entries": [
+      },
       {
         "code": 28847,
         "glyph": "uni70AF",
@@ -17175,6 +19550,11 @@
       {
         "code": 28858,
         "glyph": "uni70BA",
+        "feature": ""
+      },
+      {
+        "code": 28859,
+        "glyph": "uni70BB",
         "feature": ""
       },
       {
@@ -17216,15 +19596,30 @@
         "code": 28921,
         "glyph": "uni70F9",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-81.html",
+    "entries": [
       {
         "code": 28925,
         "glyph": "uni70FD",
         "feature": ""
       },
       {
+        "code": 28932,
+        "glyph": "uni7104",
+        "feature": ""
+      },
+      {
         "code": 28937,
         "glyph": "uni7109",
+        "feature": ""
+      },
+      {
+        "code": 28943,
+        "glyph": "uni710F",
         "feature": ""
       },
       {
@@ -17268,6 +19663,16 @@
         "feature": ""
       },
       {
+        "code": 28998,
+        "glyph": "uni7146",
+        "feature": ""
+      },
+      {
+        "code": 28999,
+        "glyph": "uni7147",
+        "feature": ""
+      },
+      {
         "code": 29001,
         "glyph": "uni7149",
         "feature": ""
@@ -17295,6 +19700,11 @@
       {
         "code": 29017,
         "glyph": "uni7159",
+        "feature": ""
+      },
+      {
+        "code": 29020,
+        "glyph": "uni715C",
         "feature": ""
       },
       {
@@ -17391,12 +19801,7 @@
         "code": 29100,
         "glyph": "uni71AC",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-72.html",
-    "entries": [
+      },
       {
         "code": 29105,
         "glyph": "uni71B1",
@@ -17410,6 +19815,11 @@
       {
         "code": 29118,
         "glyph": "uni71BE",
+        "feature": ""
+      },
+      {
+        "code": 29121,
+        "glyph": "uni71C1",
         "feature": ""
       },
       {
@@ -17431,7 +19841,12 @@
         "code": 29134,
         "glyph": "uni71CE",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-82.html",
+    "entries": [
       {
         "code": 29136,
         "glyph": "uni71D0",
@@ -17515,6 +19930,11 @@
       {
         "code": 29180,
         "glyph": "uni71FC",
+        "feature": ""
+      },
+      {
+        "code": 29182,
+        "glyph": "uni71FE",
         "feature": ""
       },
       {
@@ -17636,12 +20056,7 @@
         "code": 29259,
         "glyph": "uni724B",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-73.html",
-    "entries": [
+      },
       {
         "code": 29260,
         "glyph": "uni724C",
@@ -17671,7 +20086,12 @@
         "code": 29277,
         "glyph": "uni725D",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-83.html",
+    "entries": [
       {
         "code": 29279,
         "glyph": "uni725F",
@@ -17778,6 +20198,11 @@
         "feature": ""
       },
       {
+        "code": 29361,
+        "glyph": "uni72B1",
+        "feature": ""
+      },
+      {
         "code": 29362,
         "glyph": "uni72B2",
         "feature": ""
@@ -17790,6 +20215,11 @@
       {
         "code": 29369,
         "glyph": "uni72B9",
+        "feature": ""
+      },
+      {
+        "code": 29374,
+        "glyph": "uni72BE",
         "feature": ""
       },
       {
@@ -17881,12 +20311,7 @@
         "code": 29432,
         "glyph": "uni72F8",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-74.html",
-    "entries": [
+      },
       {
         "code": 29433,
         "glyph": "uni72F9",
@@ -17906,7 +20331,12 @@
         "code": 29450,
         "glyph": "uni730A",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-84.html",
+    "entries": [
       {
         "code": 29462,
         "glyph": "uni7316",
@@ -17935,6 +20365,11 @@
       {
         "code": 29471,
         "glyph": "uni731F",
+        "feature": ""
+      },
+      {
+        "code": 29476,
+        "glyph": "uni7324",
         "feature": ""
       },
       {
@@ -18048,6 +20483,11 @@
         "feature": ""
       },
       {
+        "code": 29559,
+        "glyph": "uni7377",
+        "feature": ""
+      },
+      {
         "code": 29560,
         "glyph": "uni7378",
         "feature": ""
@@ -18108,6 +20548,11 @@
         "feature": ""
       },
       {
+        "code": 29629,
+        "glyph": "uni73BD",
+        "feature": ""
+      },
+      {
         "code": 29632,
         "glyph": "uni73C0",
         "feature": ""
@@ -18123,6 +20568,11 @@
         "feature": ""
       },
       {
+        "code": 29641,
+        "glyph": "uni73C9",
+        "feature": ""
+      },
+      {
         "code": 29642,
         "glyph": "uni73CA",
         "feature": ""
@@ -18130,7 +20580,7 @@
     ]
   },
   {
-    "page": "page-75.html",
+    "page": "page-85.html",
     "entries": [
       {
         "code": 29645,
@@ -18143,6 +20593,16 @@
         "feature": ""
       },
       {
+        "code": 29650,
+        "glyph": "uni73D2",
+        "feature": ""
+      },
+      {
+        "code": 29654,
+        "glyph": "uni73D6",
+        "feature": ""
+      },
+      {
         "code": 29662,
         "glyph": "uni73DE",
         "feature": ""
@@ -18150,6 +20610,11 @@
       {
         "code": 29664,
         "glyph": "uni73E0",
+        "feature": ""
+      },
+      {
+        "code": 29667,
+        "glyph": "uni73E3",
         "feature": ""
       },
       {
@@ -18178,6 +20643,11 @@
         "feature": ""
       },
       {
+        "code": 29685,
+        "glyph": "uni73F5",
+        "feature": ""
+      },
+      {
         "code": 29688,
         "glyph": "uni73F8",
         "feature": ""
@@ -18203,6 +20673,11 @@
         "feature": ""
       },
       {
+        "code": 29703,
+        "glyph": "uni7407",
+        "feature": ""
+      },
+      {
         "code": 29705,
         "glyph": "uni7409",
         "feature": ""
@@ -18215,6 +20690,26 @@
       {
         "code": 29733,
         "glyph": "uni7425",
+        "feature": ""
+      },
+      {
+        "code": 29734,
+        "glyph": "uni7426",
+        "feature": ""
+      },
+      {
+        "code": 29737,
+        "glyph": "uni7429",
+        "feature": ""
+      },
+      {
+        "code": 29738,
+        "glyph": "uni742A",
+        "feature": ""
+      },
+      {
+        "code": 29742,
+        "glyph": "uni742E",
         "feature": ""
       },
       {
@@ -18298,6 +20793,11 @@
         "feature": ""
       },
       {
+        "code": 29794,
+        "glyph": "uni7462",
+        "feature": ""
+      },
+      {
         "code": 29795,
         "glyph": "uni7463",
         "feature": ""
@@ -18321,7 +20821,12 @@
         "code": 29807,
         "glyph": "uni746F",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-86.html",
+    "entries": [
       {
         "code": 29808,
         "glyph": "uni7470",
@@ -18348,6 +20853,11 @@
         "feature": ""
       },
       {
+        "code": 29833,
+        "glyph": "uni7489",
+        "feature": ""
+      },
+      {
         "code": 29835,
         "glyph": "uni748B",
         "feature": ""
@@ -18355,6 +20865,11 @@
       {
         "code": 29854,
         "glyph": "uni749E",
+        "feature": ""
+      },
+      {
+        "code": 29855,
+        "glyph": "uni749F",
         "feature": ""
       },
       {
@@ -18371,12 +20886,7 @@
         "code": 29872,
         "glyph": "uni74B0",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-76.html",
-    "entries": [
+      },
       {
         "code": 29885,
         "glyph": "uni74BD",
@@ -18468,6 +20978,11 @@
         "feature": ""
       },
       {
+        "code": 29953,
+        "glyph": "uni7501",
+        "feature": ""
+      },
+      {
         "code": 29955,
         "glyph": "uni7503",
         "feature": ""
@@ -18551,7 +21066,12 @@
         "code": 29990,
         "glyph": "uni7526",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-87.html",
+    "entries": [
       {
         "code": 29992,
         "glyph": "uni7528",
@@ -18565,6 +21085,11 @@
       {
         "code": 29996,
         "glyph": "uni752C",
+        "feature": ""
+      },
+      {
+        "code": 29999,
+        "glyph": "uni752F",
         "feature": ""
       },
       {
@@ -18616,12 +21141,7 @@
         "code": 30020,
         "glyph": "uni7544",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-77.html",
-    "entries": [
+      },
       {
         "code": 30022,
         "glyph": "uni7546",
@@ -18743,6 +21263,11 @@
         "feature": ""
       },
       {
+        "code": 30063,
+        "glyph": "uni756F",
+        "feature": ""
+      },
+      {
         "code": 30064,
         "glyph": "uni7570",
         "feature": ""
@@ -18786,7 +21311,12 @@
         "code": 30086,
         "glyph": "uni7586",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-88.html",
+    "entries": [
       {
         "code": 30087,
         "glyph": "uni7587",
@@ -18861,12 +21391,7 @@
         "code": 30130,
         "glyph": "uni75B2",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-78.html",
-    "entries": [
+      },
       {
         "code": 30131,
         "glyph": "uni75B3",
@@ -19031,7 +21556,12 @@
         "code": 30217,
         "glyph": "uni7609",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-89.html",
+    "entries": [
       {
         "code": 30219,
         "glyph": "uni760B",
@@ -19106,12 +21636,7 @@
         "code": 30280,
         "glyph": "uni7648",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-79.html",
-    "entries": [
+      },
       {
         "code": 30284,
         "glyph": "uni764C",
@@ -19223,6 +21748,11 @@
         "feature": ""
       },
       {
+        "code": 30338,
+        "glyph": "uni7682",
+        "feature": ""
+      },
+      {
         "code": 30339,
         "glyph": "uni7683",
         "feature": ""
@@ -19271,7 +21801,12 @@
         "code": 30358,
         "glyph": "uni7696",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-90.html",
+    "entries": [
       {
         "code": 30361,
         "glyph": "uni7699",
@@ -19280,6 +21815,26 @@
       {
         "code": 30362,
         "glyph": "uni769A",
+        "feature": ""
+      },
+      {
+        "code": 30363,
+        "glyph": "uni769B",
+        "feature": ""
+      },
+      {
+        "code": 30364,
+        "glyph": "uni769C",
+        "feature": ""
+      },
+      {
+        "code": 30366,
+        "glyph": "uni769E",
+        "feature": ""
+      },
+      {
+        "code": 30374,
+        "glyph": "uni76A6",
         "feature": ""
       },
       {
@@ -19351,12 +21906,7 @@
         "code": 30413,
         "glyph": "uni76CD",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-80.html",
-    "entries": [
+      },
       {
         "code": 30418,
         "glyph": "uni76D2",
@@ -19496,7 +22046,12 @@
         "code": 30494,
         "glyph": "uni771E",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-91.html",
+    "entries": [
       {
         "code": 30495,
         "glyph": "uni771F",
@@ -19553,6 +22108,11 @@
         "feature": ""
       },
       {
+        "code": 30534,
+        "glyph": "uni7746",
+        "feature": ""
+      },
+      {
         "code": 30535,
         "glyph": "uni7747",
         "feature": ""
@@ -19596,12 +22156,7 @@
         "code": 30571,
         "glyph": "uni776B",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-81.html",
-    "entries": [
+      },
       {
         "code": 30585,
         "glyph": "uni7779",
@@ -19736,7 +22291,12 @@
         "code": 30691,
         "glyph": "uni77E3",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-92.html",
+    "entries": [
       {
         "code": 30693,
         "glyph": "uni77E5",
@@ -19808,6 +22368,11 @@
         "feature": ""
       },
       {
+        "code": 30753,
+        "glyph": "uni7821",
+        "feature": ""
+      },
+      {
         "code": 30757,
         "glyph": "uni7825",
         "feature": ""
@@ -19841,20 +22406,25 @@
         "code": 30783,
         "glyph": "uni783F",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-82.html",
-    "entries": [
+      },
       {
         "code": 30789,
         "glyph": "uni7845",
         "feature": ""
       },
       {
+        "code": 30798,
+        "glyph": "uni784E",
+        "feature": ""
+      },
+      {
         "code": 30813,
         "glyph": "uni785D",
+        "feature": ""
+      },
+      {
+        "code": 30820,
+        "glyph": "uni7864",
         "feature": ""
       },
       {
@@ -19880,6 +22450,11 @@
       {
         "code": 30836,
         "glyph": "uni7874",
+        "feature": ""
+      },
+      {
+        "code": 30842,
+        "glyph": "uni787A",
         "feature": ""
       },
       {
@@ -19961,7 +22536,12 @@
         "code": 30890,
         "glyph": "uni78AA",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-93.html",
+    "entries": [
       {
         "code": 30895,
         "glyph": "uni78AF",
@@ -20086,12 +22666,7 @@
         "code": 30994,
         "glyph": "uni7912",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-83.html",
-    "entries": [
+      },
       {
         "code": 31001,
         "glyph": "uni7919",
@@ -20115,6 +22690,11 @@
       {
         "code": 31020,
         "glyph": "uni792C",
+        "feature": ""
+      },
+      {
+        "code": 31024,
+        "glyph": "uni7930",
         "feature": ""
       },
       {
@@ -20201,7 +22781,12 @@
         "code": 31071,
         "glyph": "uni795F",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-94.html",
+    "entries": [
       {
         "code": 31072,
         "glyph": "uni7960",
@@ -20283,6 +22868,16 @@
         "feature": ""
       },
       {
+        "code": 31124,
+        "glyph": "uni7994",
+        "feature": ""
+      },
+      {
+        "code": 31131,
+        "glyph": "uni799B",
+        "feature": ""
+      },
+      {
         "code": 31133,
         "glyph": "uni799D",
         "feature": ""
@@ -20331,12 +22926,7 @@
         "code": 31165,
         "glyph": "uni79BD",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-84.html",
-    "entries": [
+      },
       {
         "code": 31166,
         "glyph": "uni79BE",
@@ -20436,7 +23026,12 @@
         "code": 31227,
         "glyph": "uni79FB",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-95.html",
+    "entries": [
       {
         "code": 31232,
         "glyph": "uni7A00",
@@ -20576,12 +23171,7 @@
         "code": 31309,
         "glyph": "uni7A4D",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-85.html",
-    "entries": [
+      },
       {
         "code": 31310,
         "glyph": "uni7A4E",
@@ -20681,7 +23271,12 @@
         "code": 31368,
         "glyph": "uni7A88",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-96.html",
+    "entries": [
       {
         "code": 31378,
         "glyph": "uni7A92",
@@ -20803,6 +23398,11 @@
         "feature": ""
       },
       {
+        "code": 31441,
+        "glyph": "uni7AD1",
+        "feature": ""
+      },
+      {
         "code": 31442,
         "glyph": "uni7AD2",
         "feature": ""
@@ -20821,12 +23421,7 @@
         "code": 31449,
         "glyph": "uni7AD9",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-86.html",
-    "entries": [
+      },
       {
         "code": 31450,
         "glyph": "uni7ADA",
@@ -20878,8 +23473,18 @@
         "feature": ""
       },
       {
+        "code": 31463,
+        "glyph": "uni7AE7",
+        "feature": ""
+      },
+      {
         "code": 31466,
         "glyph": "uni7AEA",
+        "feature": ""
+      },
+      {
+        "code": 31467,
+        "glyph": "uni7AEB",
         "feature": ""
       },
       {
@@ -20911,7 +23516,12 @@
         "code": 31481,
         "glyph": "uni7AF9",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-97.html",
+    "entries": [
       {
         "code": 31482,
         "glyph": "uni7AFA",
@@ -21066,12 +23676,7 @@
         "code": 31567,
         "glyph": "uni7B4F",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-87.html",
-    "entries": [
+      },
       {
         "code": 31568,
         "glyph": "uni7B50",
@@ -21156,7 +23761,12 @@
         "code": 31623,
         "glyph": "uni7B87",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-98.html",
+    "entries": [
       {
         "code": 31627,
         "glyph": "uni7B8B",
@@ -21215,6 +23825,11 @@
       {
         "code": 31645,
         "glyph": "uni7B9D",
+        "feature": ""
+      },
+      {
+        "code": 31646,
+        "glyph": "uni7B9E",
         "feature": ""
       },
       {
@@ -21311,12 +23926,7 @@
         "code": 31716,
         "glyph": "uni7BE4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-88.html",
-    "entries": [
+      },
       {
         "code": 31717,
         "glyph": "uni7BE5",
@@ -21396,7 +24006,12 @@
         "code": 31775,
         "glyph": "uni7C1F",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-99.html",
+    "entries": [
       {
         "code": 31777,
         "glyph": "uni7C21",
@@ -21556,12 +24171,7 @@
         "code": 31883,
         "glyph": "uni7C8B",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-89.html",
-    "entries": [
+      },
       {
         "code": 31885,
         "glyph": "uni7C8D",
@@ -21641,7 +24251,12 @@
         "code": 31917,
         "glyph": "uni7CAD",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-100.html",
+    "entries": [
       {
         "code": 31918,
         "glyph": "uni7CAE",
@@ -21801,12 +24416,7 @@
         "code": 32004,
         "glyph": "uni7D04",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-90.html",
-    "entries": [
+      },
       {
         "code": 32005,
         "glyph": "uni7D05",
@@ -21886,7 +24496,12 @@
         "code": 32033,
         "glyph": "uni7D21",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-101.html",
+    "entries": [
       {
         "code": 32034,
         "glyph": "uni7D22",
@@ -21973,6 +24588,11 @@
         "feature": ""
       },
       {
+        "code": 32072,
+        "glyph": "uni7D48",
+        "feature": ""
+      },
+      {
         "code": 32075,
         "glyph": "uni7D4B",
         "feature": ""
@@ -22005,6 +24625,11 @@
       {
         "code": 32091,
         "glyph": "uni7D5B",
+        "feature": ""
+      },
+      {
+        "code": 32092,
+        "glyph": "uni7D5C",
         "feature": ""
       },
       {
@@ -22046,12 +24671,7 @@
         "code": 32113,
         "glyph": "uni7D71",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-91.html",
-    "entries": [
+      },
       {
         "code": 32114,
         "glyph": "uni7D72",
@@ -22121,6 +24741,16 @@
         "code": 32159,
         "glyph": "uni7D9F",
         "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-102.html",
+    "entries": [
+      {
+        "code": 32160,
+        "glyph": "uni7DA0",
+        "feature": ""
       },
       {
         "code": 32162,
@@ -22180,6 +24810,11 @@
       {
         "code": 32181,
         "glyph": "uni7DB5",
+        "feature": ""
+      },
+      {
+        "code": 32183,
+        "glyph": "uni7DB7",
         "feature": ""
       },
       {
@@ -22248,6 +24883,11 @@
         "feature": ""
       },
       {
+        "code": 32214,
+        "glyph": "uni7DD6",
+        "feature": ""
+      },
+      {
         "code": 32216,
         "glyph": "uni7DD8",
         "feature": ""
@@ -22291,12 +24931,7 @@
         "code": 32232,
         "glyph": "uni7DE8",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-92.html",
-    "entries": [
+      },
       {
         "code": 32233,
         "glyph": "uni7DE9",
@@ -22351,7 +24986,12 @@
         "code": 32266,
         "glyph": "uni7E0A",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-103.html",
+    "entries": [
       {
         "code": 32267,
         "glyph": "uni7E0B",
@@ -22483,6 +25123,11 @@
         "feature": ""
       },
       {
+        "code": 32338,
+        "glyph": "uni7E52",
+        "feature": ""
+      },
+      {
         "code": 32340,
         "glyph": "uni7E54",
         "feature": ""
@@ -22536,12 +25181,7 @@
         "code": 32362,
         "glyph": "uni7E6A",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-93.html",
-    "entries": [
+      },
       {
         "code": 32365,
         "glyph": "uni7E6D",
@@ -22591,10 +25231,20 @@
         "code": 32392,
         "glyph": "uni7E88",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-104.html",
+    "entries": [
       {
         "code": 32393,
         "glyph": "uni7E89",
+        "feature": ""
+      },
+      {
+        "code": 32394,
+        "glyph": "uni7E8A",
         "feature": ""
       },
       {
@@ -22665,6 +25315,11 @@
       {
         "code": 32581,
         "glyph": "uni7F45",
+        "feature": ""
+      },
+      {
+        "code": 32583,
+        "glyph": "uni7F47",
         "feature": ""
       },
       {
@@ -22781,12 +25436,7 @@
         "code": 32642,
         "glyph": "uni7F82",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-94.html",
-    "entries": [
+      },
       {
         "code": 32643,
         "glyph": "uni7F83",
@@ -22826,7 +25476,12 @@
         "code": 32654,
         "glyph": "uni7F8E",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-105.html",
+    "entries": [
       {
         "code": 32660,
         "glyph": "uni7F94",
@@ -22845,6 +25500,11 @@
       {
         "code": 32670,
         "glyph": "uni7F9E",
+        "feature": ""
+      },
+      {
+        "code": 32673,
+        "glyph": "uni7FA1",
         "feature": ""
       },
       {
@@ -23026,12 +25686,7 @@
         "code": 32779,
         "glyph": "uni800B",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-95.html",
-    "entries": [
+      },
       {
         "code": 32780,
         "glyph": "uni800C",
@@ -23066,7 +25721,12 @@
         "code": 32793,
         "glyph": "uni8019",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-106.html",
+    "entries": [
       {
         "code": 32796,
         "glyph": "uni801C",
@@ -23271,12 +25931,7 @@
         "code": 32922,
         "glyph": "uni809A",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-96.html",
-    "entries": [
+      },
       {
         "code": 32923,
         "glyph": "uni809B",
@@ -23311,7 +25966,12 @@
         "code": 32938,
         "glyph": "uni80AA",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-107.html",
+    "entries": [
       {
         "code": 32940,
         "glyph": "uni80AC",
@@ -23516,12 +26176,7 @@
         "code": 33075,
         "glyph": "uni8133",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-97.html",
-    "entries": [
+      },
       {
         "code": 33081,
         "glyph": "uni8139",
@@ -23556,7 +26211,12 @@
         "code": 33105,
         "glyph": "uni8151",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-108.html",
+    "entries": [
       {
         "code": 33107,
         "glyph": "uni8153",
@@ -23761,12 +26421,7 @@
         "code": 33218,
         "glyph": "uni81C2",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-98.html",
-    "entries": [
+      },
       {
         "code": 33222,
         "glyph": "uni81C6",
@@ -23801,7 +26456,12 @@
         "code": 33240,
         "glyph": "uni81D8",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-109.html",
+    "entries": [
       {
         "code": 33241,
         "glyph": "uni81D9",
@@ -24006,12 +26666,7 @@
         "code": 33331,
         "glyph": "uni8233",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-99.html",
-    "entries": [
+      },
       {
         "code": 33333,
         "glyph": "uni8235",
@@ -24046,7 +26701,12 @@
         "code": 33351,
         "glyph": "uni8247",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-110.html",
+    "entries": [
       {
         "code": 33368,
         "glyph": "uni8258",
@@ -24251,12 +26911,7 @@
         "code": 33491,
         "glyph": "uni82D3",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-100.html",
-    "entries": [
+      },
       {
         "code": 33492,
         "glyph": "uni82D4",
@@ -24291,7 +26946,12 @@
         "code": 33503,
         "glyph": "uni82DF",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-111.html",
+    "entries": [
       {
         "code": 33505,
         "glyph": "uni82E1",
@@ -24350,6 +27010,11 @@
       {
         "code": 33531,
         "glyph": "uni82FB",
+        "feature": ""
+      },
+      {
+        "code": 33537,
+        "glyph": "uni8301",
         "feature": ""
       },
       {
@@ -24496,15 +27161,15 @@
         "code": 33618,
         "glyph": "uni8352",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-101.html",
-    "entries": [
+      },
       {
         "code": 33624,
         "glyph": "uni8358",
+        "feature": ""
+      },
+      {
+        "code": 33634,
+        "glyph": "uni8362",
         "feature": ""
       },
       {
@@ -24526,10 +27191,20 @@
         "code": 33659,
         "glyph": "uni837B",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-112.html",
+    "entries": [
       {
         "code": 33660,
         "glyph": "uni837C",
+        "feature": ""
+      },
+      {
+        "code": 33663,
+        "glyph": "uni837F",
         "feature": ""
       },
       {
@@ -24633,6 +27308,11 @@
         "feature": ""
       },
       {
+        "code": 33735,
+        "glyph": "uni83C7",
+        "feature": ""
+      },
+      {
         "code": 33738,
         "glyph": "uni83CA",
         "feature": ""
@@ -24713,6 +27393,11 @@
         "feature": ""
       },
       {
+        "code": 33782,
+        "glyph": "uni83F6",
+        "feature": ""
+      },
+      {
         "code": 33783,
         "glyph": "uni83F7",
         "feature": ""
@@ -24741,12 +27426,7 @@
         "code": 33799,
         "glyph": "uni8407",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-102.html",
-    "entries": [
+      },
       {
         "code": 33803,
         "glyph": "uni840B",
@@ -24756,7 +27436,12 @@
         "code": 33804,
         "glyph": "uni840C",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-113.html",
+    "entries": [
       {
         "code": 33805,
         "glyph": "uni840D",
@@ -24825,6 +27510,11 @@
       {
         "code": 33862,
         "glyph": "uni8446",
+        "feature": ""
+      },
+      {
+        "code": 33864,
+        "glyph": "uni8448",
         "feature": ""
       },
       {
@@ -24978,6 +27668,11 @@
         "feature": ""
       },
       {
+        "code": 33972,
+        "glyph": "uni84B4",
+        "feature": ""
+      },
+      {
         "code": 33976,
         "glyph": "uni84B8",
         "feature": ""
@@ -24990,7 +27685,7 @@
     ]
   },
   {
-    "page": "page-103.html",
+    "page": "page-114.html",
     "entries": [
       {
         "code": 33979,
@@ -25065,6 +27760,11 @@
       {
         "code": 34010,
         "glyph": "uni84DA",
+        "feature": ""
+      },
+      {
+        "code": 34012,
+        "glyph": "uni84DC",
         "feature": ""
       },
       {
@@ -25213,6 +27913,11 @@
         "feature": ""
       },
       {
+        "code": 34131,
+        "glyph": "uni8553",
+        "feature": ""
+      },
+      {
         "code": 34133,
         "glyph": "uni8555",
         "feature": ""
@@ -25221,22 +27926,27 @@
         "code": 34135,
         "glyph": "uni8557",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-115.html",
+    "entries": [
       {
         "code": 34136,
         "glyph": "uni8558",
         "feature": ""
       },
       {
+        "code": 34137,
+        "glyph": "uni8559",
+        "feature": ""
+      },
+      {
         "code": 34138,
         "glyph": "uni855A",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-104.html",
-    "entries": [
+      },
       {
         "code": 34147,
         "glyph": "uni8563",
@@ -25255,6 +27965,11 @@
       {
         "code": 34154,
         "glyph": "uni856A",
+        "feature": ""
+      },
+      {
+        "code": 34155,
+        "glyph": "uni856B",
         "feature": ""
       },
       {
@@ -25378,6 +28093,11 @@
         "feature": ""
       },
       {
+        "code": 34224,
+        "glyph": "uni85B0",
+        "feature": ""
+      },
+      {
         "code": 34233,
         "glyph": "uni85B9",
         "feature": ""
@@ -25451,7 +28171,12 @@
         "code": 34295,
         "glyph": "uni85F7",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-116.html",
+    "entries": [
       {
         "code": 34297,
         "glyph": "uni85F9",
@@ -25476,12 +28201,7 @@
         "code": 34306,
         "glyph": "uni8602",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-105.html",
-    "entries": [
+      },
       {
         "code": 34310,
         "glyph": "uni8606",
@@ -25696,7 +28416,12 @@
         "code": 34503,
         "glyph": "uni86C7",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-117.html",
+    "entries": [
       {
         "code": 34505,
         "glyph": "uni86C9",
@@ -25721,12 +28446,7 @@
         "code": 34516,
         "glyph": "uni86D4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-106.html",
-    "entries": [
+      },
       {
         "code": 34521,
         "glyph": "uni86D9",
@@ -25941,7 +28661,12 @@
         "code": 34656,
         "glyph": "uni8760",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-118.html",
+    "entries": [
       {
         "code": 34659,
         "glyph": "uni8763",
@@ -25966,12 +28691,7 @@
         "code": 34670,
         "glyph": "uni876E",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-107.html",
-    "entries": [
+      },
       {
         "code": 34676,
         "glyph": "uni8774",
@@ -26123,6 +28843,11 @@
         "feature": ""
       },
       {
+        "code": 34823,
+        "glyph": "uni8807",
+        "feature": ""
+      },
+      {
         "code": 34829,
         "glyph": "uni880D",
         "feature": ""
@@ -26181,7 +28906,12 @@
         "code": 34870,
         "glyph": "uni8836",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-119.html",
+    "entries": [
       {
         "code": 34873,
         "glyph": "uni8839",
@@ -26211,12 +28941,7 @@
         "code": 34886,
         "glyph": "uni8846",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-108.html",
-    "entries": [
+      },
       {
         "code": 34892,
         "glyph": "uni884C",
@@ -26426,7 +29151,12 @@
         "code": 35009,
         "glyph": "uni88C1",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-120.html",
+    "entries": [
       {
         "code": 35010,
         "glyph": "uni88C2",
@@ -26456,12 +29186,7 @@
         "code": 35028,
         "glyph": "uni88D4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-109.html",
-    "entries": [
+      },
       {
         "code": 35029,
         "glyph": "uni88D5",
@@ -26515,6 +29240,11 @@
       {
         "code": 35060,
         "glyph": "uni88F4",
+        "feature": ""
+      },
+      {
+        "code": 35061,
+        "glyph": "uni88F5",
         "feature": ""
       },
       {
@@ -26580,6 +29310,11 @@
       {
         "code": 35091,
         "glyph": "uni8913",
+        "feature": ""
+      },
+      {
+        "code": 35100,
+        "glyph": "uni891C",
         "feature": ""
       },
       {
@@ -26661,7 +29396,12 @@
         "code": 35167,
         "glyph": "uni895F",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-121.html",
+    "entries": [
       {
         "code": 35168,
         "glyph": "uni8960",
@@ -26701,12 +29441,7 @@
         "code": 35188,
         "glyph": "uni8974",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-110.html",
-    "entries": [
+      },
       {
         "code": 35191,
         "glyph": "uni8977",
@@ -26906,7 +29641,12 @@
         "code": 35330,
         "glyph": "uni8A02",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-122.html",
+    "entries": [
       {
         "code": 35331,
         "glyph": "uni8A03",
@@ -26938,6 +29678,11 @@
         "feature": ""
       },
       {
+        "code": 35346,
+        "glyph": "uni8A12",
+        "feature": ""
+      },
+      {
         "code": 35347,
         "glyph": "uni8A13",
         "feature": ""
@@ -26946,12 +29691,7 @@
         "code": 35350,
         "glyph": "uni8A16",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-111.html",
-    "entries": [
+      },
       {
         "code": 35351,
         "glyph": "uni8A17",
@@ -27015,6 +29755,11 @@
       {
         "code": 35382,
         "glyph": "uni8A36",
+        "feature": ""
+      },
+      {
+        "code": 35383,
+        "glyph": "uni8A37",
         "feature": ""
       },
       {
@@ -27141,10 +29886,20 @@
         "code": 35442,
         "glyph": "uni8A72",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-123.html",
+    "entries": [
       {
         "code": 35443,
         "glyph": "uni8A73",
+        "feature": ""
+      },
+      {
+        "code": 35449,
+        "glyph": "uni8A79",
         "feature": ""
       },
       {
@@ -27191,12 +29946,7 @@
         "code": 35473,
         "glyph": "uni8A91",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-112.html",
-    "entries": [
+      },
       {
         "code": 35475,
         "glyph": "uni8A93",
@@ -27253,6 +30003,11 @@
         "feature": ""
       },
       {
+        "code": 35495,
+        "glyph": "uni8AA7",
+        "feature": ""
+      },
+      {
         "code": 35496,
         "glyph": "uni8AA8",
         "feature": ""
@@ -27285,6 +30040,11 @@
       {
         "code": 35516,
         "glyph": "uni8ABC",
+        "feature": ""
+      },
+      {
+        "code": 35518,
+        "glyph": "uni8ABE",
         "feature": ""
       },
       {
@@ -27358,6 +30118,11 @@
         "feature": ""
       },
       {
+        "code": 35551,
+        "glyph": "uni8ADF",
+        "feature": ""
+      },
+      {
         "code": 35552,
         "glyph": "uni8AE0",
         "feature": ""
@@ -27366,7 +30131,12 @@
         "code": 35553,
         "glyph": "uni8AE1",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-124.html",
+    "entries": [
       {
         "code": 35554,
         "glyph": "uni8AE2",
@@ -27413,6 +30183,11 @@
         "feature": ""
       },
       {
+        "code": 35574,
+        "glyph": "uni8AF6",
+        "feature": ""
+      },
+      {
         "code": 35575,
         "glyph": "uni8AF7",
         "feature": ""
@@ -27436,12 +30211,7 @@
         "code": 35584,
         "glyph": "uni8B00",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-113.html",
-    "entries": [
+      },
       {
         "code": 35585,
         "glyph": "uni8B01",
@@ -27583,6 +30353,11 @@
         "feature": ""
       },
       {
+        "code": 35667,
+        "glyph": "uni8B53",
+        "feature": ""
+      },
+      {
         "code": 35670,
         "glyph": "uni8B56",
         "feature": ""
@@ -27601,7 +30376,12 @@
         "code": 35675,
         "glyph": "uni8B5B",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-125.html",
+    "entries": [
       {
         "code": 35676,
         "glyph": "uni8B5C",
@@ -27663,6 +30443,11 @@
         "feature": ""
       },
       {
+        "code": 35711,
+        "glyph": "uni8B7F",
+        "feature": ""
+      },
+      {
         "code": 35712,
         "glyph": "uni8B80",
         "feature": ""
@@ -27681,12 +30466,7 @@
         "code": 35724,
         "glyph": "uni8B8C",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-114.html",
-    "entries": [
+      },
       {
         "code": 35726,
         "glyph": "uni8B8E",
@@ -27841,7 +30621,12 @@
         "code": 35977,
         "glyph": "uni8C89",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-126.html",
+    "entries": [
       {
         "code": 35978,
         "glyph": "uni8C8A",
@@ -27926,12 +30711,7 @@
         "code": 36012,
         "glyph": "uni8CAC",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-115.html",
-    "entries": [
+      },
       {
         "code": 36013,
         "glyph": "uni8CAD",
@@ -28086,7 +30866,12 @@
         "code": 36064,
         "glyph": "uni8CE0",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-127.html",
+    "entries": [
       {
         "code": 36066,
         "glyph": "uni8CE2",
@@ -28115,6 +30900,16 @@
       {
         "code": 36077,
         "glyph": "uni8CED",
+        "feature": ""
+      },
+      {
+        "code": 36080,
+        "glyph": "uni8CF0",
+        "feature": ""
+      },
+      {
+        "code": 36084,
+        "glyph": "uni8CF4",
         "feature": ""
       },
       {
@@ -28171,12 +30966,7 @@
         "code": 36109,
         "glyph": "uni8D0D",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-116.html",
-    "entries": [
+      },
       {
         "code": 36111,
         "glyph": "uni8D0F",
@@ -28185,6 +30975,11 @@
       {
         "code": 36112,
         "glyph": "uni8D10",
+        "feature": ""
+      },
+      {
+        "code": 36114,
+        "glyph": "uni8D12",
         "feature": ""
       },
       {
@@ -28245,6 +31040,11 @@
       {
         "code": 36212,
         "glyph": "uni8D74",
+        "feature": ""
+      },
+      {
+        "code": 36214,
+        "glyph": "uni8D76",
         "feature": ""
       },
       {
@@ -28311,7 +31111,12 @@
         "code": 36300,
         "glyph": "uni8DCC",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-128.html",
+    "entries": [
       {
         "code": 36303,
         "glyph": "uni8DCF",
@@ -28416,12 +31221,7 @@
         "code": 36368,
         "glyph": "uni8E10",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-117.html",
-    "entries": [
+      },
       {
         "code": 36381,
         "glyph": "uni8E1D",
@@ -28556,7 +31356,12 @@
         "code": 36484,
         "glyph": "uni8E84",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-129.html",
+    "entries": [
       {
         "code": 36485,
         "glyph": "uni8E85",
@@ -28661,12 +31466,7 @@
         "code": 36554,
         "glyph": "uni8ECA",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-118.html",
-    "entries": [
+      },
       {
         "code": 36555,
         "glyph": "uni8ECB",
@@ -28680,6 +31480,11 @@
       {
         "code": 36557,
         "glyph": "uni8ECD",
+        "feature": ""
+      },
+      {
+        "code": 36559,
+        "glyph": "uni8ECF",
         "feature": ""
       },
       {
@@ -28796,7 +31601,12 @@
         "code": 36636,
         "glyph": "uni8F1C",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-130.html",
+    "entries": [
       {
         "code": 36637,
         "glyph": "uni8F1D",
@@ -28906,12 +31716,7 @@
         "code": 36700,
         "glyph": "uni8F5C",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-119.html",
-    "entries": [
+      },
       {
         "code": 36703,
         "glyph": "uni8F5F",
@@ -29041,7 +31846,12 @@
         "code": 36805,
         "glyph": "uni8FC5",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-131.html",
+    "entries": [
       {
         "code": 36814,
         "glyph": "uni8FCE",
@@ -29151,12 +31961,7 @@
         "code": 36867,
         "glyph": "uni9003",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-120.html",
-    "entries": [
+      },
       {
         "code": 36869,
         "glyph": "uni9005",
@@ -29286,7 +32091,12 @@
         "code": 36914,
         "glyph": "uni9032",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-132.html",
+    "entries": [
       {
         "code": 36917,
         "glyph": "uni9035",
@@ -29396,12 +32206,7 @@
         "code": 36949,
         "glyph": "uni9055",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-121.html",
-    "entries": [
+      },
       {
         "code": 36950,
         "glyph": "uni9056",
@@ -29445,6 +32250,11 @@
       {
         "code": 36965,
         "glyph": "uni9065",
+        "feature": ""
+      },
+      {
+        "code": 36967,
+        "glyph": "uni9067",
         "feature": ""
       },
       {
@@ -29526,7 +32336,12 @@
         "code": 36993,
         "glyph": "uni9081",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-133.html",
+    "entries": [
       {
         "code": 36994,
         "glyph": "uni9082",
@@ -29628,6 +32443,11 @@
         "feature": ""
       },
       {
+        "code": 37086,
+        "glyph": "uni90DE",
+        "feature": ""
+      },
+      {
         "code": 37089,
         "glyph": "uni90E1",
         "feature": ""
@@ -29641,12 +32461,7 @@
         "code": 37092,
         "glyph": "uni90E4",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-122.html",
-    "entries": [
+      },
       {
         "code": 37096,
         "glyph": "uni90E8",
@@ -29683,8 +32498,18 @@
         "feature": ""
       },
       {
+        "code": 37141,
+        "glyph": "uni9115",
+        "feature": ""
+      },
+      {
         "code": 37145,
         "glyph": "uni9119",
+        "feature": ""
+      },
+      {
+        "code": 37159,
+        "glyph": "uni9127",
         "feature": ""
       },
       {
@@ -29756,7 +32581,12 @@
         "code": 37218,
         "glyph": "uni9162",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-134.html",
+    "entries": [
       {
         "code": 37219,
         "glyph": "uni9163",
@@ -29886,12 +32716,7 @@
         "code": 37301,
         "glyph": "uni91B5",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-123.html",
-    "entries": [
+      },
       {
         "code": 37304,
         "glyph": "uni91B8",
@@ -29973,8 +32798,18 @@
         "feature": ""
       },
       {
+        "code": 37335,
+        "glyph": "uni91D7",
+        "feature": ""
+      },
+      {
         "code": 37336,
         "glyph": "uni91D8",
+        "feature": ""
+      },
+      {
+        "code": 37338,
+        "glyph": "uni91DA",
         "feature": ""
       },
       {
@@ -29990,6 +32825,16 @@
       {
         "code": 37341,
         "glyph": "uni91DD",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-135.html",
+    "entries": [
+      {
+        "code": 37342,
+        "glyph": "uni91DE",
         "feature": ""
       },
       {
@@ -30008,6 +32853,16 @@
         "feature": ""
       },
       {
+        "code": 37348,
+        "glyph": "uni91E4",
+        "feature": ""
+      },
+      {
+        "code": 37349,
+        "glyph": "uni91E5",
+        "feature": ""
+      },
+      {
         "code": 37350,
         "glyph": "uni91E6",
         "feature": ""
@@ -30015,6 +32870,16 @@
       {
         "code": 37351,
         "glyph": "uni91E7",
+        "feature": ""
+      },
+      {
+        "code": 37357,
+        "glyph": "uni91ED",
+        "feature": ""
+      },
+      {
+        "code": 37358,
+        "glyph": "uni91EE",
         "feature": ""
       },
       {
@@ -30038,6 +32903,16 @@
         "feature": ""
       },
       {
+        "code": 37382,
+        "glyph": "uni9206",
+        "feature": ""
+      },
+      {
+        "code": 37386,
+        "glyph": "uni920A",
+        "feature": ""
+      },
+      {
         "code": 37389,
         "glyph": "uni920D",
         "feature": ""
@@ -30045,6 +32920,11 @@
       {
         "code": 37390,
         "glyph": "uni920E",
+        "feature": ""
+      },
+      {
+        "code": 37392,
+        "glyph": "uni9210",
         "feature": ""
       },
       {
@@ -30088,8 +32968,28 @@
         "feature": ""
       },
       {
+        "code": 37433,
+        "glyph": "uni9239",
+        "feature": ""
+      },
+      {
+        "code": 37434,
+        "glyph": "uni923A",
+        "feature": ""
+      },
+      {
+        "code": 37436,
+        "glyph": "uni923C",
+        "feature": ""
+      },
+      {
         "code": 37439,
         "glyph": "uni923F",
+        "feature": ""
+      },
+      {
+        "code": 37440,
+        "glyph": "uni9240",
         "feature": ""
       },
       {
@@ -30118,8 +33018,18 @@
         "feature": ""
       },
       {
+        "code": 37454,
+        "glyph": "uni924E",
+        "feature": ""
+      },
+      {
         "code": 37456,
         "glyph": "uni9250",
+        "feature": ""
+      },
+      {
+        "code": 37457,
+        "glyph": "uni9251",
         "feature": ""
       },
       {
@@ -30128,15 +33038,15 @@
         "feature": ""
       },
       {
+        "code": 37465,
+        "glyph": "uni9259",
+        "feature": ""
+      },
+      {
         "code": 37466,
         "glyph": "uni925A",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-124.html",
-    "entries": [
+      },
       {
         "code": 37467,
         "glyph": "uni925B",
@@ -30161,10 +33071,30 @@
         "code": 37478,
         "glyph": "uni9266",
         "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-136.html",
+    "entries": [
+      {
+        "code": 37479,
+        "glyph": "uni9267",
+        "feature": ""
       },
       {
         "code": 37489,
         "glyph": "uni9271",
+        "feature": ""
+      },
+      {
+        "code": 37495,
+        "glyph": "uni9277",
+        "feature": ""
+      },
+      {
+        "code": 37496,
+        "glyph": "uni9278",
         "feature": ""
       },
       {
@@ -30185,6 +33115,11 @@
       {
         "code": 37509,
         "glyph": "uni9285",
+        "feature": ""
+      },
+      {
+        "code": 37512,
+        "glyph": "uni9288",
         "feature": ""
       },
       {
@@ -30228,6 +33163,11 @@
         "feature": ""
       },
       {
+        "code": 37543,
+        "glyph": "uni92A7",
+        "feature": ""
+      },
+      {
         "code": 37549,
         "glyph": "uni92AD",
         "feature": ""
@@ -30248,13 +33188,48 @@
         "feature": ""
       },
       {
+        "code": 37584,
+        "glyph": "uni92D0",
+        "feature": ""
+      },
+      {
         "code": 37586,
         "glyph": "uni92D2",
         "feature": ""
       },
       {
+        "code": 37587,
+        "glyph": "uni92D3",
+        "feature": ""
+      },
+      {
+        "code": 37589,
+        "glyph": "uni92D5",
+        "feature": ""
+      },
+      {
+        "code": 37591,
+        "glyph": "uni92D7",
+        "feature": ""
+      },
+      {
+        "code": 37593,
+        "glyph": "uni92D9",
+        "feature": ""
+      },
+      {
+        "code": 37600,
+        "glyph": "uni92E0",
+        "feature": ""
+      },
+      {
         "code": 37604,
         "glyph": "uni92E4",
+        "feature": ""
+      },
+      {
+        "code": 37607,
+        "glyph": "uni92E7",
         "feature": ""
       },
       {
@@ -30288,13 +33263,33 @@
         "feature": ""
       },
       {
+        "code": 37625,
+        "glyph": "uni92F9",
+        "feature": ""
+      },
+      {
         "code": 37626,
         "glyph": "uni92FA",
         "feature": ""
       },
       {
+        "code": 37627,
+        "glyph": "uni92FB",
+        "feature": ""
+      },
+      {
         "code": 37628,
         "glyph": "uni92FC",
+        "feature": ""
+      },
+      {
+        "code": 37631,
+        "glyph": "uni92FF",
+        "feature": ""
+      },
+      {
+        "code": 37634,
+        "glyph": "uni9302",
         "feature": ""
       },
       {
@@ -30321,15 +33316,35 @@
         "code": 37657,
         "glyph": "uni9319",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-137.html",
+    "entries": [
       {
         "code": 37658,
         "glyph": "uni931A",
         "feature": ""
       },
       {
+        "code": 37661,
+        "glyph": "uni931D",
+        "feature": ""
+      },
+      {
+        "code": 37662,
+        "glyph": "uni931E",
+        "feature": ""
+      },
+      {
         "code": 37664,
         "glyph": "uni9320",
+        "feature": ""
+      },
+      {
+        "code": 37665,
+        "glyph": "uni9321",
         "feature": ""
       },
       {
@@ -30340,6 +33355,11 @@
       {
         "code": 37667,
         "glyph": "uni9323",
+        "feature": ""
+      },
+      {
+        "code": 37669,
+        "glyph": "uni9325",
         "feature": ""
       },
       {
@@ -30376,12 +33396,7 @@
         "code": 37682,
         "glyph": "uni9332",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-125.html",
-    "entries": [
+      },
       {
         "code": 37685,
         "glyph": "uni9335",
@@ -30403,6 +33418,11 @@
         "feature": ""
       },
       {
+        "code": 37704,
+        "glyph": "uni9348",
+        "feature": ""
+      },
+      {
         "code": 37707,
         "glyph": "uni934B",
         "feature": ""
@@ -30420,6 +33440,11 @@
       {
         "code": 37718,
         "glyph": "uni9356",
+        "feature": ""
+      },
+      {
+        "code": 37719,
+        "glyph": "uni9357",
         "feature": ""
       },
       {
@@ -30445,6 +33470,11 @@
       {
         "code": 37742,
         "glyph": "uni936E",
+        "feature": ""
+      },
+      {
+        "code": 37744,
+        "glyph": "uni9370",
         "feature": ""
       },
       {
@@ -30488,6 +33518,11 @@
         "feature": ""
       },
       {
+        "code": 37796,
+        "glyph": "uni93A4",
+        "feature": ""
+      },
+      {
         "code": 37799,
         "glyph": "uni93A7",
         "feature": ""
@@ -30522,6 +33557,16 @@
         "glyph": "uni93C3",
         "feature": ""
       },
+      {
+        "code": 37830,
+        "glyph": "uni93C6",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-138.html",
+    "entries": [
       {
         "code": 37832,
         "glyph": "uni93C8",
@@ -30558,6 +33603,11 @@
         "feature": ""
       },
       {
+        "code": 37854,
+        "glyph": "uni93DE",
+        "feature": ""
+      },
+      {
         "code": 37857,
         "glyph": "uni93E1",
         "feature": ""
@@ -30575,6 +33625,11 @@
       {
         "code": 37864,
         "glyph": "uni93E8",
+        "feature": ""
+      },
+      {
+        "code": 37880,
+        "glyph": "uni93F8",
         "feature": ""
       },
       {
@@ -30621,15 +33676,15 @@
         "code": 37921,
         "glyph": "uni9421",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-126.html",
-    "entries": [
+      },
       {
         "code": 37931,
         "glyph": "uni942B",
+        "feature": ""
+      },
+      {
+        "code": 37937,
+        "glyph": "uni9431",
         "feature": ""
       },
       {
@@ -30660,6 +33715,16 @@
       {
         "code": 37956,
         "glyph": "uni9444",
+        "feature": ""
+      },
+      {
+        "code": 37957,
+        "glyph": "uni9445",
+        "feature": ""
+      },
+      {
+        "code": 37960,
+        "glyph": "uni9448",
         "feature": ""
       },
       {
@@ -30741,7 +33806,12 @@
         "code": 38015,
         "glyph": "uni947F",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-139.html",
+    "entries": [
       {
         "code": 38017,
         "glyph": "uni9481",
@@ -30795,6 +33865,11 @@
       {
         "code": 38289,
         "glyph": "uni9591",
+        "feature": ""
+      },
+      {
+        "code": 38290,
+        "glyph": "uni9592",
         "feature": ""
       },
       {
@@ -30866,12 +33941,7 @@
         "code": 38322,
         "glyph": "uni95B2",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-127.html",
-    "entries": [
+      },
       {
         "code": 38329,
         "glyph": "uni95B9",
@@ -30981,7 +34051,12 @@
         "code": 38446,
         "glyph": "uni962E",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-140.html",
+    "entries": [
       {
         "code": 38447,
         "glyph": "uni962F",
@@ -31111,12 +34186,7 @@
         "code": 38514,
         "glyph": "uni9672",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-128.html",
-    "entries": [
+      },
       {
         "code": 38515,
         "glyph": "uni9673",
@@ -31226,6 +34296,16 @@
         "code": 38556,
         "glyph": "uni969C",
         "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-141.html",
+    "entries": [
+      {
+        "code": 38557,
+        "glyph": "uni969D",
+        "feature": ""
       },
       {
         "code": 38560,
@@ -31250,6 +34330,11 @@
       {
         "code": 38570,
         "glyph": "uni96AA",
+        "feature": ""
+      },
+      {
+        "code": 38575,
+        "glyph": "uni96AF",
         "feature": ""
       },
       {
@@ -31356,12 +34441,7 @@
         "code": 38606,
         "glyph": "uni96CE",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-129.html",
-    "entries": [
+      },
       {
         "code": 38609,
         "glyph": "uni96D1",
@@ -31461,7 +34541,12 @@
         "code": 38662,
         "glyph": "uni9706",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-142.html",
+    "entries": [
       {
         "code": 38663,
         "glyph": "uni9707",
@@ -31548,6 +34633,11 @@
         "feature": ""
       },
       {
+        "code": 38707,
+        "glyph": "uni9733",
+        "feature": ""
+      },
+      {
         "code": 38712,
         "glyph": "uni9738",
         "feature": ""
@@ -31555,6 +34645,11 @@
       {
         "code": 38713,
         "glyph": "uni9739",
+        "feature": ""
+      },
+      {
+        "code": 38715,
+        "glyph": "uni973B",
         "feature": ""
       },
       {
@@ -31570,6 +34665,11 @@
       {
         "code": 38722,
         "glyph": "uni9742",
+        "feature": ""
+      },
+      {
+        "code": 38723,
+        "glyph": "uni9743",
         "feature": ""
       },
       {
@@ -31593,20 +34693,35 @@
         "feature": ""
       },
       {
+        "code": 38733,
+        "glyph": "uni974D",
+        "feature": ""
+      },
+      {
+        "code": 38735,
+        "glyph": "uni974F",
+        "feature": ""
+      },
+      {
+        "code": 38737,
+        "glyph": "uni9751",
+        "feature": ""
+      },
+      {
         "code": 38738,
         "glyph": "uni9752",
+        "feature": ""
+      },
+      {
+        "code": 38741,
+        "glyph": "uni9755",
         "feature": ""
       },
       {
         "code": 38742,
         "glyph": "uni9756",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-130.html",
-    "entries": [
+      },
       {
         "code": 38745,
         "glyph": "uni9759",
@@ -31671,7 +34786,12 @@
         "code": 38769,
         "glyph": "uni9771",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-143.html",
+    "entries": [
       {
         "code": 38772,
         "glyph": "uni9774",
@@ -31846,12 +34966,7 @@
         "code": 38907,
         "glyph": "uni97FB",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-131.html",
-    "entries": [
+      },
       {
         "code": 38911,
         "glyph": "uni97FF",
@@ -31916,7 +35031,12 @@
         "code": 38931,
         "glyph": "uni9813",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-144.html",
+    "entries": [
       {
         "code": 38935,
         "glyph": "uni9817",
@@ -32023,6 +35143,11 @@
         "feature": ""
       },
       {
+        "code": 38999,
+        "glyph": "uni9857",
+        "feature": ""
+      },
+      {
         "code": 39000,
         "glyph": "uni9858",
         "feature": ""
@@ -32035,6 +35160,11 @@
       {
         "code": 39006,
         "glyph": "uni985E",
+        "feature": ""
+      },
+      {
+        "code": 39013,
+        "glyph": "uni9865",
         "feature": ""
       },
       {
@@ -32091,12 +35221,7 @@
         "code": 39089,
         "glyph": "uni98B1",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-132.html",
-    "entries": [
+      },
       {
         "code": 39094,
         "glyph": "uni98B6",
@@ -32151,7 +35276,12 @@
         "code": 39149,
         "glyph": "uni98ED",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-145.html",
+    "entries": [
       {
         "code": 39150,
         "glyph": "uni98EE",
@@ -32263,6 +35393,11 @@
         "feature": ""
       },
       {
+        "code": 39207,
+        "glyph": "uni9927",
+        "feature": ""
+      },
+      {
         "code": 39208,
         "glyph": "uni9928",
         "feature": ""
@@ -32336,12 +35471,7 @@
         "code": 39255,
         "glyph": "uni9957",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-133.html",
-    "entries": [
+      },
       {
         "code": 39318,
         "glyph": "uni9996",
@@ -32360,6 +35490,11 @@
       {
         "code": 39321,
         "glyph": "uni9999",
+        "feature": ""
+      },
+      {
+        "code": 39326,
+        "glyph": "uni999E",
         "feature": ""
       },
       {
@@ -32386,7 +35521,12 @@
         "code": 39342,
         "glyph": "uni99AE",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-146.html",
+    "entries": [
       {
         "code": 39347,
         "glyph": "uni99B3",
@@ -32581,12 +35721,7 @@
         "code": 39491,
         "glyph": "uni9A43",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-134.html",
-    "entries": [
+      },
       {
         "code": 39493,
         "glyph": "uni9A45",
@@ -32595,6 +35730,11 @@
       {
         "code": 39501,
         "glyph": "uni9A4D",
+        "feature": ""
+      },
+      {
+        "code": 39502,
+        "glyph": "uni9A4E",
         "feature": ""
       },
       {
@@ -32626,7 +35766,12 @@
         "code": 39522,
         "glyph": "uni9A62",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-147.html",
+    "entries": [
       {
         "code": 39524,
         "glyph": "uni9A64",
@@ -32710,6 +35855,16 @@
       {
         "code": 39640,
         "glyph": "uni9AD8",
+        "feature": ""
+      },
+      {
+        "code": 39641,
+        "glyph": "uni9AD9",
+        "feature": ""
+      },
+      {
+        "code": 39644,
+        "glyph": "uni9ADC",
         "feature": ""
       },
       {
@@ -32826,12 +35981,7 @@
         "code": 39720,
         "glyph": "uni9B28",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-135.html",
-    "entries": [
+      },
       {
         "code": 39721,
         "glyph": "uni9B29",
@@ -32861,7 +36011,12 @@
         "code": 39730,
         "glyph": "uni9B32",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-148.html",
+    "entries": [
       {
         "code": 39739,
         "glyph": "uni9B3B",
@@ -32938,8 +36093,18 @@
         "feature": ""
       },
       {
+        "code": 39794,
+        "glyph": "uni9B72",
+        "feature": ""
+      },
+      {
         "code": 39796,
         "glyph": "uni9B74",
+        "feature": ""
+      },
+      {
+        "code": 39797,
+        "glyph": "uni9B75",
         "feature": ""
       },
       {
@@ -32950,6 +36115,11 @@
       {
         "code": 39822,
         "glyph": "uni9B8E",
+        "feature": ""
+      },
+      {
+        "code": 39823,
+        "glyph": "uni9B8F",
         "feature": ""
       },
       {
@@ -33013,6 +36183,11 @@
         "feature": ""
       },
       {
+        "code": 39857,
+        "glyph": "uni9BB1",
+        "feature": ""
+      },
+      {
         "code": 39860,
         "glyph": "uni9BB4",
         "feature": ""
@@ -33020,6 +36195,11 @@
       {
         "code": 39865,
         "glyph": "uni9BB9",
+        "feature": ""
+      },
+      {
+        "code": 39867,
+        "glyph": "uni9BBB",
         "feature": ""
       },
       {
@@ -33071,17 +36251,17 @@
         "code": 39899,
         "glyph": "uni9BDB",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-136.html",
-    "entries": [
+      },
       {
         "code": 39905,
         "glyph": "uni9BE1",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-149.html",
+    "entries": [
       {
         "code": 39906,
         "glyph": "uni9BE2",
@@ -33120,6 +36300,11 @@
       {
         "code": 39925,
         "glyph": "uni9BF5",
+        "feature": ""
+      },
+      {
+        "code": 39936,
+        "glyph": "uni9C00",
         "feature": ""
       },
       {
@@ -33320,7 +36505,7 @@
     ]
   },
   {
-    "page": "page-137.html",
+    "page": "page-150.html",
     "entries": [
       {
         "code": 40172,
@@ -33508,6 +36693,11 @@
         "feature": ""
       },
       {
+        "code": 40299,
+        "glyph": "uni9D6B",
+        "feature": ""
+      },
+      {
         "code": 40300,
         "glyph": "uni9D6C",
         "feature": ""
@@ -33515,6 +36705,11 @@
       {
         "code": 40303,
         "glyph": "uni9D6F",
+        "feature": ""
+      },
+      {
+        "code": 40304,
+        "glyph": "uni9D70",
         "feature": ""
       },
       {
@@ -33551,7 +36746,12 @@
         "code": 40356,
         "glyph": "uni9DA4",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-151.html",
+    "entries": [
       {
         "code": 40361,
         "glyph": "uni9DA9",
@@ -33561,12 +36761,7 @@
         "code": 40363,
         "glyph": "uni9DAB",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-138.html",
-    "entries": [
+      },
       {
         "code": 40367,
         "glyph": "uni9DAF",
@@ -33670,6 +36865,11 @@
       {
         "code": 40445,
         "glyph": "uni9DFD",
+        "feature": ""
+      },
+      {
+        "code": 40473,
+        "glyph": "uni9E19",
         "feature": ""
       },
       {
@@ -33791,7 +36991,12 @@
         "code": 40621,
         "glyph": "uni9EAD",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-152.html",
+    "entries": [
       {
         "code": 40632,
         "glyph": "uni9EB8",
@@ -33806,12 +37011,7 @@
         "code": 40634,
         "glyph": "uni9EBA",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-139.html",
-    "entries": [
+      },
       {
         "code": 40635,
         "glyph": "uni9EBB",
@@ -33860,6 +37060,11 @@
       {
         "code": 40656,
         "glyph": "uni9ED0",
+        "feature": ""
+      },
+      {
+        "code": 40657,
+        "glyph": "uni9ED1",
         "feature": ""
       },
       {
@@ -34031,7 +37236,12 @@
         "code": 40786,
         "glyph": "uni9F52",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-153.html",
+    "entries": [
       {
         "code": 40788,
         "glyph": "uni9F54",
@@ -34051,12 +37261,7 @@
         "code": 40801,
         "glyph": "uni9F61",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-140.html",
-    "entries": [
+      },
       {
         "code": 40802,
         "glyph": "uni9F62",
@@ -34138,8 +37343,198 @@
         "feature": ""
       },
       {
+        "code": 63785,
+        "glyph": "uniF929",
+        "feature": ""
+      },
+      {
+        "code": 63964,
+        "glyph": "uniF9DC",
+        "feature": ""
+      },
+      {
+        "code": 64014,
+        "glyph": "uniFA0E",
+        "feature": ""
+      },
+      {
+        "code": 64015,
+        "glyph": "uniFA0F",
+        "feature": ""
+      },
+      {
+        "code": 64016,
+        "glyph": "uniFA10",
+        "feature": ""
+      },
+      {
+        "code": 64017,
+        "glyph": "uniFA11",
+        "feature": ""
+      },
+      {
+        "code": 64018,
+        "glyph": "uniFA12",
+        "feature": ""
+      },
+      {
+        "code": 64019,
+        "glyph": "uniFA13",
+        "feature": ""
+      },
+      {
+        "code": 64020,
+        "glyph": "uniFA14",
+        "feature": ""
+      },
+      {
+        "code": 64021,
+        "glyph": "uniFA15",
+        "feature": ""
+      },
+      {
+        "code": 64022,
+        "glyph": "uniFA16",
+        "feature": ""
+      },
+      {
+        "code": 64023,
+        "glyph": "uniFA17",
+        "feature": ""
+      },
+      {
+        "code": 64024,
+        "glyph": "uniFA18",
+        "feature": ""
+      },
+      {
+        "code": 64025,
+        "glyph": "uniFA19",
+        "feature": ""
+      },
+      {
+        "code": 64026,
+        "glyph": "uniFA1A",
+        "feature": ""
+      },
+      {
+        "code": 64027,
+        "glyph": "uniFA1B",
+        "feature": ""
+      },
+      {
+        "code": 64028,
+        "glyph": "uniFA1C",
+        "feature": ""
+      },
+      {
+        "code": 64029,
+        "glyph": "uniFA1D",
+        "feature": ""
+      },
+      {
+        "code": 64030,
+        "glyph": "uniFA1E",
+        "feature": ""
+      },
+      {
+        "code": 64031,
+        "glyph": "uniFA1F",
+        "feature": ""
+      },
+      {
+        "code": 64032,
+        "glyph": "uniFA20",
+        "feature": ""
+      },
+      {
+        "code": 64033,
+        "glyph": "uniFA21",
+        "feature": ""
+      },
+      {
+        "code": 64034,
+        "glyph": "uniFA22",
+        "feature": ""
+      },
+      {
+        "code": 64035,
+        "glyph": "uniFA23",
+        "feature": ""
+      },
+      {
+        "code": 64036,
+        "glyph": "uniFA24",
+        "feature": ""
+      },
+      {
+        "code": 64037,
+        "glyph": "uniFA25",
+        "feature": ""
+      },
+      {
+        "code": 64038,
+        "glyph": "uniFA26",
+        "feature": ""
+      },
+      {
+        "code": 64039,
+        "glyph": "uniFA27",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-154.html",
+    "entries": [
+      {
+        "code": 64040,
+        "glyph": "uniFA28",
+        "feature": ""
+      },
+      {
+        "code": 64041,
+        "glyph": "uniFA29",
+        "feature": ""
+      },
+      {
+        "code": 64042,
+        "glyph": "uniFA2A",
+        "feature": ""
+      },
+      {
+        "code": 64043,
+        "glyph": "uniFA2B",
+        "feature": ""
+      },
+      {
+        "code": 64044,
+        "glyph": "uniFA2C",
+        "feature": ""
+      },
+      {
+        "code": 64045,
+        "glyph": "uniFA2D",
+        "feature": ""
+      },
+      {
         "code": 65281,
         "glyph": "uniFF01",
+        "feature": ""
+      },
+      {
+        "code": 65282,
+        "glyph": "uniFF02",
+        "feature": ""
+      },
+      {
+        "code": 65283,
+        "glyph": "uniFF03",
+        "feature": ""
+      },
+      {
+        "code": 65284,
+        "glyph": "uniFF04",
         "feature": ""
       },
       {
@@ -34153,6 +37548,11 @@
         "feature": ""
       },
       {
+        "code": 65287,
+        "glyph": "uniFF07",
+        "feature": ""
+      },
+      {
         "code": 65288,
         "glyph": "uniFF08",
         "feature": ""
@@ -34163,6 +37563,11 @@
         "feature": ""
       },
       {
+        "code": 65290,
+        "glyph": "uniFF0A",
+        "feature": ""
+      },
+      {
         "code": 65291,
         "glyph": "uniFF0B",
         "feature": ""
@@ -34170,6 +37575,11 @@
       {
         "code": 65292,
         "glyph": "uniFF0C",
+        "feature": ""
+      },
+      {
+        "code": 65293,
+        "glyph": "uniFF0D",
         "feature": ""
       },
       {
@@ -34243,8 +37653,18 @@
         "feature": ""
       },
       {
+        "code": 65308,
+        "glyph": "uniFF1C",
+        "feature": ""
+      },
+      {
         "code": 65309,
         "glyph": "uniFF1D",
+        "feature": ""
+      },
+      {
+        "code": 65310,
+        "glyph": "uniFF1E",
         "feature": ""
       },
       {
@@ -34296,12 +37716,7 @@
         "code": 65320,
         "glyph": "uniFF28",
         "feature": ""
-      }
-    ]
-  },
-  {
-    "page": "page-141.html",
-    "entries": [
+      },
       {
         "code": 65321,
         "glyph": "uniFF29",
@@ -34311,7 +37726,12 @@
         "code": 65322,
         "glyph": "uniFF2A",
         "feature": ""
-      },
+      }
+    ]
+  },
+  {
+    "page": "page-155.html",
+    "entries": [
       {
         "code": 65323,
         "glyph": "uniFF2B",
@@ -34405,6 +37825,21 @@
       {
         "code": 65341,
         "glyph": "uniFF3D",
+        "feature": ""
+      },
+      {
+        "code": 65342,
+        "glyph": "uniFF3E",
+        "feature": ""
+      },
+      {
+        "code": 65343,
+        "glyph": "uniFF3F",
+        "feature": ""
+      },
+      {
+        "code": 65344,
+        "glyph": "uniFF40",
         "feature": ""
       },
       {
@@ -34536,25 +37971,395 @@
         "code": 65370,
         "glyph": "uniFF5A",
         "feature": ""
-      },
-      {
-        "code": 65371,
-        "glyph": "uniFF5B",
-        "feature": ""
       }
     ]
   },
   {
-    "page": "page-142.html",
+    "page": "page-156.html",
     "entries": [
+      {
+        "code": 65371,
+        "glyph": "uniFF5B",
+        "feature": ""
+      },
+      {
+        "code": 65372,
+        "glyph": "uniFF5C",
+        "feature": ""
+      },
       {
         "code": 65373,
         "glyph": "uniFF5D",
         "feature": ""
       },
       {
+        "code": 65374,
+        "glyph": "uniFF5E",
+        "feature": ""
+      },
+      {
+        "code": 65377,
+        "glyph": "uniFF61",
+        "feature": ""
+      },
+      {
+        "code": 65378,
+        "glyph": "uniFF62",
+        "feature": ""
+      },
+      {
+        "code": 65379,
+        "glyph": "uniFF63",
+        "feature": ""
+      },
+      {
+        "code": 65380,
+        "glyph": "uniFF64",
+        "feature": ""
+      },
+      {
+        "code": 65381,
+        "glyph": "uniFF65",
+        "feature": ""
+      },
+      {
+        "code": 65382,
+        "glyph": "uniFF66",
+        "feature": ""
+      },
+      {
+        "code": 65383,
+        "glyph": "uniFF67",
+        "feature": ""
+      },
+      {
+        "code": 65384,
+        "glyph": "uniFF68",
+        "feature": ""
+      },
+      {
+        "code": 65385,
+        "glyph": "uniFF69",
+        "feature": ""
+      },
+      {
+        "code": 65386,
+        "glyph": "uniFF6A",
+        "feature": ""
+      },
+      {
+        "code": 65387,
+        "glyph": "uniFF6B",
+        "feature": ""
+      },
+      {
+        "code": 65388,
+        "glyph": "uniFF6C",
+        "feature": ""
+      },
+      {
+        "code": 65389,
+        "glyph": "uniFF6D",
+        "feature": ""
+      },
+      {
+        "code": 65390,
+        "glyph": "uniFF6E",
+        "feature": ""
+      },
+      {
+        "code": 65391,
+        "glyph": "uniFF6F",
+        "feature": ""
+      },
+      {
+        "code": 65392,
+        "glyph": "uniFF70",
+        "feature": ""
+      },
+      {
+        "code": 65393,
+        "glyph": "uniFF71",
+        "feature": ""
+      },
+      {
+        "code": 65394,
+        "glyph": "uniFF72",
+        "feature": ""
+      },
+      {
+        "code": 65395,
+        "glyph": "uniFF73",
+        "feature": ""
+      },
+      {
+        "code": 65396,
+        "glyph": "uniFF74",
+        "feature": ""
+      },
+      {
+        "code": 65397,
+        "glyph": "uniFF75",
+        "feature": ""
+      },
+      {
+        "code": 65398,
+        "glyph": "uniFF76",
+        "feature": ""
+      },
+      {
+        "code": 65399,
+        "glyph": "uniFF77",
+        "feature": ""
+      },
+      {
+        "code": 65400,
+        "glyph": "uniFF78",
+        "feature": ""
+      },
+      {
+        "code": 65401,
+        "glyph": "uniFF79",
+        "feature": ""
+      },
+      {
+        "code": 65402,
+        "glyph": "uniFF7A",
+        "feature": ""
+      },
+      {
+        "code": 65403,
+        "glyph": "uniFF7B",
+        "feature": ""
+      },
+      {
+        "code": 65404,
+        "glyph": "uniFF7C",
+        "feature": ""
+      },
+      {
+        "code": 65405,
+        "glyph": "uniFF7D",
+        "feature": ""
+      },
+      {
+        "code": 65406,
+        "glyph": "uniFF7E",
+        "feature": ""
+      },
+      {
+        "code": 65407,
+        "glyph": "uniFF7F",
+        "feature": ""
+      },
+      {
+        "code": 65408,
+        "glyph": "uniFF80",
+        "feature": ""
+      },
+      {
+        "code": 65409,
+        "glyph": "uniFF81",
+        "feature": ""
+      },
+      {
+        "code": 65410,
+        "glyph": "uniFF82",
+        "feature": ""
+      },
+      {
+        "code": 65411,
+        "glyph": "uniFF83",
+        "feature": ""
+      },
+      {
+        "code": 65412,
+        "glyph": "uniFF84",
+        "feature": ""
+      },
+      {
+        "code": 65413,
+        "glyph": "uniFF85",
+        "feature": ""
+      },
+      {
+        "code": 65414,
+        "glyph": "uniFF86",
+        "feature": ""
+      },
+      {
+        "code": 65415,
+        "glyph": "uniFF87",
+        "feature": ""
+      },
+      {
+        "code": 65416,
+        "glyph": "uniFF88",
+        "feature": ""
+      },
+      {
+        "code": 65417,
+        "glyph": "uniFF89",
+        "feature": ""
+      },
+      {
+        "code": 65418,
+        "glyph": "uniFF8A",
+        "feature": ""
+      },
+      {
+        "code": 65419,
+        "glyph": "uniFF8B",
+        "feature": ""
+      },
+      {
+        "code": 65420,
+        "glyph": "uniFF8C",
+        "feature": ""
+      }
+    ]
+  },
+  {
+    "page": "page-157.html",
+    "entries": [
+      {
+        "code": 65421,
+        "glyph": "uniFF8D",
+        "feature": ""
+      },
+      {
+        "code": 65422,
+        "glyph": "uniFF8E",
+        "feature": ""
+      },
+      {
+        "code": 65423,
+        "glyph": "uniFF8F",
+        "feature": ""
+      },
+      {
+        "code": 65424,
+        "glyph": "uniFF90",
+        "feature": ""
+      },
+      {
+        "code": 65425,
+        "glyph": "uniFF91",
+        "feature": ""
+      },
+      {
+        "code": 65426,
+        "glyph": "uniFF92",
+        "feature": ""
+      },
+      {
+        "code": 65427,
+        "glyph": "uniFF93",
+        "feature": ""
+      },
+      {
+        "code": 65428,
+        "glyph": "uniFF94",
+        "feature": ""
+      },
+      {
+        "code": 65429,
+        "glyph": "uniFF95",
+        "feature": ""
+      },
+      {
+        "code": 65430,
+        "glyph": "uniFF96",
+        "feature": ""
+      },
+      {
+        "code": 65431,
+        "glyph": "uniFF97",
+        "feature": ""
+      },
+      {
+        "code": 65432,
+        "glyph": "uniFF98",
+        "feature": ""
+      },
+      {
+        "code": 65433,
+        "glyph": "uniFF99",
+        "feature": ""
+      },
+      {
+        "code": 65434,
+        "glyph": "uniFF9A",
+        "feature": ""
+      },
+      {
+        "code": 65435,
+        "glyph": "uniFF9B",
+        "feature": ""
+      },
+      {
+        "code": 65436,
+        "glyph": "uniFF9C",
+        "feature": ""
+      },
+      {
+        "code": 65437,
+        "glyph": "uniFF9D",
+        "feature": ""
+      },
+      {
+        "code": 65438,
+        "glyph": "uniFF9E",
+        "feature": ""
+      },
+      {
+        "code": 65439,
+        "glyph": "uniFF9F",
+        "feature": ""
+      },
+      {
+        "code": 65504,
+        "glyph": "uniFFE0",
+        "feature": ""
+      },
+      {
+        "code": 65505,
+        "glyph": "uniFFE1",
+        "feature": ""
+      },
+      {
+        "code": 65506,
+        "glyph": "uniFFE2",
+        "feature": ""
+      },
+      {
+        "code": 65507,
+        "glyph": "uniFFE3",
+        "feature": ""
+      },
+      {
+        "code": 65508,
+        "glyph": "uniFFE4",
+        "feature": ""
+      },
+      {
+        "code": 65509,
+        "glyph": "uniFFE5",
+        "feature": ""
+      },
+      {
         "code": 128062,
         "glyph": "u1F43E",
+        "feature": ""
+      },
+      {
+        "code": 134047,
+        "glyph": "u20B9F",
+        "feature": ""
+      },
+      {
+        "code": 134071,
+        "glyph": "u20BB7",
         "feature": ""
       },
       {
@@ -34566,6 +38371,179 @@
         "code": 12427,
         "glyph": "uni308B.alt",
         "feature": "ss01"
+      },
+      {
+        "code": 65382,
+        "glyph": "hwFF66FF9E",
+        "feature": "ccmp",
+        "text": "ｦﾞ"
+      },
+      {
+        "code": 65395,
+        "glyph": "hwFF73FF9E",
+        "feature": "ccmp",
+        "text": "ｳﾞ"
+      },
+      {
+        "code": 65398,
+        "glyph": "hwFF76FF9E",
+        "feature": "ccmp",
+        "text": "ｶﾞ"
+      },
+      {
+        "code": 65399,
+        "glyph": "hwFF77FF9E",
+        "feature": "ccmp",
+        "text": "ｷﾞ"
+      },
+      {
+        "code": 65400,
+        "glyph": "hwFF78FF9E",
+        "feature": "ccmp",
+        "text": "ｸﾞ"
+      },
+      {
+        "code": 65401,
+        "glyph": "hwFF79FF9E",
+        "feature": "ccmp",
+        "text": "ｹﾞ"
+      },
+      {
+        "code": 65402,
+        "glyph": "hwFF7AFF9E",
+        "feature": "ccmp",
+        "text": "ｺﾞ"
+      },
+      {
+        "code": 65403,
+        "glyph": "hwFF7BFF9E",
+        "feature": "ccmp",
+        "text": "ｻﾞ"
+      },
+      {
+        "code": 65404,
+        "glyph": "hwFF7CFF9E",
+        "feature": "ccmp",
+        "text": "ｼﾞ"
+      },
+      {
+        "code": 65405,
+        "glyph": "hwFF7DFF9E",
+        "feature": "ccmp",
+        "text": "ｽﾞ"
+      },
+      {
+        "code": 65406,
+        "glyph": "hwFF7EFF9E",
+        "feature": "ccmp",
+        "text": "ｾﾞ"
+      },
+      {
+        "code": 65407,
+        "glyph": "hwFF7FFF9E",
+        "feature": "ccmp",
+        "text": "ｿﾞ"
+      },
+      {
+        "code": 65408,
+        "glyph": "hwFF80FF9E",
+        "feature": "ccmp",
+        "text": "ﾀﾞ"
+      },
+      {
+        "code": 65409,
+        "glyph": "hwFF81FF9E",
+        "feature": "ccmp",
+        "text": "ﾁﾞ"
+      },
+      {
+        "code": 65410,
+        "glyph": "hwFF82FF9E",
+        "feature": "ccmp",
+        "text": "ﾂﾞ"
+      },
+      {
+        "code": 65411,
+        "glyph": "hwFF83FF9E",
+        "feature": "ccmp",
+        "text": "ﾃﾞ"
+      },
+      {
+        "code": 65412,
+        "glyph": "hwFF84FF9E",
+        "feature": "ccmp",
+        "text": "ﾄﾞ"
+      },
+      {
+        "code": 65418,
+        "glyph": "hwFF8AFF9E",
+        "feature": "ccmp",
+        "text": "ﾊﾞ"
+      }
+    ]
+  },
+  {
+    "page": "page-158.html",
+    "entries": [
+      {
+        "code": 65419,
+        "glyph": "hwFF8BFF9E",
+        "feature": "ccmp",
+        "text": "ﾋﾞ"
+      },
+      {
+        "code": 65420,
+        "glyph": "hwFF8CFF9E",
+        "feature": "ccmp",
+        "text": "ﾌﾞ"
+      },
+      {
+        "code": 65421,
+        "glyph": "hwFF8DFF9E",
+        "feature": "ccmp",
+        "text": "ﾍﾞ"
+      },
+      {
+        "code": 65422,
+        "glyph": "hwFF8EFF9E",
+        "feature": "ccmp",
+        "text": "ﾎﾞ"
+      },
+      {
+        "code": 65436,
+        "glyph": "hwFF9CFF9E",
+        "feature": "ccmp",
+        "text": "ﾜﾞ"
+      },
+      {
+        "code": 65418,
+        "glyph": "hwFF8AFF9F",
+        "feature": "ccmp",
+        "text": "ﾊﾟ"
+      },
+      {
+        "code": 65419,
+        "glyph": "hwFF8BFF9F",
+        "feature": "ccmp",
+        "text": "ﾋﾟ"
+      },
+      {
+        "code": 65420,
+        "glyph": "hwFF8CFF9F",
+        "feature": "ccmp",
+        "text": "ﾌﾟ"
+      },
+      {
+        "code": 65421,
+        "glyph": "hwFF8DFF9F",
+        "feature": "ccmp",
+        "text": "ﾍﾟ"
+      },
+      {
+        "code": 65422,
+        "glyph": "hwFF8EFF9F",
+        "feature": "ccmp",
+        "text": "ﾎﾟ"
       }
     ]
   }

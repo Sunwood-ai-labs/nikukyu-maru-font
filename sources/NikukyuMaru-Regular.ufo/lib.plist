@@ -105,7 +105,9 @@
       <string>uni00A3</string>
       <string>uni00A7</string>
       <string>uni00A8</string>
+      <string>uni00A9</string>
       <string>uni00AC</string>
+      <string>uni00AE</string>
       <string>uni00B0</string>
       <string>uni00B1</string>
       <string>uni00B4</string>
@@ -123,6 +125,8 @@
       <string>uni2026</string>
       <string>uni2032</string>
       <string>uni2033</string>
+      <string>uni20AC</string>
+      <string>uni2122</string>
       <string>uni2190</string>
       <string>uni2191</string>
       <string>uni2192</string>
@@ -7030,18 +7034,40 @@
       <string>uni9FA0</string>
       <string>uniE000</string>
       <string>uniE001</string>
+      <string>uniF929</string>
+      <string>uniF9DC</string>
       <string>uniFA0E</string>
       <string>uniFA0F</string>
+      <string>uniFA10</string>
       <string>uniFA11</string>
+      <string>uniFA12</string>
       <string>uniFA13</string>
       <string>uniFA14</string>
+      <string>uniFA15</string>
+      <string>uniFA16</string>
+      <string>uniFA17</string>
+      <string>uniFA18</string>
+      <string>uniFA19</string>
+      <string>uniFA1A</string>
+      <string>uniFA1B</string>
+      <string>uniFA1C</string>
+      <string>uniFA1D</string>
+      <string>uniFA1E</string>
       <string>uniFA1F</string>
+      <string>uniFA20</string>
       <string>uniFA21</string>
+      <string>uniFA22</string>
       <string>uniFA23</string>
       <string>uniFA24</string>
+      <string>uniFA25</string>
+      <string>uniFA26</string>
       <string>uniFA27</string>
       <string>uniFA28</string>
       <string>uniFA29</string>
+      <string>uniFA2A</string>
+      <string>uniFA2B</string>
+      <string>uniFA2C</string>
+      <string>uniFA2D</string>
       <string>uniFF01</string>
       <string>uniFF05</string>
       <string>uniFF06</string>
@@ -7126,6 +7152,7 @@
       <string>uniFF5E</string>
       <string>u1F43E</string>
       <string>u20B9F</string>
+      <string>u20BB7</string>
       <string>uni3053.alt</string>
       <string>uni308B.alt</string>
       <string>uni0391</string>
@@ -7299,6 +7326,8 @@
       <string>uni2252</string>
       <string>uni2260</string>
       <string>uni2261</string>
+      <string>uni2264</string>
+      <string>uni2265</string>
       <string>uni2266</string>
       <string>uni2267</string>
       <string>uni226A</string>
@@ -7411,28 +7440,6 @@
       <string>uni33A1</string>
       <string>uni33C4</string>
       <string>uni33CD</string>
-      <string>uniF929</string>
-      <string>uniF9DC</string>
-      <string>uniFA10</string>
-      <string>uniFA12</string>
-      <string>uniFA15</string>
-      <string>uniFA16</string>
-      <string>uniFA17</string>
-      <string>uniFA18</string>
-      <string>uniFA19</string>
-      <string>uniFA1A</string>
-      <string>uniFA1B</string>
-      <string>uniFA1C</string>
-      <string>uniFA1D</string>
-      <string>uniFA1E</string>
-      <string>uniFA20</string>
-      <string>uniFA22</string>
-      <string>uniFA25</string>
-      <string>uniFA26</string>
-      <string>uniFA2A</string>
-      <string>uniFA2B</string>
-      <string>uniFA2C</string>
-      <string>uniFA2D</string>
       <string>uniFF02</string>
       <string>uniFF03</string>
       <string>uniFF04</string>

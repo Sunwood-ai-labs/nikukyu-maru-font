@@ -31,6 +31,7 @@ def stroke(p, width):
 
 def soften(p, radius, weight, preserve_separation=False):
     if not len(p): return p
+    if preserve_separation and radius<1:return pathops.simplify(p)
     contours=list(pathops.simplify(p).contours)
     exteriors=[c for c in contours if not c.clockwise]
     owned_holes=[[] for _ in exteriors];opened_shapes=[]
@@ -70,6 +71,8 @@ def soften(p, radius, weight, preserve_separation=False):
             weight=weight*.5 if weight>1 else 0
             result=assemble(weight)
             after=sum(not c.clockwise for c in result.contours)
+    if preserve_separation and sum(c.clockwise for c in result.contours)<sum(c.clockwise for c in contours):
+        return soften(p,radius*.5,weight,True)
     return result
 
 def ellipse(x, y, rx, ry):
@@ -149,6 +152,8 @@ def finish_japanese_sources(font, mods):
 def generate_sources():
     base=TTFont(ROOT/'vendor/MochiyPopOne-Regular.ttf')
     gs=base.getGlyphSet(); cmap=base.getBestCmap()
+    cjk_base=TTFont(ROOT/'vendor/ZenMaruGothic-Black.ttf') if CONFIG.get('kanji_base')=='Zen Maru Gothic Black' else base
+    cjk_gs=cjk_base.getGlyphSet();cjk_cmap=cjk_base.getBestCmap()
     font=Font(); font.info.familyName=CONFIG['family']; font.info.styleName='Regular'
     font.info.unitsPerEm=1000; font.info.ascender=1200; font.info.descender=-350
     font.info.versionMajor=0; font.info.versionMinor=int(CONFIG['version'].split('.')[1]); font.info.copyright=COPYRIGHT
@@ -162,16 +167,17 @@ def generate_sources():
     for index,ch in enumerate(character_set()):
         if index%500==0: print(f'Generating {index}/{len(character_set())}',flush=True)
         cp=ord(ch); name=f'uni{cp:04X}' if cp<=0xffff else f'u{cp:05X}'
+        is_kanji=ch in KANJI or ch in CONFIG['kanji'] or 0x3400<=cp<=0x9fff or 0xf900<=cp<=0xfaff or cp>=0x20000
         if cp in [0xe000,0xe001,0x1f43e]:
             p=cat() if cp==0xe001 else paw(); width=1000
             if cp==0x1f43e:
                 p=boolean(p.transform(.57,0,0,.57,15,315),p.transform(.57,0,0,.57,400,5))
         else:
             src_cp=32 if cp==0xa0 else cp
-            if src_cp not in cmap: missing.append(ch); continue
-            g=gs[cmap[src_cp]]; p=pathops.Path(); rec=DecomposingRecordingPen(gs); g.draw(rec); rec.replay(p.getPen()); width=g.width
+            source_gs,source_cmap=(cjk_gs,cjk_cmap) if is_kanji and src_cp in cjk_cmap else (gs,cmap)
+            if src_cp not in source_cmap: missing.append(ch); continue
+            g=source_gs[source_cmap[src_cp]]; p=pathops.Path(); rec=DecomposingRecordingPen(source_gs); g.draw(rec); rec.replay(p.getPen()); width=g.width
             if len(p):
-                is_kanji=ch in KANJI or ch in CONFIG['kanji'] or 0x3400<=cp<=0x9fff or 0xf900<=cp<=0xfaff or cp>=0x20000
                 # Keep cramped diacritics and dense CJK counters open.
                 radius=CONFIG['kanji_rounding_radius'] if is_kanji else CONFIG['rounding_radius']
                 weight=CONFIG['kanji_weight_expansion'] if is_kanji else CONFIG['weight_expansion']
@@ -179,12 +185,13 @@ def generate_sources():
                 if ch not in '「」『』':
                     for attempt in range(6):
                         try:
-                            p=soften(p,radius*(.7**attempt),weight*(.7**attempt),preserve_separation=is_kanji)
+                            p=soften(p,radius*(.7**attempt),weight*(.7**attempt),preserve_separation=True)
                             break
                         except pathops.PathOpsError:
                             if attempt==5:
                                 raise RuntimeError(f'Rounding failed U+{cp:04X} {ch}')
                 mods[ch]=['rounded','weight']
+                if is_kanji:mods[ch].append('base:'+('Zen Maru Gothic Black' if source_gs is cjk_gs and cjk_base is not base else 'Mochiy Pop One'))
                 if ch in CONFIG['ears']:
                     basepath=pathops.Path(p)
                     for x in CONFIG['ears'][ch]:
@@ -210,7 +217,10 @@ def generate_sources():
         p.draw(glyph.getPen()); order.append(name)
     reference_file=ROOT/'sources/reference-outlines.json'
     if reference_file.exists():
-        for ch, data in json.loads(reference_file.read_text(encoding='utf-8')).items():
+        reference_data=json.loads(reference_file.read_text(encoding='utf-8'))
+        if CONFIG.get('use_kanji_concept'):
+            reference_data.update(json.loads((ROOT/'sources/kanji-concept-outlines.json').read_text(encoding='utf-8')))
+        for ch, data in reference_data.items():
             letter=ch.split('.')[0]
             name=f'uni{ord(letter):04X}'+('.alt' if ch.endswith('.alt') else '')
             p=pathops.Path()
@@ -220,7 +230,7 @@ def generate_sources():
             if name not in font:
                 font.newGlyph(name);order.append(name)
             glyph=font[name];glyph.clearContours();glyph.width=data['width']
-            p.draw(glyph.getPen());mods[ch]=['approved-reference-vector-outline']
+            p.draw(glyph.getPen());mods[ch]=['concept-reference-vector-outline' if 'reference' in data else 'approved-reference-vector-outline']
     from harmonize import harmonize
     harmonize(font,mods)
     font.glyphOrder=order
@@ -268,14 +278,14 @@ def compile_font():
     save_font(fb,OUT/'NikukyuMaru-Regular.ttf')
     fb.font.flavor='woff2';save_font(fb,OUT/'NikukyuMaru-Regular.woff2')
     chars=''.join(chr(u) for u in sorted(cmap))
-    (OUT/'characters.txt').write_text(chars+'\n',encoding='utf-8')
+    (OUT/'characters.txt').write_text(chars+'\n',encoding='utf-8',newline='\n')
     lines=[f"# 対応文字一覧 — にくきゅう丸 {CONFIG['version']}",'',f'{len(cmap)} Unicode文字。空白・私用領域を含みます。','',
         '|文字|コードポイント|Unicode名|','|---|---|---|']
     for u in sorted(cmap):
         ch=chr(u); display=ch.replace('|','&#124;')
         if ch.isspace(): display='（空白）'
         lines.append(f'|{display}|U+{u:04X}|{unicodedata.name(ch,"PRIVATE USE")}|')
-    (OUT/'CHARACTERS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    (OUT/'CHARACTERS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8',newline='\n')
     (OUT/'OFL.txt').write_text((ROOT/'OFL.txt').read_text(encoding='utf-8'),encoding='utf-8')
     # SVG paths are editable, and require no installed font for display.
     svgdir=OUT/'glyph-svg';svgdir.mkdir(exist_ok=True)

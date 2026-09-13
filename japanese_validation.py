@@ -32,6 +32,20 @@ DEFAULT_PAGE = ROOT / "outputs" / "japanese-validation.html"
 DEFAULT_OUTLINE_REVIEW_PNG = ROOT / "outputs" / "japanese-outline-review.png"
 DEFAULT_OUTLINE_REVIEW_PAGE = ROOT / "outputs" / "japanese-outline-review.html"
 REFERENCE_IMAGE = ROOT / "references" / "01-nikukyu.png"
+DESIGN_CONFIG = ROOT / "sources" / "design.json"
+MODIFICATIONS_FILE = ROOT / "sources" / "modifications.json"
+
+# ``build.py`` always starts from Mochiy for the general repertoire, while
+# ``design.json["kanji_base"]`` selects the actual CJK source.  Keep these
+# names in one place so the outline review cannot accidentally use the first
+# ``base=TTFont(...)`` occurrence (which is the supplemental Mochiy load).
+BASE_FONT_PATHS: dict[str, Path] = {
+    "Mochiy Pop One": ROOT / "vendor" / "MochiyPopOne-Regular.ttf",
+    "Zen Maru Gothic Black": ROOT / "vendor" / "ZenMaruGothic-Black.ttf",
+}
+REFERENCE_VECTOR_TAGS = frozenset(
+    {"concept-reference-vector-outline", "approved-reference-vector-outline"}
+)
 
 # Combining dakuten are intentionally zero-advance anchor marks. Their outline
 # is placed to the left of the base kana, so a negative xMin is expected and
@@ -71,7 +85,7 @@ CORPUS: tuple[tuple[str, str, str, tuple[CorpusCase, ...]], ...] = (
             CorpusCase("address-tokyo", "東京都の住所", "〒160-0023 東京都新宿区西新宿二丁目8番1号", "郵便記号と漢数字・算用数字の混在"),
             CorpusCase("address-osaka", "大阪府の住所", "大阪府大阪市北区梅田三丁目1番1号", "都道府県から番地までの連続した漢字"),
             CorpusCase("address-hokkaido", "北海道の住所", "北海道札幌市中央区北一条西2丁目3-4", "長い地名と算用数字の混在"),
-            CorpusCase("address-variant", "異体字を含む住所", "京都市左京区𠮷田本町", "JIS外の𠮷を含むため部分対応になることを記録"),
+            CorpusCase("address-variant", "異体字を含む住所", "京都市左京区𠮷田本町", "JIS X 0208外の𠮷を含む住所を確認"),
         ),
     ),
     (
@@ -82,7 +96,7 @@ CORPUS: tuple[tuple[str, str, str, tuple[CorpusCase, ...]], ...] = (
             CorpusCase("price-yen", "円価格", "価格：￥1,980（税込）", "全角記号・円記号・括弧・数字"),
             CorpusCase("price-tax", "税込みと値引き", "合計 12,345円（10％引き）", "桁区切りと全角パーセント"),
             CorpusCase("price-fullwidth", "全角数字の価格", "本体価格：１００円＋税", "全角数字と全角コロン・プラス"),
-            CorpusCase("price-foreign", "外貨の価格", "＄19.99 / €18.50", "€ U+20AC などの未収録記号を隠さず確認"),
+            CorpusCase("price-foreign", "外貨の価格", "＄19.99 / €18.50", "€ U+20AC と全角ドル記号を確認"),
         ),
     ),
     (
@@ -90,7 +104,7 @@ CORPUS: tuple[tuple[str, str, str, tuple[CorpusCase, ...]], ...] = (
         "年月日・時刻",
         "和暦・西暦・曜日・期間・締切を含む日付表記",
         (
-            CorpusCase("date-weekday", "曜日付きの日付", "2026年9月13日（土）", "年月日と曜日の括弧"),
+            CorpusCase("date-weekday", "曜日付きの日付", "2026年9月12日（土）", "年月日と曜日の括弧"),
             CorpusCase("date-era", "和暦の月", "令和8年9月", "元号の漢字"),
             CorpusCase("date-time", "ISO風の日時", "2026-09-13 16:30", "数字・ハイフン・コロン・空白"),
             CorpusCase("date-deadline", "締切と期間", "締切：9月30日 / 2026/09/13〜2026/09/30", "波ダッシュ・スラッシュを含む"),
@@ -116,7 +130,7 @@ CORPUS: tuple[tuple[str, str, str, tuple[CorpusCase, ...]], ...] = (
             CorpusCase("symbol-japanese", "日本語組版記号", "！？＠＃＄％＆＊＋＝／：；。、・「」『』【】〈〉《》〔〕［］｛｝（）", "括弧類と全角記号をまとめて確認"),
             CorpusCase("symbol-dots", "点とダッシュ", "…‥〜ー―—－×÷±°￥", "点・波ダッシュ・長音・ダッシュ・演算記号"),
             CorpusCase("symbol-decorative", "装飾記号", "矢印←↑→↓ / 音符♪ / ハート♡♥ / 星★☆", "既存見本の装飾文字を含む"),
-            CorpusCase("symbol-extended", "拡張記号", "© ® ™ § ± × ÷ ≠ ≤ ≥", "JIS拡張外を含み、未対応を表示する"),
+            CorpusCase("symbol-extended", "拡張記号", "© ® ™ § ± × ÷ ≠ ≤ ≥", "著作権・商標・演算記号の対応と形を確認"),
         ),
     ),
     (
@@ -136,7 +150,7 @@ CORPUS: tuple[tuple[str, str, str, tuple[CorpusCase, ...]], ...] = (
         (
             CorpusCase("decomposed-voiced", "分解濁点のかな", "か\u3099き\u3099く\u3099け\u3099こ\u3099", "かな本体と結合濁点U+3099"),
             CorpusCase("decomposed-semi", "分解半濁点のかな", "は\u309Aひ\u309Aふ\u309Aへ\u309Aほ\u309A", "かな本体と結合半濁点U+309A"),
-            CorpusCase("decomposed-mixed", "分解と合成の比較", "う\u3099ゔ / か\u3099き\u3099", "rawは未収録マーク、NFCは合成済み文字として検査"),
+            CorpusCase("decomposed-mixed", "分解と合成の比較", "う\u3099ゔ / か\u3099き\u3099", "rawは結合マーク、NFCは合成済み文字として検査"),
         ),
     ),
 )
@@ -186,29 +200,214 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def find_source_font() -> Path | None:
-    """Find the base font named by the current build script.
+def _read_json_object(path: Path) -> dict[str, Any]:
+    """Read a JSON object without making a stale optional report fatal."""
 
-    The project has used more than one local base font during experimentation.
-    Reading the path from build.py keeps the comparison honest if that choice
-    changes; the known vendor paths are a safe fallback for older checkouts.
+    if not path.exists():
+        return {}
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError):
+        return {}
+    return value if isinstance(value, dict) else {}
+
+
+def _selected_base_name() -> str | None:
+    """Return the CJK base selected by ``sources/design.json``."""
+
+    value = _read_json_object(DESIGN_CONFIG).get("kanji_base")
+    return value.strip() if isinstance(value, str) and value.strip() else None
+
+
+def find_source_font() -> Path | None:
+    """Find the CJK source selected by the current build configuration.
+
+    ``build.py`` also loads Mochiy in ``finish_japanese_sources``.  Parsing the
+    first generic ``base=TTFont`` assignment therefore reports the wrong
+    source after the CJK base is switched to Zen Maru.  The design setting is
+    authoritative; the ``cjk_base`` expression is retained for older configs
+    that do not yet have ``kanji_base``.
     """
+
+    selected = _selected_base_name()
+    if selected is not None:
+        candidate = BASE_FONT_PATHS.get(selected)
+        # A configured source must not silently fall back to another font.
+        return candidate if candidate is not None and candidate.exists() else None
 
     build_path = ROOT / "build.py"
     if build_path.exists():
         source = build_path.read_text(encoding="utf-8", errors="replace")
+        match = re.search(r"cjk_base\s*=\s*TTFont\(ROOT\s*/\s*['\"]([^'\"]+)['\"]\)", source)
+        if match:
+            candidate = ROOT / match.group(1)
+            if candidate.exists():
+                return candidate
+        # Older build scripts had no separate CJK variable and used Mochiy.
         match = re.search(r"base\s*=\s*TTFont\(ROOT\s*/\s*['\"]([^'\"]+)['\"]\)", source)
         if match:
             candidate = ROOT / match.group(1)
             if candidate.exists():
                 return candidate
-    for candidate in (
-        ROOT / "vendor" / "MochiyPopOne-Regular.ttf",
-        ROOT / "vendor" / "ZenMaruGothic-Black.ttf",
-    ):
+    for candidate in BASE_FONT_PATHS.values():
         if candidate.exists():
             return candidate
     return None
+
+
+def _source_font_name(source_path: Path | None = None) -> str | None:
+    """Return the configured source label, or infer it from a vendor path."""
+
+    selected = _selected_base_name()
+    if selected:
+        return selected
+    if source_path is not None:
+        resolved = source_path.resolve()
+        for name, path in BASE_FONT_PATHS.items():
+            if path.resolve() == resolved:
+                return name
+    return None
+
+
+def _read_modifications() -> dict[str, list[str]]:
+    """Load per-glyph provenance tags emitted by ``build.py``."""
+
+    raw = _read_json_object(MODIFICATIONS_FILE)
+    result: dict[str, list[str]] = {}
+    for key, value in raw.items():
+        if not isinstance(key, str) or not isinstance(value, list):
+            continue
+        result[key] = [tag for tag in value if isinstance(tag, str)]
+    return result
+
+
+def _modification_codepoint(key: str) -> int | None:
+    """Map a modification key such as ``こ.alt`` to its Unicode scalar."""
+
+    character = key.split(".", 1)[0]
+    return ord(character) if len(character) == 1 else None
+
+
+def _tagged_codepoints(modifications: dict[str, list[str]], tag: str) -> set[int]:
+    codepoints: set[int] = set()
+    for key, tags in modifications.items():
+        if tag not in tags:
+            continue
+        codepoint = _modification_codepoint(key)
+        if codepoint is not None:
+            codepoints.add(codepoint)
+    return codepoints
+
+
+def _reference_vector_records(modifications: dict[str, list[str]]) -> list[dict[str, Any]]:
+    """Describe intentional reference-vector overrides by Unicode scalar."""
+
+    grouped: dict[int, set[str]] = {}
+    for key, tags in modifications.items():
+        codepoint = _modification_codepoint(key)
+        if codepoint is None:
+            continue
+        selected = set(tags) & REFERENCE_VECTOR_TAGS
+        if selected:
+            grouped.setdefault(codepoint, set()).update(selected)
+    return [
+        {
+            "codepoint": codepoint,
+            "character": chr(codepoint),
+            "tags": sorted(tags),
+            "intentional_design_difference": True,
+        }
+        for codepoint, tags in sorted(grouped.items())
+    ]
+
+
+def _reference_vector_tag_counts(modifications: dict[str, list[str]]) -> dict[str, int]:
+    """Count tagged source keys, retaining ``.alt`` entries as separate keys."""
+
+    return {
+        tag: sum(tag in tags for tags in modifications.values())
+        for tag in sorted(REFERENCE_VECTOR_TAGS)
+    }
+
+
+def _unicode_cjk_codepoints(cmap: dict[int, str]) -> set[int]:
+    """Best-effort CJK scope for old reports without provenance tags."""
+
+    return {
+        codepoint
+        for codepoint in cmap
+        if (
+            0x3400 <= codepoint <= 0x4DBF
+            or 0x4E00 <= codepoint <= 0x9FFF
+            or 0xF900 <= codepoint <= 0xFAFF
+            or 0x20000 <= codepoint <= 0x323AF
+        )
+    }
+
+
+def outline_comparison_scope(
+    generated_cmap: dict[int, str],
+    source_name: str | None,
+    modifications: dict[str, list[str]],
+    reference_vectors: list[dict[str, Any]],
+    reference_vector_tag_counts: dict[str, int] | None = None,
+) -> dict[str, Any]:
+    """Choose only glyphs whose generated source is the selected CJK base."""
+
+    selected_tag = f"base:{source_name}" if source_name else None
+    reference_codepoints = {item["codepoint"] for item in reference_vectors}
+    base_tags = {
+        tag
+        for tags in modifications.values()
+        for tag in tags
+        if tag.startswith("base:")
+    }
+    if selected_tag and selected_tag in base_tags:
+        eligible = _tagged_codepoints(modifications, selected_tag)
+        mode = "modifications-base-tag"
+        note = (
+            f"sources/modifications.json の {selected_tag} を持つ生成文字だけを、"
+            f"{source_name} の元書体と比較する。"
+        )
+    elif base_tags:
+        # A mismatched/stale provenance file is evidence of an invalid scope;
+        # do not compare glyphs against a different base just to fill a table.
+        eligible = set()
+        mode = "base-tag-mismatch"
+        note = (
+            f"選択された {selected_tag or 'base tag'} が modifications.json にないため、"
+            "別の基準フォントとの推測比較を実施していない。"
+        )
+    else:
+        eligible = _unicode_cjk_codepoints(generated_cmap)
+        mode = "unicode-cjk-fallback"
+        note = (
+            "modifications.json に base:* の provenance がないため、"
+            "旧形式互換としてUnicode CJK範囲だけを比較対象にした。"
+        )
+    excluded = eligible & reference_codepoints
+    eligible -= reference_codepoints
+    return {
+        "mode": mode,
+        "source_font_name": source_name,
+        "source_tag": selected_tag,
+        # Internal input to compare_outlines; it is removed from the JSON
+        # report below because the per-glyph structure already carries the
+        # detailed codepoint evidence.
+        "eligible_codepoints": sorted(eligible),
+        "eligible_codepoint_count": len(eligible),
+        "reference_vector_codepoint_count": len(reference_vectors),
+        "reference_vector_tag_counts": reference_vector_tag_counts or {},
+        "excluded_reference_vector_codepoint_count": len(excluded),
+        "excluded_reference_vector_codepoints": sorted(excluded),
+        "reference_vector_characters": reference_vectors,
+        "note": note,
+        "reference_vector_note": (
+            "concept-reference-vector-outline と approved-reference-vector-outline は、"
+            "見本に合わせた意図的なベクトル差分として元書体ランキングから除外し、"
+            "別のデザイン目視対象として扱う。"
+        ),
+    }
 
 
 def _signed_area(points: Any) -> float:
@@ -386,22 +585,44 @@ def compare_outlines(
     generated: TTFont,
     generated_cmap: dict[int, str],
     source_path: Path | None = None,
+    comparison_scope: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    """Rank outline/counter reductions against the source font for review."""
+    """Rank outline/counter reductions against the selected source for review.
+
+    The scope is intentionally provenance-based.  A Zen-generated Kanji must
+    be compared with Zen, while a reference-vector override is a deliberate
+    design difference and must not be presented as a source-outline failure.
+    """
+
+    comparison_scope = comparison_scope or {}
+    reference_codepoints = set(comparison_scope.get("excluded_reference_vector_codepoints", ()))
+    eligible_codepoints = comparison_scope.get("eligible_codepoints")
+    if eligible_codepoints is not None:
+        eligible_codepoints = set(eligible_codepoints)
 
     if source is None:
         return {
             "source_font": None,
+            "source_font_name": comparison_scope.get("source_font_name"),
             "source_sha256": None,
             "common_codepoints": 0,
+            "compared_codepoints": 0,
             "changed_codepoints": 0,
             "loss_codepoints": 0,
             "top_review_candidates": [],
-            "note": "元書体が見つからないため比較を実施していない",
+            "comparison_scope": {
+                key: value for key, value in comparison_scope.items() if key != "eligible_codepoints"
+            },
+            "note": "元書体が見つからないため比較を実施していない。"
+            + (f" {comparison_scope.get('note')}" if comparison_scope.get("note") else ""),
         }
     source_cmap = source.getBestCmap()
+    common_codepoints = set(generated_cmap) & set(source_cmap)
+    if eligible_codepoints is not None:
+        common_codepoints &= eligible_codepoints
+    common_codepoints -= reference_codepoints
     records: list[dict[str, Any]] = []
-    for cp in sorted(set(generated_cmap) & set(source_cmap)):
+    for cp in sorted(common_codepoints):
         before = glyph_metrics(source, cp, source_cmap)
         after = glyph_metrics(generated, cp, generated_cmap)
         if before is None or after is None:
@@ -447,16 +668,24 @@ def compare_outlines(
     records.sort(key=lambda item: (-item["priority_score"], -item["contour_loss"], -item["counter_loss"], item["codepoint"]))
     return {
         "source_font": (
-                str(source_path.relative_to(ROOT)).replace("\\", "/")
-                if source_path is not None
-                else "unknown"
+            str(source_path.relative_to(ROOT)).replace("\\", "/")
+            if source_path is not None
+            else "unknown"
         ),
+        "source_font_name": comparison_scope.get("source_font_name"),
         "source_sha256": sha256(source_path) if source_path is not None else None,
         "common_codepoints": len(set(generated_cmap) & set(source_cmap)),
+        "compared_codepoints": len(common_codepoints),
         "changed_codepoints": len(records),
         "loss_codepoints": len(records),
         "top_review_candidates": records[:80],
-        "note": "輪郭・推定カウンターの減少順。装飾差も含むため目視候補であり自動FAILではない",
+        "comparison_scope": {
+            key: value for key, value in comparison_scope.items() if key != "eligible_codepoints"
+        },
+        "note": (
+            "輪郭・推定カウンターの減少順。装飾差も含むため目視候補であり自動FAILではない。"
+            + (f" {comparison_scope.get('note')}" if comparison_scope.get("note") else "")
+        ),
     }
 
 
@@ -584,9 +813,25 @@ def _reference_html(cmap: dict[int, str]) -> str:
     '''
 
 
-def _candidate_html(candidates: list[dict[str, Any]]) -> str:
+def _candidate_html(
+    candidates: list[dict[str, Any]], outline: dict[str, Any] | None = None
+) -> str:
+    outline = outline or {}
+    scope = outline.get("comparison_scope") or {}
+    scope_note = html.escape(str(scope.get("note", "")))
+    reference_note = html.escape(str(scope.get("reference_vector_note", "")))
+    scope_details = "".join(
+        part
+        for part in (
+            f'<p class="footnote">{scope_note}</p>' if scope_note else "",
+            f'<p class="footnote">{reference_note}</p>' if reference_note else "",
+        )
+    )
     if not candidates:
-        return '<p class="muted">元書体との比較で輪郭・推定カウンターの減少はありません。</p>'
+        return (
+            '<p class="muted">元書体との比較で輪郭・推定カウンターの減少はありません。</p>'
+            + scope_details
+        )
     rows = []
     for item in candidates[:30]:
         source = item["source"]
@@ -597,6 +842,7 @@ def _candidate_html(candidates: list[dict[str, Any]]) -> str:
     return f'''
       <table class="candidate-table"><thead><tr><th>字</th><th>コード</th><th>元: 外周 / 穴*</th><th>生成: 外周 / 穴*</th><th>減少: 外周 / 穴</th><th>優先度</th></tr></thead><tbody>{"".join(rows)}</tbody></table>
       <p class="footnote">* 穴はTrueTypeの輪郭方向から推定。装飾や合成差を含むため、ランキングは目視確認の候補であり自動FAIL判定ではない。</p>
+      {scope_details}
     '''
 
 
@@ -637,8 +883,9 @@ def write_outline_review_png(
     row_height = 145
     image = Image.new("RGB", (width, header_height + row_height * len(selected) + 42), cream)
     draw = ImageDraw.Draw(image)
-    ui = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", 18)
-    small = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", 14)
+    ui_path = ROOT / "vendor" / "ZenMaruGothic-Black.ttf"
+    ui = ImageFont.truetype(str(ui_path), 18)
+    small = ImageFont.truetype(str(ui_path), 14)
     glyph_source = ImageFont.truetype(str(source_path), 104)
     glyph_generated = ImageFont.truetype(str(generated_path), 104)
     draw.text((34, 22), "NIKUKYU MARU / OUTLINE REVIEW", font=ui, fill=ink)
@@ -657,7 +904,7 @@ def write_outline_review_png(
         draw.rounded_rectangle((360, top + 17, 880, top + row_height - 28), radius=8, fill=source_fill)
         draw.rounded_rectangle((890, top + 17, 1190, top + row_height - 28), radius=8, fill=generated_fill)
         draw.text((50, top + 30), f"{index:02d}", font=ui, fill=muted)
-        draw.text((106, top + 27), item["character"], font=glyph_generated, fill=ink)
+        draw.text((180, top + 63), item["character"], font=glyph_generated, fill=ink, anchor="mm")
         draw.text((106, top + 104), cp_short(item["codepoint"]), font=small, fill=muted)
         draw.text((620, top + 70), item["character"], font=glyph_source, fill=ink, anchor="mm")
         draw.text((1000, top + 70), item["character"], font=glyph_generated, fill=ink, anchor="mm")
@@ -677,6 +924,16 @@ def write_outline_review_png(
     }
 
 
+def _webfont_url(report: dict[str, Any]) -> str:
+    """Return a sibling WOFF2 URL with the report's content hash as a nonce."""
+
+    artifact = report.get("artifacts", {}).get("woff2", {})
+    path = artifact.get("path") if isinstance(artifact, dict) else None
+    filename = Path(str(path or DEFAULT_WEBFONT.name)).name
+    digest = artifact.get("sha256") if isinstance(artifact, dict) else None
+    return f"{filename}?v={digest}" if isinstance(digest, str) and digest else filename
+
+
 def render_outline_review_page(report: dict[str, Any]) -> str:
     """Create a focused page for image-based source/generated review."""
 
@@ -684,6 +941,12 @@ def render_outline_review_page(report: dict[str, Any]) -> str:
     candidates = outline["top_review_candidates"]
     artifact = report["artifacts"].get("outline_review_png", {})
     image_href = Path(artifact.get("path", "japanese-outline-review.png")).name
+    webfont_href = html.escape(_webfont_url(report), quote=True)
+    scope = outline.get("comparison_scope") or {}
+    source_name = html.escape(str(outline.get("source_font_name") or "不明"))
+    scope_note = str(scope.get("note", ""))
+    reference_note = str(scope.get("reference_vector_note", ""))
+    reference_count = int(scope.get("reference_vector_codepoint_count", 0) or 0)
     rows = []
     for index, item in enumerate(candidates, start=1):
         source = item["source"]
@@ -698,7 +961,7 @@ def render_outline_review_page(report: dict[str, Any]) -> str:
 <title>にくきゅう丸 輪郭候補比較</title>
 <style>
   :root {{ --ink:#342622; --cream:#fff8eb; --paper:#fffdf9; --line:#e6d7c8; --muted:#806b60; }}
-  @font-face {{ font-family:"NikuValidation"; src:url("NikukyuMaru-Regular.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; }}
+  @font-face {{ font-family:"NikuValidation"; src:url("{webfont_href}") format("woff2"); font-weight:800; font-style:normal; font-display:block; }}
   * {{ box-sizing:border-box; }} body {{ margin:0; background:var(--cream); color:var(--ink); font:15px/1.6 system-ui,-apple-system,"Yu Gothic","Meiryo",sans-serif; }}
   .wrap {{ width:min(1500px,calc(100% - 40px)); margin:0 auto; }} header {{ padding:34px 0 20px; }}
   h1 {{ margin:0; font:800 clamp(28px,4vw,48px)/1.2 "NikuValidation",sans-serif; }} h2 {{ margin:28px 0 10px; font-size:22px; }}
@@ -707,8 +970,8 @@ def render_outline_review_page(report: dict[str, Any]) -> str:
   table {{ width:100%; border-collapse:collapse; background:var(--paper); font-size:12px; }} th,td {{ padding:7px 8px; border-bottom:1px solid var(--line); text-align:left; white-space:nowrap; }} th {{ color:var(--muted); font-size:11px; }} .glyph {{ font:800 26px/1 "NikuValidation",sans-serif; }}
   .table-scroll {{ overflow:auto; border:1px solid var(--line); border-radius:10px; }} a {{ color:#96503e; }}
 </style></head><body><div class="wrap">
-  <header><p class="meta">NIKUKYU MARU / OUTLINE REVIEW</p><h1>元書体と生成後の輪郭比較</h1><p class="meta">元書体: <code>{source}</code> / 共通Unicode: {outline["common_codepoints"]:,} / 差分候補: {outline["changed_codepoints"]:,}</p></header>
-  <p class="note">外周 / 穴はTrueType輪郭方向からの推定値。太らせ処理で外周が融合した候補を優先度順に並べ、実TTFをPillowで同じ大きさに描画したPNGを表示する。装飾差を含むため、このランキングは自動FAILではなく目視確認の入口である。</p>
+  <header><p class="meta">NIKUKYU MARU / OUTLINE REVIEW</p><h1>元書体と生成後の輪郭比較</h1><p class="meta">元書体: <code>{source}</code> / 選択基準: {source_name} / 共通Unicode: {outline["common_codepoints"]:,} / 比較対象: {outline.get("compared_codepoints", 0):,} / 差分候補: {outline["changed_codepoints"]:,}</p></header>
+  <p class="note">外周 / 穴はTrueType輪郭方向からの推定値。{html.escape(scope_note) if scope_note else "選択された基準フォントの比較対象を使う。"} {html.escape(reference_note) if reference_note else ""} 参照ベクトル別扱い: {reference_count} codepoints。装飾差を含むため、このランキングは自動FAILではなく目視確認の入口である。</p>
   <h2>画像比較</h2><div class="review-image"><img src="{html.escape(image_href)}" alt="元書体と生成後の上位輪郭候補比較"></div>
   <h2>候補一覧</h2><div class="table-scroll"><table><thead><tr><th>#</th><th>字</th><th>コード</th><th>元: 外周 / 穴</th><th>生成: 外周 / 穴</th><th>減少: 外周 / 穴</th><th>優先度</th></tr></thead><tbody>{table}</tbody></table></div>
   <p class="foot">メインの用途別検証: <a href="japanese-validation.html">japanese-validation.html</a> / JSON: <a href="japanese-validation.json">japanese-validation.json</a></p>
@@ -717,6 +980,7 @@ def render_outline_review_page(report: dict[str, Any]) -> str:
 
 def render_html(report: dict[str, Any], category_results: list[dict[str, Any]], cmap: dict[int, str]) -> str:
     font_path = report["artifacts"]["ttf"]["path"]
+    webfont_href = html.escape(_webfont_url(report), quote=True)
     version = report["font"]["version"]
     structure = report["structure"]
     coverage = report["coverage"]
@@ -734,7 +998,7 @@ def render_html(report: dict[str, Any], category_results: list[dict[str, Any]], 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)}</title>
   <style>
-    @font-face {{ font-family: "NikuValidation"; src: url("NikukyuMaru-Regular.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: block; }}
+    @font-face {{ font-family: "NikuValidation"; src: url("{webfont_href}") format("woff2"); font-weight: 800; font-style: normal; font-display: block; }}
     :root {{ --ink:#342622; --cream:#fff8eb; --paper:#fffdf9; --line:#e6d7c8; --muted:#806b60; --pink:#ef927f; --good:#2d7d63; --good-bg:#e4f3ec; --warn:#9a6500; --warn-bg:#fff0c8; --bad:#a6302d; --bad-bg:#ffe1dc; }}
     * {{ box-sizing: border-box; }}
     html {{ scroll-behavior: smooth; }}
@@ -835,7 +1099,7 @@ def render_html(report: dict[str, Any], category_results: list[dict[str, Any]], 
             <tr><th>空輪郭（空白除外）</th><td>{len(structure["empty_mapped_codepoints"]):,}</td></tr>
             <tr><th>vertical extrema</th><td>{html.escape(str(structure["vertical_extrema"]))}</td></tr>
           </tbody></table>
-          <div><h3>元書体との差分 — 目視候補ランキング</h3><p class="muted">{html.escape(outline["note"])}</p><p class="muted"><a href="japanese-outline-review.html">元書体と生成後の実TTFを描画したPNGを開く →</a></p><div class="scroll-table">{_candidate_html(outline["top_review_candidates"])}</div></div>
+          <div><h3>元書体との差分 — 目視候補ランキング</h3><p class="muted">{html.escape(outline["note"])}</p><p class="muted"><a href="japanese-outline-review.html">元書体と生成後の実TTFを描画したPNGを開く →</a></p><div class="scroll-table">{_candidate_html(outline["top_review_candidates"], outline)}</div></div>
         </div>
         <details style="margin-top:18px"><summary>bounds異常と空輪郭の詳細</summary><pre>{html.escape(json.dumps({"bounds_errors": structure["bounds_errors"], "empty_mapped_codepoints": [cp_name(cp) for cp in structure["empty_mapped_codepoints"]]}, ensure_ascii=False, indent=2))}</pre></details>
       </section>
@@ -903,8 +1167,24 @@ def build_report(
     # from the use-case corpus coverage calculated above.
     structure = inspect_structure(generated, cmap, cmap)
     source_path = find_source_font()
+    source_name = _source_font_name(source_path)
+    modifications = _read_modifications()
+    reference_vectors = _reference_vector_records(modifications)
+    comparison_scope = outline_comparison_scope(
+        cmap,
+        source_name,
+        modifications,
+        reference_vectors,
+        _reference_vector_tag_counts(modifications),
+    )
     source = TTFont(source_path) if source_path is not None else None
-    outline_comparison = compare_outlines(source, generated, cmap, source_path)
+    outline_comparison = compare_outlines(
+        source,
+        generated,
+        cmap,
+        source_path,
+        comparison_scope=comparison_scope,
+    )
     outline_png = write_outline_review_png(
         source_path,
         font_path,
@@ -989,8 +1269,8 @@ def build_report(
             "page": "outputs/japanese-validation.html",
             "outline_review_page": "outputs/japanese-outline-review.html",
             "outline_review_png": outline_png.get("path"),
-            "font_face": "NikukyuMaru-Regular.woff2",
-            "status": "page-generated; screenshot/目視判定は未実施",
+            "font_face": f"{webfont_path.name}?v={sha256(webfont_path)}",
+            "status": "page-generated; この生成処理は目視判定を行わない。別記録 outputs/visual-verification.json の対象ハッシュと結果を参照。",
             "checks_to_record": [
                 "Webフォント読込OKが表示されること",
                 "赤い表示がTTF cmap未収録コードポイントと一致すること",
@@ -998,6 +1278,16 @@ def build_report(
                 "半角カナと分解濁点が代替フォントで合格扱いされないこと",
                 "構造検査のランキング上位字を拡大目視すること",
             ],
+            "font_face_url": _webfont_url(
+                {
+                    "artifacts": {
+                        "woff2": {
+                            "path": str(webfont_path.relative_to(ROOT)).replace("\\", "/"),
+                            "sha256": sha256(webfont_path),
+                        }
+                    }
+                }
+            ),
         },
     }
     return report, render_html(report, category_results, cmap), render_outline_review_page(report)

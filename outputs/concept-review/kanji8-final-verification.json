@@ -1,0 +1,3211 @@
+{
+  "font": "outputs/NikukyuMaru-Regular.ttf",
+  "font_sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba",
+  "outline_source": "sources/kanji-concept-outlines.json",
+  "baseline_font": "work/pre-concept-production.ttf",
+  "selected": [
+    "名",
+    "今",
+    "日",
+    "月",
+    "年",
+    "店",
+    "休",
+    "住"
+  ],
+  "source": {
+    "名": {
+      "command_count": 133,
+      "contour_count": 3,
+      "coordinate_bounds": [
+        50.0,
+        -0.6329113924050632,
+        950.632911392405,
+        869.620253164557
+      ],
+      "width": 1000
+    },
+    "今": {
+      "command_count": 105,
+      "contour_count": 3,
+      "coordinate_bounds": [
+        50.0,
+        0.0,
+        950.6198347107438,
+        872.7272727272726
+      ],
+      "width": 1000
+    },
+    "日": {
+      "command_count": 103,
+      "contour_count": 3,
+      "coordinate_bounds": [
+        98.04741980474199,
+        -0.6136680613668061,
+        901.952580195258,
+        883.6820083682009
+      ],
+      "width": 1000
+    },
+    "月": {
+      "command_count": 105,
+      "contour_count": 3,
+      "coordinate_bounds": [
+        51.497584541062764,
+        -0.7085346215780999,
+        947.0853462157811,
+        880.7085346215781
+      ],
+      "width": 1000
+    },
+    "年": {
+      "command_count": 124,
+      "contour_count": 2,
+      "coordinate_bounds": [
+        48.07692307692308,
+        -3.205128205128205,
+        951.9230769230769,
+        855.7692307692308
+      ],
+      "width": 1000
+    },
+    "店": {
+      "command_count": 158,
+      "contour_count": 3,
+      "coordinate_bounds": [
+        48.109243697478995,
+        -0.6302521008403361,
+        953.1512605042017,
+        833.8235294117648
+      ],
+      "width": 1000
+    },
+    "休": {
+      "command_count": 124,
+      "contour_count": 2,
+      "coordinate_bounds": [
+        47.53086419753087,
+        -8.024691358024697,
+        952.4691358024692,
+        772.2222222222222
+      ],
+      "width": 1000
+    },
+    "住": {
+      "command_count": 139,
+      "contour_count": 2,
+      "coordinate_bounds": [
+        50.0,
+        -13.235294117647072,
+        951.2605042016806,
+        770.1680672268908
+      ],
+      "width": 1000
+    }
+  },
+  "compiled_glyphs": {
+    "名": {
+      "char": "名",
+      "codepoint": "U+540D",
+      "glyph_name": "uni540D",
+      "advance": 1000,
+      "left_side_bearing": 50,
+      "contour_count": 3,
+      "bounds": [
+        50,
+        0,
+        950,
+        870
+      ],
+      "within_advance_and_windows_bounds": true
+    },
+    "今": {
+      "char": "今",
+      "codepoint": "U+4ECA",
+      "glyph_name": "uni4ECA",
+      "advance": 1000,
+      "left_side_bearing": 50,
+      "contour_count": 3,
+      "bounds": [
+        50,
+        0,
+        950,
+        872
+      ],
+      "within_advance_and_windows_bounds": true
+    },
+    "日": {
+      "char": "日",
+      "codepoint": "U+65E5",
+      "glyph_name": "uni65E5",
+      "advance": 1000,
+      "left_side_bearing": 98,
+      "contour_count": 3,
+      "bounds": [
+        98,
+        0,
+        902,
+        882
+      ],
+      "within_advance_and_windows_bounds": true
+    },
+    "月": {
+      "char": "月",
+      "codepoint": "U+6708",
+      "glyph_name": "uni6708",
+      "advance": 1000,
+      "left_side_bearing": 53,
+      "contour_count": 3,
+      "bounds": [
+        52,
+        -1,
+        947,
+        881
+      ],
+      "within_advance_and_windows_bounds": true
+    },
+    "年": {
+      "char": "年",
+      "codepoint": "U+5E74",
+      "glyph_name": "uni5E74",
+      "advance": 1000,
+      "left_side_bearing": 49,
+      "contour_count": 2,
+      "bounds": [
+        49,
+        -2,
+        951,
+        855
+      ],
+      "within_advance_and_windows_bounds": true
+    },
+    "店": {
+      "char": "店",
+      "codepoint": "U+5E97",
+      "glyph_name": "uni5E97",
+      "advance": 1000,
+      "left_side_bearing": 49,
+      "contour_count": 3,
+      "bounds": [
+        49,
+        0,
+        951,
+        833
+      ],
+      "within_advance_and_windows_bounds": true
+    },
+    "休": {
+      "char": "休",
+      "codepoint": "U+4F11",
+      "glyph_name": "uni4F11",
+      "advance": 1000,
+      "left_side_bearing": 49,
+      "contour_count": 2,
+      "bounds": [
+        48,
+        -2,
+        952,
+        772
+      ],
+      "within_advance_and_windows_bounds": true
+    },
+    "住": {
+      "char": "住",
+      "codepoint": "U+4F4F",
+      "glyph_name": "uni4F4F",
+      "advance": 1000,
+      "left_side_bearing": 50,
+      "contour_count": 3,
+      "bounds": [
+        50,
+        -2,
+        951,
+        769
+      ],
+      "within_advance_and_windows_bounds": true
+    }
+  },
+  "reference_image": "references/03-kanji-refined.png",
+  "reference_cells": {
+    "名": {
+      "available": true,
+      "cell": [
+        30,
+        45,
+        330,
+        350
+      ],
+      "ink_pixels": 36264,
+      "bbox_px": [
+        35,
+        48,
+        273,
+        278
+      ],
+      "component_count": 1,
+      "component_areas_px": [
+        36264
+      ],
+      "hole_count": 2
+    },
+    "今": {
+      "available": true,
+      "cell": [
+        627,
+        45,
+        919,
+        350
+      ],
+      "ink_pixels": 31448,
+      "bbox_px": [
+        22,
+        48,
+        265,
+        283
+      ],
+      "component_count": 2,
+      "component_areas_px": [
+        18466,
+        12982
+      ],
+      "hole_count": 1
+    },
+    "日": {
+      "available": true,
+      "cell": [
+        919,
+        45,
+        1230,
+        350
+      ],
+      "ink_pixels": 39593,
+      "bbox_px": [
+        36,
+        38,
+        255,
+        278
+      ],
+      "component_count": 1,
+      "component_areas_px": [
+        39593
+      ],
+      "hole_count": 2
+    },
+    "月": {
+      "available": true,
+      "cell": [
+        30,
+        350,
+        330,
+        635
+      ],
+      "ink_pixels": 31980,
+      "bbox_px": [
+        44,
+        48,
+        255,
+        256
+      ],
+      "component_count": 1,
+      "component_areas_px": [
+        31980
+      ],
+      "hole_count": 2
+    },
+    "年": {
+      "available": true,
+      "cell": [
+        330,
+        350,
+        627,
+        635
+      ],
+      "ink_pixels": 31118,
+      "bbox_px": [
+        27,
+        37,
+        262,
+        260
+      ],
+      "component_count": 1,
+      "component_areas_px": [
+        31118
+      ],
+      "hole_count": 1
+    },
+    "店": {
+      "available": true,
+      "cell": [
+        30,
+        635,
+        330,
+        917
+      ],
+      "ink_pixels": 35183,
+      "bbox_px": [
+        36,
+        29,
+        275,
+        250
+      ],
+      "component_count": 2,
+      "component_areas_px": [
+        18086,
+        17097
+      ],
+      "hole_count": 1
+    },
+    "休": {
+      "available": true,
+      "cell": [
+        919,
+        635,
+        1230,
+        917
+      ],
+      "ink_pixels": 31375,
+      "bbox_px": [
+        21,
+        44,
+        265,
+        253
+      ],
+      "component_count": 2,
+      "component_areas_px": [
+        20897,
+        10478
+      ],
+      "hole_count": 0
+    },
+    "住": {
+      "available": true,
+      "cell": [
+        627,
+        917,
+        919,
+        1220
+      ],
+      "ink_pixels": 32396,
+      "bbox_px": [
+        18,
+        33,
+        257,
+        237
+      ],
+      "component_count": 2,
+      "component_areas_px": [
+        22188,
+        10208
+      ],
+      "hole_count": 0
+    }
+  },
+  "raster": {
+    "名": {
+      "font_size": 180,
+      "ink_pixels": 16636,
+      "bbox_px": [
+        99,
+        129,
+        261,
+        285
+      ],
+      "height_px": 156,
+      "width_px": 162,
+      "component_count": 1,
+      "component_areas_px": [
+        16636
+      ],
+      "hole_count": 2,
+      "ink_density": 0.6583
+    },
+    "今": {
+      "font_size": 180,
+      "ink_pixels": 13869,
+      "bbox_px": [
+        99,
+        128,
+        261,
+        285
+      ],
+      "height_px": 157,
+      "width_px": 162,
+      "component_count": 2,
+      "component_areas_px": [
+        8154,
+        5715
+      ],
+      "hole_count": 1,
+      "ink_density": 0.5453
+    },
+    "日": {
+      "font_size": 180,
+      "ink_pixels": 17061,
+      "bbox_px": [
+        108,
+        126,
+        252,
+        285
+      ],
+      "height_px": 159,
+      "width_px": 144,
+      "component_count": 1,
+      "component_areas_px": [
+        17061
+      ],
+      "hole_count": 2,
+      "ink_density": 0.7452
+    },
+    "月": {
+      "font_size": 180,
+      "ink_pixels": 18316,
+      "bbox_px": [
+        100,
+        127,
+        261,
+        285
+      ],
+      "height_px": 158,
+      "width_px": 161,
+      "component_count": 1,
+      "component_areas_px": [
+        18316
+      ],
+      "hole_count": 2,
+      "ink_density": 0.72
+    },
+    "年": {
+      "font_size": 180,
+      "ink_pixels": 14559,
+      "bbox_px": [
+        99,
+        131,
+        261,
+        285
+      ],
+      "height_px": 154,
+      "width_px": 162,
+      "component_count": 1,
+      "component_areas_px": [
+        14559
+      ],
+      "hole_count": 1,
+      "ink_density": 0.5836
+    },
+    "店": {
+      "font_size": 180,
+      "ink_pixels": 15977,
+      "bbox_px": [
+        99,
+        135,
+        261,
+        285
+      ],
+      "height_px": 150,
+      "width_px": 162,
+      "component_count": 2,
+      "component_areas_px": [
+        8225,
+        7752
+      ],
+      "hole_count": 1,
+      "ink_density": 0.6575
+    },
+    "休": {
+      "font_size": 180,
+      "ink_pixels": 13729,
+      "bbox_px": [
+        99,
+        146,
+        262,
+        286
+      ],
+      "height_px": 140,
+      "width_px": 163,
+      "component_count": 2,
+      "component_areas_px": [
+        9177,
+        4552
+      ],
+      "hole_count": 0,
+      "ink_density": 0.6016
+    },
+    "住": {
+      "font_size": 180,
+      "ink_pixels": 14706,
+      "bbox_px": [
+        99,
+        147,
+        261,
+        285
+      ],
+      "height_px": 138,
+      "width_px": 162,
+      "component_count": 2,
+      "component_areas_px": [
+        10099,
+        4607
+      ],
+      "hole_count": 0,
+      "ink_density": 0.6578
+    },
+    "あ": {
+      "font_size": 180,
+      "ink_pixels": 15022,
+      "bbox_px": [
+        103,
+        143,
+        255,
+        301
+      ],
+      "height_px": 158,
+      "width_px": 152,
+      "component_count": 1,
+      "component_areas_px": [
+        15022
+      ],
+      "hole_count": 3,
+      "ink_density": 0.6255
+    },
+    "い": {
+      "font_size": 180,
+      "ink_pixels": 8490,
+      "bbox_px": [
+        106,
+        167,
+        254,
+        285
+      ],
+      "height_px": 118,
+      "width_px": 148,
+      "component_count": 2,
+      "component_areas_px": [
+        5359,
+        3131
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4861
+    },
+    "う": {
+      "font_size": 180,
+      "ink_pixels": 8052,
+      "bbox_px": [
+        121,
+        141,
+        235,
+        285
+      ],
+      "height_px": 144,
+      "width_px": 114,
+      "component_count": 2,
+      "component_areas_px": [
+        6137,
+        1915
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4905
+    },
+    "え": {
+      "font_size": 180,
+      "ink_pixels": 11250,
+      "bbox_px": [
+        107,
+        141,
+        253,
+        295
+      ],
+      "height_px": 154,
+      "width_px": 146,
+      "component_count": 1,
+      "component_areas_px": [
+        11250
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5004
+    },
+    "お": {
+      "font_size": 180,
+      "ink_pixels": 12945,
+      "bbox_px": [
+        105,
+        147,
+        256,
+        285
+      ],
+      "height_px": 138,
+      "width_px": 151,
+      "component_count": 2,
+      "component_areas_px": [
+        11594,
+        1351
+      ],
+      "hole_count": 1,
+      "ink_density": 0.6212
+    },
+    "か": {
+      "font_size": 180,
+      "ink_pixels": 11440,
+      "bbox_px": [
+        104,
+        142,
+        263,
+        295
+      ],
+      "height_px": 153,
+      "width_px": 159,
+      "component_count": 2,
+      "component_areas_px": [
+        9482,
+        1958
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4703
+    },
+    "き": {
+      "font_size": 180,
+      "ink_pixels": 10479,
+      "bbox_px": [
+        116,
+        136,
+        243,
+        285
+      ],
+      "height_px": 149,
+      "width_px": 127,
+      "component_count": 2,
+      "component_areas_px": [
+        7728,
+        2751
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5538
+    },
+    "く": {
+      "font_size": 180,
+      "ink_pixels": 6542,
+      "bbox_px": [
+        125,
+        141,
+        234,
+        285
+      ],
+      "height_px": 144,
+      "width_px": 109,
+      "component_count": 1,
+      "component_areas_px": [
+        6542
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4168
+    },
+    "け": {
+      "font_size": 180,
+      "ink_pixels": 11102,
+      "bbox_px": [
+        108,
+        147,
+        258,
+        296
+      ],
+      "height_px": 149,
+      "width_px": 150,
+      "component_count": 2,
+      "component_areas_px": [
+        6989,
+        4113
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4967
+    },
+    "こ": {
+      "font_size": 180,
+      "ink_pixels": 8508,
+      "bbox_px": [
+        117,
+        159,
+        244,
+        285
+      ],
+      "height_px": 126,
+      "width_px": 127,
+      "component_count": 2,
+      "component_areas_px": [
+        4470,
+        4038
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5317
+    },
+    "さ": {
+      "font_size": 180,
+      "ink_pixels": 9597,
+      "bbox_px": [
+        111,
+        142,
+        248,
+        299
+      ],
+      "height_px": 157,
+      "width_px": 137,
+      "component_count": 2,
+      "component_areas_px": [
+        6873,
+        2724
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4462
+    },
+    "し": {
+      "font_size": 180,
+      "ink_pixels": 7984,
+      "bbox_px": [
+        110,
+        150,
+        249,
+        285
+      ],
+      "height_px": 135,
+      "width_px": 139,
+      "component_count": 4,
+      "component_areas_px": [
+        7489,
+        206,
+        145,
+        144
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4255
+    },
+    "す": {
+      "font_size": 180,
+      "ink_pixels": 11679,
+      "bbox_px": [
+        102,
+        143,
+        252,
+        302
+      ],
+      "height_px": 159,
+      "width_px": 150,
+      "component_count": 1,
+      "component_areas_px": [
+        11679
+      ],
+      "hole_count": 1,
+      "ink_density": 0.4897
+    },
+    "せ": {
+      "font_size": 180,
+      "ink_pixels": 12147,
+      "bbox_px": [
+        101,
+        149,
+        254,
+        297
+      ],
+      "height_px": 148,
+      "width_px": 153,
+      "component_count": 1,
+      "component_areas_px": [
+        12147
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5364
+    },
+    "そ": {
+      "font_size": 180,
+      "ink_pixels": 11970,
+      "bbox_px": [
+        109,
+        148,
+        250,
+        296
+      ],
+      "height_px": 148,
+      "width_px": 141,
+      "component_count": 2,
+      "component_areas_px": [
+        10399,
+        1571
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5736
+    },
+    "た": {
+      "font_size": 180,
+      "ink_pixels": 10997,
+      "bbox_px": [
+        107,
+        144,
+        250,
+        296
+      ],
+      "height_px": 152,
+      "width_px": 143,
+      "component_count": 3,
+      "component_areas_px": [
+        6356,
+        2465,
+        2176
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5059
+    },
+    "ち": {
+      "font_size": 180,
+      "ink_pixels": 11471,
+      "bbox_px": [
+        108,
+        143,
+        246,
+        301
+      ],
+      "height_px": 158,
+      "width_px": 138,
+      "component_count": 1,
+      "component_areas_px": [
+        11471
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5261
+    },
+    "つ": {
+      "font_size": 180,
+      "ink_pixels": 8392,
+      "bbox_px": [
+        108,
+        158,
+        253,
+        293
+      ],
+      "height_px": 135,
+      "width_px": 145,
+      "component_count": 1,
+      "component_areas_px": [
+        8392
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4287
+    },
+    "て": {
+      "font_size": 180,
+      "ink_pixels": 9569,
+      "bbox_px": [
+        105,
+        152,
+        248,
+        297
+      ],
+      "height_px": 145,
+      "width_px": 143,
+      "component_count": 1,
+      "component_areas_px": [
+        9569
+      ],
+      "hole_count": 0,
+      "ink_density": 0.4615
+    },
+    "と": {
+      "font_size": 180,
+      "ink_pixels": 7922,
+      "bbox_px": [
+        124,
+        161,
+        236,
+        285
+      ],
+      "height_px": 124,
+      "width_px": 112,
+      "component_count": 1,
+      "component_areas_px": [
+        7922
+      ],
+      "hole_count": 0,
+      "ink_density": 0.5704
+    }
+  },
+  "small_sizes_px": [
+    16,
+    24,
+    32,
+    48
+  ],
+  "small_raster": {
+    "16": {
+      "名": {
+        "font_size": 16,
+        "ink_pixels": 119,
+        "bbox_px": [
+          173,
+          271,
+          187,
+          284
+        ],
+        "height_px": 13,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          119
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6538
+      },
+      "今": {
+        "font_size": 16,
+        "ink_pixels": 106,
+        "bbox_px": [
+          173,
+          271,
+          187,
+          285
+        ],
+        "height_px": 14,
+        "width_px": 14,
+        "component_count": 2,
+        "component_areas_px": [
+          64,
+          42
+        ],
+        "hole_count": 1,
+        "ink_density": 0.5408
+      },
+      "日": {
+        "font_size": 16,
+        "ink_pixels": 120,
+        "bbox_px": [
+          174,
+          271,
+          187,
+          285
+        ],
+        "height_px": 14,
+        "width_px": 13,
+        "component_count": 1,
+        "component_areas_px": [
+          120
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6593
+      },
+      "月": {
+        "font_size": 16,
+        "ink_pixels": 137,
+        "bbox_px": [
+          173,
+          271,
+          187,
+          285
+        ],
+        "height_px": 14,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          137
+        ],
+        "hole_count": 2,
+        "ink_density": 0.699
+      },
+      "年": {
+        "font_size": 16,
+        "ink_pixels": 118,
+        "bbox_px": [
+          173,
+          271,
+          187,
+          285
+        ],
+        "height_px": 14,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          118
+        ],
+        "hole_count": 1,
+        "ink_density": 0.602
+      },
+      "店": {
+        "font_size": 16,
+        "ink_pixels": 127,
+        "bbox_px": [
+          172,
+          272,
+          187,
+          285
+        ],
+        "height_px": 13,
+        "width_px": 15,
+        "component_count": 1,
+        "component_areas_px": [
+          127
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6513
+      },
+      "休": {
+        "font_size": 16,
+        "ink_pixels": 109,
+        "bbox_px": [
+          173,
+          273,
+          187,
+          285
+        ],
+        "height_px": 12,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          109
+        ],
+        "hole_count": 1,
+        "ink_density": 0.6488
+      },
+      "住": {
+        "font_size": 16,
+        "ink_pixels": 124,
+        "bbox_px": [
+          173,
+          273,
+          187,
+          285
+        ],
+        "height_px": 12,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          124
+        ],
+        "hole_count": 2,
+        "ink_density": 0.7381
+      },
+      "あ": {
+        "font_size": 16,
+        "ink_pixels": 124,
+        "bbox_px": [
+          173,
+          272,
+          187,
+          286
+        ],
+        "height_px": 14,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          124
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6327
+      },
+      "い": {
+        "font_size": 16,
+        "ink_pixels": 63,
+        "bbox_px": [
+          173,
+          275,
+          186,
+          285
+        ],
+        "height_px": 10,
+        "width_px": 13,
+        "component_count": 2,
+        "component_areas_px": [
+          39,
+          24
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4846
+      },
+      "う": {
+        "font_size": 16,
+        "ink_pixels": 61,
+        "bbox_px": [
+          174,
+          272,
+          184,
+          285
+        ],
+        "height_px": 13,
+        "width_px": 10,
+        "component_count": 2,
+        "component_areas_px": [
+          49,
+          12
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4692
+      },
+      "え": {
+        "font_size": 16,
+        "ink_pixels": 90,
+        "bbox_px": [
+          174,
+          272,
+          186,
+          286
+        ],
+        "height_px": 14,
+        "width_px": 12,
+        "component_count": 1,
+        "component_areas_px": [
+          90
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5357
+      },
+      "お": {
+        "font_size": 16,
+        "ink_pixels": 106,
+        "bbox_px": [
+          173,
+          273,
+          186,
+          285
+        ],
+        "height_px": 12,
+        "width_px": 13,
+        "component_count": 1,
+        "component_areas_px": [
+          106
+        ],
+        "hole_count": 1,
+        "ink_density": 0.6795
+      },
+      "か": {
+        "font_size": 16,
+        "ink_pixels": 89,
+        "bbox_px": [
+          173,
+          272,
+          187,
+          286
+        ],
+        "height_px": 14,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          89
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4541
+      },
+      "き": {
+        "font_size": 16,
+        "ink_pixels": 83,
+        "bbox_px": [
+          174,
+          272,
+          185,
+          285
+        ],
+        "height_px": 13,
+        "width_px": 11,
+        "component_count": 2,
+        "component_areas_px": [
+          62,
+          21
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5804
+      },
+      "く": {
+        "font_size": 16,
+        "ink_pixels": 51,
+        "bbox_px": [
+          175,
+          272,
+          185,
+          285
+        ],
+        "height_px": 13,
+        "width_px": 10,
+        "component_count": 1,
+        "component_areas_px": [
+          51
+        ],
+        "hole_count": 0,
+        "ink_density": 0.3923
+      },
+      "け": {
+        "font_size": 16,
+        "ink_pixels": 87,
+        "bbox_px": [
+          174,
+          273,
+          187,
+          286
+        ],
+        "height_px": 13,
+        "width_px": 13,
+        "component_count": 2,
+        "component_areas_px": [
+          54,
+          33
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5148
+      },
+      "こ": {
+        "font_size": 16,
+        "ink_pixels": 67,
+        "bbox_px": [
+          174,
+          274,
+          185,
+          285
+        ],
+        "height_px": 11,
+        "width_px": 11,
+        "component_count": 2,
+        "component_areas_px": [
+          35,
+          32
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5537
+      },
+      "さ": {
+        "font_size": 16,
+        "ink_pixels": 76,
+        "bbox_px": [
+          174,
+          272,
+          186,
+          286
+        ],
+        "height_px": 14,
+        "width_px": 12,
+        "component_count": 2,
+        "component_areas_px": [
+          56,
+          20
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4524
+      },
+      "し": {
+        "font_size": 16,
+        "ink_pixels": 61,
+        "bbox_px": [
+          174,
+          273,
+          186,
+          285
+        ],
+        "height_px": 12,
+        "width_px": 12,
+        "component_count": 1,
+        "component_areas_px": [
+          61
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4236
+      },
+      "す": {
+        "font_size": 16,
+        "ink_pixels": 95,
+        "bbox_px": [
+          173,
+          272,
+          187,
+          286
+        ],
+        "height_px": 14,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          95
+        ],
+        "hole_count": 1,
+        "ink_density": 0.4847
+      },
+      "せ": {
+        "font_size": 16,
+        "ink_pixels": 99,
+        "bbox_px": [
+          173,
+          273,
+          187,
+          286
+        ],
+        "height_px": 13,
+        "width_px": 14,
+        "component_count": 1,
+        "component_areas_px": [
+          99
+        ],
+        "hole_count": 0,
+        "ink_density": 0.544
+      },
+      "そ": {
+        "font_size": 16,
+        "ink_pixels": 96,
+        "bbox_px": [
+          174,
+          273,
+          186,
+          286
+        ],
+        "height_px": 13,
+        "width_px": 12,
+        "component_count": 1,
+        "component_areas_px": [
+          96
+        ],
+        "hole_count": 0,
+        "ink_density": 0.6154
+      },
+      "た": {
+        "font_size": 16,
+        "ink_pixels": 84,
+        "bbox_px": [
+          174,
+          273,
+          186,
+          286
+        ],
+        "height_px": 13,
+        "width_px": 12,
+        "component_count": 2,
+        "component_areas_px": [
+          65,
+          19
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5385
+      },
+      "ち": {
+        "font_size": 16,
+        "ink_pixels": 89,
+        "bbox_px": [
+          173,
+          272,
+          186,
+          286
+        ],
+        "height_px": 14,
+        "width_px": 13,
+        "component_count": 1,
+        "component_areas_px": [
+          89
+        ],
+        "hole_count": 0,
+        "ink_density": 0.489
+      },
+      "つ": {
+        "font_size": 16,
+        "ink_pixels": 68,
+        "bbox_px": [
+          173,
+          274,
+          186,
+          286
+        ],
+        "height_px": 12,
+        "width_px": 13,
+        "component_count": 1,
+        "component_areas_px": [
+          68
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4359
+      },
+      "て": {
+        "font_size": 16,
+        "ink_pixels": 76,
+        "bbox_px": [
+          174,
+          273,
+          186,
+          286
+        ],
+        "height_px": 13,
+        "width_px": 12,
+        "component_count": 1,
+        "component_areas_px": [
+          76
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4872
+      },
+      "と": {
+        "font_size": 16,
+        "ink_pixels": 64,
+        "bbox_px": [
+          175,
+          274,
+          185,
+          285
+        ],
+        "height_px": 11,
+        "width_px": 10,
+        "component_count": 1,
+        "component_areas_px": [
+          64
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5818
+      }
+    },
+    "24": {
+      "名": {
+        "font_size": 24,
+        "ink_pixels": 274,
+        "bbox_px": [
+          170,
+          264,
+          191,
+          284
+        ],
+        "height_px": 20,
+        "width_px": 21,
+        "component_count": 1,
+        "component_areas_px": [
+          274
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6524
+      },
+      "今": {
+        "font_size": 24,
+        "ink_pixels": 252,
+        "bbox_px": [
+          169,
+          264,
+          191,
+          285
+        ],
+        "height_px": 21,
+        "width_px": 22,
+        "component_count": 2,
+        "component_areas_px": [
+          148,
+          104
+        ],
+        "hole_count": 1,
+        "ink_density": 0.5455
+      },
+      "日": {
+        "font_size": 24,
+        "ink_pixels": 299,
+        "bbox_px": [
+          170,
+          264,
+          189,
+          285
+        ],
+        "height_px": 21,
+        "width_px": 19,
+        "component_count": 1,
+        "component_areas_px": [
+          299
+        ],
+        "hole_count": 2,
+        "ink_density": 0.7494
+      },
+      "月": {
+        "font_size": 24,
+        "ink_pixels": 308,
+        "bbox_px": [
+          170,
+          264,
+          190,
+          285
+        ],
+        "height_px": 21,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          308
+        ],
+        "hole_count": 2,
+        "ink_density": 0.7333
+      },
+      "年": {
+        "font_size": 24,
+        "ink_pixels": 262,
+        "bbox_px": [
+          169,
+          265,
+          191,
+          285
+        ],
+        "height_px": 20,
+        "width_px": 22,
+        "component_count": 1,
+        "component_areas_px": [
+          262
+        ],
+        "hole_count": 2,
+        "ink_density": 0.5955
+      },
+      "店": {
+        "font_size": 24,
+        "ink_pixels": 290,
+        "bbox_px": [
+          169,
+          265,
+          191,
+          285
+        ],
+        "height_px": 20,
+        "width_px": 22,
+        "component_count": 1,
+        "component_areas_px": [
+          290
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6591
+      },
+      "休": {
+        "font_size": 24,
+        "ink_pixels": 244,
+        "bbox_px": [
+          170,
+          267,
+          191,
+          285
+        ],
+        "height_px": 18,
+        "width_px": 21,
+        "component_count": 1,
+        "component_areas_px": [
+          244
+        ],
+        "hole_count": 0,
+        "ink_density": 0.6455
+      },
+      "住": {
+        "font_size": 24,
+        "ink_pixels": 257,
+        "bbox_px": [
+          169,
+          267,
+          191,
+          285
+        ],
+        "height_px": 18,
+        "width_px": 22,
+        "component_count": 1,
+        "component_areas_px": [
+          257
+        ],
+        "hole_count": 0,
+        "ink_density": 0.649
+      },
+      "あ": {
+        "font_size": 24,
+        "ink_pixels": 270,
+        "bbox_px": [
+          170,
+          266,
+          190,
+          287
+        ],
+        "height_px": 21,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          270
+        ],
+        "hole_count": 3,
+        "ink_density": 0.6429
+      },
+      "い": {
+        "font_size": 24,
+        "ink_pixels": 153,
+        "bbox_px": [
+          170,
+          269,
+          190,
+          285
+        ],
+        "height_px": 16,
+        "width_px": 20,
+        "component_count": 2,
+        "component_areas_px": [
+          96,
+          57
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4781
+      },
+      "う": {
+        "font_size": 24,
+        "ink_pixels": 141,
+        "bbox_px": [
+          171,
+          266,
+          186,
+          285
+        ],
+        "height_px": 19,
+        "width_px": 15,
+        "component_count": 2,
+        "component_areas_px": [
+          109,
+          32
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4947
+      },
+      "え": {
+        "font_size": 24,
+        "ink_pixels": 200,
+        "bbox_px": [
+          170,
+          267,
+          190,
+          287
+        ],
+        "height_px": 20,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          200
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5
+      },
+      "お": {
+        "font_size": 24,
+        "ink_pixels": 230,
+        "bbox_px": [
+          170,
+          266,
+          190,
+          285
+        ],
+        "height_px": 19,
+        "width_px": 20,
+        "component_count": 2,
+        "component_areas_px": [
+          206,
+          24
+        ],
+        "hole_count": 1,
+        "ink_density": 0.6053
+      },
+      "か": {
+        "font_size": 24,
+        "ink_pixels": 203,
+        "bbox_px": [
+          170,
+          266,
+          191,
+          286
+        ],
+        "height_px": 20,
+        "width_px": 21,
+        "component_count": 1,
+        "component_areas_px": [
+          203
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4833
+      },
+      "き": {
+        "font_size": 24,
+        "ink_pixels": 186,
+        "bbox_px": [
+          171,
+          265,
+          188,
+          285
+        ],
+        "height_px": 20,
+        "width_px": 17,
+        "component_count": 2,
+        "component_areas_px": [
+          138,
+          48
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5471
+      },
+      "く": {
+        "font_size": 24,
+        "ink_pixels": 117,
+        "bbox_px": [
+          172,
+          266,
+          187,
+          285
+        ],
+        "height_px": 19,
+        "width_px": 15,
+        "component_count": 1,
+        "component_areas_px": [
+          117
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4105
+      },
+      "け": {
+        "font_size": 24,
+        "ink_pixels": 195,
+        "bbox_px": [
+          170,
+          267,
+          190,
+          287
+        ],
+        "height_px": 20,
+        "width_px": 20,
+        "component_count": 2,
+        "component_areas_px": [
+          123,
+          72
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4875
+      },
+      "こ": {
+        "font_size": 24,
+        "ink_pixels": 149,
+        "bbox_px": [
+          171,
+          268,
+          187,
+          285
+        ],
+        "height_px": 17,
+        "width_px": 16,
+        "component_count": 2,
+        "component_areas_px": [
+          80,
+          69
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5478
+      },
+      "さ": {
+        "font_size": 24,
+        "ink_pixels": 166,
+        "bbox_px": [
+          171,
+          266,
+          189,
+          287
+        ],
+        "height_px": 21,
+        "width_px": 18,
+        "component_count": 2,
+        "component_areas_px": [
+          119,
+          47
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4392
+      },
+      "し": {
+        "font_size": 24,
+        "ink_pixels": 144,
+        "bbox_px": [
+          170,
+          267,
+          188,
+          285
+        ],
+        "height_px": 18,
+        "width_px": 18,
+        "component_count": 1,
+        "component_areas_px": [
+          144
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4444
+      },
+      "す": {
+        "font_size": 24,
+        "ink_pixels": 205,
+        "bbox_px": [
+          170,
+          266,
+          190,
+          287
+        ],
+        "height_px": 21,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          205
+        ],
+        "hole_count": 1,
+        "ink_density": 0.4881
+      },
+      "せ": {
+        "font_size": 24,
+        "ink_pixels": 217,
+        "bbox_px": [
+          169,
+          267,
+          189,
+          287
+        ],
+        "height_px": 20,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          217
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5425
+      },
+      "そ": {
+        "font_size": 24,
+        "ink_pixels": 218,
+        "bbox_px": [
+          171,
+          267,
+          190,
+          287
+        ],
+        "height_px": 20,
+        "width_px": 19,
+        "component_count": 1,
+        "component_areas_px": [
+          218
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5737
+      },
+      "た": {
+        "font_size": 24,
+        "ink_pixels": 195,
+        "bbox_px": [
+          170,
+          267,
+          189,
+          287
+        ],
+        "height_px": 20,
+        "width_px": 19,
+        "component_count": 2,
+        "component_areas_px": [
+          151,
+          44
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5132
+      },
+      "ち": {
+        "font_size": 24,
+        "ink_pixels": 203,
+        "bbox_px": [
+          171,
+          266,
+          189,
+          287
+        ],
+        "height_px": 21,
+        "width_px": 18,
+        "component_count": 1,
+        "component_areas_px": [
+          203
+        ],
+        "hole_count": 0,
+        "ink_density": 0.537
+      },
+      "つ": {
+        "font_size": 24,
+        "ink_pixels": 155,
+        "bbox_px": [
+          170,
+          268,
+          190,
+          286
+        ],
+        "height_px": 18,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          155
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4306
+      },
+      "て": {
+        "font_size": 24,
+        "ink_pixels": 171,
+        "bbox_px": [
+          170,
+          267,
+          189,
+          286
+        ],
+        "height_px": 19,
+        "width_px": 19,
+        "component_count": 1,
+        "component_areas_px": [
+          171
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4737
+      },
+      "と": {
+        "font_size": 24,
+        "ink_pixels": 142,
+        "bbox_px": [
+          172,
+          269,
+          187,
+          285
+        ],
+        "height_px": 16,
+        "width_px": 15,
+        "component_count": 1,
+        "component_areas_px": [
+          142
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5917
+      }
+    },
+    "32": {
+      "名": {
+        "font_size": 32,
+        "ink_pixels": 512,
+        "bbox_px": [
+          165,
+          257,
+          194,
+          284
+        ],
+        "height_px": 27,
+        "width_px": 29,
+        "component_count": 1,
+        "component_areas_px": [
+          512
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6539
+      },
+      "今": {
+        "font_size": 32,
+        "ink_pixels": 436,
+        "bbox_px": [
+          166,
+          257,
+          195,
+          285
+        ],
+        "height_px": 28,
+        "width_px": 29,
+        "component_count": 2,
+        "component_areas_px": [
+          257,
+          179
+        ],
+        "hole_count": 1,
+        "ink_density": 0.5369
+      },
+      "日": {
+        "font_size": 32,
+        "ink_pixels": 541,
+        "bbox_px": [
+          167,
+          257,
+          193,
+          285
+        ],
+        "height_px": 28,
+        "width_px": 26,
+        "component_count": 1,
+        "component_areas_px": [
+          541
+        ],
+        "hole_count": 2,
+        "ink_density": 0.7431
+      },
+      "月": {
+        "font_size": 32,
+        "ink_pixels": 563,
+        "bbox_px": [
+          166,
+          257,
+          194,
+          285
+        ],
+        "height_px": 28,
+        "width_px": 28,
+        "component_count": 1,
+        "component_areas_px": [
+          563
+        ],
+        "hole_count": 2,
+        "ink_density": 0.7181
+      },
+      "年": {
+        "font_size": 32,
+        "ink_pixels": 463,
+        "bbox_px": [
+          166,
+          258,
+          195,
+          285
+        ],
+        "height_px": 27,
+        "width_px": 29,
+        "component_count": 1,
+        "component_areas_px": [
+          463
+        ],
+        "hole_count": 2,
+        "ink_density": 0.5913
+      },
+      "店": {
+        "font_size": 32,
+        "ink_pixels": 513,
+        "bbox_px": [
+          166,
+          259,
+          195,
+          285
+        ],
+        "height_px": 26,
+        "width_px": 29,
+        "component_count": 1,
+        "component_areas_px": [
+          513
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6804
+      },
+      "休": {
+        "font_size": 32,
+        "ink_pixels": 427,
+        "bbox_px": [
+          166,
+          260,
+          195,
+          285
+        ],
+        "height_px": 25,
+        "width_px": 29,
+        "component_count": 1,
+        "component_areas_px": [
+          427
+        ],
+        "hole_count": 0,
+        "ink_density": 0.589
+      },
+      "住": {
+        "font_size": 32,
+        "ink_pixels": 466,
+        "bbox_px": [
+          166,
+          260,
+          195,
+          285
+        ],
+        "height_px": 25,
+        "width_px": 29,
+        "component_count": 2,
+        "component_areas_px": [
+          316,
+          150
+        ],
+        "hole_count": 0,
+        "ink_density": 0.6428
+      },
+      "あ": {
+        "font_size": 32,
+        "ink_pixels": 473,
+        "bbox_px": [
+          166,
+          260,
+          194,
+          288
+        ],
+        "height_px": 28,
+        "width_px": 28,
+        "component_count": 1,
+        "component_areas_px": [
+          473
+        ],
+        "hole_count": 3,
+        "ink_density": 0.6033
+      },
+      "い": {
+        "font_size": 32,
+        "ink_pixels": 265,
+        "bbox_px": [
+          167,
+          264,
+          193,
+          285
+        ],
+        "height_px": 21,
+        "width_px": 26,
+        "component_count": 2,
+        "component_areas_px": [
+          169,
+          96
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4853
+      },
+      "う": {
+        "font_size": 32,
+        "ink_pixels": 257,
+        "bbox_px": [
+          169,
+          259,
+          190,
+          285
+        ],
+        "height_px": 26,
+        "width_px": 21,
+        "component_count": 2,
+        "component_areas_px": [
+          198,
+          59
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4707
+      },
+      "え": {
+        "font_size": 32,
+        "ink_pixels": 355,
+        "bbox_px": [
+          167,
+          260,
+          193,
+          287
+        ],
+        "height_px": 27,
+        "width_px": 26,
+        "component_count": 1,
+        "component_areas_px": [
+          355
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5057
+      },
+      "お": {
+        "font_size": 32,
+        "ink_pixels": 412,
+        "bbox_px": [
+          166,
+          260,
+          193,
+          285
+        ],
+        "height_px": 25,
+        "width_px": 27,
+        "component_count": 2,
+        "component_areas_px": [
+          370,
+          42
+        ],
+        "hole_count": 1,
+        "ink_density": 0.6104
+      },
+      "か": {
+        "font_size": 32,
+        "ink_pixels": 365,
+        "bbox_px": [
+          167,
+          260,
+          195,
+          287
+        ],
+        "height_px": 27,
+        "width_px": 28,
+        "component_count": 2,
+        "component_areas_px": [
+          301,
+          64
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4828
+      },
+      "き": {
+        "font_size": 32,
+        "ink_pixels": 334,
+        "bbox_px": [
+          168,
+          259,
+          190,
+          285
+        ],
+        "height_px": 26,
+        "width_px": 22,
+        "component_count": 2,
+        "component_areas_px": [
+          249,
+          85
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5839
+      },
+      "く": {
+        "font_size": 32,
+        "ink_pixels": 205,
+        "bbox_px": [
+          170,
+          260,
+          190,
+          285
+        ],
+        "height_px": 25,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          205
+        ],
+        "hole_count": 0,
+        "ink_density": 0.41
+      },
+      "け": {
+        "font_size": 32,
+        "ink_pixels": 351,
+        "bbox_px": [
+          167,
+          260,
+          194,
+          287
+        ],
+        "height_px": 27,
+        "width_px": 27,
+        "component_count": 2,
+        "component_areas_px": [
+          222,
+          129
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4815
+      },
+      "こ": {
+        "font_size": 32,
+        "ink_pixels": 272,
+        "bbox_px": [
+          168,
+          263,
+          191,
+          285
+        ],
+        "height_px": 22,
+        "width_px": 23,
+        "component_count": 2,
+        "component_areas_px": [
+          144,
+          128
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5375
+      },
+      "さ": {
+        "font_size": 32,
+        "ink_pixels": 306,
+        "bbox_px": [
+          168,
+          260,
+          192,
+          287
+        ],
+        "height_px": 27,
+        "width_px": 24,
+        "component_count": 2,
+        "component_areas_px": [
+          221,
+          85
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4722
+      },
+      "し": {
+        "font_size": 32,
+        "ink_pixels": 252,
+        "bbox_px": [
+          167,
+          261,
+          192,
+          285
+        ],
+        "height_px": 24,
+        "width_px": 25,
+        "component_count": 1,
+        "component_areas_px": [
+          252
+        ],
+        "hole_count": 0,
+        "ink_density": 0.42
+      },
+      "す": {
+        "font_size": 32,
+        "ink_pixels": 370,
+        "bbox_px": [
+          166,
+          260,
+          192,
+          288
+        ],
+        "height_px": 28,
+        "width_px": 26,
+        "component_count": 1,
+        "component_areas_px": [
+          370
+        ],
+        "hole_count": 1,
+        "ink_density": 0.5082
+      },
+      "せ": {
+        "font_size": 32,
+        "ink_pixels": 382,
+        "bbox_px": [
+          166,
+          261,
+          193,
+          287
+        ],
+        "height_px": 26,
+        "width_px": 27,
+        "component_count": 1,
+        "component_areas_px": [
+          382
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5442
+      },
+      "そ": {
+        "font_size": 32,
+        "ink_pixels": 380,
+        "bbox_px": [
+          167,
+          261,
+          192,
+          287
+        ],
+        "height_px": 26,
+        "width_px": 25,
+        "component_count": 1,
+        "component_areas_px": [
+          380
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5846
+      },
+      "た": {
+        "font_size": 32,
+        "ink_pixels": 340,
+        "bbox_px": [
+          167,
+          260,
+          192,
+          287
+        ],
+        "height_px": 27,
+        "width_px": 25,
+        "component_count": 2,
+        "component_areas_px": [
+          264,
+          76
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5037
+      },
+      "ち": {
+        "font_size": 32,
+        "ink_pixels": 358,
+        "bbox_px": [
+          167,
+          260,
+          192,
+          288
+        ],
+        "height_px": 28,
+        "width_px": 25,
+        "component_count": 1,
+        "component_areas_px": [
+          358
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5114
+      },
+      "つ": {
+        "font_size": 32,
+        "ink_pixels": 266,
+        "bbox_px": [
+          167,
+          262,
+          193,
+          286
+        ],
+        "height_px": 24,
+        "width_px": 26,
+        "component_count": 1,
+        "component_areas_px": [
+          266
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4263
+      },
+      "て": {
+        "font_size": 32,
+        "ink_pixels": 303,
+        "bbox_px": [
+          167,
+          261,
+          192,
+          287
+        ],
+        "height_px": 26,
+        "width_px": 25,
+        "component_count": 1,
+        "component_areas_px": [
+          303
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4662
+      },
+      "と": {
+        "font_size": 32,
+        "ink_pixels": 249,
+        "bbox_px": [
+          169,
+          263,
+          189,
+          285
+        ],
+        "height_px": 22,
+        "width_px": 20,
+        "component_count": 1,
+        "component_areas_px": [
+          249
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5659
+      }
+    },
+    "48": {
+      "名": {
+        "font_size": 48,
+        "ink_pixels": 1171,
+        "bbox_px": [
+          158,
+          243,
+          202,
+          284
+        ],
+        "height_px": 41,
+        "width_px": 44,
+        "component_count": 1,
+        "component_areas_px": [
+          1171
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6491
+      },
+      "今": {
+        "font_size": 48,
+        "ink_pixels": 991,
+        "bbox_px": [
+          159,
+          244,
+          202,
+          285
+        ],
+        "height_px": 41,
+        "width_px": 43,
+        "component_count": 2,
+        "component_areas_px": [
+          576,
+          415
+        ],
+        "hole_count": 1,
+        "ink_density": 0.5621
+      },
+      "日": {
+        "font_size": 48,
+        "ink_pixels": 1202,
+        "bbox_px": [
+          161,
+          243,
+          199,
+          285
+        ],
+        "height_px": 42,
+        "width_px": 38,
+        "component_count": 1,
+        "component_areas_px": [
+          1202
+        ],
+        "hole_count": 2,
+        "ink_density": 0.7531
+      },
+      "月": {
+        "font_size": 48,
+        "ink_pixels": 1322,
+        "bbox_px": [
+          158,
+          243,
+          202,
+          285
+        ],
+        "height_px": 42,
+        "width_px": 44,
+        "component_count": 1,
+        "component_areas_px": [
+          1322
+        ],
+        "hole_count": 2,
+        "ink_density": 0.7154
+      },
+      "年": {
+        "font_size": 48,
+        "ink_pixels": 1058,
+        "bbox_px": [
+          158,
+          244,
+          201,
+          285
+        ],
+        "height_px": 41,
+        "width_px": 43,
+        "component_count": 1,
+        "component_areas_px": [
+          1058
+        ],
+        "hole_count": 2,
+        "ink_density": 0.6001
+      },
+      "店": {
+        "font_size": 48,
+        "ink_pixels": 1127,
+        "bbox_px": [
+          158,
+          245,
+          201,
+          285
+        ],
+        "height_px": 40,
+        "width_px": 43,
+        "component_count": 1,
+        "component_areas_px": [
+          1127
+        ],
+        "hole_count": 1,
+        "ink_density": 0.6552
+      },
+      "休": {
+        "font_size": 48,
+        "ink_pixels": 980,
+        "bbox_px": [
+          158,
+          248,
+          201,
+          285
+        ],
+        "height_px": 37,
+        "width_px": 43,
+        "component_count": 2,
+        "component_areas_px": [
+          654,
+          326
+        ],
+        "hole_count": 0,
+        "ink_density": 0.616
+      },
+      "住": {
+        "font_size": 48,
+        "ink_pixels": 1055,
+        "bbox_px": [
+          159,
+          248,
+          202,
+          285
+        ],
+        "height_px": 37,
+        "width_px": 43,
+        "component_count": 2,
+        "component_areas_px": [
+          731,
+          324
+        ],
+        "hole_count": 0,
+        "ink_density": 0.6631
+      },
+      "あ": {
+        "font_size": 48,
+        "ink_pixels": 1060,
+        "bbox_px": [
+          160,
+          247,
+          201,
+          289
+        ],
+        "height_px": 42,
+        "width_px": 41,
+        "component_count": 1,
+        "component_areas_px": [
+          1060
+        ],
+        "hole_count": 3,
+        "ink_density": 0.6156
+      },
+      "い": {
+        "font_size": 48,
+        "ink_pixels": 601,
+        "bbox_px": [
+          160,
+          253,
+          200,
+          285
+        ],
+        "height_px": 32,
+        "width_px": 40,
+        "component_count": 2,
+        "component_areas_px": [
+          377,
+          224
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4695
+      },
+      "う": {
+        "font_size": 48,
+        "ink_pixels": 579,
+        "bbox_px": [
+          164,
+          246,
+          194,
+          285
+        ],
+        "height_px": 39,
+        "width_px": 30,
+        "component_count": 2,
+        "component_areas_px": [
+          440,
+          139
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4949
+      },
+      "え": {
+        "font_size": 48,
+        "ink_pixels": 799,
+        "bbox_px": [
+          160,
+          247,
+          199,
+          288
+        ],
+        "height_px": 41,
+        "width_px": 39,
+        "component_count": 1,
+        "component_areas_px": [
+          799
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4997
+      },
+      "お": {
+        "font_size": 48,
+        "ink_pixels": 920,
+        "bbox_px": [
+          160,
+          249,
+          200,
+          285
+        ],
+        "height_px": 36,
+        "width_px": 40,
+        "component_count": 2,
+        "component_areas_px": [
+          823,
+          97
+        ],
+        "hole_count": 1,
+        "ink_density": 0.6389
+      },
+      "か": {
+        "font_size": 48,
+        "ink_pixels": 814,
+        "bbox_px": [
+          160,
+          247,
+          202,
+          288
+        ],
+        "height_px": 41,
+        "width_px": 42,
+        "component_count": 2,
+        "component_areas_px": [
+          674,
+          140
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4727
+      },
+      "き": {
+        "font_size": 48,
+        "ink_pixels": 745,
+        "bbox_px": [
+          163,
+          245,
+          197,
+          285
+        ],
+        "height_px": 40,
+        "width_px": 34,
+        "component_count": 2,
+        "component_areas_px": [
+          546,
+          199
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5478
+      },
+      "く": {
+        "font_size": 48,
+        "ink_pixels": 461,
+        "bbox_px": [
+          166,
+          247,
+          194,
+          285
+        ],
+        "height_px": 38,
+        "width_px": 28,
+        "component_count": 1,
+        "component_areas_px": [
+          461
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4333
+      },
+      "け": {
+        "font_size": 48,
+        "ink_pixels": 794,
+        "bbox_px": [
+          161,
+          248,
+          201,
+          288
+        ],
+        "height_px": 40,
+        "width_px": 40,
+        "component_count": 2,
+        "component_areas_px": [
+          499,
+          295
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4963
+      },
+      "こ": {
+        "font_size": 48,
+        "ink_pixels": 604,
+        "bbox_px": [
+          163,
+          251,
+          197,
+          285
+        ],
+        "height_px": 34,
+        "width_px": 34,
+        "component_count": 2,
+        "component_areas_px": [
+          321,
+          283
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5225
+      },
+      "さ": {
+        "font_size": 48,
+        "ink_pixels": 679,
+        "bbox_px": [
+          162,
+          247,
+          198,
+          289
+        ],
+        "height_px": 42,
+        "width_px": 36,
+        "component_count": 2,
+        "component_areas_px": [
+          489,
+          190
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4491
+      },
+      "し": {
+        "font_size": 48,
+        "ink_pixels": 565,
+        "bbox_px": [
+          161,
+          249,
+          198,
+          285
+        ],
+        "height_px": 36,
+        "width_px": 37,
+        "component_count": 4,
+        "component_areas_px": [
+          533,
+          13,
+          10,
+          9
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4242
+      },
+      "す": {
+        "font_size": 48,
+        "ink_pixels": 834,
+        "bbox_px": [
+          159,
+          247,
+          199,
+          289
+        ],
+        "height_px": 42,
+        "width_px": 40,
+        "component_count": 1,
+        "component_areas_px": [
+          834
+        ],
+        "hole_count": 1,
+        "ink_density": 0.4964
+      },
+      "せ": {
+        "font_size": 48,
+        "ink_pixels": 862,
+        "bbox_px": [
+          159,
+          249,
+          200,
+          288
+        ],
+        "height_px": 39,
+        "width_px": 41,
+        "component_count": 1,
+        "component_areas_px": [
+          862
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5391
+      },
+      "そ": {
+        "font_size": 48,
+        "ink_pixels": 852,
+        "bbox_px": [
+          161,
+          248,
+          199,
+          288
+        ],
+        "height_px": 40,
+        "width_px": 38,
+        "component_count": 1,
+        "component_areas_px": [
+          852
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5605
+      },
+      "た": {
+        "font_size": 48,
+        "ink_pixels": 784,
+        "bbox_px": [
+          161,
+          248,
+          199,
+          288
+        ],
+        "height_px": 40,
+        "width_px": 38,
+        "component_count": 3,
+        "component_areas_px": [
+          451,
+          177,
+          156
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5158
+      },
+      "ち": {
+        "font_size": 48,
+        "ink_pixels": 809,
+        "bbox_px": [
+          161,
+          247,
+          198,
+          289
+        ],
+        "height_px": 42,
+        "width_px": 37,
+        "component_count": 1,
+        "component_areas_px": [
+          809
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5206
+      },
+      "つ": {
+        "font_size": 48,
+        "ink_pixels": 596,
+        "bbox_px": [
+          160,
+          251,
+          199,
+          287
+        ],
+        "height_px": 36,
+        "width_px": 39,
+        "component_count": 1,
+        "component_areas_px": [
+          596
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4245
+      },
+      "て": {
+        "font_size": 48,
+        "ink_pixels": 683,
+        "bbox_px": [
+          160,
+          249,
+          198,
+          288
+        ],
+        "height_px": 39,
+        "width_px": 38,
+        "component_count": 1,
+        "component_areas_px": [
+          683
+        ],
+        "hole_count": 0,
+        "ink_density": 0.4609
+      },
+      "と": {
+        "font_size": 48,
+        "ink_pixels": 568,
+        "bbox_px": [
+          165,
+          252,
+          195,
+          285
+        ],
+        "height_px": 33,
+        "width_px": 30,
+        "component_count": 1,
+        "component_areas_px": [
+          568
+        ],
+        "hole_count": 0,
+        "ink_density": 0.5737
+      }
+    }
+  },
+  "small_comparison_to_kana": {
+    "16": {
+      "名": {
+        "height_ratio_to_kana_median": 1.0,
+        "ink_density_ratio_to_kana_median": 1.303
+      },
+      "今": {
+        "height_ratio_to_kana_median": 1.077,
+        "ink_density_ratio_to_kana_median": 1.078
+      },
+      "日": {
+        "height_ratio_to_kana_median": 1.077,
+        "ink_density_ratio_to_kana_median": 1.314
+      },
+      "月": {
+        "height_ratio_to_kana_median": 1.077,
+        "ink_density_ratio_to_kana_median": 1.393
+      },
+      "年": {
+        "height_ratio_to_kana_median": 1.077,
+        "ink_density_ratio_to_kana_median": 1.199
+      },
+      "店": {
+        "height_ratio_to_kana_median": 1.0,
+        "ink_density_ratio_to_kana_median": 1.298
+      },
+      "休": {
+        "height_ratio_to_kana_median": 0.923,
+        "ink_density_ratio_to_kana_median": 1.293
+      },
+      "住": {
+        "height_ratio_to_kana_median": 0.923,
+        "ink_density_ratio_to_kana_median": 1.471
+      }
+    },
+    "24": {
+      "名": {
+        "height_ratio_to_kana_median": 1.0,
+        "ink_density_ratio_to_kana_median": 1.312
+      },
+      "今": {
+        "height_ratio_to_kana_median": 1.05,
+        "ink_density_ratio_to_kana_median": 1.097
+      },
+      "日": {
+        "height_ratio_to_kana_median": 1.05,
+        "ink_density_ratio_to_kana_median": 1.507
+      },
+      "月": {
+        "height_ratio_to_kana_median": 1.05,
+        "ink_density_ratio_to_kana_median": 1.474
+      },
+      "年": {
+        "height_ratio_to_kana_median": 1.0,
+        "ink_density_ratio_to_kana_median": 1.197
+      },
+      "店": {
+        "height_ratio_to_kana_median": 1.0,
+        "ink_density_ratio_to_kana_median": 1.325
+      },
+      "休": {
+        "height_ratio_to_kana_median": 0.9,
+        "ink_density_ratio_to_kana_median": 1.298
+      },
+      "住": {
+        "height_ratio_to_kana_median": 0.9,
+        "ink_density_ratio_to_kana_median": 1.305
+      }
+    },
+    "32": {
+      "名": {
+        "height_ratio_to_kana_median": 1.038,
+        "ink_density_ratio_to_kana_median": 1.296
+      },
+      "今": {
+        "height_ratio_to_kana_median": 1.077,
+        "ink_density_ratio_to_kana_median": 1.064
+      },
+      "日": {
+        "height_ratio_to_kana_median": 1.077,
+        "ink_density_ratio_to_kana_median": 1.472
+      },
+      "月": {
+        "height_ratio_to_kana_median": 1.077,
+        "ink_density_ratio_to_kana_median": 1.423
+      },
+      "年": {
+        "height_ratio_to_kana_median": 1.038,
+        "ink_density_ratio_to_kana_median": 1.172
+      },
+      "店": {
+        "height_ratio_to_kana_median": 1.0,
+        "ink_density_ratio_to_kana_median": 1.348
+      },
+      "休": {
+        "height_ratio_to_kana_median": 0.962,
+        "ink_density_ratio_to_kana_median": 1.167
+      },
+      "住": {
+        "height_ratio_to_kana_median": 0.962,
+        "ink_density_ratio_to_kana_median": 1.274
+      }
+    },
+    "48": {
+      "名": {
+        "height_ratio_to_kana_median": 1.038,
+        "ink_density_ratio_to_kana_median": 1.303
+      },
+      "今": {
+        "height_ratio_to_kana_median": 1.038,
+        "ink_density_ratio_to_kana_median": 1.129
+      },
+      "日": {
+        "height_ratio_to_kana_median": 1.063,
+        "ink_density_ratio_to_kana_median": 1.512
+      },
+      "月": {
+        "height_ratio_to_kana_median": 1.063,
+        "ink_density_ratio_to_kana_median": 1.436
+      },
+      "年": {
+        "height_ratio_to_kana_median": 1.038,
+        "ink_density_ratio_to_kana_median": 1.205
+      },
+      "店": {
+        "height_ratio_to_kana_median": 1.013,
+        "ink_density_ratio_to_kana_median": 1.316
+      },
+      "休": {
+        "height_ratio_to_kana_median": 0.937,
+        "ink_density_ratio_to_kana_median": 1.237
+      },
+      "住": {
+        "height_ratio_to_kana_median": 0.937,
+        "ink_density_ratio_to_kana_median": 1.331
+      }
+    }
+  },
+  "kana_reference": [
+    "あ",
+    "い",
+    "う",
+    "え",
+    "お",
+    "か",
+    "き",
+    "く",
+    "け",
+    "こ",
+    "さ",
+    "し",
+    "す",
+    "せ",
+    "そ",
+    "た",
+    "ち",
+    "つ",
+    "て",
+    "と"
+  ],
+  "comparison_to_kana": {
+    "font_size_px": 180,
+    "median_kana_height_px": 148.0,
+    "median_kana_ink_density": 0.49854999999999994,
+    "per_glyph": {
+      "名": {
+        "height_ratio_to_kana_median": 1.054,
+        "ink_density_ratio_to_kana_median": 1.32
+      },
+      "今": {
+        "height_ratio_to_kana_median": 1.061,
+        "ink_density_ratio_to_kana_median": 1.094
+      },
+      "日": {
+        "height_ratio_to_kana_median": 1.074,
+        "ink_density_ratio_to_kana_median": 1.495
+      },
+      "月": {
+        "height_ratio_to_kana_median": 1.068,
+        "ink_density_ratio_to_kana_median": 1.444
+      },
+      "年": {
+        "height_ratio_to_kana_median": 1.041,
+        "ink_density_ratio_to_kana_median": 1.171
+      },
+      "店": {
+        "height_ratio_to_kana_median": 1.014,
+        "ink_density_ratio_to_kana_median": 1.319
+      },
+      "休": {
+        "height_ratio_to_kana_median": 0.946,
+        "ink_density_ratio_to_kana_median": 1.207
+      },
+      "住": {
+        "height_ratio_to_kana_median": 0.932,
+        "ink_density_ratio_to_kana_median": 1.319
+      }
+    }
+  },
+  "review_image": "outputs/concept-review/kanji8-final-render.png",
+  "small_review_image": "outputs/concept-review/kanji8-final-sizes.png",
+  "errors": [],
+  "warnings": [
+    "住 source/compiled contour count differs by outline decomposition: 2/3",
+    "日 ink density ratio to kana median is 1.49",
+    "月 ink density ratio to kana median is 1.44"
+  ],
+  "passed": true
+}

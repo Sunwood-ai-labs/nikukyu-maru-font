@@ -1,0 +1,563 @@
+{
+  "reference": "references/03-kanji-refined.png",
+  "common16": "名前今日月年時間店営業休価格住所",
+  "dense8": "鱠鰰藹驥靨饕鷹纈",
+  "trial": {
+    "source": "vendor/ZenMaruGothic-Black.ttf",
+    "radius": 28.0,
+    "weight": 5.0,
+    "preserve_separation": true,
+    "transform": [
+      0.9,
+      0.0,
+      0.0,
+      0.92,
+      50.0,
+      0.0
+    ],
+    "ttf": "work/zen-kanji-trial.ttf"
+  },
+  "inputs": {
+    "current_ttf": {
+      "path": "outputs/NikukyuMaru-Regular.ttf",
+      "sha256": "38de48bb8c7b47c7ec4a06c769a788105bc4ecf540a949ce44e0ad414bc3fdb5"
+    },
+    "zen_ttf": {
+      "path": "vendor/ZenMaruGothic-Black.ttf",
+      "sha256": "6bd74fe76cd39ee0ec18775c3661d845343fb3f6f8fa09a3076638417baf741f"
+    }
+  },
+  "current_structure": [
+    {
+      "character": "名",
+      "codepoint": "U+540D",
+      "contours": 3,
+      "bounds": [
+        86.44444274902344,
+        -98.0,
+        874.0,
+        797.3333129882812
+      ]
+    },
+    {
+      "character": "前",
+      "codepoint": "U+524D",
+      "contours": 6,
+      "bounds": [
+        76.0,
+        -96.0,
+        925.0,
+        792.941162109375
+      ]
+    },
+    {
+      "character": "今",
+      "codepoint": "U+4ECA",
+      "contours": 3,
+      "bounds": [
+        85.19999694824219,
+        -91.25,
+        918.7999877929688,
+        806.0
+      ]
+    },
+    {
+      "character": "日",
+      "codepoint": "U+65E5",
+      "contours": 3,
+      "bounds": [
+        166.0,
+        -87.0,
+        838.0,
+        746.0
+      ]
+    },
+    {
+      "character": "月",
+      "codepoint": "U+6708",
+      "contours": 3,
+      "bounds": [
+        82.44444274902344,
+        -97.0,
+        829.0,
+        757.0
+      ]
+    },
+    {
+      "character": "年",
+      "codepoint": "U+5E74",
+      "contours": 3,
+      "bounds": [
+        72.0,
+        -98.0,
+        928.0,
+        791.0
+      ]
+    },
+    {
+      "character": "時",
+      "codepoint": "U+6642",
+      "contours": 5,
+      "bounds": [
+        98.0,
+        -88.25,
+        928.0,
+        790.0
+      ]
+    },
+    {
+      "character": "間",
+      "codepoint": "U+9593",
+      "contours": 8,
+      "bounds": [
+        105.0,
+        -98.0,
+        901.0,
+        765.0
+      ]
+    },
+    {
+      "character": "店",
+      "codepoint": "U+5E97",
+      "contours": 3,
+      "bounds": [
+        78.42857360839844,
+        -89.0,
+        920.0,
+        789.0
+      ]
+    },
+    {
+      "character": "営",
+      "codepoint": "U+55B6",
+      "contours": 4,
+      "bounds": [
+        104.0,
+        -101.0,
+        906.0,
+        792.0
+      ]
+    },
+    {
+      "character": "業",
+      "codepoint": "U+696D",
+      "contours": 2,
+      "bounds": [
+        86.0,
+        -98.0,
+        919.0,
+        799.0
+      ]
+    },
+    {
+      "character": "休",
+      "codepoint": "U+4F11",
+      "contours": 1,
+      "bounds": [
+        55.599998474121094,
+        -98.0,
+        938.5714111328125,
+        784.5714111328125
+      ]
+    },
+    {
+      "character": "価",
+      "codepoint": "U+4FA1",
+      "contours": 5,
+      "bounds": [
+        53.20000076293945,
+        -98.0,
+        924.0,
+        790.5999755859375
+      ]
+    },
+    {
+      "character": "格",
+      "codepoint": "U+683C",
+      "contours": 5,
+      "bounds": [
+        64.47058868408203,
+        -98.0,
+        914.888916015625,
+        798.0
+      ]
+    },
+    {
+      "character": "住",
+      "codepoint": "U+4F4F",
+      "contours": 2,
+      "bounds": [
+        59.599998474121094,
+        -96.0,
+        942.0,
+        787.0
+      ]
+    },
+    {
+      "character": "所",
+      "codepoint": "U+6240",
+      "contours": 4,
+      "bounds": [
+        63.75,
+        -99.0,
+        940.0,
+        777.4000244140625
+      ]
+    },
+    {
+      "character": "鱠",
+      "codepoint": "U+9C60",
+      "contours": 20,
+      "bounds": [
+        74.41666412353516,
+        -90.0,
+        917.0625,
+        788.0
+      ]
+    },
+    {
+      "character": "鰰",
+      "codepoint": "U+9C30",
+      "contours": 17,
+      "bounds": [
+        69.375,
+        -90.0,
+        914.0,
+        789.0
+      ]
+    },
+    {
+      "character": "藹",
+      "codepoint": "U+85F9",
+      "contours": 14,
+      "bounds": [
+        81.0,
+        -93.0,
+        919.0,
+        792.0
+      ]
+    },
+    {
+      "character": "驥",
+      "codepoint": "U+9A65",
+      "contours": 15,
+      "bounds": [
+        71.0,
+        -94.0,
+        936.6666870117188,
+        785.0
+      ]
+    },
+    {
+      "character": "靨",
+      "codepoint": "U+9768",
+      "contours": 13,
+      "bounds": [
+        63.44444274902344,
+        -95.0,
+        905.5999755859375,
+        766.0
+      ]
+    },
+    {
+      "character": "饕",
+      "codepoint": "U+9955",
+      "contours": 12,
+      "bounds": [
+        75.0,
+        -94.0,
+        921.5714111328125,
+        792.0
+      ]
+    },
+    {
+      "character": "鷹",
+      "codepoint": "U+9DF9",
+      "contours": 12,
+      "bounds": [
+        66.66666412353516,
+        -92.77777862548828,
+        918.0,
+        788.0
+      ]
+    },
+    {
+      "character": "纈",
+      "codepoint": "U+7E88",
+      "contours": 10,
+      "bounds": [
+        57.400001525878906,
+        -98.0,
+        948.5999755859375,
+        790.5999755859375
+      ]
+    }
+  ],
+  "trial_structure": [
+    {
+      "character": "名",
+      "codepoint": "U+540D",
+      "contours": 3,
+      "bounds": [
+        5.31818151473999,
+        -70.0,
+        792.0,
+        796.1153564453125
+      ]
+    },
+    {
+      "character": "前",
+      "codepoint": "U+524D",
+      "contours": 6,
+      "bounds": [
+        0.0,
+        -86.0,
+        852.0,
+        790.3333129882812
+      ]
+    },
+    {
+      "character": "今",
+      "codepoint": "U+4ECA",
+      "contours": 3,
+      "bounds": [
+        5.759999752044678,
+        -93.11538696289062,
+        883.1428833007812,
+        785.760009765625
+      ]
+    },
+    {
+      "character": "日",
+      "codepoint": "U+65E5",
+      "contours": 3,
+      "bounds": [
+        0.0,
+        -28.0,
+        624.0,
+        727.0
+      ]
+    },
+    {
+      "character": "月",
+      "codepoint": "U+6708",
+      "contours": 3,
+      "bounds": [
+        0.95652174949646,
+        -76.0,
+        692.0,
+        755.0
+      ]
+    },
+    {
+      "character": "年",
+      "codepoint": "U+5E74",
+      "contours": 2,
+      "bounds": [
+        0.0,
+        -89.0,
+        855.0,
+        788.8571166992188
+      ]
+    },
+    {
+      "character": "時",
+      "codepoint": "U+6642",
+      "contours": 4,
+      "bounds": [
+        0.0,
+        -86.0,
+        839.0,
+        790.0
+      ]
+    },
+    {
+      "character": "間",
+      "codepoint": "U+9593",
+      "contours": 9,
+      "bounds": [
+        0.0,
+        -86.0,
+        799.0,
+        763.0
+      ]
+    },
+    {
+      "character": "店",
+      "codepoint": "U+5E97",
+      "contours": 2,
+      "bounds": [
+        4.421052932739258,
+        -83.54545593261719,
+        858.0,
+        789.0
+      ]
+    },
+    {
+      "character": "営",
+      "codepoint": "U+55B6",
+      "contours": 4,
+      "bounds": [
+        0.0,
+        -81.0,
+        808.0,
+        792.6363525390625
+      ]
+    },
+    {
+      "character": "業",
+      "codepoint": "U+696D",
+      "contours": 2,
+      "bounds": [
+        0.0,
+        -97.0,
+        844.0,
+        790.0
+      ]
+    },
+    {
+      "character": "休",
+      "codepoint": "U+4F11",
+      "contours": 1,
+      "bounds": [
+        3.809523582458496,
+        -88.0,
+        886.0454711914062,
+        786.0
+      ]
+    },
+    {
+      "character": "価",
+      "codepoint": "U+4FA1",
+      "contours": 5,
+      "bounds": [
+        3.684210777282715,
+        -86.0,
+        883.0,
+        786.5555419921875
+      ]
+    },
+    {
+      "character": "格",
+      "codepoint": "U+683C",
+      "contours": 5,
+      "bounds": [
+        4.199999809265137,
+        -85.0,
+        888.047607421875,
+        786.5
+      ]
+    },
+    {
+      "character": "住",
+      "codepoint": "U+4F4F",
+      "contours": 2,
+      "bounds": [
+        4.285714149475098,
+        -90.0,
+        867.0,
+        785.7619018554688
+      ]
+    },
+    {
+      "character": "所",
+      "codepoint": "U+6240",
+      "contours": 4,
+      "bounds": [
+        5.31818151473999,
+        -90.0,
+        882.0,
+        783.3478393554688
+      ]
+    },
+    {
+      "character": "鱠",
+      "codepoint": "U+9C60",
+      "contours": 20,
+      "bounds": [
+        2.5,
+        -69.4000015258789,
+        882.0,
+        783.0625
+      ]
+    },
+    {
+      "character": "鰰",
+      "codepoint": "U+9C30",
+      "contours": 18,
+      "bounds": [
+        3.9375,
+        -87.0,
+        882.0,
+        781.5555419921875
+      ]
+    },
+    {
+      "character": "藹",
+      "codepoint": "U+85F9",
+      "contours": 8,
+      "bounds": [
+        0.0,
+        -93.0,
+        841.0,
+        798.0
+      ]
+    },
+    {
+      "character": "驥",
+      "codepoint": "U+9A65",
+      "contours": 15,
+      "bounds": [
+        0.9090909957885742,
+        -78.0625,
+        867.0833129882812,
+        780.0
+      ]
+    },
+    {
+      "character": "靨",
+      "codepoint": "U+9768",
+      "contours": 14,
+      "bounds": [
+        3.5999999046325684,
+        -85.0,
+        856.0,
+        779.0
+      ]
+    },
+    {
+      "character": "饕",
+      "codepoint": "U+9955",
+      "contours": 11,
+      "bounds": [
+        0.0,
+        -93.36363983154297,
+        870.2307739257812,
+        801.0
+      ]
+    },
+    {
+      "character": "鷹",
+      "codepoint": "U+9DF9",
+      "contours": 11,
+      "bounds": [
+        4.11764669418335,
+        -105.4000015258789,
+        863.0,
+        807.0
+      ]
+    },
+    {
+      "character": "纈",
+      "codepoint": "U+7E88",
+      "contours": 9,
+      "bounds": [
+        2.923076629638672,
+        -83.0,
+        891.0625,
+        780.5714111328125
+      ]
+    }
+  ],
+  "png": "work/kanji-concept-compare.png"
+}

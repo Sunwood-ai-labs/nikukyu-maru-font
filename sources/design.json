@@ -3,8 +3,8 @@
   "version": "0.103",
   "rounding_radius": 72,
   "weight_expansion": 20,
-  "kanji_rounding_radius": 58,
-  "kanji_weight_expansion": 12,
+  "kanji_rounding_radius": 28,
+  "kanji_weight_expansion": 5,
   "ears": {
     "ね": [
       210,
@@ -61,5 +61,7 @@
     "ネコとおひるね",
     "CAT & nap",
     "0123456789"
-  ]
+  ],
+  "kanji_base": "Zen Maru Gothic Black",
+  "use_kanji_concept": true
 }

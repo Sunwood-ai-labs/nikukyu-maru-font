@@ -83,13 +83,14 @@ def make_proofs():
             bounds.append([u,g.xMin,g.yMin,g.xMax,g.yMax])
     web=TTFont(OUT/'NikukyuMaru-Regular.woff2')
     assert web.getBestCmap()==cmap
-    for name in ['uni3053.alt','uni308B.alt']:
+    unmapped=set(ft.getGlyphOrder())-set(cmap.values())
+    for name in sorted(unmapped):
         g=ft['glyf'][name];g.recalcBounds(ft['glyf'])
         assert g.numberOfContours>0 and g.xMin>=0 and g.xMax<=ft['hmtx'][name][0]
         assert g.yMin>=-350 and g.yMax<=1200
     assert any(f.FeatureTag=='ss01' for f in ft['GSUB'].table.FeatureList.FeatureRecord)
     report={'unicode_characters':len(cmap),'glyphs':len(ft.getGlyphOrder()),'errors':errors,
-        'ttf_woff2_cmap_match':True,'ss01_alternates_bounds_checked':True,'all_supported_nonspace_characters_rasterized_at_px':64,
+        'ttf_woff2_cmap_match':True,'ss01_alternates_bounds_checked':True,'unmapped_glyphs_bounds_checked':len(unmapped),'all_supported_nonspace_characters_rasterized_at_px':64,
         'vertical_extrema':[min(b[2] for b in bounds),max(b[4] for b in bounds)],
         'sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [FONT,OUT/'NikukyuMaru-Regular.woff2']},
         'limits':['Horizontal display font; vertical layout not implemented.','Manual app installation not performed.']}
