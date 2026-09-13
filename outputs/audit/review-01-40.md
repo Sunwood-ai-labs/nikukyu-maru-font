@@ -1,9 +1,9 @@
 # 監査記録: page-01〜page-40
 
-実施日: 2026-09-13（日本時間）  
-対象: `outputs/audit/page-01.png`〜`page-40.png` を `view_image` で各ページ個別に目視確認。  
+実施日: 2026-09-13（日本時間）
+対象: `outputs/audit/page-01.png`〜`page-40.png` を `view_image` で各ページ個別に目視確認。
 対象版: `outputs/audit/font-hash.json` の `unicode_count=7516`、`page_count=158`、
-`woff2_sha256=e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c`。  
+`woff2_sha256=e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c`。
 文字一覧の照合元: `outputs/audit/manifest.json`。
 
 ## 判定

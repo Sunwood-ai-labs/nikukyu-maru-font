@@ -1,0 +1,24 @@
+{
+  "version": "0.103",
+  "checked_at_utc": "2026-09-13T08:52:23.145620+00:00",
+  "candidate_zip_sha256": "1da684321ec6cb1bd3b69809bfe54c2051ed4c07abc340b64ed5b90f55722d9f",
+  "extracted_file_count": 15578,
+  "command": "python -X utf8 build.py",
+  "isolated_directory": "work/package-check-0103-final",
+  "exit_code": 0,
+  "fonts": [
+    {
+      "file": "NikukyuMaru-Regular.ttf",
+      "bytes": 4761368,
+      "sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba",
+      "rebuilt_bytes_equal": true
+    },
+    {
+      "file": "NikukyuMaru-Regular.woff2",
+      "bytes": 2071320,
+      "sha256": "e775dcd5b38b3993b2a6763061742c2c6df2327f144fedb85e64b8e5302fc35c",
+      "rebuilt_bytes_equal": true
+    }
+  ],
+  "note": "The release package may add this verification record and final release documentation. Font inputs and binaries remain byte-identical to this checked package."
+}

@@ -1,41 +1,48 @@
-# 全収録文字の改善
+# にくきゅう丸 0.103 進捗
 
-対象は現行408文字と装飾異体字。生成見本にある文字の忠実度、見本にない文字の丸み・太さの統一、濁点と小書き文字の派生関係、全角・半角の一致、表示検証を段階的に修正する。
+0.103は、日本語の太い横組み見出し用途へ対応範囲を広げる拡張版です。現行TTFはcmap **7,516 Unicode文字 / glyphOrder 7,547グリフ**です。JIS X 0208漢字6,355字、CP932実用文字、追加記号、半角カナ63字、結合濁点・半濁点を含みます。
 
-- [x] 0.101: 主要38文字と2異体字を生成見本の輪郭に置換
-- [x] 全角英数字・記号77文字を更新された半角字形から派生
-- [x] 小書きかな24文字と濁音・半濁音57文字を更新字形から派生
-- [x] その他のかな・英字・漢字・記号の丸みと太さを統一
-- [x] 全文字の比較画像とブラウザースクショを目視検証
-- [x] 再現ビルド、全文字検証、最終成果物更新
+## 現在の決定
 
-2026-09-13: ユーザーの追加指示により公開リポジトリへのコミット・プッシュを開始。BRIEF.mdの公開前提はこの追加指示で更新された。
+- [x] 一般漢字の基準をZen Maru Gothic Blackに統一し、かな・英字などにMochiy Pop Oneを使用。Zenにない漢字はMochiyで、Mochiyにない記号はZenや既存字形の組み合わせで補完。
+- [x] sources/reference-outlines.jsonの40キーを実データ確認。Unicode文字38キーと.alt 2キー（こ.alt・る.alt）。
+- [x] 画像生成見本03から名・今・日・月・年・店・休・住の8字を採用し、sources/kanji-concept-outlines.jsonへベクター輪郭を保存。小書きゃ・ゅの2字はharmonizeで通常かなから派生するため、直接適用の画像由来輪郭はUnicode44字形と.alt 2字形。抽出データ40キーは保持。
+- [x] U+3099/U+309Aの零幅マーク、canonical58組のccmp、GPOS mark、半角カナ28組のccmpを実装。半角通常字形は500単位、合成結果は2セル分の1,000単位を維持。
+- [x] .notdef、ss01異体字2個、ccmp補助グリフ28個を含むglyphOrderを検証。
+- [x] 出典のOFL表示、再現ビルド、TTF/WOFF2、Windows private font一時読み込みの記録を更新。
 
-公開先: https://github.com/Sunwood-ai-labs/nikukyu-maru-font
+## 検証状況
 
-進行中の検証: 全408文字の描画、411グリフのうち通常文字と異体字の範囲を検証。派生関係の修正後のかな・全角一覧を目視確認した。濁点の大きさと配置を再調整。画像保存時に一度ファイルエラーが発生したが、同じビルドのproof.py再実行で全画像とverification.jsonの生成が正常終了。
+- [x] outputs/verification.jsonでUnicode/glyph数、64px描画、輪郭範囲、TTF/WOFF2対応文字、SHA-256を検査。
+- [x] outputs/japanese-validation.jsonで実用文章、JIS/CP932、結合濁点、半角カナを検査。
+- [x] outputs/kana-shaping-verification.jsonで本番TTFのcanonical58組・半角28組をuharfbuzz検査。
+- [x] outputs/concept-review/kanji8-final-verification.jsonで8字の構造、輪郭、180pxと16・24・32・48pxの実描画を検査。
+- [x] outputs/audit/manifest.jsonとoutputs/audit/font-hash.jsonで158ページを固定。
+- [x] 158枚の全収録文字スクリーンショットを目視監査し、具体的なFAILを確認しなかった。分担ページ41〜80の詳細は[review-41-80.md](outputs/audit/review-41-80.md)。
+- [x] outputs/concept-review/final-page-1.pngとfinal-page-2.pngで、採用8字とかなを含む実フォント比較を保存。
 
-次の改善: 丸め処理を輪郭ごとの適応処理に変更。試作で失われた「す・ま・ほ・♪」の線を検出し、面積保持と連結数を条件に半径を縮小するよう修正。かな・英字・漢字・記号の一覧を目視再確認。Latinの大文字高さと小文字高さを生成見本由来の文字に合わせ、全角にも伝播。承認済みの「ゃ・ゅ」から「や・ゆ」を派生して骨格を保持。Windowsで反復した成果物保存エラーに対し、一時ファイルからの置換と短い再試行を導入。
+## 最終確認
 
-0.102完了確認: 全408文字と2異体字を9枚の実Chromeスクショで目視点検した。全ページの読込完了と対象をmanifest.jsonで記録。全文字の描画検査を再実行し、ZIPを別ディレクトリへ展開して同梱ソースから再ビルドし、TTF・WOFF2のバイト一致を確認。版番号・README・公開成果物を0.102へ更新した。小サイズと他アプリの制約はREADMEと監査記録に明記。
+- [x] outputs/practical-review/の実用文章8カテゴリ31ケースをスクリーンショットで最終確認する。
+- [x] rootによる全体表示レビューを完了し、outputs/FINAL-REVIEW.mdへ記録する。
+- [x] ZIPを展開して通常ビルドし、TTF/WOFF2のバイト一致を確認。
 
+配布先: [0.103リリース](https://github.com/Sunwood-ai-labs/nikukyu-maru-font/releases/tag/v0.103)。OSへの常設インストールは行っていない。
 
-## 日本語で広く使える範囲への拡張（進行中）
+## 再現コマンド
 
-408文字は日本語の汎用用途には不足するため、完了条件を拡張する。
-- [x] 元フォントの第1水準2,965字・第2水準3,390字の存在をコードポイントで確認
-- [x] JIS漢字6,355字・非漢字・半角カナを生成対象に追加
-- [x] 全文字の校正画像を100文字単位に分割し、ブラウザ監査の408文字固定条件を除去
-- [ ] 拡張版のビルドを通し、文字欠落・輪郭・描画範囲を検査
-- [ ] 元フォントにない日常記号を補完（JIS非漢字524字中218字が元フォントにない）
-- [ ] 濁点の結合文字、半角カナ、実用文章の表示を確認・修正
-- [ ] 拡張した全文字のスクリーンショット点検と生成見本との比較
-- [ ] 最新版の対応範囲・制約・配布物を更新し、再現ビルドと公開を確認
+```powershell
+.\.venv\Scripts\python.exe -X utf8 build.py --regenerate
+.\.venv\Scripts\python.exe -m pip install -r requirements-validation.txt
+.\.venv\Scripts\python.exe -X utf8 verify_kana_shaping.py --font outputs\NikukyuMaru-Regular.ttf --report outputs\kana-shaping-verification.json
+.\.venv\Scripts\python.exe -X utf8 verify_kanji_concept.py --font outputs\NikukyuMaru-Regular.ttf --report outputs\concept-review\kanji8-final-verification.json
+.\.venv\Scripts\python.exe -X utf8 japanese_validation.py
+.\.venv\Scripts\python.exe -X utf8 proof.py
+.\.venv\Scripts\python.exe -X utf8 verify_windows_font.py
+.\.venv\Scripts\python.exe -X utf8 audit_pages.py
+.\.venv\Scripts\python.exe -X utf8 package.py
+```
 
-全漢字への丸め処理を実行したところ輪郭演算の失敗を検出したため、半径と太らせ量を段階的に縮小して再試行する処理を追加。未加工への無条件フォールバックは行わず、全試行失敗時はコードポイント付きでビルドを止める。既存0.102の確認結果は拡張版の完了証拠として扱わない。
+## 方針と制約
 
-初回拡張結果: 6,770 Unicode文字 / 6,773グリフ。全非空白文字の64px描画、上下・左右の範囲、WOFF2一致を検証しエラー0。引用符U+2018/2019の字幅不足を修正。既存408文字のTTF輪郭・字幅は0.102と全件一致。追加漢字48文字の実Chromeスクショと大見出しの生成見本比較を確認。全文字目視は未完了。CP932拡張を次回生成対象に追加済み。
-
-日本語機能の統合: CP932拡張を含む7,507要求文字に欠落0、結合マーク2字を加え7,509 Unicode文字。Zen Maru Gothic Blackを補完元に追加しOFL表示を保持。半角63字と28組の濁音、canonical58組のccmp、零幅濁点のGPOS配置を実装。小fixtureの実HarfBuzz検証を実行。記号3字の字幅不足を追加修正中。
-
-密な漢字の輪郭比較で、太らせ処理による線融合を検出。鱠・鰰・藹などの3段比較画像で確認し、元の離れた線の連結数を保つまで太らせ量を縮小する処理を追加。全文字への反映ビルドと最終目視検証は進行中。
+用途は太い横組み見出しです。縦組み専用の回転・縦用メトリクス、カーニング、ヒンティングは実装していません。画像生成見本の8字は直接輪郭として採用し、残りの前・時・間・営・業・価・格・所は読みやすさを優先してZen由来の字形を採用しています。
