@@ -12,6 +12,7 @@ from fontTools.pens.recordingPen import DecomposingRecordingPen
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 from ufoLib2 import Font
 from artifact_io import save_font
+from coverage import KANJI, requested_characters
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'outputs'
@@ -96,6 +97,7 @@ def character_set():
     for a,b in [(0xff10,0xff19),(0xff21,0xff3a),(0xff41,0xff5a)]:
         chars.update(chr(x) for x in range(a,b+1))
     chars.update(CONFIG['extra_symbols']+CONFIG['kanji'])
+    chars.update(requested_characters())
     chars.update('\u00a0\ue000\ue001\U0001f43e')
     return sorted(chars,key=ord)
 
@@ -123,13 +125,19 @@ def generate_sources():
             if src_cp not in cmap: missing.append(ch); continue
             g=gs[cmap[src_cp]]; p=pathops.Path(); rec=DecomposingRecordingPen(gs); g.draw(rec); rec.replay(p.getPen()); width=g.width
             if len(p):
-                is_kanji=ch in CONFIG['kanji']
+                is_kanji=ch in KANJI or ch in CONFIG['kanji']
                 # Keep cramped diacritics and dense CJK counters open.
                 radius=CONFIG['kanji_rounding_radius'] if is_kanji else CONFIG['rounding_radius']
                 weight=CONFIG['kanji_weight_expansion'] if is_kanji else CONFIG['weight_expansion']
                 if ch in '゛゜ゝゞヽヾ': radius,weight=12,8
                 if ch not in '「」『』':
-                    p=soften(p,radius,weight)
+                    for attempt in range(6):
+                        try:
+                            p=soften(p,radius*(.7**attempt),weight*(.7**attempt))
+                            break
+                        except pathops.PathOpsError:
+                            if attempt==5:
+                                raise RuntimeError(f'Rounding failed U+{cp:04X} {ch}')
                 mods[ch]=['rounded','weight']
                 if ch in CONFIG['ears']:
                     basepath=pathops.Path(p)

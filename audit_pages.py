@@ -14,5 +14,6 @@ for start in range(0,len(entries),48):
     body=''.join(f'<article><label>U+{e["code"]:04X} {e["feature"]}</label><div class="glyph" style="font-feature-settings:\'ss01\' {1 if e["feature"] else 0}">{html.escape(chr(e["code"]))}</div></article>' for e in chunk)
     (out/page).write_text('''<!doctype html><html lang="ja"><meta charset="utf-8"><title>にくきゅう丸 全文字監査</title><style>@font-face{font-family:Niku;src:url('../NikukyuMaru-Regular.woff2');font-weight:800}*{box-sizing:border-box}body{margin:0;padding:20px;background:#fff8eb;color:#342622;font:16px sans-serif}h1{font-size:22px;margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;max-width:1300px}article{height:104px;background:white;border-radius:10px;padding:5px 10px}label{font:12px Arial;color:#806b60}.glyph{font:800 62px/1.1 Niku;text-align:center;white-space:pre}footer{font-size:12px;margin-top:12px}</style>'''+f'<h1>全収録文字 / {i:02d} / {start+1}–{start+len(chunk)}</h1><div class="grid">'+body+'</div><footer id="status">読込中</footer><script>document.fonts.ready.then(()=>document.getElementById("status").textContent="Webフォント読込: "+document.fonts.check("800 62px Niku"))</script></html>',encoding='utf-8')
 (out/'manifest.json').write_text(json.dumps(pages,ensure_ascii=False,indent=2),encoding='utf-8')
-assert len(entries)==410 and len({e['code'] for e in entries})==408
+assert len(entries)==len(font.getBestCmap())+2
+assert len({e['code'] for e in entries})==len(font.getBestCmap())
 print(len(pages),'pages;',len(entries),'mapped glyph instances')

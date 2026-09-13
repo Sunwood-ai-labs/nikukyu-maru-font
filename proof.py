@@ -48,6 +48,8 @@ def make_proofs():
         ('LATIN + NUMBERS',[u for u in cmap if 33<=u<=126]),
         ('FULLWIDTH + KANJI',[u for u in cmap if 0xff10<=u<=0xff5a or 0x4e00<=u<=0x9fff]),
         ('SYMBOLS',[u for u in cmap if not (0x3041<=u<=0x3096 or 0x30a1<=u<=0x30fa or 33<=u<=126 or 0xff10<=u<=0xff5a or 0x4e00<=u<=0x9fff)])]
+    groups = [(title + f' / {start//100+1}', sorted(codes)[start:start+100])
+              for title,codes in groups for start in range(0,len(codes),100)]
     for idx,(title,codes) in enumerate(groups,1):
         codes=sorted(codes); rows=(len(codes)+9)//10
         im=Image.new('RGB',(1500,150+rows*150),CREAM);d=ImageDraw.Draw(im)
