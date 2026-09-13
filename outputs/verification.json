@@ -1,6 +1,6 @@
 {
-  "unicode_characters": 6770,
-  "glyphs": 6773,
+  "unicode_characters": 7509,
+  "glyphs": 7540,
   "errors": [],
   "ttf_woff2_cmap_match": true,
   "ss01_alternates_bounds_checked": true,
@@ -10,12 +10,11 @@
     1123
   ],
   "sha256": {
-    "NikukyuMaru-Regular.ttf": "10cca687fdf0e0965f41f35e6a32379e44122608ba70110339d65802ee033f34",
-    "NikukyuMaru-Regular.woff2": "096b67ca2cc28872ca2768f3f139f9e07ba21ca85bf78d172679f8852bf7a725"
+    "NikukyuMaru-Regular.ttf": "38de48bb8c7b47c7ec4a06c769a788105bc4ecf540a949ce44e0ad414bc3fdb5",
+    "NikukyuMaru-Regular.woff2": "38606f9b4e544369b2ec518d3cf3991a527e79218a320c42a01c05a1f66f3d29"
   },
   "limits": [
     "Horizontal display font; vertical layout not implemented.",
-    "NFC precomposed kana; combining marks U+3099/309A not supported.",
     "Manual app installation not performed."
   ]
 }

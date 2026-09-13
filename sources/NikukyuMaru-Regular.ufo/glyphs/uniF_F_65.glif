@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFF65" format="2">
+  <advance width="500"/>
+  <unicode hex="FF65"/>
+  <outline>
+    <contour>
+      <point x="250.00000762939453" y="206.0800018310547" type="qcurve" smooth="yes"/>
+      <point x="269.6161575317383" y="206.0800018310547"/>
+      <point x="285.4925003051758" y="225.76780700683594" type="qcurve" smooth="yes"/>
+      <point x="301.1312942504883" y="245.1609649658203"/>
+      <point x="310.60340118408203" y="277.61083984375" type="qcurve" smooth="yes"/>
+      <point x="320.19998931884766" y="310.48699951171875"/>
+      <point x="320.19998931884766" y="349.6000061035156" type="qcurve" smooth="yes"/>
+      <point x="320.19998931884766" y="389.70416259765625"/>
+      <point x="310.57010650634766" y="422.1624450683594" type="qcurve" smooth="yes"/>
+      <point x="301.10205841064453" y="454.0752258300781"/>
+      <point x="285.4925003051758" y="473.4322204589844" type="qcurve" smooth="yes"/>
+      <point x="269.6161575317383" y="493.1199951171875"/>
+      <point x="250.00000762939453" y="493.1199951171875" type="qcurve" smooth="yes"/>
+      <point x="230.8686752319336" y="493.1199951171875"/>
+      <point x="214.78787994384766" y="473.5003356933594" type="qcurve" smooth="yes"/>
+      <point x="198.91577911376953" y="454.1351623535156"/>
+      <point x="189.42993927001953" y="422.1625671386719" type="qcurve" smooth="yes"/>
+      <point x="179.80001068115234" y="389.7041931152344"/>
+      <point x="179.80001068115234" y="349.6000061035156" type="qcurve" smooth="yes"/>
+      <point x="179.80001068115234" y="310.487060546875"/>
+      <point x="189.3965835571289" y="277.61077880859375" type="qcurve" smooth="yes"/>
+      <point x="198.88626861572266" y="245.10086059570312"/>
+      <point x="214.7878646850586" y="225.69973754882812" type="qcurve" smooth="yes"/>
+      <point x="230.8686752319336" y="206.0800018310547"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.example.nikukyu.scale</key>
+      <string>x-compressed</string>
+      <key>com.example.nikukyu.source</key>
+      <string>uni30FB</string>
+    </dict>
+  </lib>
+</glyph>

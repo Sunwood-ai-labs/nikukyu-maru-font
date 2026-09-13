@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFF9E" format="2">
+  <advance width="500"/>
+  <unicode hex="FF9E"/>
+  <outline>
+    <contour>
+      <point x="291.75" y="913.0" type="curve" smooth="yes"/>
+      <point x="291.75" y="941.7188110351562"/>
+      <point x="283.24341011047363" y="965.0"/>
+      <point x="272.75" y="965.0" type="curve" smooth="yes"/>
+      <point x="262.25658798217773" y="965.0"/>
+      <point x="253.75" y="941.7188110351562"/>
+      <point x="253.75" y="913.0" type="curve" smooth="yes"/>
+      <point x="253.75" y="884.2811889648438"/>
+      <point x="262.25658798217773" y="861.0"/>
+      <point x="272.75" y="861.0" type="curve" smooth="yes"/>
+      <point x="283.24341011047363" y="861.0"/>
+      <point x="291.75" y="884.2811889648438"/>
+    </contour>
+    <contour>
+      <point x="246.25" y="900.0" type="curve" smooth="yes"/>
+      <point x="246.25" y="928.7188110351562"/>
+      <point x="237.743408203125" y="952.0"/>
+      <point x="227.25" y="952.0" type="curve" smooth="yes"/>
+      <point x="216.756591796875" y="952.0"/>
+      <point x="208.25" y="928.7188110351562"/>
+      <point x="208.25" y="900.0" type="curve" smooth="yes"/>
+      <point x="208.25" y="871.2811889648438"/>
+      <point x="216.756591796875" y="848.0"/>
+      <point x="227.25" y="848.0" type="curve" smooth="yes"/>
+      <point x="237.743408203125" y="848.0"/>
+      <point x="246.25" y="871.2811889648438"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.example.nikukyu.scale</key>
+      <string>x-compressed</string>
+      <key>com.example.nikukyu.source</key>
+      <string>uni3099</string>
+    </dict>
+  </lib>
+</glyph>
