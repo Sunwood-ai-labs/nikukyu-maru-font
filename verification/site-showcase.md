@@ -14,9 +14,9 @@ The repository and bilingual GitHub Pages showcase were completed using the rele
 
 Screenshots were inspected in the Windows in-app Chromium browser. Responsive checks used real pages inside explicitly sized iframe viewports, not scaled screenshots. These checks do not claim physical iOS/Android or Safari testing.
 
-- [Published desktop](site-showcase/public-desktop.png): real Japanese lettering, Aa paw counter, ear shapes, g tail, header and CTA.
-- [Published mobile](site-showcase/public-mobile.png): Japanese at 390px and English at 320px, including the repaired English heading and poster width.
-- [Published playground](site-showcase/public-playground.png): editable text, vermilion ink, and visible keyboard focus.
+- [Published desktop](site-showcase/public-desktop.jpg): real Japanese lettering, Aa paw counter, ear shapes, g tail, header and CTA.
+- [Published mobile](site-showcase/public-mobile.jpg): Japanese at 390px and English at 320px, including the repaired English heading and poster width.
+- [Published playground](site-showcase/public-playground.jpg): editable text, vermilion ink, and visible keyboard focus.
 - Local 768px tablet and desktop reviews also covered the character grid, three use examples, original generated reference, downloads, and expanded CSS instructions.
 - Horizontal overflow was measured after the final responsive repair: the 320px frame had client/scroll widths **308/308**; the 390px frame had **378/378** (the browser reserves 12px for its scrollbar).
 
@@ -62,3 +62,4 @@ The responsive review found and repaired the 320px English heading, poster min-c
 | --- | --- |
 | TTF | `186c97f8b32790d35c7b6cdfedf23cddc3136abd7c7a49e5bcf6ea296794c80d` |
 | WOFF2, including public delivery | `5723041efc183c7ad5be9d6b5350ffd5149d36335a11d5106ea6c97c8632db4f` |
+
