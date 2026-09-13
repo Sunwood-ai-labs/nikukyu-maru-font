@@ -2122,5 +2122,17 @@
     },
     "ttf_bytes_equal": true,
     "woff2_bytes_equal": true
+  },
+  "ufo_reapplication": {
+    "ufo": "work/latin-cats/compile-repro-0104/sources/NikukyuMaru-Regular.ufo",
+    "ascii_count": 52,
+    "fullwidth_count": 52,
+    "ascii_changed": [],
+    "ascii_changed_count": 0,
+    "ascii_matches_current": true,
+    "fullwidth_changed": [],
+    "fullwidth_changed_count": 0,
+    "fullwidth_matches_current": true,
+    "pass": true
   }
 }
