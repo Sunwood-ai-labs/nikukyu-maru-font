@@ -1,0 +1,2126 @@
+{
+  "allowed_codepoints": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    65313,
+    65314,
+    65315,
+    65316,
+    65317,
+    65318,
+    65319,
+    65320,
+    65321,
+    65322,
+    65323,
+    65324,
+    65325,
+    65326,
+    65327,
+    65328,
+    65329,
+    65330,
+    65331,
+    65332,
+    65333,
+    65334,
+    65335,
+    65336,
+    65337,
+    65338,
+    65345,
+    65346,
+    65347,
+    65348,
+    65349,
+    65350,
+    65351,
+    65352,
+    65353,
+    65354,
+    65355,
+    65356,
+    65357,
+    65358,
+    65359,
+    65360,
+    65361,
+    65362,
+    65363,
+    65364,
+    65365,
+    65366,
+    65367,
+    65368,
+    65369,
+    65370
+  ],
+  "allowed_count": 104,
+  "allowed_labels": [
+    "U+0041 A",
+    "U+0042 B",
+    "U+0043 C",
+    "U+0044 D",
+    "U+0045 E",
+    "U+0046 F",
+    "U+0047 G",
+    "U+0048 H",
+    "U+0049 I",
+    "U+004A J",
+    "U+004B K",
+    "U+004C L",
+    "U+004D M",
+    "U+004E N",
+    "U+004F O",
+    "U+0050 P",
+    "U+0051 Q",
+    "U+0052 R",
+    "U+0053 S",
+    "U+0054 T",
+    "U+0055 U",
+    "U+0056 V",
+    "U+0057 W",
+    "U+0058 X",
+    "U+0059 Y",
+    "U+005A Z",
+    "U+0061 a",
+    "U+0062 b",
+    "U+0063 c",
+    "U+0064 d",
+    "U+0065 e",
+    "U+0066 f",
+    "U+0067 g",
+    "U+0068 h",
+    "U+0069 i",
+    "U+006A j",
+    "U+006B k",
+    "U+006C l",
+    "U+006D m",
+    "U+006E n",
+    "U+006F o",
+    "U+0070 p",
+    "U+0071 q",
+    "U+0072 r",
+    "U+0073 s",
+    "U+0074 t",
+    "U+0075 u",
+    "U+0076 v",
+    "U+0077 w",
+    "U+0078 x",
+    "U+0079 y",
+    "U+007A z",
+    "U+FF21 Ａ",
+    "U+FF22 Ｂ",
+    "U+FF23 Ｃ",
+    "U+FF24 Ｄ",
+    "U+FF25 Ｅ",
+    "U+FF26 Ｆ",
+    "U+FF27 Ｇ",
+    "U+FF28 Ｈ",
+    "U+FF29 Ｉ",
+    "U+FF2A Ｊ",
+    "U+FF2B Ｋ",
+    "U+FF2C Ｌ",
+    "U+FF2D Ｍ",
+    "U+FF2E Ｎ",
+    "U+FF2F Ｏ",
+    "U+FF30 Ｐ",
+    "U+FF31 Ｑ",
+    "U+FF32 Ｒ",
+    "U+FF33 Ｓ",
+    "U+FF34 Ｔ",
+    "U+FF35 Ｕ",
+    "U+FF36 Ｖ",
+    "U+FF37 Ｗ",
+    "U+FF38 Ｘ",
+    "U+FF39 Ｙ",
+    "U+FF3A Ｚ",
+    "U+FF41 ａ",
+    "U+FF42 ｂ",
+    "U+FF43 ｃ",
+    "U+FF44 ｄ",
+    "U+FF45 ｅ",
+    "U+FF46 ｆ",
+    "U+FF47 ｇ",
+    "U+FF48 ｈ",
+    "U+FF49 ｉ",
+    "U+FF4A ｊ",
+    "U+FF4B ｋ",
+    "U+FF4C ｌ",
+    "U+FF4D ｍ",
+    "U+FF4E ｎ",
+    "U+FF4F ｏ",
+    "U+FF50 ｐ",
+    "U+FF51 ｑ",
+    "U+FF52 ｒ",
+    "U+FF53 ｓ",
+    "U+FF54 ｔ",
+    "U+FF55 ｕ",
+    "U+FF56 ｖ",
+    "U+FF57 ｗ",
+    "U+FF58 ｘ",
+    "U+FF59 ｙ",
+    "U+FF5A ｚ"
+  ],
+  "files": {
+    "baseline": {
+      "path": "work/latin-cats/baseline-0103.ttf",
+      "bytes": 4761368,
+      "sha256": "52db75a3948c40e5cc9ec2436de187c0268a18efeb73602fa7c825af520bd8ba"
+    },
+    "current": {
+      "path": "outputs/NikukyuMaru-Regular.ttf",
+      "bytes": 4773300,
+      "sha256": "deb145731e95d9d04abd6a0bad16f827ec9211450780785b65a6e813d1de3122"
+    }
+  },
+  "unicode_set": {
+    "baseline_count": 7516,
+    "current_count": 7516,
+    "equal": true,
+    "added": [],
+    "removed": [],
+    "mapping_changes": []
+  },
+  "glyph_order": {
+    "baseline_count": 7547,
+    "current_count": 7547,
+    "equal": true,
+    "first_difference": null,
+    "only_in_baseline": [],
+    "only_in_current": []
+  },
+  "gsub": {
+    "baseline_present": true,
+    "current_present": true,
+    "equal_bytes": true,
+    "baseline_bytes": 1222,
+    "current_bytes": 1222,
+    "baseline_sha256": "cd54b4ab692d8246fe9ede5c40ef612ba8510968aeb706e19de6f647cf36e7fb",
+    "current_sha256": "cd54b4ab692d8246fe9ede5c40ef612ba8510968aeb706e19de6f647cf36e7fb"
+  },
+  "outline_comparison": {
+    "glyphs_compared": 7547,
+    "changed_glyphs": [
+      {
+        "glyph": "uni0041",
+        "codepoints": [
+          "U+0041 A"
+        ]
+      },
+      {
+        "glyph": "uni0042",
+        "codepoints": [
+          "U+0042 B"
+        ]
+      },
+      {
+        "glyph": "uni0043",
+        "codepoints": [
+          "U+0043 C"
+        ]
+      },
+      {
+        "glyph": "uni0044",
+        "codepoints": [
+          "U+0044 D"
+        ]
+      },
+      {
+        "glyph": "uni0045",
+        "codepoints": [
+          "U+0045 E"
+        ]
+      },
+      {
+        "glyph": "uni0046",
+        "codepoints": [
+          "U+0046 F"
+        ]
+      },
+      {
+        "glyph": "uni0047",
+        "codepoints": [
+          "U+0047 G"
+        ]
+      },
+      {
+        "glyph": "uni0048",
+        "codepoints": [
+          "U+0048 H"
+        ]
+      },
+      {
+        "glyph": "uni0049",
+        "codepoints": [
+          "U+0049 I"
+        ]
+      },
+      {
+        "glyph": "uni004A",
+        "codepoints": [
+          "U+004A J"
+        ]
+      },
+      {
+        "glyph": "uni004B",
+        "codepoints": [
+          "U+004B K"
+        ]
+      },
+      {
+        "glyph": "uni004C",
+        "codepoints": [
+          "U+004C L"
+        ]
+      },
+      {
+        "glyph": "uni004D",
+        "codepoints": [
+          "U+004D M"
+        ]
+      },
+      {
+        "glyph": "uni004E",
+        "codepoints": [
+          "U+004E N"
+        ]
+      },
+      {
+        "glyph": "uni004F",
+        "codepoints": [
+          "U+004F O"
+        ]
+      },
+      {
+        "glyph": "uni0050",
+        "codepoints": [
+          "U+0050 P"
+        ]
+      },
+      {
+        "glyph": "uni0051",
+        "codepoints": [
+          "U+0051 Q"
+        ]
+      },
+      {
+        "glyph": "uni0052",
+        "codepoints": [
+          "U+0052 R"
+        ]
+      },
+      {
+        "glyph": "uni0053",
+        "codepoints": [
+          "U+0053 S"
+        ]
+      },
+      {
+        "glyph": "uni0054",
+        "codepoints": [
+          "U+0054 T"
+        ]
+      },
+      {
+        "glyph": "uni0055",
+        "codepoints": [
+          "U+0055 U"
+        ]
+      },
+      {
+        "glyph": "uni0056",
+        "codepoints": [
+          "U+0056 V"
+        ]
+      },
+      {
+        "glyph": "uni0057",
+        "codepoints": [
+          "U+0057 W"
+        ]
+      },
+      {
+        "glyph": "uni0058",
+        "codepoints": [
+          "U+0058 X"
+        ]
+      },
+      {
+        "glyph": "uni0059",
+        "codepoints": [
+          "U+0059 Y"
+        ]
+      },
+      {
+        "glyph": "uni005A",
+        "codepoints": [
+          "U+005A Z"
+        ]
+      },
+      {
+        "glyph": "uni0061",
+        "codepoints": [
+          "U+0061 a"
+        ]
+      },
+      {
+        "glyph": "uni0062",
+        "codepoints": [
+          "U+0062 b"
+        ]
+      },
+      {
+        "glyph": "uni0063",
+        "codepoints": [
+          "U+0063 c"
+        ]
+      },
+      {
+        "glyph": "uni0064",
+        "codepoints": [
+          "U+0064 d"
+        ]
+      },
+      {
+        "glyph": "uni0065",
+        "codepoints": [
+          "U+0065 e"
+        ]
+      },
+      {
+        "glyph": "uni0066",
+        "codepoints": [
+          "U+0066 f"
+        ]
+      },
+      {
+        "glyph": "uni0067",
+        "codepoints": [
+          "U+0067 g"
+        ]
+      },
+      {
+        "glyph": "uni0068",
+        "codepoints": [
+          "U+0068 h"
+        ]
+      },
+      {
+        "glyph": "uni0069",
+        "codepoints": [
+          "U+0069 i"
+        ]
+      },
+      {
+        "glyph": "uni006A",
+        "codepoints": [
+          "U+006A j"
+        ]
+      },
+      {
+        "glyph": "uni006B",
+        "codepoints": [
+          "U+006B k"
+        ]
+      },
+      {
+        "glyph": "uni006C",
+        "codepoints": [
+          "U+006C l"
+        ]
+      },
+      {
+        "glyph": "uni006D",
+        "codepoints": [
+          "U+006D m"
+        ]
+      },
+      {
+        "glyph": "uni006E",
+        "codepoints": [
+          "U+006E n"
+        ]
+      },
+      {
+        "glyph": "uni006F",
+        "codepoints": [
+          "U+006F o"
+        ]
+      },
+      {
+        "glyph": "uni0070",
+        "codepoints": [
+          "U+0070 p"
+        ]
+      },
+      {
+        "glyph": "uni0071",
+        "codepoints": [
+          "U+0071 q"
+        ]
+      },
+      {
+        "glyph": "uni0072",
+        "codepoints": [
+          "U+0072 r"
+        ]
+      },
+      {
+        "glyph": "uni0073",
+        "codepoints": [
+          "U+0073 s"
+        ]
+      },
+      {
+        "glyph": "uni0074",
+        "codepoints": [
+          "U+0074 t"
+        ]
+      },
+      {
+        "glyph": "uni0075",
+        "codepoints": [
+          "U+0075 u"
+        ]
+      },
+      {
+        "glyph": "uni0076",
+        "codepoints": [
+          "U+0076 v"
+        ]
+      },
+      {
+        "glyph": "uni0077",
+        "codepoints": [
+          "U+0077 w"
+        ]
+      },
+      {
+        "glyph": "uni0078",
+        "codepoints": [
+          "U+0078 x"
+        ]
+      },
+      {
+        "glyph": "uni0079",
+        "codepoints": [
+          "U+0079 y"
+        ]
+      },
+      {
+        "glyph": "uni007A",
+        "codepoints": [
+          "U+007A z"
+        ]
+      },
+      {
+        "glyph": "uniFF21",
+        "codepoints": [
+          "U+FF21 Ａ"
+        ]
+      },
+      {
+        "glyph": "uniFF22",
+        "codepoints": [
+          "U+FF22 Ｂ"
+        ]
+      },
+      {
+        "glyph": "uniFF23",
+        "codepoints": [
+          "U+FF23 Ｃ"
+        ]
+      },
+      {
+        "glyph": "uniFF24",
+        "codepoints": [
+          "U+FF24 Ｄ"
+        ]
+      },
+      {
+        "glyph": "uniFF25",
+        "codepoints": [
+          "U+FF25 Ｅ"
+        ]
+      },
+      {
+        "glyph": "uniFF26",
+        "codepoints": [
+          "U+FF26 Ｆ"
+        ]
+      },
+      {
+        "glyph": "uniFF27",
+        "codepoints": [
+          "U+FF27 Ｇ"
+        ]
+      },
+      {
+        "glyph": "uniFF28",
+        "codepoints": [
+          "U+FF28 Ｈ"
+        ]
+      },
+      {
+        "glyph": "uniFF29",
+        "codepoints": [
+          "U+FF29 Ｉ"
+        ]
+      },
+      {
+        "glyph": "uniFF2A",
+        "codepoints": [
+          "U+FF2A Ｊ"
+        ]
+      },
+      {
+        "glyph": "uniFF2B",
+        "codepoints": [
+          "U+FF2B Ｋ"
+        ]
+      },
+      {
+        "glyph": "uniFF2C",
+        "codepoints": [
+          "U+FF2C Ｌ"
+        ]
+      },
+      {
+        "glyph": "uniFF2D",
+        "codepoints": [
+          "U+FF2D Ｍ"
+        ]
+      },
+      {
+        "glyph": "uniFF2E",
+        "codepoints": [
+          "U+FF2E Ｎ"
+        ]
+      },
+      {
+        "glyph": "uniFF2F",
+        "codepoints": [
+          "U+FF2F Ｏ"
+        ]
+      },
+      {
+        "glyph": "uniFF30",
+        "codepoints": [
+          "U+FF30 Ｐ"
+        ]
+      },
+      {
+        "glyph": "uniFF31",
+        "codepoints": [
+          "U+FF31 Ｑ"
+        ]
+      },
+      {
+        "glyph": "uniFF32",
+        "codepoints": [
+          "U+FF32 Ｒ"
+        ]
+      },
+      {
+        "glyph": "uniFF33",
+        "codepoints": [
+          "U+FF33 Ｓ"
+        ]
+      },
+      {
+        "glyph": "uniFF34",
+        "codepoints": [
+          "U+FF34 Ｔ"
+        ]
+      },
+      {
+        "glyph": "uniFF35",
+        "codepoints": [
+          "U+FF35 Ｕ"
+        ]
+      },
+      {
+        "glyph": "uniFF36",
+        "codepoints": [
+          "U+FF36 Ｖ"
+        ]
+      },
+      {
+        "glyph": "uniFF37",
+        "codepoints": [
+          "U+FF37 Ｗ"
+        ]
+      },
+      {
+        "glyph": "uniFF38",
+        "codepoints": [
+          "U+FF38 Ｘ"
+        ]
+      },
+      {
+        "glyph": "uniFF39",
+        "codepoints": [
+          "U+FF39 Ｙ"
+        ]
+      },
+      {
+        "glyph": "uniFF3A",
+        "codepoints": [
+          "U+FF3A Ｚ"
+        ]
+      },
+      {
+        "glyph": "uniFF41",
+        "codepoints": [
+          "U+FF41 ａ"
+        ]
+      },
+      {
+        "glyph": "uniFF42",
+        "codepoints": [
+          "U+FF42 ｂ"
+        ]
+      },
+      {
+        "glyph": "uniFF43",
+        "codepoints": [
+          "U+FF43 ｃ"
+        ]
+      },
+      {
+        "glyph": "uniFF44",
+        "codepoints": [
+          "U+FF44 ｄ"
+        ]
+      },
+      {
+        "glyph": "uniFF45",
+        "codepoints": [
+          "U+FF45 ｅ"
+        ]
+      },
+      {
+        "glyph": "uniFF46",
+        "codepoints": [
+          "U+FF46 ｆ"
+        ]
+      },
+      {
+        "glyph": "uniFF47",
+        "codepoints": [
+          "U+FF47 ｇ"
+        ]
+      },
+      {
+        "glyph": "uniFF48",
+        "codepoints": [
+          "U+FF48 ｈ"
+        ]
+      },
+      {
+        "glyph": "uniFF49",
+        "codepoints": [
+          "U+FF49 ｉ"
+        ]
+      },
+      {
+        "glyph": "uniFF4A",
+        "codepoints": [
+          "U+FF4A ｊ"
+        ]
+      },
+      {
+        "glyph": "uniFF4B",
+        "codepoints": [
+          "U+FF4B ｋ"
+        ]
+      },
+      {
+        "glyph": "uniFF4C",
+        "codepoints": [
+          "U+FF4C ｌ"
+        ]
+      },
+      {
+        "glyph": "uniFF4D",
+        "codepoints": [
+          "U+FF4D ｍ"
+        ]
+      },
+      {
+        "glyph": "uniFF4E",
+        "codepoints": [
+          "U+FF4E ｎ"
+        ]
+      },
+      {
+        "glyph": "uniFF4F",
+        "codepoints": [
+          "U+FF4F ｏ"
+        ]
+      },
+      {
+        "glyph": "uniFF50",
+        "codepoints": [
+          "U+FF50 ｐ"
+        ]
+      },
+      {
+        "glyph": "uniFF51",
+        "codepoints": [
+          "U+FF51 ｑ"
+        ]
+      },
+      {
+        "glyph": "uniFF52",
+        "codepoints": [
+          "U+FF52 ｒ"
+        ]
+      },
+      {
+        "glyph": "uniFF53",
+        "codepoints": [
+          "U+FF53 ｓ"
+        ]
+      },
+      {
+        "glyph": "uniFF54",
+        "codepoints": [
+          "U+FF54 ｔ"
+        ]
+      },
+      {
+        "glyph": "uniFF55",
+        "codepoints": [
+          "U+FF55 ｕ"
+        ]
+      },
+      {
+        "glyph": "uniFF56",
+        "codepoints": [
+          "U+FF56 ｖ"
+        ]
+      },
+      {
+        "glyph": "uniFF57",
+        "codepoints": [
+          "U+FF57 ｗ"
+        ]
+      },
+      {
+        "glyph": "uniFF58",
+        "codepoints": [
+          "U+FF58 ｘ"
+        ]
+      },
+      {
+        "glyph": "uniFF59",
+        "codepoints": [
+          "U+FF59 ｙ"
+        ]
+      },
+      {
+        "glyph": "uniFF5A",
+        "codepoints": [
+          "U+FF5A ｚ"
+        ]
+      }
+    ],
+    "changed_count": 104,
+    "changed_codepoints": [
+      "U+0041 A",
+      "U+0042 B",
+      "U+0043 C",
+      "U+0044 D",
+      "U+0045 E",
+      "U+0046 F",
+      "U+0047 G",
+      "U+0048 H",
+      "U+0049 I",
+      "U+004A J",
+      "U+004B K",
+      "U+004C L",
+      "U+004D M",
+      "U+004E N",
+      "U+004F O",
+      "U+0050 P",
+      "U+0051 Q",
+      "U+0052 R",
+      "U+0053 S",
+      "U+0054 T",
+      "U+0055 U",
+      "U+0056 V",
+      "U+0057 W",
+      "U+0058 X",
+      "U+0059 Y",
+      "U+005A Z",
+      "U+0061 a",
+      "U+0062 b",
+      "U+0063 c",
+      "U+0064 d",
+      "U+0065 e",
+      "U+0066 f",
+      "U+0067 g",
+      "U+0068 h",
+      "U+0069 i",
+      "U+006A j",
+      "U+006B k",
+      "U+006C l",
+      "U+006D m",
+      "U+006E n",
+      "U+006F o",
+      "U+0070 p",
+      "U+0071 q",
+      "U+0072 r",
+      "U+0073 s",
+      "U+0074 t",
+      "U+0075 u",
+      "U+0076 v",
+      "U+0077 w",
+      "U+0078 x",
+      "U+0079 y",
+      "U+007A z",
+      "U+FF21 Ａ",
+      "U+FF22 Ｂ",
+      "U+FF23 Ｃ",
+      "U+FF24 Ｄ",
+      "U+FF25 Ｅ",
+      "U+FF26 Ｆ",
+      "U+FF27 Ｇ",
+      "U+FF28 Ｈ",
+      "U+FF29 Ｉ",
+      "U+FF2A Ｊ",
+      "U+FF2B Ｋ",
+      "U+FF2C Ｌ",
+      "U+FF2D Ｍ",
+      "U+FF2E Ｎ",
+      "U+FF2F Ｏ",
+      "U+FF30 Ｐ",
+      "U+FF31 Ｑ",
+      "U+FF32 Ｒ",
+      "U+FF33 Ｓ",
+      "U+FF34 Ｔ",
+      "U+FF35 Ｕ",
+      "U+FF36 Ｖ",
+      "U+FF37 Ｗ",
+      "U+FF38 Ｘ",
+      "U+FF39 Ｙ",
+      "U+FF3A Ｚ",
+      "U+FF41 ａ",
+      "U+FF42 ｂ",
+      "U+FF43 ｃ",
+      "U+FF44 ｄ",
+      "U+FF45 ｅ",
+      "U+FF46 ｆ",
+      "U+FF47 ｇ",
+      "U+FF48 ｈ",
+      "U+FF49 ｉ",
+      "U+FF4A ｊ",
+      "U+FF4B ｋ",
+      "U+FF4C ｌ",
+      "U+FF4D ｍ",
+      "U+FF4E ｎ",
+      "U+FF4F ｏ",
+      "U+FF50 ｐ",
+      "U+FF51 ｑ",
+      "U+FF52 ｒ",
+      "U+FF53 ｓ",
+      "U+FF54 ｔ",
+      "U+FF55 ｕ",
+      "U+FF56 ｖ",
+      "U+FF57 ｗ",
+      "U+FF58 ｘ",
+      "U+FF59 ｙ",
+      "U+FF5A ｚ"
+    ],
+    "changed_codepoint_count": 104,
+    "changed_codepoints_exactly_allowed": true,
+    "unexpected_changes": []
+  },
+  "metrics_comparison": {
+    "glyphs_compared": 7547,
+    "changed_glyphs": [
+      {
+        "glyph": "uni0041",
+        "codepoints": [
+          "U+0041 A"
+        ],
+        "baseline": [
+          772,
+          44
+        ],
+        "current": [
+          981,
+          44
+        ]
+      },
+      {
+        "glyph": "uni0042",
+        "codepoints": [
+          "U+0042 B"
+        ],
+        "baseline": [
+          735,
+          45
+        ],
+        "current": [
+          928,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0043",
+        "codepoints": [
+          "U+0043 C"
+        ],
+        "baseline": [
+          695,
+          42
+        ],
+        "current": [
+          901,
+          42
+        ]
+      },
+      {
+        "glyph": "uni0044",
+        "codepoints": [
+          "U+0044 D"
+        ],
+        "baseline": [
+          751,
+          45
+        ],
+        "current": [
+          894,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0047",
+        "codepoints": [
+          "U+0047 G"
+        ],
+        "baseline": [
+          821,
+          45
+        ],
+        "current": [
+          974,
+          45
+        ]
+      },
+      {
+        "glyph": "uni004A",
+        "codepoints": [
+          "U+004A J"
+        ],
+        "baseline": [
+          640,
+          45
+        ],
+        "current": [
+          812,
+          45
+        ]
+      },
+      {
+        "glyph": "uni004C",
+        "codepoints": [
+          "U+004C L"
+        ],
+        "baseline": [
+          744,
+          45
+        ],
+        "current": [
+          952,
+          45
+        ]
+      },
+      {
+        "glyph": "uni004F",
+        "codepoints": [
+          "U+004F O"
+        ],
+        "baseline": [
+          817,
+          45
+        ],
+        "current": [
+          948,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0051",
+        "codepoints": [
+          "U+0051 Q"
+        ],
+        "baseline": [
+          801,
+          45
+        ],
+        "current": [
+          992,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0052",
+        "codepoints": [
+          "U+0052 R"
+        ],
+        "baseline": [
+          741,
+          45
+        ],
+        "current": [
+          950,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0053",
+        "codepoints": [
+          "U+0053 S"
+        ],
+        "baseline": [
+          699,
+          45
+        ],
+        "current": [
+          886,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0054",
+        "codepoints": [
+          "U+0054 T"
+        ],
+        "baseline": [
+          733,
+          42
+        ],
+        "current": [
+          734,
+          42
+        ]
+      },
+      {
+        "glyph": "uni0055",
+        "codepoints": [
+          "U+0055 U"
+        ],
+        "baseline": [
+          714,
+          45
+        ],
+        "current": [
+          864,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0061",
+        "codepoints": [
+          "U+0061 a"
+        ],
+        "baseline": [
+          570,
+          41
+        ],
+        "current": [
+          574,
+          41
+        ]
+      },
+      {
+        "glyph": "uni0062",
+        "codepoints": [
+          "U+0062 b"
+        ],
+        "baseline": [
+          628,
+          45
+        ],
+        "current": [
+          762,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0063",
+        "codepoints": [
+          "U+0063 c"
+        ],
+        "baseline": [
+          675,
+          45
+        ],
+        "current": [
+          806,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0064",
+        "codepoints": [
+          "U+0064 d"
+        ],
+        "baseline": [
+          619,
+          45
+        ],
+        "current": [
+          774,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0065",
+        "codepoints": [
+          "U+0065 e"
+        ],
+        "baseline": [
+          698,
+          45
+        ],
+        "current": [
+          858,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0067",
+        "codepoints": [
+          "U+0067 g"
+        ],
+        "baseline": [
+          635,
+          45
+        ],
+        "current": [
+          800,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0068",
+        "codepoints": [
+          "U+0068 h"
+        ],
+        "baseline": [
+          597,
+          45
+        ],
+        "current": [
+          764,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0069",
+        "codepoints": [
+          "U+0069 i"
+        ],
+        "baseline": [
+          238,
+          45
+        ],
+        "current": [
+          398,
+          45
+        ]
+      },
+      {
+        "glyph": "uni006A",
+        "codepoints": [
+          "U+006A j"
+        ],
+        "baseline": [
+          446,
+          45
+        ],
+        "current": [
+          614,
+          45
+        ]
+      },
+      {
+        "glyph": "uni006B",
+        "codepoints": [
+          "U+006B k"
+        ],
+        "baseline": [
+          601,
+          45
+        ],
+        "current": [
+          762,
+          45
+        ]
+      },
+      {
+        "glyph": "uni006C",
+        "codepoints": [
+          "U+006C l"
+        ],
+        "baseline": [
+          425,
+          45
+        ],
+        "current": [
+          590,
+          45
+        ]
+      },
+      {
+        "glyph": "uni006D",
+        "codepoints": [
+          "U+006D m"
+        ],
+        "baseline": [
+          914,
+          45
+        ],
+        "current": [
+          1080,
+          45
+        ]
+      },
+      {
+        "glyph": "uni006E",
+        "codepoints": [
+          "U+006E n"
+        ],
+        "baseline": [
+          628,
+          41
+        ],
+        "current": [
+          794,
+          41
+        ]
+      },
+      {
+        "glyph": "uni006F",
+        "codepoints": [
+          "U+006F o"
+        ],
+        "baseline": [
+          722,
+          45
+        ],
+        "current": [
+          828,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0070",
+        "codepoints": [
+          "U+0070 p"
+        ],
+        "baseline": [
+          666,
+          42
+        ],
+        "current": [
+          743,
+          42
+        ]
+      },
+      {
+        "glyph": "uni0071",
+        "codepoints": [
+          "U+0071 q"
+        ],
+        "baseline": [
+          728,
+          45
+        ],
+        "current": [
+          872,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0073",
+        "codepoints": [
+          "U+0073 s"
+        ],
+        "baseline": [
+          672,
+          45
+        ],
+        "current": [
+          812,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0074",
+        "codepoints": [
+          "U+0074 t"
+        ],
+        "baseline": [
+          589,
+          45
+        ],
+        "current": [
+          746,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0075",
+        "codepoints": [
+          "U+0075 u"
+        ],
+        "baseline": [
+          712,
+          45
+        ],
+        "current": [
+          880,
+          45
+        ]
+      },
+      {
+        "glyph": "uni0078",
+        "codepoints": [
+          "U+0078 x"
+        ],
+        "baseline": [
+          737,
+          45
+        ],
+        "current": [
+          906,
+          45
+        ]
+      },
+      {
+        "glyph": "uni007A",
+        "codepoints": [
+          "U+007A z"
+        ],
+        "baseline": [
+          704,
+          45
+        ],
+        "current": [
+          874,
+          45
+        ]
+      },
+      {
+        "glyph": "uniFF21",
+        "codepoints": [
+          "U+FF21 Ａ"
+        ],
+        "baseline": [
+          1000,
+          158
+        ],
+        "current": [
+          1000,
+          91
+        ]
+      },
+      {
+        "glyph": "uniFF22",
+        "codepoints": [
+          "U+FF22 Ｂ"
+        ],
+        "baseline": [
+          1000,
+          178
+        ],
+        "current": [
+          1000,
+          94
+        ]
+      },
+      {
+        "glyph": "uniFF23",
+        "codepoints": [
+          "U+FF23 Ｃ"
+        ],
+        "baseline": [
+          1000,
+          194
+        ],
+        "current": [
+          1000,
+          92
+        ]
+      },
+      {
+        "glyph": "uniFF24",
+        "codepoints": [
+          "U+FF24 Ｄ"
+        ],
+        "baseline": [
+          1000,
+          169
+        ],
+        "current": [
+          1000,
+          98
+        ]
+      },
+      {
+        "glyph": "uniFF25",
+        "codepoints": [
+          "U+FF25 Ｅ"
+        ],
+        "baseline": [
+          1000,
+          183
+        ],
+        "current": [
+          1000,
+          182
+        ]
+      },
+      {
+        "glyph": "uniFF27",
+        "codepoints": [
+          "U+FF27 Ｇ"
+        ],
+        "baseline": [
+          1000,
+          135
+        ],
+        "current": [
+          1000,
+          92
+        ]
+      },
+      {
+        "glyph": "uniFF29",
+        "codepoints": [
+          "U+FF29 Ｉ"
+        ],
+        "baseline": [
+          1000,
+          401
+        ],
+        "current": [
+          1000,
+          400
+        ]
+      },
+      {
+        "glyph": "uniFF2A",
+        "codepoints": [
+          "U+FF2A Ｊ"
+        ],
+        "baseline": [
+          1000,
+          225
+        ],
+        "current": [
+          1000,
+          139
+        ]
+      },
+      {
+        "glyph": "uniFF2C",
+        "codepoints": [
+          "U+FF2C Ｌ"
+        ],
+        "baseline": [
+          1000,
+          173
+        ],
+        "current": [
+          1000,
+          93
+        ]
+      },
+      {
+        "glyph": "uniFF2F",
+        "codepoints": [
+          "U+FF2F Ｏ"
+        ],
+        "baseline": [
+          1000,
+          136
+        ],
+        "current": [
+          1000,
+          93
+        ]
+      },
+      {
+        "glyph": "uniFF31",
+        "codepoints": [
+          "U+FF31 Ｑ"
+        ],
+        "baseline": [
+          1000,
+          145
+        ],
+        "current": [
+          1000,
+          91
+        ]
+      },
+      {
+        "glyph": "uniFF32",
+        "codepoints": [
+          "U+FF32 Ｒ"
+        ],
+        "baseline": [
+          1000,
+          174
+        ],
+        "current": [
+          1000,
+          93
+        ]
+      },
+      {
+        "glyph": "uniFF33",
+        "codepoints": [
+          "U+FF33 Ｓ"
+        ],
+        "baseline": [
+          1000,
+          196
+        ],
+        "current": [
+          1000,
+          102
+        ]
+      },
+      {
+        "glyph": "uniFF34",
+        "codepoints": [
+          "U+FF34 Ｔ"
+        ],
+        "baseline": [
+          1000,
+          176
+        ],
+        "current": [
+          1000,
+          175
+        ]
+      },
+      {
+        "glyph": "uniFF35",
+        "codepoints": [
+          "U+FF35 Ｕ"
+        ],
+        "baseline": [
+          1000,
+          188
+        ],
+        "current": [
+          1000,
+          113
+        ]
+      },
+      {
+        "glyph": "uniFF37",
+        "codepoints": [
+          "U+FF37 Ｗ"
+        ],
+        "baseline": [
+          1000,
+          104
+        ],
+        "current": [
+          1000,
+          105
+        ]
+      },
+      {
+        "glyph": "uniFF41",
+        "codepoints": [
+          "U+FF41 ａ"
+        ],
+        "baseline": [
+          1000,
+          256
+        ],
+        "current": [
+          1000,
+          254
+        ]
+      },
+      {
+        "glyph": "uniFF42",
+        "codepoints": [
+          "U+FF42 ｂ"
+        ],
+        "baseline": [
+          1000,
+          231
+        ],
+        "current": [
+          1000,
+          164
+        ]
+      },
+      {
+        "glyph": "uniFF43",
+        "codepoints": [
+          "U+FF43 ｃ"
+        ],
+        "baseline": [
+          1000,
+          208
+        ],
+        "current": [
+          1000,
+          142
+        ]
+      },
+      {
+        "glyph": "uniFF44",
+        "codepoints": [
+          "U+FF44 ｄ"
+        ],
+        "baseline": [
+          1000,
+          236
+        ],
+        "current": [
+          1000,
+          158
+        ]
+      },
+      {
+        "glyph": "uniFF45",
+        "codepoints": [
+          "U+FF45 ｅ"
+        ],
+        "baseline": [
+          1000,
+          196
+        ],
+        "current": [
+          1000,
+          116
+        ]
+      },
+      {
+        "glyph": "uniFF47",
+        "codepoints": [
+          "U+FF47 ｇ"
+        ],
+        "baseline": [
+          1000,
+          228
+        ],
+        "current": [
+          1000,
+          145
+        ]
+      },
+      {
+        "glyph": "uniFF48",
+        "codepoints": [
+          "U+FF48 ｈ"
+        ],
+        "baseline": [
+          1000,
+          247
+        ],
+        "current": [
+          1000,
+          163
+        ]
+      },
+      {
+        "glyph": "uniFF49",
+        "codepoints": [
+          "U+FF49 ｉ"
+        ],
+        "baseline": [
+          1000,
+          426
+        ],
+        "current": [
+          1000,
+          346
+        ]
+      },
+      {
+        "glyph": "uniFF4A",
+        "codepoints": [
+          "U+FF4A ｊ"
+        ],
+        "baseline": [
+          1000,
+          322
+        ],
+        "current": [
+          1000,
+          238
+        ]
+      },
+      {
+        "glyph": "uniFF4B",
+        "codepoints": [
+          "U+FF4B ｋ"
+        ],
+        "baseline": [
+          1000,
+          244
+        ],
+        "current": [
+          1000,
+          164
+        ]
+      },
+      {
+        "glyph": "uniFF4C",
+        "codepoints": [
+          "U+FF4C ｌ"
+        ],
+        "baseline": [
+          1000,
+          333
+        ],
+        "current": [
+          1000,
+          250
+        ]
+      },
+      {
+        "glyph": "uniFF4D",
+        "codepoints": [
+          "U+FF4D ｍ"
+        ],
+        "baseline": [
+          1000,
+          94
+        ],
+        "current": [
+          1000,
+          88
+        ]
+      },
+      {
+        "glyph": "uniFF4E",
+        "codepoints": [
+          "U+FF4E ｎ"
+        ],
+        "baseline": [
+          1000,
+          227
+        ],
+        "current": [
+          1000,
+          144
+        ]
+      },
+      {
+        "glyph": "uniFF4F",
+        "codepoints": [
+          "U+FF4F ｏ"
+        ],
+        "baseline": [
+          1000,
+          184
+        ],
+        "current": [
+          1000,
+          131
+        ]
+      },
+      {
+        "glyph": "uniFF50",
+        "codepoints": [
+          "U+FF50 ｐ"
+        ],
+        "baseline": [
+          1000,
+          209
+        ],
+        "current": [
+          1000,
+          170
+        ]
+      },
+      {
+        "glyph": "uniFF51",
+        "codepoints": [
+          "U+FF51 ｑ"
+        ],
+        "baseline": [
+          1000,
+          181
+        ],
+        "current": [
+          1000,
+          109
+        ]
+      },
+      {
+        "glyph": "uniFF52",
+        "codepoints": [
+          "U+FF52 ｒ"
+        ],
+        "baseline": [
+          1000,
+          268
+        ],
+        "current": [
+          1000,
+          269
+        ]
+      },
+      {
+        "glyph": "uniFF53",
+        "codepoints": [
+          "U+FF53 ｓ"
+        ],
+        "baseline": [
+          1000,
+          209
+        ],
+        "current": [
+          1000,
+          139
+        ]
+      },
+      {
+        "glyph": "uniFF54",
+        "codepoints": [
+          "U+FF54 ｔ"
+        ],
+        "baseline": [
+          1000,
+          250
+        ],
+        "current": [
+          1000,
+          172
+        ]
+      },
+      {
+        "glyph": "uniFF55",
+        "codepoints": [
+          "U+FF55 ｕ"
+        ],
+        "baseline": [
+          1000,
+          189
+        ],
+        "current": [
+          1000,
+          105
+        ]
+      },
+      {
+        "glyph": "uniFF58",
+        "codepoints": [
+          "U+FF58 ｘ"
+        ],
+        "baseline": [
+          1000,
+          177
+        ],
+        "current": [
+          1000,
+          95
+        ]
+      },
+      {
+        "glyph": "uniFF5A",
+        "codepoints": [
+          "U+FF5A ｚ"
+        ],
+        "baseline": [
+          1000,
+          193
+        ],
+        "current": [
+          1000,
+          108
+        ]
+      }
+    ],
+    "changed_count": 72,
+    "changed_codepoints": [
+      "U+0041 A",
+      "U+0042 B",
+      "U+0043 C",
+      "U+0044 D",
+      "U+0047 G",
+      "U+004A J",
+      "U+004C L",
+      "U+004F O",
+      "U+0051 Q",
+      "U+0052 R",
+      "U+0053 S",
+      "U+0054 T",
+      "U+0055 U",
+      "U+0061 a",
+      "U+0062 b",
+      "U+0063 c",
+      "U+0064 d",
+      "U+0065 e",
+      "U+0067 g",
+      "U+0068 h",
+      "U+0069 i",
+      "U+006A j",
+      "U+006B k",
+      "U+006C l",
+      "U+006D m",
+      "U+006E n",
+      "U+006F o",
+      "U+0070 p",
+      "U+0071 q",
+      "U+0073 s",
+      "U+0074 t",
+      "U+0075 u",
+      "U+0078 x",
+      "U+007A z",
+      "U+FF21 Ａ",
+      "U+FF22 Ｂ",
+      "U+FF23 Ｃ",
+      "U+FF24 Ｄ",
+      "U+FF25 Ｅ",
+      "U+FF27 Ｇ",
+      "U+FF29 Ｉ",
+      "U+FF2A Ｊ",
+      "U+FF2C Ｌ",
+      "U+FF2F Ｏ",
+      "U+FF31 Ｑ",
+      "U+FF32 Ｒ",
+      "U+FF33 Ｓ",
+      "U+FF34 Ｔ",
+      "U+FF35 Ｕ",
+      "U+FF37 Ｗ",
+      "U+FF41 ａ",
+      "U+FF42 ｂ",
+      "U+FF43 ｃ",
+      "U+FF44 ｄ",
+      "U+FF45 ｅ",
+      "U+FF47 ｇ",
+      "U+FF48 ｈ",
+      "U+FF49 ｉ",
+      "U+FF4A ｊ",
+      "U+FF4B ｋ",
+      "U+FF4C ｌ",
+      "U+FF4D ｍ",
+      "U+FF4E ｎ",
+      "U+FF4F ｏ",
+      "U+FF50 ｐ",
+      "U+FF51 ｑ",
+      "U+FF52 ｒ",
+      "U+FF53 ｓ",
+      "U+FF54 ｔ",
+      "U+FF55 ｕ",
+      "U+FF58 ｘ",
+      "U+FF5A ｚ"
+    ],
+    "changed_codepoint_count": 72,
+    "changed_codepoints_subset_allowed": true,
+    "unexpected_changes": []
+  },
+  "pass": true,
+  "baseline": "work/latin-cats/baseline-0103.ttf",
+  "current": "outputs/NikukyuMaru-Regular.ttf",
+  "compile_reproduction": {
+    "ufo": "work/latin-cats/compile-repro-0104/sources/NikukyuMaru-Regular.ufo",
+    "output_directory": "work/latin-cats/compile-repro-0104/outputs",
+    "current_before": {
+      "ttf": {
+        "path": "outputs/NikukyuMaru-Regular.ttf",
+        "bytes": 4773300,
+        "sha256": "deb145731e95d9d04abd6a0bad16f827ec9211450780785b65a6e813d1de3122"
+      },
+      "woff2": {
+        "path": "outputs/NikukyuMaru-Regular.woff2",
+        "bytes": 2073272,
+        "sha256": "25c47e22cb90f85d593439c27ca3cd2fd6159a8a13912862385d3335a000c628"
+      }
+    },
+    "current_after": {
+      "ttf": {
+        "path": "outputs/NikukyuMaru-Regular.ttf",
+        "bytes": 4773300,
+        "sha256": "deb145731e95d9d04abd6a0bad16f827ec9211450780785b65a6e813d1de3122"
+      },
+      "woff2": {
+        "path": "outputs/NikukyuMaru-Regular.woff2",
+        "bytes": 2073272,
+        "sha256": "25c47e22cb90f85d593439c27ca3cd2fd6159a8a13912862385d3335a000c628"
+      }
+    },
+    "current_unchanged": true,
+    "compiled_ttf": {
+      "path": "work/latin-cats/compile-repro-0104/outputs/NikukyuMaru-Regular.ttf",
+      "bytes": 4773300,
+      "sha256": "deb145731e95d9d04abd6a0bad16f827ec9211450780785b65a6e813d1de3122"
+    },
+    "compiled_woff2": {
+      "path": "work/latin-cats/compile-repro-0104/outputs/NikukyuMaru-Regular.woff2",
+      "bytes": 2073272,
+      "sha256": "25c47e22cb90f85d593439c27ca3cd2fd6159a8a13912862385d3335a000c628"
+    },
+    "ttf_bytes_equal": true,
+    "woff2_bytes_equal": true
+  }
+}

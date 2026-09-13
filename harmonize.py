@@ -3,7 +3,7 @@ import unicodedata
 import pathops
 from fontTools.pens.transformPen import TransformPen
 
-def harmonize(font, modifications):
+def harmonize(font, modifications, cat_latin=False):
     cmap={u:g.name for g in font for u in g.unicodes}
     def replace(cp,base,transform,width,kind):
         source=font[cmap[base]];target=font[cmap[cp]]
@@ -26,6 +26,9 @@ def harmonize(font, modifications):
         p=p.transform(scale,0,0,scale,45-x0*scale,-max(0,y0)*scale)
         g.clearContours();p.draw(g.getPen());g.width=(x1-x0)*scale+90
         modifications[chr(cp)].append('latin-height-aligned')
+    if cat_latin:
+        from latin_cats import apply_latin_cats
+        apply_latin_cats(font,modifications)
     # Width variants share outlines, not merely a similar font family.
     for cp in range(0xff01,0xff5f):
         base=cp-0xfee0

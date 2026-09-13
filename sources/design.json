@@ -1,6 +1,6 @@
 {
   "family": "Nikukyu Maru",
-  "version": "0.103",
+  "version": "0.104",
   "rounding_radius": 72,
   "weight_expansion": 20,
   "kanji_rounding_radius": 28,
@@ -63,5 +63,6 @@
     "0123456789"
   ],
   "kanji_base": "Zen Maru Gothic Black",
-  "use_kanji_concept": true
+  "use_kanji_concept": true,
+  "cat_latin": true
 }

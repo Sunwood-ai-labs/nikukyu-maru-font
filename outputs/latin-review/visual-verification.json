@@ -1,0 +1,73 @@
+{
+  "version": "0.104",
+  "ttf_sha256": "deb145731e95d9d04abd6a0bad16f827ec9211450780785b65a6e813d1de3122",
+  "woff2_sha256": "25c47e22cb90f85d593439c27ca3cd2fd6159a8a13912862385d3335a000c628",
+  "reviewer": "root",
+  "method": "Chrome actual WOFF2 text, font readiness checked, screenshots individually viewed",
+  "ascii_letters": 52,
+  "fullwidth_letters": 52,
+  "paired_ears": 52,
+  "curled_tails": 37,
+  "pages": [
+    {
+      "file": "page-1.png",
+      "sha256": "d10dba32897f3f64ecf7406a11abc96079d454e9962e8fa9d6c0d6a133b10aa3",
+      "characters": "ABCDEFGHIJKLM",
+      "status": "visually reviewed"
+    },
+    {
+      "file": "page-2.png",
+      "sha256": "60ce2a4b64f0d9d0c722f20ffb90ce9db2e4dd1d7f0c5ba6dabfef08f3d4db57",
+      "characters": "NOPQRSTUVWXYZ",
+      "status": "visually reviewed"
+    },
+    {
+      "file": "page-3.png",
+      "sha256": "111210bdf46a1a146db00bef96422bcc9b088edeac749f39c385dc9c118f475f",
+      "characters": "abcdefghijklm",
+      "status": "visually reviewed"
+    },
+    {
+      "file": "page-4.png",
+      "sha256": "7fae0605724cb3ecf5b46e788e179219307426d0731e87500fb3b0a44ae41179",
+      "characters": "nopqrstuvwxyz",
+      "status": "visually reviewed"
+    },
+    {
+      "file": "page-5.png",
+      "sha256": "eba4dffe13152cfdd3223896526af669fdf026a83134c9c4d6714bd0b53a740a",
+      "characters": "ＡＢＣＤＥＦＧＨＩＪＫＬＭ",
+      "status": "visually reviewed"
+    },
+    {
+      "file": "page-6.png",
+      "sha256": "354932ddfbc4ee85496dab7ac53b002017cecabe730880e34b54ea02b1c72ac3",
+      "characters": "ＮＯＰＱＲＳＴＵＶＷＸＹＺ",
+      "status": "visually reviewed"
+    },
+    {
+      "file": "page-7.png",
+      "sha256": "99f9a0b26cf152793e88dc3ae1ac474ef33f2358700bf545e8ad858ea682464d",
+      "characters": "ａｂｃｄｅｆｇｈｉｊｋｌｍ",
+      "status": "visually reviewed"
+    },
+    {
+      "file": "page-8.png",
+      "sha256": "712c2e895df4e096bbd9762802ce06e85249b5fc9da7fcae6802f16ce19e5ec2",
+      "characters": "ｎｏｐｑｒｓｔｕｖｗｘｙｚ",
+      "status": "visually reviewed"
+    }
+  ],
+  "findings": [
+    "J/L ears moved to upper stem; i/j ears attached to dot; W/w ears moved to outer peaks; t ears moved to top stem.",
+    "Final 104 glyphs show cat motifs without cell clipping. Upper/lowercase words and ambiguous-letter samples also viewed.",
+    "Reference comparison preserves rounded skeleton and existing a paw; ears and curled tails deliberately expand the original concept across the alphabet."
+  ],
+  "scope": "0.104 changed alphabet only. Historical 0.103 full-font screenshots are not recaptured for this version.",
+  "comparison": {
+    "file": "comparison.png",
+    "sha256": "8b3b260a0c3dd088c133e5f8054f98b15e604699ffcc3967b2b8ce7abc20b01f",
+    "reference_sha256": "93471ae7cd2a3f08daf7d56bdff1208ce4abce54ada22aeb4193ff3ef526b64e",
+    "status": "visually reviewed"
+  }
+}

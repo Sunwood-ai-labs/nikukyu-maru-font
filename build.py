@@ -232,7 +232,7 @@ def generate_sources():
             glyph=font[name];glyph.clearContours();glyph.width=data['width']
             p.draw(glyph.getPen());mods[ch]=['concept-reference-vector-outline' if 'reference' in data else 'approved-reference-vector-outline']
     from harmonize import harmonize
-    harmonize(font,mods)
+    harmonize(font,mods,cat_latin=CONFIG.get('cat_latin',False))
     font.glyphOrder=order
     finish_japanese_sources(font,mods)
     font.save(UFO,overwrite=True)
