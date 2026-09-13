@@ -121,101 +121,124 @@
   ],
   "B": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "C": [
     "approved-reference-vector-outline"
   ],
   "D": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "E": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "F": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "G": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "H": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "I": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "J": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "K": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "L": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "M": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "N": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "O": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "P": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "Q": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "R": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "S": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "T": [
     "approved-reference-vector-outline"
   ],
   "U": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "V": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "W": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "X": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "Y": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "Z": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "[": [
     "rounded",
@@ -246,101 +269,124 @@
   ],
   "b": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "c": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "d": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "e": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "f": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "g": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "h": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "i": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "j": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "k": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "l": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "m": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "n": [
     "approved-reference-vector-outline"
   ],
   "o": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "p": [
     "approved-reference-vector-outline"
   ],
   "q": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "r": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "s": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "t": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "u": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "v": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "w": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "x": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "y": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "z": [
     "rounded",
-    "weight"
+    "weight",
+    "latin-height-aligned"
   ],
   "{": [
     "rounded",
@@ -711,16 +757,16 @@
     "や"
   ],
   "や": [
-    "rounded",
-    "weight"
+    "large-kana-from-reference",
+    "ゃ"
   ],
   "ゅ": [
     "small-kana-derived",
     "ゆ"
   ],
   "ゆ": [
-    "rounded",
-    "weight"
+    "large-kana-from-reference",
+    "ゅ"
   ],
   "ょ": [
     "small-kana-derived",

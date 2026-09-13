@@ -3,6 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from fontTools.ttLib import TTFont
 import json, hashlib, unicodedata
+from artifact_io import save_png
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'outputs'
 FONT=OUT/'NikukyuMaru-Regular.ttf'
@@ -41,7 +42,7 @@ def make_proofs():
     txt(d,(127,1570),'0123456789',113)
     d.text((95,1775),'PLUSH LETTERS. LITTLE PAWS.',font=ui(23),fill=MUTED)
     d.text((1047,1775),f'{len(cmap)} CHARACTERS / TTF',font=ui(23),fill=MUTED)
-    im.save(OUT/'specimen.png')
+    save_png(im,OUT/'specimen.png')
     groups=[('HIRAGANA',[u for u in cmap if 0x3041<=u<=0x3096]),
         ('KATAKANA',[u for u in cmap if 0x30a1<=u<=0x30fa]),
         ('LATIN + NUMBERS',[u for u in cmap if 33<=u<=126]),
@@ -56,7 +57,7 @@ def make_proofs():
             d.rounded_rectangle((x,y,x+132,y+138),radius=12,fill='white')
             d.text((x+11,y+7),f'{u:04X}',font=ui(15),fill=MUTED)
             d.text((x+66,y+80),chr(u),font=face(81),fill=INK,anchor='mm')
-        im.save(OUT/f'charset-{idx:02d}.png')
+        save_png(im,OUT/f'charset-{idx:02d}.png')
     im=Image.new('RGB',(2100,1340),CREAM);d=ImageDraw.Draw(im)
     d.text((55,30),'SIZE + SPACING PROOF / REAL TTF',font=ui(28),fill=INK)
     text='にゃんこ ねこのいる暮らし。ぱぴぷぺぽ がぎぐげご'
@@ -66,7 +67,7 @@ def make_proofs():
         txt(d,(170,y),text,size);y+=size+64
     for sample in ['ぁあぃいぅうぇえぉおゃやゅゆょよっつ','ぱばだがざ パバダガザ ヴヷヸヹヺ','AVATAR Toffee WWW iii 0O 1Il & @ %','猫 肉 球 暮 丸 日 月 春 夏 秋 冬']:
         txt(d,(55,y),sample,52);y+=105
-    im.save(OUT/'size-proof.png')
+    save_png(im,OUT/'size-proof.png')
     # Quantitative checks include Windows clipping bounds and every character raster.
     errors=[]; bounds=[]
     for u,name in cmap.items():

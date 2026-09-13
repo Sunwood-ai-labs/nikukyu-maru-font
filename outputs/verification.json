@@ -6,12 +6,12 @@
   "ss01_alternates_bounds_checked": true,
   "all_supported_nonspace_characters_rasterized_at_px": 64,
   "vertical_extrema": [
-    -317,
-    1131
+    -307,
+    1119
   ],
   "sha256": {
-    "NikukyuMaru-Regular.ttf": "0d2e0574a58c5eda5b805d5527aaf8ab0e4edcbcb810259a83cfc487351f25b5",
-    "NikukyuMaru-Regular.woff2": "75e5f06013da8b80dff0a3f7ec78b75131a71684bc4f60f0949b0dc189f59516"
+    "NikukyuMaru-Regular.ttf": "1537f69e652c7eecc2fffa72b1f268191dd6fa48c2e3e0c3883ce006d3ab8b68",
+    "NikukyuMaru-Regular.woff2": "72060d7689d611bc519c7689d903758c0b27768e40caac28da0657a9c712dea2"
   },
   "limits": [
     "Horizontal display font; vertical layout not implemented.",

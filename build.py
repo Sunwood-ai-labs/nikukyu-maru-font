@@ -11,6 +11,7 @@ from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.recordingPen import DecomposingRecordingPen
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 from ufoLib2 import Font
+from artifact_io import save_font
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'outputs'
@@ -29,17 +30,29 @@ def stroke(p, width):
 
 def soften(p, radius, weight):
     if not len(p): return p
-    # Morphological opening rounds convex corners, then expands for plush weight.
-    inner = boolean(p, stroke(p, radius*2), pathops.PathOp.DIFFERENCE)
-    if not len(inner): inner = p
-    result = boolean(inner, stroke(inner, (radius+weight)*2))
-    for contour in pathops.simplify(p).contours:
-        if not contour.clockwise and contour.area < 45000:
-            result = boolean(result, contour)
-    # Retain original counters, especially the small ring in handakuten.
-    for contour in pathops.simplify(p).contours:
+    contours=list(pathops.simplify(p).contours)
+    result=pathops.Path()
+    holes=[]
+    # Round each silhouette separately so thin marks cannot disappear during
+    # erosion of a larger, complex glyph. Retain counters as negative shapes.
+    for contour in contours:
         if contour.clockwise:
-            result = boolean(result, contour, pathops.PathOp.DIFFERENCE)
+            holes.append(contour);continue
+        b=contour.bounds
+        r=min(radius,(b[2]-b[0])*.24,(b[3]-b[1])*.24)
+        inner=boolean(contour,stroke(contour,2*r),pathops.PathOp.DIFFERENCE)
+        while not len(inner) and r>1:
+            r*=.5
+            inner=boolean(contour,stroke(contour,2*r),pathops.PathOp.DIFFERENCE)
+        opened=boolean(inner,stroke(inner,2*r)) if len(inner) else contour
+        while r>1 and (opened.area<contour.area*.94 or sum(not c.clockwise for c in opened.contours)>1):
+            r*=.65
+            inner=boolean(contour,stroke(contour,2*r),pathops.PathOp.DIFFERENCE)
+            opened=boolean(inner,stroke(inner,2*r)) if len(inner) else contour
+        rounded=boolean(opened,stroke(opened,2*weight)) if weight else opened
+        result=boolean(result,rounded)
+    for hole in holes:
+        result=boolean(result,hole,pathops.PathOp.DIFFERENCE)
     return result
 
 def ellipse(x, y, rx, ry):
@@ -188,8 +201,8 @@ def compile_font():
     fb.font['head'].created=fb.font['head'].modified=3872188800
     fb.font.recalcTimestamp=False
     OUT.mkdir(exist_ok=True)
-    fb.save(OUT/'NikukyuMaru-Regular.ttf')
-    fb.font.flavor='woff2';fb.save(OUT/'NikukyuMaru-Regular.woff2')
+    save_font(fb,OUT/'NikukyuMaru-Regular.ttf')
+    fb.font.flavor='woff2';save_font(fb,OUT/'NikukyuMaru-Regular.woff2')
     chars=''.join(chr(u) for u in sorted(cmap))
     (OUT/'characters.txt').write_text(chars+'\n',encoding='utf-8')
     lines=['# 対応文字一覧 — にくきゅう丸 0.101','',f'{len(cmap)} Unicode文字。空白・私用領域を含みます。','',

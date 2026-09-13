@@ -9,6 +9,23 @@ def harmonize(font, modifications):
         source=font[cmap[base]];target=font[cmap[cp]]
         target.clearContours();source.draw(TransformPen(target.getPen(),transform));target.width=width
         modifications[chr(cp)]=[kind,chr(base)]
+    # Expand the approved small ya/yu masters before deriving their small forms.
+    for small,large in [('ゃ','や'),('ゅ','ゆ')]:
+        g=font[cmap[ord(small)]];scale=1/.78
+        replace(ord(large),ord(small),(scale,0,0,scale,0,0),g.width*scale,'large-kana-from-reference')
+    # Align untraced Latin cap/x heights with the approved CAT & nap masters.
+    for cp in range(65,123):
+        if cp not in cmap or not chr(cp).isalpha():continue
+        if modifications.get(chr(cp),[''])[0]=='approved-reference-vector-outline':continue
+        g=font[cmap[cp]];bounds=g.getBounds(font)
+        if not bounds:continue
+        x0,y0,x1,y1=bounds
+        target=700 if chr(cp).isupper() or chr(cp) in 'bdfhklt' else 540
+        scale=target/(y1-max(0,y0))
+        p=pathops.Path();g.draw(p.getPen())
+        p=p.transform(scale,0,0,scale,45-x0*scale,-max(0,y0)*scale)
+        g.clearContours();p.draw(g.getPen());g.width=(x1-x0)*scale+90
+        modifications[chr(cp)].append('latin-height-aligned')
     # Width variants share outlines, not merely a similar font family.
     for cp in range(0xff01,0xff5f):
         base=cp-0xfee0
