@@ -1,0 +1,54 @@
+name: Site CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'sources/design.json'
+      - 'outputs/characters.txt'
+      - 'outputs/verification.json'
+      - 'outputs/NikukyuMaru-Regular.woff2'
+      - 'outputs/latin-concept-review/comparison.png'
+      - 'references/04-latin-cat-concept.png'
+      - '.github/workflows/ci.yml'
+      - '.github/workflows/pages.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'sources/design.json'
+      - 'outputs/characters.txt'
+      - 'outputs/verification.json'
+      - 'outputs/NikukyuMaru-Regular.woff2'
+      - 'outputs/latin-concept-review/comparison.png'
+      - 'references/04-latin-cat-concept.png'
+      - '.github/workflows/ci.yml'
+      - '.github/workflows/pages.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    name: Build and check docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: 24.x
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Build VitePress site
+        run: npm run docs:build
+      - name: Check staged assets and build output
+        run: npm run site:check

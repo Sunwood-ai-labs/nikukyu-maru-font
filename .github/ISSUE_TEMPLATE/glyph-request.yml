@@ -1,0 +1,46 @@
+name: Glyph or coverage request
+description: Request a missing character or explain a coverage gap.
+title: "[Glyph] "
+labels:
+  - font-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the current character inventory before requesting a new glyph. A request is not a promise of inclusion in the next release.
+  - type: input
+    id: characters
+    attributes:
+      label: Character(s)
+      description: Provide the visible character or characters.
+      placeholder: "例: 𠮷、U+20BB7"
+    validations:
+      required: true
+  - type: input
+    id: codepoints
+    attributes:
+      label: Unicode code point(s)
+      description: Give exact code points when known.
+      placeholder: "U+...."
+  - type: textarea
+    id: context
+    attributes:
+      label: Language and usage context
+      description: Explain the language, word, publication, or software that needs the character.
+      placeholder: "Where will this glyph be used?"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or reference
+      description: Link a standard, sample, or screenshot when available. Do not upload copyrighted material you cannot share.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked outputs/CHARACTERS.md for the current coverage.
+          required: true
+        - label: I searched existing issues for the same request.
+          required: true

@@ -1,0 +1,21 @@
+{
+  "name": "nikukyu-maru-font",
+  "version": "0.105.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.12.1",
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=11.0.0"
+  },
+  "scripts": {
+    "site:prepare": "node scripts/prepare-site.mjs",
+    "docs:dev": "npm run site:prepare && vitepress dev docs",
+    "docs:build": "npm run site:prepare && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "site:check": "node scripts/check-site.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}

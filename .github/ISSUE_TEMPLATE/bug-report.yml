@@ -1,0 +1,77 @@
+name: Font rendering problem
+description: Report a missing, clipped, unreadable, or incorrectly shaped glyph.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first. Include the smallest safe example that reproduces the problem.
+  - type: dropdown
+    id: font_version
+    attributes:
+      label: Font version
+      description: Which release or build shows the problem?
+      options:
+        - 0.105 (current)
+        - Older release
+        - Development build
+    validations:
+      required: true
+  - type: input
+    id: codepoints
+    attributes:
+      label: Character or code point
+      description: Include the visible character and Unicode notation, for example 猫 U+732B or が U+304C.
+      placeholder: "U+.... / character"
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Minimal sample
+      description: Provide the shortest text that shows the problem. Include NFC/NFD or halfwidth sequences when relevant.
+      placeholder: "Paste a short, safe sample here."
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Font format
+      options:
+        - WOFF2 in a browser
+        - TTF in a desktop application
+        - Both
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Rendering environment
+      description: State the operating system, application or browser, and target size.
+      placeholder: "Windows 11, Chrome 140, 32px"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+      description: Explain what should appear and what you see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Add a screenshot, URL, or minimal HTML/CSS example when it can be shared safely.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I confirmed the font version and format above.
+          required: true
+        - label: I searched existing issues for the same problem.
+          required: true
